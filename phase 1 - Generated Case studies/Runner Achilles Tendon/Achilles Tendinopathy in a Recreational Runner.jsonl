@@ -1,0 +1,27 @@
+{
+    "id": "7bb52f19-a90e-48b9-9068-21f21bf056b1",
+    "condition": "Runner Achilles Tendon",
+    "title": "Achilles Tendinopathy in a Recreational Runner",
+    "clinical_history": "A 35-year-old male recreational runner presents with a 6-week history of right ankle pain. He reports a gradual onset of pain in the Achilles tendon region, which started as a mild ache after running and has progressed to a sharp pain during and after running. He has been running 3 times a week for the past year, with a recent increase in mileage. He also reports stiffness in the morning that improves with activity.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Achilles tendon",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "running, especially uphill or on uneven terrain; jumping; hopping; and prolonged standing",
+    "picture": "The patient reports a 24-hour pain picture that is typically worse in the morning (7/10) and improves throughout the day, but returns to 4/10 by the evening.",
+    "easing_factors": "rest; ice; stretching; and NSAIDs",
+    "past_history": "Previous ankle sprain 2 years ago; has a history of overuse injuries in the past",
+    "medical_history": "generally healthy; takes no regular medications",
+    "medications": "ibuprofen as needed for pain",
+    "personal_history": "married; works as an accountant; enjoys running and hiking in his free time",
+    "imaging": "Ultrasound of the right Achilles tendon shows tendinosis with some thickening of the tendon",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "id": "e3d72f40-aac6-479a-83df-e394c16b4347",
+    "condition": "Thumb arthritis",
+    "title": "Thumbs Down: A Case of Basal Joint (CMC) Arthritis in a Retired Seamstress",
+    "clinical_history": "Margaret is a 67-year-old retired seamstress who presents with progressive right thumb base pain over the past 8 months. She first noticed discomfort when turning keys and opening jars, which she initially attributed to 'overuse.' The pain gradually worsened, now elicited during daily activities such as gripping scissors, pinching buttons, and holding a cup. She reports intermittent swelling at the thumb base and occasional grinding sensations. Functional tasks, like buttoning shirts or opening door knobs, have become increasingly difficult. Morning stiffness lasts 10\u00e2\u20ac\u201c15 minutes but resolves with hand movement. On examination, there is visible swelling at the first carpometacarpal joint, tenderness along the thumb base, reduced pinch strength, and a positive grind test. She denies any recent trauma.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right first carpometacarpal (CMC) joint/base of thumb",
+            "score": "5\u00e2\u20ac\u201c7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "thenar eminence aching after prolonged use",
+            "score": "2\u00e2\u20ac\u201c3"
+        }
+    ],
+    "aggrevating_factors": "Pinch grip (holding keys, writing), forceful grip (opening jars), repetitive thumb movements, prolonged sewing, cold weather",
+    "picture": "[Insert image of the hand with CMC joint highlighted]",
+    "easing_factors": "Rest, warm compress, paracetamol, wearing a soft thumb splint, gentle hand exercises",
+    "past_history": "No prior significant hand injuries. Occasional mild bilateral hand stiffness for several years, attributed to aging.",
+    "medical_history": "Hypertension (well controlled with medication), hypothyroidism, no history of autoimmune disease.",
+    "medications": "Daily amlodipine for blood pressure, levothyroxine for hypothyroidism; paracetamol as needed for pain (~2\u00e2\u20ac\u201c3 times weekly).",
+    "personal_history": "Lives alone, widowed for 10 years. Independent with ADLs but avoids some household chores due to hand pain. Non-smoker, enjoys knitting and gardening but has recently limited these activities.",
+    "imaging": "Hand X-rays reveal joint space narrowing and osteophyte formation at the right thumb CMC joint, consistent with moderate osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to basal joint (CMC) arthritis, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would impact patient safety.",
+            "success": true
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": "10573fc0-4f3d-46ea-bf41-aaebf0594cf1",
+    "condition": "tendinitis",
+    "title": "Chronic Lateral Elbow Tendinitis in a Recreational Tennis Player",
+    "clinical_history": "Mr. John McClellan is a 44-year-old right-handed accountant who presents with a 3-month history of persistent lateral right elbow pain. The onset was insidious but correlates with his return to weekend tennis after a 12-year hiatus. He reports playing two to three times per week, 1-2 hours per session. He first noted mild discomfort during backhand swings, which progressed to an aching pain that persists at rest and worsens with gripping activities such as shaking hands, opening jars, or holding his coffee mug. He denies any trauma, swelling, numbness, or systemic symptoms. He has been self-managing with occasional ice and over-the-counter analgesics, with negligible improvement.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Lateral epicondyle of right elbow (ECRB and EDC tendons)",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Forearm extensor muscle belly discomfort",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Tennis strokes (especially single-handed backhands), gripping or lifting objects with the right hand, typing for prolonged periods, carrying grocery bags, resisted wrist extension.",
+    "picture": "[insert illustration highlighting right lateral elbow and dorsal forearm]",
+    "easing_factors": "Rest, ice pack application, avoiding provoking activities, occasional use of NSAIDs (ibuprofen), counterforce bracing provides mild relief.",
+    "past_history": "No previous significant musculoskeletal injuries. No prior elbow or upper limb issues.",
+    "medical_history": "Generally healthy; mild hypertension controlled with amlodipine. Non-smoker. BMI: 27.",
+    "medications": "Amlodipine 5 mg OD for hypertension, Ibuprofen 400 mg PRN for pain (2-3 times weekly).",
+    "personal_history": "Married, two teenage children, works long office hours leading to a mostly sedentary lifestyle. Prior to resuming tennis, exercise was limited to occasional weekend walks. Motivation for tennis was increased social interaction and health.",
+    "imaging": "No imaging performed to date. Clinical diagnosis supported by tenderness over lateral epicondyle and pain reproduced on resisted wrist extension.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

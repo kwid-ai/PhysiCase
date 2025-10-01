@@ -1,0 +1,70 @@
+{
+    "id": "74bc3456-b896-411f-86d1-9b7ca3784c23",
+    "condition": "diabetic foot ulcer",
+    "title": "Mr. Harrison: A Case of a Chronic Neuropathic Plantar Ulcer",
+    "clinical_history": "Mr. Robert Harrison is a 68-year-old retired factory foreman who presents to the outpatient physical therapy clinic via a referral from his endocrinologist. His chief complaint is a 'non-healing wound' on the sole of his left foot. Mr. Harrison reports first noticing drainage on his sock approximately 6 weeks ago. He does not recall a specific incident or trauma that would have caused the wound, which is a classic feature given his long-standing neuropathy. Upon self-inspection, he discovered a small, open sore over the ball of his foot. Despite his wife's attempts at daily cleaning and dressing, the wound has gradually increased in size and depth. He denies significant pain directly from the ulcer itself, but reports a secondary deep, aching pain in his midfoot and ankle, which he attributes to 'walking funny' to avoid pressure on the sore.",
+    "nprs": [
+        {
+            "context": "P1 - Ulcer Site",
+            "affected_area": "Directly within and at the immediate edge of the ulcer over the 1st metatarsal head.",
+            "score": "0-1/10"
+        },
+        {
+            "context": "P2 - Secondary Complaint",
+            "affected_area": "Aching pain located diffusely over the dorsal and medial midfoot and ankle.",
+            "score": "4-6/10"
+        }
+    ],
+    "aggrevating_factors": null,
+    "picture": "Symptoms are at their best upon waking, before he has placed any weight on the foot. The secondary ache (P2) progressively worsens throughout the day in direct correlation with his activity level. He reports difficulty sleeping, not from the pain, but from anxiety about the wound and the discomfort of having to keep the limb elevated.",
+    "easing_factors": "Complete non-weight bearing, elevating the leg, and using the removable cast walker that was recently provided by his physician.",
+    "past_history": "History of 'minor nicks and scrapes' on his lower legs that have always been slow to heal. He fell two years ago, sustaining a mild ankle sprain on the contralateral (right) side, which resolved with rest over 8 weeks.",
+    "medical_history": "Type 2 Diabetes Mellitus diagnosed 22 years ago, with a recent HbA1c of 8.9%, indicating suboptimal long-term glycemic control. Diagnosed with severe peripheral sensory neuropathy 7 years ago. Mild peripheral arterial disease (PAD) confirmed via an Ankle-Brachial Index (ABI) of 0.85 last year. Hypertension (HTN) and Hyperlipidemia, both reportedly managed with medication.",
+    "medications": "Metformin, Insulin (Lantus), Lisinopril, Atorvastatin, Clopidogrel. He self-medicates for the foot ache with Acetaminophen, with minimal perceived benefit.",
+    "personal_history": "Mr. Harrison lives with his wife in a single-story home. Since retiring 3 years ago, his activity level has significantly decreased. He expresses frustration with his dietary restrictions and acknowledges inconsistent adherence to his blood glucose monitoring. His wife is his primary caregiver and is highly concerned about his condition.",
+    "imaging": "Plain film radiographs of the left foot were taken last week. The report notes soft tissue swelling and demineralization around the first metatarsal head, but no definitive signs of acute osteomyelitis or Charcot arthropathy at this time. A follow-up MRI may be indicated if the wound fails to improve with offloading.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9982013788458739,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to a chronic neuropathic plantar ulcer in a diabetic patient, with clear and comprehensive information about the patient's presentation, comorbidities, and management. The response is clinically accurate, prioritizes patient safety, and does not omit any significant details.",
+            "success": true
+        }
+    ]
+}

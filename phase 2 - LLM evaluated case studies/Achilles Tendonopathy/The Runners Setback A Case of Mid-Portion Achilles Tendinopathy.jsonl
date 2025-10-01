@@ -1,0 +1,65 @@
+{
+    "id": "3241a4b0-9844-4cf7-8725-d8291211800e",
+    "condition": "Achilles Tendonopathy",
+    "title": "The Runner's Setback: A Case of Mid-Portion Achilles Tendinopathy",
+    "clinical_history": "Michael is a 48-year-old software engineer and recreational runner. He has been consistently running for the past 5 years, typically covering 15-20 miles per week without issue. Approximately 8 weeks ago, he decided to intensify his training for an upcoming 10k race, adding hill sprints and increasing his weekly mileage to 30 miles. He reports no specific traumatic event but notes a gradual onset of pain and stiffness in his right lower leg. The primary complaint (P1) is a distinct, localized pain in the body of his Achilles tendon. Initially, the discomfort was primarily morning stiffness that would 'warm up' and dissipate after a few minutes of walking. However, the pain has progressively worsened. Now, the morning stiffness is more severe, and the pain begins earlier in his runs and lingers for hours afterward. He has ceased running for the past week due to the severity of the pain.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Aching and focal tenderness in the mid-portion of the Achilles tendon (approximately 4cm proximal to the calcaneal insertion). Pain becomes sharp with attempts to run or jump.",
+            "score": "2-3/10 at rest, 7-8/10 on the first few steps in the morning, and 8/10 with any attempt at running or hopping."
+        }
+    ],
+    "aggrevating_factors": "Running (especially uphill), walking for more than 30 minutes, ascending stairs, prolonged standing, and performing calf raises. The first 10-15 steps after waking up are particularly painful and stiff.",
+    "picture": "[insert image highlighting the gastrocnemius and soleus muscles, the Achilles tendon, and its insertion on the calcaneus bone]",
+    "easing_factors": "Complete rest from running, applying ice to the area post-activity, and wearing shoes with a slightly elevated heel. He notes that over-the-counter anti-inflammatories provide temporary, mild relief.",
+    "past_history": "He recalls a minor left calf strain three years ago that resolved within two weeks with rest. Otherwise, he has no history of lower limb injuries.",
+    "medical_history": "No significant medical history. He is not currently under a physician's care for any chronic conditions.",
+    "medications": "Ibuprofen (Advil) 400mg, taken as needed (prn) for the tendon pain, approximately 3-4 times per week.",
+    "personal_history": "Michael works a sedentary job, often sitting for 8-10 hours a day. He is married with two teenage children. Running is his primary outlet for stress management and physical fitness, and he expresses significant frustration about his current inability to train. He is highly motivated to return to his sport.",
+    "imaging": "None to date. His general practitioner advised a course of physical therapy prior to considering any diagnostic imaging.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Fantastic job! The output follows all prompt instructions perfectly with no unalignments. Keep up the excellent work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to mid-portion Achilles tendinopathy, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would impact patient safety or clinical accuracy.",
+            "success": true
+        }
+    ]
+}

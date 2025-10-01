@@ -1,0 +1,65 @@
+{
+    "id": "a01fb248-0b0a-4b0b-b191-0940f7826a06",
+    "condition": "Clubfoot",
+    "title": "Congenital Clubfoot in a Pediatric Patient: Early Intervention Case Study",
+    "clinical_history": "Matteo is a 4-month-old male infant referred by his pediatrician after his parents noted an abnormal appearance of his right foot since birth, with persistent inward and downward turning despite gentle manipulation. The family history is negative for congenital deformities, but his mother had limited prenatal care. On examination, the right foot presents with equinus (plantar flexion at ankle), varus (inward tilt of heel), adduction of the forefoot, and cavus (high medial longitudinal arch). The posterior tibial tendon, tibialis anterior, and Achilles tendon on the affected side are noticeably taut. No other limb abnormalities are present. The child is otherwise healthy, feeding well, and reaching developmental milestones.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Achilles tendon, Posterior tibial tendon, Tibialis anterior, Peroneal muscles, Bones of foot (talus, calcaneus, navicular, cuboid)",
+            "score": "1-2/10 (occasional mild discomfort/protest during passive stretching or manipulation; dramatic pain uncommon in infancy)"
+        }
+    ],
+    "aggrevating_factors": "Forceful stretching of the foot, extended time in a fixed position, cast changes if excessive pressure is applied.",
+    "picture": "[insert image of infant foot in classic clubfoot position: hindfoot equinus and varus, midfoot cavus, forefoot adduction]",
+    "easing_factors": "Gentle handling, warmth, and swaddling; responsiveness to pacification and holding.",
+    "past_history": "Unremarkable prenatal and perinatal history except for limited antenatal visits. No trauma or infections. No similar birth defects in the family.",
+    "medical_history": "Otherwise healthy; no other medical conditions identified.",
+    "medications": "None currently; acetaminophen PRN post-casting (as per pediatrician's recommendation).",
+    "personal_history": "Lives with both parents, first child, supportive family environment. Parents are both non-smokers and there is no history of substance abuse. Both parents express high concern but have good understanding and follow through with treatment plans.",
+    "imaging": "Initial diagnostic foot x-ray confirms abnormal talocalcaneal and talonavicular alignment. No evidence of bony coalition; consistent with idiopathic congenital talipes equinovarus.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments detected. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout. Well done on maintaining objectivity.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, relevant examination findings, NPRS, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to congenital clubfoot in a pediatric patient, with accurate clinical descriptions and appropriate mention of diagnostic imaging. The response is clear, comprehensive, and clinically accurate, with no factual errors or omissions that would impact patient safety.",
+            "success": true
+        }
+    ]
+}

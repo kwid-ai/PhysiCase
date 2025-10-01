@@ -1,0 +1,63 @@
+{
+    "id": "chatcmpl-By77dISTIV7hmRCdWEr2vAMPxfaBu",
+    "condition": "Lewy Body Dementia",
+    "title": "Mr. Carter with a Complex Case of Lewy Body Dementia",
+    "clinical_history": "Mr. Timothy Carter is a 68-year-old retired architect who was diagnosed with Lewy Body Dementia two years ago. His family has been noticing a progressive decline in his cognitive functions, particularly his attention and executive functioning. He experiences frequent episodes of visual hallucinations, seeing people who aren't present, often in vivid detail. His sleep patterns have become erratic with noted instances of REM sleep behavior disorder, where he acts out dreams physically. Mr. Carter also presents with Parkinsonian motor features, including bradykinesia, rigidity, and tremors predominantly affecting his left hand and arm, making daily activities challenging.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "left hand and arm, tremors and rigidity",
+            "score": "3-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "generalized body stiffness and discomfort",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Stressful situations and sleep deprivation tend to exacerbate hallucinations. Over-exertion may worsen Parkinsonian motor symptoms.",
+    "picture": "[insert image of brain with Lewy bodies highlighted]",
+    "easing_factors": "Short daytime naps and cognitive stimulation, such as puzzles, can provide temporary relief from cognitive symptoms.",
+    "past_history": "Mr. Carter has a history of hypertension managed with medication, but otherwise, his health has been unremarkable until his diagnosis.",
+    "medical_history": "Diagnosed with Lewy Body Dementia 2 years ago. Hypertension for over 10 years.",
+    "medications": "Levodopa for Parkinsonian symptoms, Donepezil to help with cognitive symptoms, and Melatonin for sleep regulation.",
+    "personal_history": "Mr. Carter is a widower and lives with his daughter, who is his primary caregiver. He used to enjoy painting and gardening, hobbies he can no longer pursue actively due to both physical and cognitive limitations.",
+    "imaging": "Brain MRI showed structural changes consistent with Lewy Body Dementia, and PET scan exhibits reduced dopamine transporter uptake in basal ganglia.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 465,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1054,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1519
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

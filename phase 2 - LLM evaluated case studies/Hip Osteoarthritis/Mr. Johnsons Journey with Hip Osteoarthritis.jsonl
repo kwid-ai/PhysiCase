@@ -1,0 +1,96 @@
+{
+    "id": "chatcmpl-By78XJE4Cj9y8kp7fv7XQwCj9JKa5",
+    "condition": "Hip Osteoarthritis",
+    "title": "Mr. Johnson's Journey with Hip Osteoarthritis",
+    "clinical_history": "Mr. James Johnson is a 67-year-old retired carpenter. He initially started experiencing discomfort in his right hip approximately 3 years ago. Gradually, this discomfort has evolved into a persistent, deep, aching pain localized mainly around the right groin and extending to the anterior thigh. His pain level exacerbates with certain movements like standing for more than 10-15 minutes or during prolonged walks. Occasionally, Mr. Johnson feels a grinding sensation in his hip joint. The pain is worse in the morning and tends to ease off slightly after some movement but then increases again as the day progresses.",
+    "nprs": [
+        {
+            "context": "Primary Pain",
+            "affected_area": "Right hip (groin and anterior thigh)",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "Standing for more than 15 minutes, walking more than a few blocks, certain twisting motions, and rising after prolonged sitting.",
+    "picture": "[insert image highlighting right hip and adjacent areas]",
+    "easing_factors": "Mild movements, heat packs, and over-the-counter pain relief medication.",
+    "past_history": "Mr. Johnson has a history of labor-intensive work as a carpenter, contributing to significant wear and tear on his joints. There is a family history of osteoarthritis; his father and older brother also were diagnosed in their later years.",
+    "medical_history": "Mr. Johnson has managed high blood pressure for the past 7 years, which is well-controlled with medication.",
+    "medications": "Acetaminophen as needed for pain relief. Lisinopril for hypertension.",
+    "personal_history": "Mr. Johnson lives with his wife of 42 years. He enjoys woodworking as a hobby, though his hip pain has limited his shop time recently. They have two adult children and three grandchildren who live nearby.",
+    "imaging": "Right hip X-Ray confirms joint space narrowing and the presence of osteophytes indicative of osteoarthritis.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 428,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1052,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1480
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the key, which is a minor formatting issue. All other prompt instructions are followed well. Great job overall\u2014just a small tweak needed for perfect alignment!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a respectful and appropriate response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to hip osteoarthritis, with accurate clinical features such as pain localization, aggravating/easing factors, and radiographic findings. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

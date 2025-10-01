@@ -1,0 +1,70 @@
+{
+    "id": "7357f9b3-d567-4ae6-b118-4a2cb76f878a",
+    "condition": "tendonitis",
+    "title": "Case Study: Achilles Tendonitis in a Recreational Runner",
+    "clinical_history": "A 35-year-old male recreational runner presents with a 3-week history of pain and stiffness in the posterior aspect of his right ankle. He reports a gradual onset of symptoms, which have worsened over time, particularly with running and jumping activities. The patient has been running 3 times a week for the past year, but recently increased his mileage and intensity. He experiences pain and stiffness in the morning, which improves with activity, but worsens with prolonged running.",
+    "nprs": [
+        {
+            "context": "Primary Complaint",
+            "affected_area": "Achilles tendon region",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary Complaint",
+            "affected_area": "Ankle stiffness",
+            "score": "4-5"
+        }
+    ],
+    "aggrevating_factors": "Running, jumping, hiking, and calf raises",
+    "picture": "A 24-hour picture of the patient's symptoms shows that the pain is worse in the morning (7-8/10) and improves to 4-5/10 after 10-15 minutes of activity. However, with prolonged running or activity, the pain returns to 6-8/10.",
+    "easing_factors": "Rest, ice, and stretching",
+    "past_history": "Previous ankle sprain 2 years ago, which was managed conservatively. No previous history of tendonitis or similar conditions.",
+    "medical_history": "Generally healthy, with no significant medical conditions. No history of steroid use or fluoroquinolone antibiotics.",
+    "medications": "Ibuprofen 400mg prn for pain and inflammation",
+    "personal_history": "Married with two children. Works as an accountant in a small firm. Enjoys running and hiking in his free time.",
+    "imaging": "Ultrasound imaging of the Achilles tendon shows tendinosis and mild swelling, but no rupture.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.75,
+            "reason": "The score is 0.75 because the output provides all required case study content in a clear and organized manner, but it does not follow the specified JSON code block formatting, does not use the exact key names and structure (e.g., 'nprs' instead of 'NPRS', 'context' values), and lacks the requested senior professor writing style. These unalignments prevent a higher score, but the content itself is comprehensive and mostly follows the prompt's requirements, justifying the current score.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, directly addressing all aspects of the input task with no irrelevant statements. Excellent job staying focused and thorough!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to Achilles tendonitis, with accurate symptom description, risk factors, and appropriate imaging results. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

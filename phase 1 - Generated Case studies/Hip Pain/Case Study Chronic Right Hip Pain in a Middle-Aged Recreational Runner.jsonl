@@ -1,0 +1,32 @@
+{
+    "id": "e339a78f-0b25-4101-b72f-fc782aa6539e",
+    "condition": "Hip Pain",
+    "title": "Case Study: Chronic Right Hip Pain in a Middle-Aged Recreational Runner",
+    "clinical_history": "James T., a 48-year-old accountant and recreational long-distance runner, presents with a 6-month history of right-sided hip pain. The pain started gradually after increasing his running mileage in preparation for a half-marathon. Initially, discomfort was felt as a dull ache deep in the lateral aspect of the right hip, particularly after runs longer than 10 km, but has since become more pronounced and persistent. He reports sharp pain during the first steps after sitting for extended periods, going up stairs, and during the stance phase of running. Resting or reducing activity offers mild relief, but pain often returns when activity is resumed. James also notes episodes of night pain when turning in bed and occasional stiffness in the morning that resolves after about 15–20 minutes. No significant trauma or acute injury was recalled at onset. He describes having less confidence on the right leg, particularly during uneven terrain running, but denies any falls or giving way. No significant swelling noted, but intermittent clicking and mild restriction in internal rotation of the hip are present on movement.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral right hip (gluteus medius and minimus, greater trochanteric region)",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "deep anterior hip (iliopsoas region)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Running (especially uphill or long distances), prolonged walking (>30 min), standing on one leg (single-leg balance), climbing stairs, transitioning from sitting to standing, crossing legs, lying on affected side.",
+    "picture": "[insert image of a male runner pointing to the lateral aspect of the right hip and groin]",
+    "easing_factors": "Rest, reduced activity, gentle stretching, ice after activity, side-lying on the unaffected side with a pillow between the knees.",
+    "past_history": "Previous mild right ankle sprain 3 years ago, fully resolved. Intermittent low back stiffness after prolonged sitting, but no prior hip or lower limb injuries. No previous surgeries.",
+    "medical_history": "Mild hypertension managed with lifestyle modification. No diabetes, no significant cardiovascular or metabolic conditions.",
+    "medications": "Occasional ibuprofen (200 mg as needed, maximum once daily after long runs). No regular medications.",
+    "personal_history": "Non-smoker, moderate alcohol consumption (2–4 drinks per week), regular exercise (running 3–4x/week, cycling recreationally on weekends). Married, two teenage children. Works a desk job involving prolonged sitting. High motivation to return to running at previous mileage.",
+    "imaging": "Initial plain radiograph of the pelvis and right hip shows mild degenerative changes of the right hip joint; MRI pending to assess possible gluteal tendinopathy or labral pathology.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

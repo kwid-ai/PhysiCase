@@ -1,0 +1,32 @@
+{
+    "id": "72d47e4c-7155-45e4-b054-c808a49200e7",
+    "condition": "Epilepsy",
+    "title": "Seizure Activity in a Young Adult with Epilepsy",
+    "clinical_history": "Meet Emily, a 25-year-old graduate student who has been living with epilepsy since childhood. She experiences frequent seizures, which are often characterized by loss of consciousness, convulsions, and muscle stiffness. Emily's seizures are typically generalized tonic-clonic seizures, which affect both sides of her brain and body. She has been experiencing an increase in seizure frequency over the past few months, with some seizures occurring in clusters. Emily's primary concern is the unpredictability of her seizures and the impact they have on her daily life.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Muscle stiffness and soreness in her neck, shoulder, and back muscles following a seizure",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Headache and fatigue following a seizure",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Sleep deprivation, stress, and certain medications can trigger or worsen Emily's seizures. Physical activities that involve heights or water also increase her risk of injury during a seizure.",
+    "picture": "A 24-hour picture of Emily's activities and seizure patterns would show that she experiences most of her seizures during her sleep or early morning hours. She often wakes up with muscle soreness and stiffness in her neck, shoulder, and back muscles.",
+    "easing_factors": "Rest, relaxation, and adherence to her medication regimen can help alleviate Emily's symptoms and reduce the frequency of her seizures.",
+    "past_history": "Emily has a history of seizures dating back to childhood, with multiple seizure types and varying frequencies over the years. She has been on various antiepileptic medications, with some trial and error to find the most effective regimen.",
+    "medical_history": "Emily has a history of well-controlled hypertension and occasional migraines. Her epilepsy has been the primary focus of her medical care.",
+    "medications": "Emily is currently taking levetiracetam (Keppra) 500mg twice daily and lamotrigine (Lamictal) 200mg daily to manage her seizures.",
+    "personal_history": "Emily is a graduate student pursuing a master's degree in education. She lives alone and has a close-knit support system of friends and family. She enjoys yoga and hiking but has had to adapt her activities to accommodate her seizure risk.",
+    "imaging": "Emily has had several EEGs and MRI scans, which have shown abnormal electrical activity in her brain but no structural abnormalities.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

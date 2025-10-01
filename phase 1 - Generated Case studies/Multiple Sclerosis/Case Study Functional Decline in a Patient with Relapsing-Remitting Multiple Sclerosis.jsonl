@@ -1,0 +1,32 @@
+{
+    "id": "7bcaadfb-74ae-483e-ab29-414d582fd0ee",
+    "condition": "Multiple Sclerosis",
+    "title": "Case Study: Functional Decline in a Patient with Relapsing-Remitting Multiple Sclerosis",
+    "clinical_history": "Mr. David Chen is a 42-year-old architect who was diagnosed with Relapsing-Remitting Multiple Sclerosis (RRMS) eight years prior, following an initial presentation of optic neuritis and left lower extremity paresthesia. He has managed his condition with relative success, maintaining a high level of function and professional engagement. However, he presents to our clinic today via a referral from his neurologist following a recent exacerbation that occurred approximately six weeks ago. This relapse has resulted in a significant increase in lower extremity spasticity, profound fatigue, and a marked decline in his balance and gait quality. He reports newfound difficulty navigating stairs, walking on uneven surfaces at construction sites, and ambulating for more than 10-15 minutes without a rest break. His primary concerns are the overwhelming fatigue that curtails his workday and the 'stiff, heavy' sensation in his legs that makes walking feel insecure and laborious.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral Lower Extremities (Quadriceps, Hamstrings, Gastrocnemius/Soleus complex): Characterized not as sharp pain, but as a deep, pervasive ache and intense tightness secondary to spasticity and weakness.",
+            "score": "3-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Lumbar Spine: Aching pain resulting from compensatory gait patterns and prolonged, often asymmetrical, sitting postures.",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged walking (>10 min), standing (>15 min), stair ascent/descent, heat exposure (Uhthoff's phenomenon), stressful situations, and general overexertion. Quick, transitional movements often trigger spastic clonus in the ankles.",
+    "picture": "Morning stiffness is significant for the first 30-60 minutes upon waking. He feels his functional peak in the late morning. A profound 'wall' of fatigue hits mid-afternoon, often necessitating a 1-2 hour nap to continue his day. His energy levels remain low in the evening, and nocturnal spasms in his calves can disrupt sleep 2-3 times per week.",
+    "easing_factors": "Scheduled rest periods throughout the day (energy conservation), slow and deliberate stretching of the lower extremities, cooling strategies (e.g., cool showers, air conditioning), and lying in a supine position with legs elevated.",
+    "past_history": "Diagnosed with RRMS 8 years ago. He has experienced three documented relapses prior to the current one, each with good recovery but some minor residual sensory changes. He has previously engaged in physical therapy to address balance deficits and gait mechanics with positive outcomes.",
+    "medical_history": "Relapsing-Remitting Multiple Sclerosis is the primary diagnosis. Otherwise, Mr. Chen is in good health with no other significant comorbidities such as hypertension, diabetes, or cardiovascular disease.",
+    "medications": "Ocrelizumab (Ocrevus) infusion semi-annually (DMT); Baclofen 10mg three times daily for spasticity; Modafinil 100mg in the morning for fatigue; Ibuprofen as needed for low back pain.",
+    "personal_history": "Mr. Chen is married with two high-school-aged children. He lives in a two-story home, which presents a daily challenge. His work as an architect involves both sedentary desk work and physically demanding site visits, the latter of which have become nearly impossible. The recent decline in his functional independence has placed a notable strain on both his professional life and family dynamics. He reports feelings of frustration and a low mood related to his inability to participate in previous hobbies like hiking.",
+    "imaging": "Initial diagnostic MRI of the brain and cervical spine revealed multiple T2 hyperintense periventricular and juxtacortical white matter lesions consistent with demyelination. A follow-up MRI conducted one month ago confirmed two new gadolinium-enhancing lesions in the corpus callosum and cervical spinal cord, correlating with his recent exacerbation.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "0e3d01b5-b8f1-46f9-b137-af6021239479",
+    "condition": "Fractured hip",
+    "title": "Case Study: Mr. John Carter's Displaced Intertrochanteric Hip Fracture",
+    "clinical_history": "John Carter is a 78-year-old retired factory worker who presented to the emergency department following a slip and fall on his kitchen floor. He immediately experienced severe left hip pain and was unable to bear weight. Emergency medical services found him lying supine, with the left leg shortened and externally rotated. He reports a history of occasional dizziness, most recently a week prior to the fall. On examination, the affected hip is tender to palpation, with marked restrictions in active and passive movement and significant guarding due to pain. Radiographs confirm a displaced intertrochanteric fracture of the left femur. He is scheduled for surgical fixation.",
+    "nprs": [
+        {
+            "context": "P1 - Primary",
+            "affected_area": "Left hip region (deep, lateral, and groin)",
+            "score": "8-10"
+        },
+        {
+            "context": "P2 - Secondary",
+            "affected_area": "Left thigh (proximal musculature), radiating pain",
+            "score": "4-5"
+        }
+    ],
+    "aggrevating_factors": "Attempting to move or rotate the left lower limb, weight bearing, transferring between bed and chair, coughing or sneezing. Pain worsens with any movement of the hip.",
+    "picture": "Throughout the day, pain is severe at rest and excruciating with any attempted movement. Sleep is fragmented due to pain despite standard analgesia. Unable to perform basic activities of daily living independently since the fall.",
+    "easing_factors": "Application of cold packs, immobilization of the limb, administration of opioid analgesics, and remaining supine with minimal movement.",
+    "past_history": "History of hypertension for 15 years, managed with medications. No previous falls recorded. Osteopenia noted in recent DEXA scan, but no prior fractures.",
+    "medical_history": "Hypertension (well-controlled), osteopenia, benign prostatic hyperplasia. No known cardiac or pulmonary comorbidities.",
+    "medications": "Lisinopril 10mg daily, Hydrochlorothiazide 25mg daily, Tamsulosin 0.4mg at night, Acetaminophen as needed for headaches, Oxycodone 5mg every 4 hours PRN for hip pain since hospitalization.",
+    "personal_history": "Lives alone in a one-story home. Widowed 10 years ago. Three adult children, all living out of state. He manages independent self-care but requires a cane for outdoor ambulation. No tobacco or alcohol use.",
+    "imaging": "AP and lateral radiographs of the pelvis and left hip confirm a displaced intertrochanteric fracture of the left femur. No head injury on CT. Pre-operative labs within normal limits.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "27a7db82-4fc4-453a-9900-78ba08b6a23c",
+    "condition": "Rhabdomyolysis",
+    "title": "A Case of Acute Exertional Rhabdomyolysis in a Deconditioned Individual",
+    "clinical_history": "The patient is a 22-year-old male university student who presents to the emergency department with a 48-hour history of debilitating bilateral thigh and low back pain, significant lower extremity weakness, and dark-colored urine. The patient reports that three days prior, he engaged in his first high-intensity interval training (HIIT) class after nearly a year of sedentary behavior. The class involved multiple sets of high-repetition squats, lunges, and deadlifts. He experienced typical delayed onset muscle soreness (DOMS) on post-workout day one. However, by day two, the pain escalated dramatically, becoming constant and severe. He noted significant swelling in both thighs and found it nearly impossible to stand up from a chair or climb the stairs to his apartment. This morning (day three), he observed that his urine was the color of 'dark tea' or 'cola', which prompted him to seek immediate medical attention. He is now unable to fully extend his knees due to pain and muscle tightness.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral Quadriceps and Gluteal Muscles",
+            "score": "8-9"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Lumbar Paraspinal Muscles",
+            "score": "6-7"
+        }
+    ],
+    "aggrevating_factors": "Any and all movement of the lower extremities, including walking, transitioning from sit-to-stand, ascending/descending stairs, and even passive range of motion. Light palpation of the quadriceps muscles elicits an exquisite pain response.",
+    "picture": "The patient reports a constant, unrelenting, deep ache that is not positional and does not resolve with rest. Sleep has been severely impacted for the past two nights, with the patient unable to find any comfortable position. He reports feeling generally unwell, with mild nausea and overwhelming fatigue. Morning presents the greatest challenge, with profound stiffness and pain upon any attempted movement.",
+    "easing_factors": "Complete and total rest provides minimal relief from the baseline pain. Standard over-the-counter analgesics were trialed at home with no appreciable effect. The patient is currently hospitalized and receiving intravenous fluids, which is the primary treatment to prevent renal failure.",
+    "past_history": "History of playing recreational basketball in high school but has been largely inactive for the past three years due to academic demands. No prior history of significant musculoskeletal injuries.",
+    "medical_history": "Unremarkable. The patient is generally fit and well, with no known chronic medical conditions such as diabetes, hypertension, or kidney disease. All childhood immunizations are up to date.",
+    "medications": "Prior to admission, he took Ibuprofen 800mg with no effect. He is currently on aggressive intravenous normal saline infusion in the hospital. Pain is being managed with IV hydromorphone as needed (PRN).",
+    "personal_history": "He is a full-time engineering student living in a third-floor walk-up apartment. He reports significant stress related to his academic workload and upcoming final exams. His motivation for the intense workout was a desire to 'get in shape quickly' before an upcoming beach trip with friends.",
+    "imaging": "No radiological imaging has been performed. The diagnosis of Rhabdomyolysis was confirmed via laboratory studies, which revealed a markedly elevated serum Creatine Kinase (CK) level of 120,000 U/L (Reference range: < 200 U/L). Urinalysis was positive for myoglobin, and serum creatinine levels are elevated, indicating an acute kidney injury (AKI).",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

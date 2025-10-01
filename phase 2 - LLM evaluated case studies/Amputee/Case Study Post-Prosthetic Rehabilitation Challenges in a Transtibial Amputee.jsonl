@@ -1,0 +1,75 @@
+{
+    "id": "44b6ef96-e372-4b09-9ece-435d68ed8de2",
+    "condition": "Amputee",
+    "title": "Case Study: Post-Prosthetic Rehabilitation Challenges in a Transtibial Amputee",
+    "clinical_history": "Mr. Jonathan Miller is a 62-year-old retired construction worker who is 4 months post-right transtibial amputation. The amputation was necessary due to a non-healing diabetic foot ulcer which progressed to gangrene, a complication of his long-standing Type 2 Diabetes and associated Peripheral Vascular Disease (PVD). He was fitted with his first patellar tendon-bearing (PTB) prosthesis 6 weeks ago and was referred to outpatient physical therapy for gait training and functional mobility. Despite his motivation, progress has been significantly stalled. Mr. Miller reports two distinct types of pain: a distressing phantom limb pain (P1) and a problematic residual limb pain (P2). He is also developing compensatory low back pain (P3). He finds he can only tolerate wearing his prosthesis for short periods (< 30 minutes) before the pain becomes unbearable, which has led to significant frustration and a growing fear of falling. His primary goal is to walk independently in his community and return to his hobby of gardening.",
+    "nprs": [
+        {
+            "context": "P1 - Phantom Limb Pain",
+            "affected_area": "Perceived right foot and toes. Described as intermittent, sharp, 'electrical shocks' and a constant, cramping sensation.",
+            "score": "5-8/10"
+        },
+        {
+            "context": "P2 - Residual Limb Pain",
+            "affected_area": "Distal end of the tibia within the residual limb. Described as a deep ache with weight-bearing, with occasional sharp pain at the very end of the bone.",
+            "score": "3-6/10"
+        },
+        {
+            "context": "P3 - Compensatory Low Back Pain",
+            "affected_area": "Bilateral lumbar paraspinals. Described as a dull, constant ache.",
+            "score": "2-4/10"
+        }
+    ],
+    "aggrevating_factors": null,
+    "picture": "In the morning, Mr. Miller reports his residual limb is at its smallest volume, making the prosthesis feel slightly loose. He experiences significant morning stiffness in his contralateral (left) hip and lower back. As the day progresses with intermittent activity, the residual limb swells, causing the prosthetic socket to become tight and painful, aggravating P2. P1 and P3 worsen with fatigue towards the end of the day. He often has difficulty sleeping due to phantom limb pain, which can be triggered by the touch of bedsheets.",
+    "easing_factors": "Doffing (removing) the prosthesis. Elevating the residual limb. Gentle massage and tapping on the residual limb. Mirror therapy (has been instructed but compliance is inconsistent). Distraction techniques (e.g., watching television, listening to music). Gabapentin for P1.",
+    "past_history": "15-year history of Type 2 Diabetes Mellitus, with suboptimal glycemic control over the last 5 years. Diagnosed with PVD 3 years ago after reporting intermittent claudication. He is a former smoker (quit 10 years ago, 20-pack-year history). Prior to the ulcer, he was independent with all mobility and enjoyed an active retirement.",
+    "medical_history": "Type 2 Diabetes Mellitus, Peripheral Vascular Disease (PVD), Hypertension (HTN), Hyperlipidemia. Right Transtibial Amputation 4 months ago. Otherwise, no other major surgeries or medical issues.",
+    "medications": "Metformin, Lisinopril, Atorvastatin, Gabapentin, Low-dose Aspirin.",
+    "personal_history": "Retired construction worker. Lives with his wife of 40 years in a single-story home with three steps to enter. His wife is his primary caregiver and is very supportive, though anxious about his recovery. Mr. Miller expresses feelings of deep frustration and low mood regarding his loss of independence and persistent pain. He has socially withdrawn from friends since the amputation.",
+    "imaging": "Pre-operative Doppler Ultrasound and Angiogram confirmed severe multi-level PVD in the right lower extremity. Post-operative radiographs of the right tibia/fibula show well-healing amputation site with no signs of osteomyelitis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.7272727272727273,
+            "reason": "The score is 0.73 because while the output covers all required content in detail, there are notable unalignments: the 'NPRS' key is incorrectly formatted as 'nprs', aggravating factors are not placed in the correct field, and the 'Picture' field does not strictly follow the expected 24-hour picture format. These structural issues prevent a higher score, but the comprehensive content keeps the score solidly above average.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, follows the requested structure, and addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9970687772110528,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to the case of a transtibial amputee with post-prosthetic rehabilitation challenges, addressing phantom limb pain, residual limb pain, and compensatory low back pain. The response is clear, comprehensive, and clinically accurate, with appropriate attention to patient safety and rehabilitation concerns. No significant details are missing.",
+            "success": true
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": "dfed15c1-94e9-483d-bf3a-5e7953cda4ae",
+    "condition": "Achilles Tendonopathy",
+    "title": "Chronic Achilles Tendinopathy in a Recreational Runner: The Case of Mr. Samuel Bennett",
+    "clinical_history": "Samuel Bennett is a 44-year-old male, IT consultant, and recreational long-distance runner who presents with a 7-month history of gradually increasing pain and stiffness localized to his right Achilles tendon. He reports the onset of symptoms soon after increasing his weekly mileage in preparation for an upcoming half marathon. Initially, he experienced morning stiffness in the posterior ankle area that eased after walking for a few minutes but would return and worsen after intense runs, hill intervals, or prolonged upright activity. Over recent weeks, the pain has become more persistent and begins earlier in his runs. Symptoms are now impacting his ability to complete training sessions, and he has noticed some mild swelling approximately 3 cm proximal to the calcaneal insertion. He denies acute trauma or systemic symptoms but describes difficulty with activities such as descending stairs and pushing off during walking. No neurological symptoms. No night pain. Occasional use of ice and over-the-counter anti-inflammatories provides partial relief.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "mid-portion of right Achilles tendon",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "posterior right heel (secondary, only after long activity)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Running (especially on hills or speed work), prolonged walking or standing, descending stairs, wearing low-heeled or unsupportive shoes.",
+    "picture": "[insert image highlighting mid-portion Achilles tendon of the right ankle]",
+    "easing_factors": "Rest, icing, gentle stretching, use of cushioned footwear, reduced activity levels.",
+    "past_history": "No previous history of Achilles or other significant lower limb injuries. History of mild plantar fasciitis two years prior, resolved with conservative management.",
+    "medical_history": "Unremarkable. No history of inflammatory or metabolic disease. No recent corticosteroid or fluoroquinolone use.",
+    "medications": "Occasional ibuprofen (400 mg) as needed post-activity.",
+    "personal_history": "Works from home, high-stress but mainly sedentary job. Married with two school-aged children. Non-smoker, drinks alcohol socially, maintains a balanced diet. Increased running volume recently to support personal fitness goals during the COVID-19 pandemic.",
+    "imaging": "No imaging conducted to date. Clinically diagnosed; consideration for musculoskeletal ultrasound if symptoms persist or worsen.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "id": "chatcmpl-By78G2sF2SHXZRmB6gIj4C3lWRAdS",
+    "condition": "Headache",
+    "title": "Jeremy's Battle with Recurrent Tension-Type Headaches",
+    "clinical_history": "Jeremy is a 34-year-old software engineer who presents with a history of recurrent headaches over the past 18 months. He describes the headaches as a tight band of pressure around his forehead and temples, often accompanied by tenderness in the neck and shoulder muscles. The headaches typically start in the late afternoon, especially after a long day of work at his computer.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "forehead and temples",
+            "score": "4-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "neck and shoulders",
+            "score": "3"
+        }
+    ],
+    "aggrevating_factors": "prolonged computer use, stress, poor posture, lack of sleep",
+    "picture": "[insert image of areas typically affected by tension-type headaches]",
+    "easing_factors": "taking short breaks, stretching exercises for the neck and shoulders, over-the-counter analgesics",
+    "past_history": "Jeremy has a history of occasional headaches during college exams but has noticed an increase in frequency and intensity since starting his current job.",
+    "medical_history": "no significant medical history besides episodic headaches",
+    "medications": "Ibuprofen 400 mg as needed",
+    "personal_history": "Jeremy is single and lives alone. He enjoys gaming and spends most evenings in front of his computer. He tries to exercise but often finds himself skipping workouts due to fatigue.",
+    "imaging": "none performed",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 331,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1382
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

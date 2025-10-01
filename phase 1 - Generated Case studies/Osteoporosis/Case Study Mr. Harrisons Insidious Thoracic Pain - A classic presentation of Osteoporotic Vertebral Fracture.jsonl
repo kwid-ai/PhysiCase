@@ -1,0 +1,32 @@
+{
+    "id": "7aa7507c-b8e2-41b3-ba97-04b2dde9acae",
+    "condition": "Osteoporosis",
+    "title": "Case Study: Mr. Harrison's Insidious Thoracic Pain - A classic presentation of Osteoporotic Vertebral Fracture",
+    "clinical_history": "Mr. Gerald Harrison, a 78-year-old retired accountant, presents with a chief complaint of acute, severe mid-back pain. The onset was four days ago. He was performing what he describes as a routine morning activity: bending forward over the sink to brush his teeth, followed by a forceful cough. He immediately experienced a sudden, sharp, and debilitating pain in his thoracic spine, causing him to cry out and requiring assistance from his wife to straighten up. He describes the pain as a 'searing band' around his mid-section. Since the incident, the pain has persisted, making most movements extremely difficult. He reports a noticeable change in his posture, feeling 'hunched over,' and has lost approximately an inch in height over the past few years, which he had previously dismissed as a normal part of aging.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Mid-thoracic spine (approximately T7-T9 level), characterized as a sharp, intense, stabbing pain on movement.",
+            "score": "8-9/10"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Bilateral thoracic paraspinal muscles, described as a constant, deep ache and spasm.",
+            "score": "4-6/10"
+        }
+    ],
+    "aggrevating_factors": "Any transitional movements (e.g., sit-to-stand, rolling in bed), bending forward, lifting any object (even a kettle), coughing, sneezing, prolonged standing or sitting (>15 minutes). Walking is limited to short distances within the home due to a sharp increase in P1.",
+    "picture": "[A diagram illustrating the thoracic spine, with a highlight on the T8 vertebral body indicating an anterior wedge compression fracture. Secondary highlights on the erector spinae muscles indicating spasm.]",
+    "easing_factors": "Strict bed rest, lying in a supine position with pillows supporting his knees and head. Application of a cold pack to the spine for 10-15 minutes initially helped, but he now finds gentle, low-grade heat on the surrounding muscles more comforting. Pain medication provides moderate relief for a few hours.",
+    "past_history": "History of a Colles' fracture (distal radius fracture) 5 years ago from a simple fall from standing height while gardening. He reports intermittent, low-grade, diffuse backache for several years, which he has managed with over-the-counter analgesics.",
+    "medical_history": "Long-term use of corticosteroids (oral prednisone) for the management of rheumatoid arthritis, diagnosed 15 years ago. History of prostate cancer, treated with androgen deprivation therapy. He is a non-smoker but consumes 2-3 glasses of wine daily. His dietary intake of calcium and vitamin D is noted to be poor.",
+    "medications": "Prednisone 5mg daily, Methotrexate weekly, Folic Acid, Tylenol Extra Strength (Acetaminophen) for pain (taking every 4-6 hours), Goserelin (Zoladex) implant for prostate cancer.",
+    "personal_history": "Mr. Harrison lives with his wife in a single-story home. He was, until this incident, fully independent and an avid gardener. The current level of pain and disability has made him fearful of moving, and he is now heavily reliant on his wife for all personal care and mobility assistance. He expresses significant frustration and low mood regarding his sudden loss of independence.",
+    "imaging": "Anteroposterior and lateral radiographs of the thoracic spine confirm an acute anterior wedge compression fracture of the T8 vertebra, with an approximate 40% loss of anterior vertebral body height. Diffuse demineralization is noted throughout the vertebral column, consistent with severe osteoporosis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

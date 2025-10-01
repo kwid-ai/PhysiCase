@@ -1,0 +1,27 @@
+{
+    "id": "4a62f3be-0071-4eb4-9c1e-e05ca27f31f7",
+    "condition": "Bells Palsy",
+    "title": "A Case of Bell's Palsy in a Young Adult",
+    "clinical_history": "A 32-year-old marketing specialist, Sarah, woke up one morning with a sudden onset of weakness and drooping of the left side of her face. She reported that she had gone to bed feeling fine the previous night but when she woke up, she noticed that she couldn't close her left eye and her mouth was drooping on that side. She also experienced difficulty smiling and speaking. Sarah denied any recent trauma, fever, or ear pain. She has been experiencing some difficulty eating and drinking due to the weakness on one side of her face.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "left facial muscles",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "laughing, eating, speaking",
+    "picture": "24-hour picture shows an inability to close the left eye, drooping of the left side of the face, and difficulty forming a symmetrical smile",
+    "easing_factors": "rest, application of warm compresses",
+    "past_history": "Sarah has a history of recurrent cold sores but has never experienced any similar episodes of facial weakness. She had a tonsillectomy as a child.",
+    "medical_history": "generally healthy, no chronic medical conditions",
+    "medications": "none, but recently started taking antiviral medication prescribed by her doctor",
+    "personal_history": "married, two young children, works part-time as a marketing specialist. She has been feeling stressed lately due to work and family obligations.",
+    "imaging": "MRI of the brain and facial nerves showed no abnormalities",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

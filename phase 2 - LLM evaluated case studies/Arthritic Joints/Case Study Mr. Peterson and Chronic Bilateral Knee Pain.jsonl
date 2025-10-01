@@ -1,0 +1,70 @@
+{
+    "id": "222e02bf-a57d-432c-a2b1-ac4f1107d78f",
+    "condition": "Arthritic Joints",
+    "title": "Case Study: Mr. Peterson and Chronic Bilateral Knee Pain",
+    "clinical_history": "Mr. Robert Peterson is a 68-year-old retired general contractor who presents to the clinic with a chief complaint of chronic, progressive pain in both knees, with the right being significantly more troublesome than the left. He reports the onset has been insidious over the past 10-15 years but has worsened considerably in the last 2 years, now impacting his daily activities. He describes the pain (P1) in his right knee as a 'deep, gnawing ache' localized primarily around the medial (inner) aspect and just below the kneecap. He experiences intermittent sharp pain with certain movements, such as twisting or navigating stairs. He also notes a persistent 'background ache' in his left knee (P2), which is more generalized. A pronounced grinding or 'crunching' sound (crepitus) is noted in his right knee with nearly all movements. His primary goal is to walk his dog for more than 15 minutes and to be able to garden without suffering severe pain for the following two days.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right Knee - Medial joint line and peripatellar region (deep, gnawing ache with intermittent sharp pain)",
+            "score": "4-7/10"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Left Knee - Generalized background ache",
+            "score": "2-4/10"
+        }
+    ],
+    "aggrevating_factors": "Walking for more than 15-20 minutes, descending stairs (provokes sharp pain in P1), prolonged standing (e.g., while cooking), squatting or kneeling (making gardening nearly impossible), and rising from a seated position, particularly from a low chair. He also notes increased stiffness and aching during cold, damp weather.",
+    "picture": "Morning: Experiences significant stiffness in both knees upon waking, lasting approximately 45-60 minutes. He has to 'get them going' by sitting on the edge of the bed and performing gentle flexion/extension movements before he can comfortably stand. Afternoon: Symptoms are generally at their best, provided he has not over-exerted himself in the morning. Evening: Pain and stiffness progressively worsen throughout the late afternoon and evening, correlating with the day's cumulative activity. He often needs to elevate his legs while watching television to get some relief. Night: Pain occasionally disturbs his sleep, particularly if he moves his right leg into full extension or flexion.",
+    "easing_factors": "Short periods of rest, applying a heating pad to both knees, using a single-point cane (though he is reluctant to use it in public), and taking over-the-counter anti-inflammatory medication. Gentle cycling on a stationary bike for 10 minutes provides temporary relief from stiffness.",
+    "past_history": "Mr. Peterson reports a right knee injury in his late 20s while playing recreational football, which he believes was a 'meniscus tear' but was never surgically addressed. He has a long history of physically demanding work as a contractor, involving frequent kneeling, heavy lifting, and climbing ladders. He has not had any prior physical therapy for his knees.",
+    "medical_history": "He is generally in good health but has been diagnosed with Hypertension, which is well-managed with medication. He has a Body Mass Index (BMI) of 31, placing him in the obese category.",
+    "medications": "Lisinopril 10mg daily (for Hypertension), Ibuprofen 400mg as needed (typically takes it 3-4 times per week for knee pain).",
+    "personal_history": "Retired, lives with his wife in a two-story home. He finds the stairs to be a significant daily obstacle. He was previously very active, enjoying hiking, fishing, and extensive gardening. His current activity level is greatly diminished due to his knee pain, which he finds very frustrating and has negatively impacted his mood. He is motivated to engage in therapy to avoid or delay potential knee replacement surgery.",
+    "imaging": "Weight-bearing X-rays of both knees performed 3 months prior. Report indicates moderate to severe tricompartmental osteoarthritis. Findings are more advanced in the right knee, showing significant medial joint space narrowing, prominent osteophyte formation at the tibiofemoral and patellofemoral joints, and evidence of subchondral sclerosis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' in the JSON structure. All other prompt instructions are followed well, which keeps the score high, but the minor formatting issue prevents a perfect score.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to chronic bilateral knee pain, specifically osteoarthritis, and is clinically accurate and comprehensive. The response is clear, well-organized, and addresses patient safety by noting comorbidities and current medications. No significant details are missing.",
+            "success": true
+        }
+    ]
+}

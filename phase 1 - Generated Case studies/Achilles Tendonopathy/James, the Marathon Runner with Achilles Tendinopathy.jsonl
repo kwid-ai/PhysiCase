@@ -1,0 +1,63 @@
+{
+    "id": "chatcmpl-By75pIQTCHOmnWMO3d3QuZgc3jOyY",
+    "condition": "Achilles Tendonopathy",
+    "title": "James, the Marathon Runner with Achilles Tendinopathy",
+    "clinical_history": "James is a 34-year-old professional marathon runner. He initially started experiencing discomfort in his right heel approximately 3/52 weeks ago. At first, James attributed the soreness to the increased intensity of his training regimen as he prepared for an upcoming marathon. However, the pain progressed to a persistent ache, particularly upon waking in the morning. Despite continuing his training, James has noted a sharp pain during his runs, specifically when pushing off or after running long distances. He describes the pain as a constant, deep ache with intermittent, more severe pain during certain movements.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "constant ache in the distal Achilles region",
+            "score": "5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "intermittent sharp pain during push-off movement",
+            "score": "7"
+        }
+    ],
+    "aggrevating_factors": "running, especially uphill or on uneven surfaces, walking barefoot, and standing on toes",
+    "picture": "[insert image of a person highlighting right Achilles tendon]",
+    "easing_factors": "ice application, resting, elevating the foot, gentle stretching exercises",
+    "past_history": "James has been running marathons for the past 10 years, with notable achievements and no significant history of lower limb injuries. He recalls a similar but minor instance of heel discomfort several years ago, which resolved quickly without intervention.",
+    "medical_history": "No significant medical history. Generally healthy and maintains a balanced diet.",
+    "medications": "Occasional use of ibuprofen for pain relief",
+    "personal_history": "James is single and lives an active lifestyle. He runs approximately 70 miles per week as part of his training schedule. He avoids partying and has a vegetarian diet.",
+    "imaging": "Ultrasound imaging revealed mild thickening and hypoechogenicity of the right Achilles tendon, consistent with tendinopathy",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 424,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1053,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1477
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

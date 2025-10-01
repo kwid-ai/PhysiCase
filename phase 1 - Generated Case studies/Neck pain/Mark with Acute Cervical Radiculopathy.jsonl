@@ -1,0 +1,32 @@
+{
+    "id": "da91295c-0d42-4cc0-a6ef-f4396fd578c3",
+    "condition": "Neck pain",
+    "title": "Mark with Acute Cervical Radiculopathy",
+    "clinical_history": "Mark, a 42-year-old software developer, presents with a 3-week history of right-sided neck and arm pain. The onset was gradual, with no specific incident of trauma. He reports spending long hours at his desk over the past two months to meet a project deadline, often working 10-12 hours a day with poor ergonomic setup. Initially, he noticed a dull ache and stiffness in his neck (P1), which he attributed to fatigue. However, over the last week, the symptoms have progressed to include radiating pain, tingling, and intermittent numbness down his right arm, extending to his thumb and index finger (P2). He finds it difficult to maintain concentration at work due to the persistent discomfort. Activities like checking his blind spot while driving or looking down at his phone have become markedly painful.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right-sided posterior and lateral neck. Described as a constant, deep ache with episodes of sharp pain on movement.",
+            "score": "4-7/10"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Radiating pain/paresthesia along the C6 dermatome (lateral forearm, thumb, and index finger). Described as intermittent 'electric shock' or 'pins and needles'.",
+            "score": "3-6/10"
+        }
+    ],
+    "aggrevating_factors": null,
+    "picture": "Symptoms primarily involve the right cervical paraspinal muscles, upper trapezius, levator scapulae, and scalenes, with radicular symptoms following the C6 nerve root distribution.",
+    "easing_factors": "Lying supine with a supportive pillow, frequent postural breaks from sitting, gentle left cervical side-bending, and holding his right arm in a supported position (e.g., resting on an armrest or his lap).",
+    "past_history": "Mark reports two minor episodes of 'stiff neck' in the past five years, each resolving spontaneously within 2-3 days with rest. No history of motor vehicle accidents, falls, or significant trauma to the head or neck.",
+    "medical_history": "Generally healthy. Diagnosed with mild hypertension 2 years ago, which is well-controlled with medication. No history of cancer, rheumatoid arthritis, or other systemic inflammatory conditions.",
+    "medications": "Lisinopril for hypertension. Takes Ibuprofen 400mg as needed for the neck pain, which provides temporary relief for 3-4 hours.",
+    "personal_history": "Works from a home office with a self-described 'non-ideal' workstation setup. He is right-hand dominant. Reports increased stress levels recently due to work pressures. He is married with two children. For recreation, he enjoys reading and playing video games, both of which involve sustained sedentary postures.",
+    "imaging": "None to date. He has an appointment with his primary care physician next week to discuss the persistent symptoms.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

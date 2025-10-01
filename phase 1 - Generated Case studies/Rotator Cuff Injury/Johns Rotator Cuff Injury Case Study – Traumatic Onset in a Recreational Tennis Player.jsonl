@@ -1,0 +1,32 @@
+{
+    "id": "4f6fc305-09cb-4ee7-abea-99a9c6c3999f",
+    "condition": "Rotator Cuff Injury",
+    "title": "John's Rotator Cuff Injury Case Study – Traumatic Onset in a Recreational Tennis Player",
+    "clinical_history": "John is a 48-year-old right-handed accountant who presents with a 3-week history of right shoulder pain following a forceful overhead smash while playing tennis. He describes a sudden 'tearing' sensation during the incident, accompanied by immediate pain and difficulty raising his arm. Since then, he experiences persistent ache over the lateral upper arm and struggles with overhead activities, dressing, and sleeping on his right side. His pain is aggravated by reaching, lifting objects, or performing activities above shoulder level. There is noticeable weakness in abduction and rotation. He denies any neck pain, previous shoulder surgery, or recent systemic illness.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Lateral and anterolateral aspect of right shoulder (primary complaint – supraspinatus region and subacromial area)",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Posterior deltoid and scapular region (secondary complaint after activity or disturbed sleep)",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Overhead movements (such as brushing hair or reaching for high shelves), lifting objects greater than 3kg, dressing (particularly putting on a shirt/jacket), lying on the affected shoulder, and playing tennis.",
+    "picture": "[insert image of a male figure highlighting the anterior and lateral aspects of the right shoulder, with emphasis on the supraspinatus and infraspinatus areas]",
+    "easing_factors": "Supporting the arm at rest, use of a pillow under the arm when sitting or sleeping, and avoiding aggravating positions. Occasional relief reported with ibuprofen.",
+    "past_history": "No prior right shoulder injuries. Reports occasional mild left shoulder discomfort after long workdays at the computer, but no significant trauma. No history of dislocations.",
+    "medical_history": "Has a history of mild hypertension, well-controlled with ACE inhibitors. No diabetes, thyroid problems, or known rheumatologic disease.",
+    "medications": "Lisinopril 10mg daily for hypertension; Ibuprofen 400mg as needed for pain (up to twice daily since injury).",
+    "personal_history": "Married, lives with spouse and two teenage children. Plays doubles tennis recreationally twice weekly and coaches his daughter's soccer team. Has a sedentary desk-based job but actively participates in weekend sports and family activities. Non-smoker, occasional alcohol.",
+    "imaging": "Recent MRI demonstrates a partial-thickness tear of the supraspinatus tendon, moderate subacromial bursitis, and mild tendinosis of the infraspinatus. No labral or bony abnormalities.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

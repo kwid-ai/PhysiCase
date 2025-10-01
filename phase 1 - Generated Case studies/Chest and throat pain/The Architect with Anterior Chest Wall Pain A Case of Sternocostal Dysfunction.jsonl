@@ -1,0 +1,32 @@
+{
+    "id": "d501a89c-d033-41f9-abd6-6cb9dc511586",
+    "condition": "Chest and throat pain",
+    "title": "The Architect with Anterior Chest Wall Pain: A Case of Sternocostal Dysfunction",
+    "clinical_history": "Mr. David Chen, a 48-year-old software architect, presents to the clinic with a primary complaint of right-sided chest pain (P1) and a secondary sensation of throat tightness (P2). The onset was acute, occurring one week ago while performing a heavy bench press at the gym. He reports feeling a 'sharp tearing' sensation across his sternum during the final repetition. Initially, the pain was sharp and localized, but over the past week, it has evolved into a constant, deep ache over the right sternocostal joints, with intermittent sharp pains upon certain movements. He is particularly concerned as the pain mimics cardiac symptoms, a fear compounded by his high-stress occupation. The associated throat tightness began two days after the initial injury, described as a 'lump' or 'constriction' that is non-painful but unsettling. He denies any difficulty swallowing, changes in voice, or shortness of breath at rest.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right parasternal region (costosternal joints 2-5) and Pectoralis Major origin. Constant deep ache with intermittent sharp, stabbing pain.",
+            "score": "3-4/10 at rest, 7-8/10 with aggravation"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Anterior throat/neck region. A non-painful sensation of tightness or constriction.",
+            "score": "2-3/10 constant"
+        }
+    ],
+    "aggrevating_factors": "Pushing or pulling activities (e.g., opening a heavy door), lifting, taking a deep breath, coughing or sneezing, rolling over in bed, and lying on his right side. Prolonged sitting with a forward-slumped posture at his desk exacerbates the ache.",
+    "picture": "[Image highlighting the sternum, the adjacent costal cartilages on the right side, the pectoralis major muscle, and the sternocleidomastoid muscles bilaterally]",
+    "easing_factors": "Complete rest, applying a heat pack to the chest, and taking over-the-counter anti-inflammatories provide temporary, mild relief. Consciously maintaining an upright, 'open-chest' posture helps slightly.",
+    "past_history": "No prior history of chest injury or persistent thoracic pain. He reports a minor left rotator cuff strain 5 years ago which resolved fully with a short course of physical therapy.",
+    "medical_history": "Visited his General Practitioner 3 days ago due to concern for a cardiac event. An in-office EKG and subsequent cardiac enzyme blood tests (troponin) were all within normal limits, ruling out acute myocardial infarction. His GP diagnosed him with 'costochondritis' and referred him for physical therapy assessment and management. Otherwise, he is in good health with managed hypertension.",
+    "medications": "Lisinopril 10mg daily for hypertension. Ibuprofen 400mg as needed (prn) for the current chest pain, taking it 2-3 times per day with limited effect.",
+    "personal_history": "Works long hours (50-60 hours/week) at a desk, a situation he reports as being highly stressful. Recently divorced 6 months ago. He initiated a new, aggressive weightlifting regimen a month prior to injury as a means to manage stress and 'get back in shape'. He is a non-smoker and consumes alcohol socially (2-3 drinks per week).",
+    "imaging": "Chest X-ray performed at the GP's office was unremarkable, showing no signs of fracture, dislocation, or pulmonary pathology.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

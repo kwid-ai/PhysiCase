@@ -1,0 +1,70 @@
+{
+    "id": "ea5f61e1-5a12-478e-bc08-a1ee550fa82e",
+    "condition": "Lewy Body Dementia",
+    "title": "Case Study: Lewy Body Dementia with Associated Motor Symptoms",
+    "clinical_history": "A 75-year-old male patient, Mr. Johnson, presents with a 2-year history of progressive cognitive decline, visual hallucinations, and fluctuating mental status. He experiences vivid hallucinations, particularly in the evening, and has difficulty with problem-solving, memory, and spatial reasoning. Additionally, he exhibits parkinsonian motor symptoms, including rigidity, bradykinesia, and postural instability. His wife reports that he has difficulty with daily activities, such as dressing and bathing, due to cognitive and motor impairments.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "shoulder and neck region",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "lower back",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged periods of inactivity, walking on uneven surfaces, and cognitive stress",
+    "picture": "A 24-hour picture of Mr. Johnson's symptoms shows worsening of motor symptoms, particularly rigidity and bradykinesia, in the evening hours, coinciding with increased hallucinations.",
+    "easing_factors": "Physical therapy, particularly exercises targeting flexibility and balance, and dopaminergic medications",
+    "past_history": "Hypertension, hyperlipidemia, and a remote history of a fall with a minor head injury",
+    "medical_history": "Diagnosed with Lewy Body Dementia 2 years ago, with gradual progression of symptoms. He also has a history of urinary incontinence and constipation.",
+    "medications": "Rivastigmine, levodopa-carbidopa, and ondansetron for hallucinations and motor symptoms",
+    "personal_history": "Married with two adult children. He was a retired accountant and enjoys reading and gardening. He has difficulty with daily activities due to cognitive and motor impairments.",
+    "imaging": "An MRI of the brain showed generalized atrophy and decreased dopamine transporter density on DaTSCAN, consistent with Lewy Body Dementia.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.75,
+            "reason": "The score is 0.75 because the LLM provided all required content, but did not strictly follow the specified JSON structure\u2014using 'nprs' instead of 'NPRS' and 'picture' instead of 'Picture'. The score is not higher due to these formatting unalignments, but it is still fairly high because the substantive instructions were followed.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias and provides a balanced and objective response.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9037326888415033,
+            "reason": "The output contains all required fields and is highly relevant to Lewy Body Dementia, accurately describing cognitive decline, hallucinations, parkinsonian symptoms, and appropriate imaging findings. The response is clear and comprehensive, covering clinical history, symptom patterns, aggravating/easing factors, and medication. However, there is a minor inaccuracy: ondansetron is not typically used for hallucinations in Lewy Body Dementia, which slightly affects clinical accuracy and patient safety.",
+            "success": true
+        }
+    ]
+}

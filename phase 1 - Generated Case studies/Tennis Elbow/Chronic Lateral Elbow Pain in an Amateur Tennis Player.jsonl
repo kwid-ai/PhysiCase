@@ -1,0 +1,32 @@
+{
+    "id": "67d39a35-d9c0-482e-9310-64ab1ae27e07",
+    "condition": "Tennis Elbow",
+    "title": "Chronic Lateral Elbow Pain in an Amateur Tennis Player",
+    "clinical_history": "Mr. James Clark is a 42-year-old right-handed accountant and recreational tennis player who presents with lateral right elbow pain persisting for the past 8 weeks. He reports a gradual onset of pain, which he initially noticed during his weekly tennis matches, particularly when hitting backhand shots. Over time, the pain has increased in frequency and intensity, now occurring during routine tasks such as shaking hands, opening jars, or lifting a kettle. He describes the pain as a constant, dull ache with intermittent sharp exacerbations, especially after prolonged wrist extension or gripping activities. There is mild morning stiffness, resolving after a few minutes of elbow movement, but the pain tends to worsen towards the end of the day, particularly after work or exercise. No history of recent trauma or systemic symptoms reported.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral epicondyle of right elbow (origin of extensor carpi radialis brevis)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "proximal dorsal forearm (muscle belly of wrist extensors)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Repetitive gripping, racquet sports (notably backhand stroke), lifting objects with a pronated forearm, typing for prolonged periods, and direct palpation of the lateral elbow.",
+    "picture": "[insert image demonstrating point tenderness at the lateral epicondyle and muscle bulk of forearm extensors]",
+    "easing_factors": "Rest, application of ice packs, use of an elbow strap, non-steroidal anti-inflammatory drugs (NSAIDs) provide partial relief. Avoiding tennis and heavy lifting has helped reduce acute exacerbations.",
+    "past_history": "No prior elbow or upper limb injuries. Occasional episodes of mild wrist pain after unaccustomed activity in the past, self-resolving.",
+    "medical_history": "Non-contributory. No known inflammatory diseases or metabolic conditions. Up to date with health screenings.",
+    "medications": "Ibuprofen 400 mg as needed, approximately once daily for the past week.",
+    "personal_history": "Married, two teenage children. Works full time at a desk job; spends an average of 8 hours daily on a computer. Engages in recreational tennis once or twice weekly for over 10 years. No tobacco or alcohol use. Reports moderate work-related stress and has recently increased tennis activity as a coping strategy.",
+    "imaging": "None performed to date. Plain films and ultrasound may be considered if symptoms persist or worsen to rule out differential diagnoses (e.g., intra-articular pathology, calcific tendonitis).",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

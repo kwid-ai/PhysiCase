@@ -1,0 +1,70 @@
+{
+    "id": "db3c43b0-369e-4f76-a46a-b93014ef7587",
+    "condition": "Parkinson",
+    "title": "Case Study: A 65-year-old Male with Parkinson's Disease",
+    "clinical_history": "A 65-year-old male, Mr. Johnson, presents with a 5-year history of Parkinson's disease. He was initially diagnosed with tremors in his right hand, which progressed to rigidity, bradykinesia, and postural instability. He experiences difficulty with walking, balance, and performing daily activities due to his symptoms. He has a history of falls, with the most recent one occurring 6 months ago, resulting in a fractured right wrist. He also reports experiencing pain and stiffness in his neck, shoulders, and lower back.",
+    "nprs": [
+        {
+            "context": "Primary",
+            "affected_area": "neck and shoulders",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary",
+            "affected_area": "lower back",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, or sitting; turning in bed; and getting in and out of a car",
+    "picture": "A 24-hour picture of Mr. Johnson shows that his symptoms worsen throughout the day, with increased rigidity and tremors in the afternoon. He also experiences nocturnal pain and stiffness, which disrupts his sleep.",
+    "easing_factors": "Rest, physical therapy, and medication; specifically, his symptoms improve with dopaminergic medication, but the effects wear off after 2-3 hours",
+    "past_history": "Hypertension, hyperlipidemia, and a remote history of smoking",
+    "medical_history": "Diagnosed with Parkinson's disease 5 years ago; recently started experiencing freezing of gait and increased fall risk",
+    "medications": "Levodopa/carbidopa, ropinirole, and pramipexole; recently started on physical therapy to improve mobility and balance",
+    "personal_history": "Married with two children; worked as an engineer until his retirement 5 years ago; enjoys reading and spending time with his grandchildren, but has had to adapt his activities due to his symptoms",
+    "imaging": "MRI of the brain showed no significant abnormalities; X-rays of the neck, shoulders, and lower back showed mild degenerative changes",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Great job! The output follows all prompt instructions with no unalignments. Keep up the excellent work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9999999999999998,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, a 24-hour symptom picture, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to Parkinson's disease, accurately describing typical symptoms, progression, and management. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

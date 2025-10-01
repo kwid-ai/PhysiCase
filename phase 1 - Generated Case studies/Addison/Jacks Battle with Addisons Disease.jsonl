@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By762FdLfo4hZ8Sn0ecGac0c8lcpc",
+    "condition": "Addison",
+    "title": "Jack's Battle with Addison's Disease",
+    "clinical_history": "Jack is a 48-year-old civil engineer who presented to the clinic with generalized weakness, fatigue, and episodes of lightheadedness. Over the past 4 months, Jack has noticed these symptoms have become progressively worse, especially in the late afternoon and evening. He also reported noticeable weight loss, decreased appetite, and unexplained darkening of his skin, particularly around his joints and sun-exposed areas. These symptoms have impacted his ability to work effectively on-site, and he has also started avoiding social interactions due to severe fatigue.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "generalized muscle weakness",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, stress, and skipping meals exacerbate the symptoms.",
+    "picture": "[insert image of a person highlighting muscle weakness in limbs]",
+    "easing_factors": "Rest, adequate hydration, and a consistent schedule for meals slightly improve the symptoms.",
+    "past_history": "Patient has no history of major illnesses. He had sporadic episodes of hypoglycemia that required nutritional management but never had significant medical interventions.",
+    "medical_history": "No surgical history, non-smoker, moderate alcohol intake during weekends.",
+    "medications": "Not currently on any medication, had been taking over-the-counter multivitamins recently.",
+    "personal_history": "Married with two children. Leads a moderately active lifestyle, participated in local soccer league until symptoms became unmanageable.",
+    "imaging": "Routine blood tests showed hyponatremia and hyperkalemia. An abdominal CT indicated bilateral adrenal gland atrophy.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 361,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1050,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1411
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

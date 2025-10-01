@@ -1,0 +1,32 @@
+{
+    "id": "54ca7575-c912-4288-92f9-eae10b0cee67",
+    "condition": "Epilepsy",
+    "title": "Jackson's Case of Postictal Myalgia Following Generalized Tonic-Clonic Seizures",
+    "clinical_history": "Jackson Green is a 35-year-old software engineer with a 10-year history of epilepsy, predominantly experiencing generalized tonic-clonic seizures. He recently presented to the outpatient clinic reporting significant muscle soreness and weakness following a cluster of three seizures within a 24-hour period, the most recent occurring one week ago. Immediately postictally, he felt diffuse muscle aches, particularly in the upper limb and trunk muscles. He experienced difficulty gripping objects, raising his arms, and noted lingering soreness in his thighs and calves. Jackson reports intermittent headaches and mild confusion lasting several hours following each seizure. There is no report of trauma during any of the episodes, though he reports generalized muscle cramping and stiffness in the aftermath.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral deltoids, biceps, quadriceps, calves – generalized soreness and weakness",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "paraspinal muscles (mid and lower back) – aching, stiffness",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Physical activity in the days following a seizure, prolonged standing or walking, attempts at lifting or overhead reaching activities, returning to normal gym routine too quickly.",
+    "picture": "Patient illustrates soreness in both arms and thighs, occasional massaging of calves. Demonstrates guarded movements during upper limb elevation and stair climbing.",
+    "easing_factors": "Rest, gentle stretching, warm baths, and use of acetaminophen as needed. Light walking after two days post-seizure provided some relief.",
+    "past_history": "History of well-controlled epilepsy on medication with rare breakthrough events, often triggered by sleep deprivation or missed doses. No significant musculoskeletal injuries or prior hospitalizations for postictal pain.",
+    "medical_history": "Known epilepsy, no other chronic illnesses. Reports occasional migraines post-seizure. No cardiac or respiratory comorbidities.",
+    "medications": "Levetiracetam 500mg BID, admitted missing one evening dose prior to most recent seizures. Acetaminophen PRN for muscle pain.",
+    "personal_history": "Lives alone, primarily sedentary due to remote work but tries to stay active on weekends with jogging and light gym activity. Admits to disruptions in sleep schedule due to job deadlines. Non-smoker, rarely drinks alcohol. No recent travel or infections.",
+    "imaging": "No imaging performed during this episode. Previous brain MRI (last year) showed no structural abnormalities.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

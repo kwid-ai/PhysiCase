@@ -1,0 +1,32 @@
+{
+    "id": "89236f92-4ae0-4fba-85cd-2f1f524ccba1",
+    "condition": "Addison",
+    "title": "A 45-year-old Female with Addison's Disease Presenting with Muscle Weakness and Fatigue",
+    "clinical_history": "A 45-year-old female, Sarah, presented with complaints of progressive muscle weakness, fatigue, and hyperpigmentation of the skin. She reported that over the past year, she has experienced increasing difficulty performing daily activities such as carrying groceries, walking up stairs, and getting out of bed. She also reported a 10-pound weight loss over the past 6 months, despite an increase in appetite. Sarah's symptoms started with mild fatigue and muscle aches in her lower extremities, which gradually worsened over time.",
+    "nprs": [
+        {
+            "context": "Primary Complaint",
+            "affected_area": "Generalized muscle weakness, particularly in the lower extremities",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary Complaint",
+            "affected_area": "Fatigue and hyperpigmentation",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, or physical activity, which exacerbates muscle weakness and fatigue",
+    "picture": "A 24-hour picture showing a patient with generalized fatigue and muscle weakness, particularly in the lower extremities",
+    "easing_factors": "Rest, particularly lying down, which provides some relief from muscle weakness and fatigue",
+    "past_history": "No significant past medical history, but she reported a family history of autoimmune disorders",
+    "medical_history": "Recently diagnosed with Addison's disease, and she has been experiencing symptoms of adrenal insufficiency",
+    "medications": "Hydrocortisone and fludrocortisone, which she has been taking for the past 3 months",
+    "personal_history": "Married with two children, and she works part-time as an administrative assistant. She reported increased stress levels over the past year due to her husband's job loss and her own health concerns",
+    "imaging": "No imaging studies have been conducted to date, but laboratory tests revealed low cortisol and aldosterone levels, consistent with Addison's disease",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

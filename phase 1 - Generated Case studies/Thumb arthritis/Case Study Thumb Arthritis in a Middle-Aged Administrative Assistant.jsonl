@@ -1,0 +1,27 @@
+{
+    "id": "95dfb632-5d50-40f8-a819-4f0e4ef0cf99",
+    "condition": "Thumb arthritis",
+    "title": "Case Study: Thumb Arthritis in a Middle-Aged Administrative Assistant",
+    "clinical_history": "A 52-year-old right-handed administrative assistant presented with a 6-month history of progressive pain and stiffness in her right thumb. The patient reported that the pain started insidiously, with no specific incident or trauma. She described the pain as being worse in the morning and improving throughout the day, but with an increasing trend of stiffness and pain over the past few months. The patient reported difficulty with activities such as turning door handles, opening jars, and using her computer mouse.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "thumb and first metacarpal joint",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "Activities that involve gripping, twisting, or pinching, such as turning door handles, opening jars, or using scissors. Prolonged computer use or activities that require repetitive thumb movements.",
+    "picture": "The patient exhibits tenderness to palpation over the first metacarpal joint and thumb, with limited range of motion and crepitus upon movement.",
+    "easing_factors": "Rest, ice application, and over-the-counter pain medications such as acetaminophen.",
+    "past_history": "The patient has a history of mild osteoarthritis in her knees and hands, but has not required any surgical interventions.",
+    "medical_history": "Hypertension, controlled with medication. The patient is also taking hormone replacement therapy for menopausal symptoms.",
+    "medications": "Acetaminophen as needed for pain, lisinopril for hypertension, and hormone replacement therapy.",
+    "personal_history": "The patient is married with two adult children and works part-time as an administrative assistant. She enjoys gardening and spending time with her family, but has had to modify her activities due to her thumb symptoms.",
+    "imaging": "X-rays of the right thumb show joint space narrowing and osteophytes consistent with osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

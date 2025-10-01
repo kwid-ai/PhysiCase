@@ -1,0 +1,70 @@
+{
+    "id": "5a1b61b9-6455-4aab-811f-c597a98cb5d6",
+    "condition": "Stiff Person Syndrome",
+    "title": "Case Study: Stiff Person Syndrome in a 45-Year-Old Female",
+    "clinical_history": "A 45-year-old female, Sarah, presented with a 6-month history of progressive stiffness and rigidity in her trunk and lower limbs. She reported difficulty walking and maintaining balance due to stiffness in her legs and back. The symptoms started with intermittent episodes of stiffness in her legs, which gradually worsened and became constant. She also experiences episodes of severe stiffness that can last for hours, making it difficult for her to move or perform daily activities.",
+    "nprs": [
+        {
+            "context": "Primary Complaint",
+            "affected_area": "Trunk and bilateral lower limbs",
+            "score": "7-9"
+        },
+        {
+            "context": "Secondary Complaint",
+            "affected_area": "Neck and upper limbs",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, or physical activity; stress and anxiety",
+    "picture": "A 24-hour picture showing stiffness and rigidity in the trunk and lower limbs, with difficulty walking and maintaining balance",
+    "easing_factors": "Rest, relaxation, and benzodiazepines",
+    "past_history": "History of autoimmune disorders (thyroiditis), and a family history of autoimmune diseases",
+    "medical_history": "Diagnosed with type 1 diabetes and autoimmune thyroiditis",
+    "medications": "Benzodiazepines (clonazepam), baclofen, and physical therapy",
+    "personal_history": "Married with two children, works as an accountant, and has a sedentary lifestyle",
+    "imaging": "MRI of the spine and brain: normal; EMG and nerve conduction studies: normal; Blood tests: positive for GAD65 antibodies",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8181818181818182,
+            "reason": "The score is 0.82 because the output uses lowercase keys ('nprs' and 'picture') instead of the required uppercase ('NPRS' and 'Picture'), which does not fully align with the specified output format. However, all required content is present and well-structured, so the score is still relatively high.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, relevant past and medical history, medications, personal history, and appropriate imaging and laboratory findings. The content is highly relevant to Stiff Person Syndrome, with accurate clinical features (progressive stiffness, GAD65 antibodies, response to benzodiazepines, normal imaging/EMG), and no factual inaccuracies. The response is clear, comprehensive, and prioritizes clinical accuracy and patient safety.",
+            "success": true
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "id": "b53144dc-0017-4baa-8014-2eaf1ba5f4ad",
+    "condition": "Low Back Pain",
+    "title": "Chronic Low Back Pain in an Office Worker: A Case of Lumbar Dysfunction",
+    "clinical_history": "Mr. Thomas Lee is a 47-year-old accountant who presents with a 9-month history of persistent low back pain, gradually worsening over time. The pain first began after a period of prolonged sitting during end-of-year tax season, where he was working up to 12 hours a day at his desk. He describes the pain as a constant, dull ache across the lower lumbar region, occasionally radiating into his right gluteal area. He denies any traumatic injury, but notes morning stiffness for up to 30 minutes that eases with movement. He occasionally experiences sharp pain when bending forward to lift objects or when transitioning from sitting to standing. The pain interferes with his ability to focus at work and he has avoided most physical activities due to fear of aggravating his symptoms.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral lumbar paraspinal muscles (erector spinae, multifidus)",
+            "score": "4-6"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right gluteal region (gluteus medius/minimus)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Prolonged sitting (>30 minutes), forward flexion, lifting objects (>5kg), sudden movements, and end-of-day fatigue.",
+    "picture": "Morning stiffness and increased pain with start of day; pain worsens after prolonged periods of sitting; generally improves somewhat with gentle movement but can flare up unpredictably after physical exertion such as yard work.",
+    "easing_factors": "Short, frequent walks, gentle stretching, heat application to the lower back, and taking breaks from sitting every 20-30 minutes. Lying supine with knees supported eases symptoms.",
+    "past_history": "No significant previous back injuries. Occasional mild low back discomfort in the past after long car journeys, but these resolved spontaneously.",
+    "medical_history": "Hypertension controlled with medication. No prior history of major orthopedic or neurological conditions.",
+    "medications": "Occasional use of ibuprofen (400 mg, as needed). Takes lisinopril 10 mg once daily for hypertension.",
+    "personal_history": "Married, two teenage children. Sedentary lifestyle due to work demands. No regular exercise routine. Reports increased work-related stress over the past year. Non-smoker, moderate alcohol intake (2-3 drinks/week). Body Mass Index: 29, classifying as overweight.",
+    "imaging": "Lumbar spine X-ray shows mild degenerative changes at L4-L5. No evidence of fracture or spondylolisthesis. No red flag findings on neurological examination.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to chronic low back pain in an office worker, is clear, comprehensive, and clinically accurate. There are no factual errors or omissions that would compromise patient safety.",
+            "success": true
+        }
+    ]
+}

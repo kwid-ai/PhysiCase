@@ -1,0 +1,32 @@
+{
+    "id": "95437d5f-e023-4a80-b462-26015913914c",
+    "condition": "Calf muscle tear",
+    "title": "Case Study: Acute Medial Gastrocnemius Tear in a Recreational Tennis Player",
+    "clinical_history": "James, a 44-year-old accountant and recreational tennis player, experienced a sudden, sharp pain in his left calf while pushing off during a serve two days ago. He immediately had to stop playing and noticed swelling and bruising developing along the medial calf over the next few hours. He now reports significant difficulty walking, particularly with weight-bearing on the affected side, and describes sensations of tightness, weakness, and localized tenderness. His sleep is interrupted at night with throbbing in the calf, especially after periods of inactivity. There is no history of trauma, and he denies any prior significant injuries to the lower limb.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Medial gastrocnemius (primary site of tear)",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Achilles tendon area (referred pain and tightness secondary to altered gait)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Walking, standing from a seated position, dorsiflexing the ankle, ascending stairs, and any attempt at jumping or pushing off the ball of the foot.",
+    "picture": "[insert image showing swelling and ecchymosis over the medial aspect of the left calf]",
+    "easing_factors": "Rest, non-weight bearing with crutches, elevation, ice application, and gentle ankle movements within pain limits.",
+    "past_history": "His only notable musculoskeletal history is a right ankle sprain five years ago with full recovery. No previous calf injuries.",
+    "medical_history": "Non-contributory. No diabetes, neuropathy, or vascular conditions. No history of deep vein thrombosis.",
+    "medications": "Occasionally takes ibuprofen 400 mg for pain, especially in the evenings.",
+    "personal_history": "Lives with his spouse and two children. Works in a sedentary office role with irregular exercise compliance—plays tennis 1-2 times per week. Denies smoking, drinks alcohol socially, BMI: 27.",
+    "imaging": "No imaging performed to date, but ultrasound or MRI may be considered if the diagnosis remains unclear or if recovery stalls.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

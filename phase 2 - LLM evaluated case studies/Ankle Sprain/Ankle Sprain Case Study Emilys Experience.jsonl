@@ -1,0 +1,70 @@
+{
+    "id": "8a8d88de-25a8-410d-95c0-8102ecaa7253",
+    "condition": "Ankle Sprain",
+    "title": "Ankle Sprain Case Study: Emily's Experience",
+    "clinical_history": "Emily, a 28-year-old recreational soccer player, presented to the clinic with a complaint of severe pain and swelling on the lateral aspect of her right ankle. She reported that during a soccer game 2 days ago, she landed awkwardly on her right ankle while trying to change direction quickly, which resulted in a sudden sharp pain and a feeling of 'giving way'. She was unable to bear weight on her ankle immediately after the injury and had to be helped off the field. Since then, she has been experiencing pain, swelling, and stiffness in her ankle, making it difficult for her to walk or participate in daily activities.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral ankle pain, sharp and aching",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "medial ankle pain, mild and aching",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "weight-bearing activities such as walking, standing, and climbing stairs; ankle movements, especially inversion and eversion",
+    "picture": "A 24-hour picture of Emily's ankle would show significant swelling and bruising on the lateral aspect, with difficulty bearing weight on the affected limb.",
+    "easing_factors": "rest, ice, compression, and elevation (RICE); taking pain medication such as ibuprofen",
+    "past_history": "Emily has had a previous ankle injury 5 years ago, which was managed conservatively. She has been relatively active in sports and physical activities since then but has not had any significant injuries.",
+    "medical_history": "generally healthy, no chronic medical conditions",
+    "medications": "ibuprofen 400mg every 4-6 hours as needed for pain and inflammation",
+    "personal_history": "married, works as a marketing specialist, and enjoys playing soccer and hiking in her free time",
+    "imaging": "X-rays of the ankle were taken immediately after the injury, which showed no evidence of fractures or dislocations. An MRI may be ordered in the future to assess the extent of ligamentous damage.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8181818181818182,
+            "reason": "The score is 0.82 because the LLM output closely follows the prompt instructions and includes all required case study elements, but it does not use the exact key names ('NPRS' and 'Picture') as specified in the output format. This prevents a higher score, but the content and structure are otherwise well-aligned with the prompt.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, addresses all aspects of the input task, and contains no irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to an ankle sprain, with clear, comprehensive, and clinically accurate information. There are no factual inaccuracies or omissions that would compromise patient safety or clinical accuracy.",
+            "success": true
+        }
+    ]
+}

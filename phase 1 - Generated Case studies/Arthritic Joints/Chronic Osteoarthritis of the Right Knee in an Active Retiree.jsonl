@@ -1,0 +1,32 @@
+{
+    "id": "80d58485-fbdf-4734-a759-d5c4f714af6a",
+    "condition": "Arthritic Joints",
+    "title": "Chronic Osteoarthritis of the Right Knee in an Active Retiree",
+    "clinical_history": "Mr. Albert Jenkins is a 68-year-old male and a retired postmaster. He presents with a 7-year history of gradually worsening right knee pain and stiffness, most notable over the last year. The discomfort started insidiously, initially with mild stiffness in the mornings that would resolve after a few minutes of ambulation. The pain has progressively increased, now affecting his ability to walk his dog daily and participate in his local gardening club. He describes periods of increased pain and swelling, particularly following prolonged standing or after long walks. Night pain occasionally disturbs his sleep, though only after particularly active days. He reports associated crepitus and a sensation of 'grinding' within the joint but denies locking, catching, or giving way. No recent trauma is reported. Mr. Jenkins expresses frustration about reliance on analgesics and reduced participation in social and physical activities.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right medial knee joint (tibiofemoral compartment)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Anterior knee/Quadriceps tendon area, occasional aching post-activity",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged walking (>20 minutes), standing for extended periods, ascending/descending stairs, cold/damp weather, rising from prolonged sitting.",
+    "picture": "Patient highlights right knee with particular tenderness over the medial joint line; associated mild swelling and decreased active range of flexion/extension.",
+    "easing_factors": "Rest, paracetamol or topical NSAIDs, heat packs, gentle cycling, aquatic exercises.",
+    "past_history": "No previous injuries to the right knee. Past history of mild right ankle sprain (resolved). No prior surgery to lower limbs.",
+    "medical_history": "Type 2 diabetes (diagnosed 8 years ago, controlled with diet and metformin), hypertension.",
+    "medications": "Paracetamol 1g TID PRN, Topical diclofenac gel, Metformin 500mg BID, Amlodipine 5mg daily.",
+    "personal_history": "Nonsmoker, BMI 29, socially active, enjoys gardening and walking. Married, lives in a single-level house with wife. No family history of inflammatory arthritis.",
+    "imaging": "Recent right knee AP and lateral X-rays demonstrate reduced medial joint space, osteophyte formation, and mild subchondral sclerosis consistent with moderate osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

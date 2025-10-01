@@ -1,0 +1,32 @@
+{
+    "id": "cfdbc75d-a5f6-48ee-be6f-751ffd40bbf0",
+    "condition": "Stiff Person Syndrome",
+    "title": "Stiff Person Syndrome in a Middle-Aged Banker: The Case of Mr. Rajesh Prasad",
+    "clinical_history": "Mr. Rajesh Prasad is a 45-year-old male, employed as a senior banker, who presents with progressive stiffness and painful spasms involving his axial and proximal limb muscles over the past 8 months. He first noted tightness in his lower back, which gradually extended to his abdominal muscles and thighs. Over the past 3 months, he experienced frequent, severe spasms triggered by sudden noises and emotional stress, at times resulting in transient difficulty walking or standing. His gait has become rigid and cautious, and he describes worsening nocturnal stiffness that disrupts sleep. There is no history of trauma or recent illness. No bowel or bladder complaints. He reports increasing anxiety due to anticipating spasms in public settings.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "paraspinal and lower back muscles",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "proximal thigh and abdominal muscles",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Sudden loud noises (e.g. car horn, phone ring), emotional stress or anxiety, physical exertion, unexpected tactile stimulation",
+    "picture": "[Image showing rigidity mainly in trunk and proximal limbs, with postural abnormality and hyperlordosis at the lumbar spine]",
+    "easing_factors": "Rest in a quiet environment, use of muscle relaxants and anxiolytics, slow and controlled movements, warm compresses",
+    "past_history": "No prior neuromuscular illness. Mild anxiety in past but never on medication. No autoimmune disease diagnosed previously.",
+    "medical_history": "Non-contributory; no diabetes mellitus or thyroid dysfunction. No family history of neurological or autoimmune diseases.",
+    "medications": "Diazepam 5mg twice daily (initiated 4 weeks ago, moderate relief of nocturnal spasms). Baclofen 10mg daily, titrated to 30mg/day over the past two weeks. Occasional use of ibuprofen for residual muscular pain. Gabapentin trial (discontinued due to sedation).",
+    "personal_history": "Non-smoker, social alcohol user. Married, lives with spouse and two teenage children. Work-related stress is high. Has reduced social engagements due to anxiety about symptoms.",
+    "imaging": "MRI spine normal for age. Electromyographic studies showed continuous motor unit firing at rest, consistent with SPS.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

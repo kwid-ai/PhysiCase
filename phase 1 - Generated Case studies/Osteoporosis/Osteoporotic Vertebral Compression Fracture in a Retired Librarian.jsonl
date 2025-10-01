@@ -1,0 +1,32 @@
+{
+    "id": "8ef2fce2-67fd-49c5-abfd-89d1b528e1a8",
+    "condition": "Osteoporosis",
+    "title": "Osteoporotic Vertebral Compression Fracture in a Retired Librarian",
+    "clinical_history": "Mrs. Patricia Liu, a 68-year-old retired librarian, presents with a 1-week history of sudden mid-thoracic back pain following bending over to retrieve a book from a low shelf at home. She describes the pain as sharp and localized over the mid-back, with no significant radiation. She notes increased pain during activities involving trunk flexion or prolonged standing, and reports difficulty sleeping due to pain when turning in bed. She does not recall any major trauma. Patricia denies any preceding fever, unexplained weight loss, or night sweats. She has noticed gradual loss of height and increased thoracic kyphosis over the previous two years.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "mid-thoracic spine (vertebral bodies T7-T9)",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "paraspinal muscles adjacent to the area, soreness from muscle spasm",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Forward bending, rising from a chair, lifting objects, prolonged standing, coughing/sneezing.",
+    "picture": "[A diagram marking mid-thoracic spine and highlighting local tenderness]",
+    "easing_factors": "Resting with the back supported; reclining in a semi-upright position; heat application to paraspinal muscles; short walks indoors.",
+    "past_history": "Diagnosed with early menopause at age 44; sustained a distal radius (wrist) fracture 5 years ago after a fall. No previous history of spinal fractures.",
+    "medical_history": "History of hypertension (well controlled) and hypothyroidism. No history of malignancy.",
+    "medications": "Calcium and vitamin D supplementation; Bisphosphonate therapy (Alendronate, initiated 2 years ago); Levothyroxine; Lisinopril.",
+    "personal_history": "Lives alone, widowed; non-smoker, does not consume alcohol regularly; walks 15-20 minutes daily but limited during winter; diet reportedly low in dairy products for many years.",
+    "imaging": "[Recent thoracic spine X-ray: compression fracture at T8 vertebral body with >25% loss of anterior vertebral height; evidence of osteopenia in adjacent vertebral bodies.]",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

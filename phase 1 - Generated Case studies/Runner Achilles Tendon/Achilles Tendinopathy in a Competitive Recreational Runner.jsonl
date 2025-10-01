@@ -1,0 +1,32 @@
+{
+    "id": "b34bdf0d-28e9-4019-8910-47e939b5091d",
+    "condition": "Runner Achilles Tendon",
+    "title": "Achilles Tendinopathy in a Competitive Recreational Runner",
+    "clinical_history": "David is a 38-year-old male, consistently running 40-50 km per week for the past 10 years. Over the last month, he has noted gradually worsening pain and stiffness at the back of his right ankle, most pronounced on rising in the morning and after intervals or hill sprints. He recalls no specific injury but does mention recently increasing his weekly mileage and incorporating more speed work. The pain is centered over the mid-portion of the Achilles tendon, with mild swelling and tenderness noted. He reports difficulty with pushing off during runs and discomfort when descending stairs. There is no history of systemic symptoms, trauma, or past similar issues in this area.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right mid-portion Achilles tendon (primary complaint)",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Right gastrocnemius/soleus complex tightness (secondary)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Running (especially speed and hill work), prolonged walking, first steps in the morning, and descending stairs.",
+    "picture": "[Image: Lateral view of right ankle highlighting the Achilles tendon]",
+    "easing_factors": "Rest, ice, gentle calf stretching, and avoiding provocative activities. Symptom relief is noted with heel lifts in shoes.",
+    "past_history": "History of left iliotibial band syndrome 5 years ago, resolved with conservative management. No prior Achilles or calf injuries.",
+    "medical_history": "No chronic medical conditions. No history of diabetes or inflammatory arthritis.",
+    "medications": "Occasional ibuprofen 400mg post-run for pain management, 1-2 times per week.",
+    "personal_history": "Software engineer, married, 2 young children. Non-smoker, moderate alcohol intake on weekends. Training for an upcoming half-marathon. Reports higher work-related stress in the past month, correlating with changes in running routine and symptoms.",
+    "imaging": "No imaging performed to date; clinical diagnosis based on presentation and physical examination.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

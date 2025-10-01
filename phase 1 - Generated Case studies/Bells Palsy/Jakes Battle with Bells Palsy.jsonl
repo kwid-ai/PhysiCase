@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By76uReWaWvvx56IWhrk8o1hbKBwn",
+    "condition": "Bells Palsy",
+    "title": "Jake's Battle with Bell's Palsy",
+    "clinical_history": "Jake is a 34-year-old IT consultant who woke up one morning to find that he couldn't move the right side of his face. He looked in the mirror and noticed that his right eye wouldn't fully close, and there was drooping at the corner of his mouth. This onset, sudden and without clear precipitating factors, was paired with mild ear pain the night prior, which he attributed to sleeping by an open window. Previously in good health, Jake was shocked by the sudden facial weakness, his speech slightly slurred, and his complete lack of blink on the affected side. He denied any numbness, a headache of significance, or visual changes.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "ear region (due to slight pain prior), general facial discomfort",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": null,
+    "picture": "[insert image highlighting right facial droop]",
+    "easing_factors": "Jake finds that resting, using a warm compress on the affected side, and gentle massage provide temporary relief from the discomfort associated with the facial paralysis.",
+    "past_history": "No previous instances of facial weakness or neurological conditions. No history of recent viral infections or trauma.",
+    "medical_history": "Generally healthy with no significant medical concerns or chronic conditions. Reports taking occasional over-the-counter antihistamines for seasonal allergies.",
+    "medications": "Currently not on any prescribed medications. Uses over-the-counter lubrication eye drops to prevent dryness in the affected eye.",
+    "personal_history": "Jake is a non-smoker, enjoys jogging, and occasionally consumes alcohol on weekends. He lives alone and has a demanding job with frequent tight deadlines, contributing to stress. ",
+    "imaging": "An MRI was ordered to rule out other neurological causes but showed no abnormalities. Clinical diagnosis confirmed Bell's Palsy.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 429,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1052,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1481
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

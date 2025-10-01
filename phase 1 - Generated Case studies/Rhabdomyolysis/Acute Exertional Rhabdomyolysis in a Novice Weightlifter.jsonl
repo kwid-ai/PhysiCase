@@ -1,0 +1,32 @@
+{
+    "id": "5b320e22-aacd-492f-9a81-edc538fffdd6",
+    "condition": "Rhabdomyolysis",
+    "title": "Acute Exertional Rhabdomyolysis in a Novice Weightlifter",
+    "clinical_history": "Mark is a 28-year-old male who recently decided to start a high-intensity weightlifting program after years of a sedentary lifestyle. Last weekend, he participated in a strenuous gym session under the supervision of a friend, performing multiple sets of squats, deadlifts, and lunges targeting the lower limbs, with insufficient rest between sets. Within 24 hours, Mark developed severe muscle pain, profound weakness in both thighs, and noticed dark-colored urine. He reported increasing swelling and tenderness of his thighs, making ambulation and stair climbing very difficult. On examination, he has marked tenderness and edema of bilateral quadriceps, with localized warmth but no erythema.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral quadriceps (primary report of severe tenderness and cramping pain)",
+            "score": "8-9"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Bilateral gluteal muscles (secondary, diffuse aching)",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Attempting to walk, rising from a chair, climbing or descending stairs, palpation of the thighs.",
+    "picture": "[insert image highlighting bilateral anterior thighs (quadriceps) and gluteal muscles]",
+    "easing_factors": "Resting in bed with legs elevated, cool compresses, gentle stretching, oral hydration.",
+    "past_history": "No previous history of similar symptoms. No chronic medical conditions identified.",
+    "medical_history": "Unremarkable. No known hypertension, kidney disease, diabetes, or other chronic illnesses.",
+    "medications": "No regular medications. Has taken ibuprofen 400mg twice in the past 24 hours for pain.",
+    "personal_history": "Works as an accountant. Non-smoker, drinks alcohol socially. No recent travel or trauma. Has not engaged in regular physical activity since high school.",
+    "imaging": "Currently none; labs reveal significantly elevated creatine kinase (CK > 20,000 IU/L) and mild elevated creatinine suggesting possible early acute kidney injury. Urinalysis positive for blood with no red blood cells seen on microscopy (suggesting myoglobinuria).",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "id": "83589f1a-b0bc-4958-a46e-63ec6d345d4c",
+    "condition": "Charcot-Marie-Tooth Disease",
+    "title": "Case Study: Progressive Distal Muscle Weakness in a Young Adult with Charcot-Marie-Tooth Disease",
+    "clinical_history": "Michael S., a 24-year-old male graduate student, reports a five-year history of progressive difficulty with walking and frequent tripping. He describes having had unusually high arches since adolescence and recently has noticed increasing weakness in his lower legs and hands. Over the past year, he has experienced difficulty rising onto his toes, frequent ankle sprains, and muscle cramps during moderate activity. His mother was diagnosed with a similar condition in her 40s. On examination, Michael displays bilateral foot drop, visible muscle atrophy in the anterior lower legs and hand intrinsics, and diminished deep tendon reflexes in the lower limbs. He experiences fatigue and mild, intermittent neuropathic pain in his feet after prolonged standing.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral distal lower leg muscles (anterior tibialis, peronei)",
+            "score": "2-4"
+        },
+        {
+            "context": "P2",
+            "affected_area": "intrinsic hand muscles",
+            "score": "1-2"
+        }
+    ],
+    "aggrevating_factors": "Prolonged walking or standing (>30 minutes), walking on uneven ground, cold temperatures, and moderate-intensity exercise.",
+    "picture": "Image suggestion: Marked wasting of anterior tibialis with bilateral pes cavus deformity and clawing of toes.",
+    "easing_factors": "Rest, wearing ankle-foot orthoses (AFOs), and gentle stretching. Uses warm packs for comfort.",
+    "past_history": "No history of major trauma; childhood milestones were within normal limits but recalls being the slowest runner in school. Family history notable for mother\u00e2\u20ac\u2122s similar neurological symptoms.",
+    "medical_history": "Generally healthy; history of resolved mild asthma in childhood.",
+    "medications": "Occasional ibuprofen for muscle discomfort; no regular medication.",
+    "personal_history": "Lives with a partner, supportive home environment. Ambitious student experiencing anxiety regarding future employment due to increasing physical limitations. Enjoys reading and computer gaming.",
+    "imaging": "Nerve conduction studies show reduced conduction velocities consistent with a demyelinating neuropathy. No advanced imaging performed to date.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with affected areas, aggravating and easing factors, past and medical history, medications, personal history, and relevant imaging. The content is highly relevant to Charcot-Marie-Tooth disease, demonstrating clinical accuracy and attention to patient safety. The response is clear, comprehensive, and includes minor but important details such as family history, functional impact, and specific examination findings. No significant omissions or inaccuracies are present.",
+            "success": true
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "id": "656168f3-b64e-47ba-ba08-6a87e82ff4ec",
+    "condition": "Scleroderma",
+    "title": "Progressive Hand Dysfunction in a Patient with Scleroderma",
+    "clinical_history": "Mrs. Dorothy Allen is a 48-year-old right-handed administrative assistant who presents with progressive tightening and pain in her hands over the past 18 months. She reports increasing difficulty with fine motor tasks and describes her skin as feeling 'thick' and 'stiff.' She notes intermittent pain and swelling in her fingers, particularly in the mornings. She also complains of significant sensitivity to cold, with color changes (white, blue, then red) in her fingers on exposure. Over the past 6 months, she has noticed a marked decrease in her grip strength and difficulty opening jars, writing, and buttoning her clothes. She denies trauma, but states that aches have extended to her wrists and forearms, and more recently, mild discomfort in her knees and ankles. She occasionally experiences heartburn and mild shortness of breath on exertion.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral hands and fingers (metacarpophalangeal and proximal interphalangeal joints), associated with tendon and skin involvement",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "bilateral wrists and distal forearms (extensor group), with stiffness and aching",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Cold exposure, repetitive hand movements (typing, writing, opening jars), prolonged inactivity, stress; morning stiffness exacerbates hand pain.",
+    "picture": "[insert illustration highlighting hands and forearms with visible skin thickening and digital pallor]",
+    "easing_factors": "Warmth (gloves, warm water), gentle hand exercises, topical emollients, NSAIDs, prescribed proton pump inhibitor improves reflux symptoms, rest.",
+    "past_history": "Mild Raynaud's phenomenon noted intermittently for 5 years prior to onset of hand symptoms. No prior joint injuries. No known autoimmune diseases in the family.",
+    "medical_history": "GERD (onset within last 6 months), mild hypertension managed with ACE inhibitor. No diabetes, renal or cardiac complaints.",
+    "medications": "Amlodipine 5mg daily, omeprazole 20mg daily, naproxen 250mg as needed, regular use of topical emollients, advised vasodilator cream for digital ischemia.",
+    "personal_history": "Non-smoker, social alcohol use, BMI 28kg/m2. Lives with spouse, two teenage children, no high-risk occupation. Limited sunlight exposure due to indoor work.",
+    "imaging": "Hand radiographs reveal mild soft tissue swelling, no erosions. HRCT chest pending to evaluate for early interstitial lung disease. Capillaroscopy demonstrates capillary dropout and dilated loops.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.5,
+            "reason": "The score is 0.50 because the LLM provided all the required content, but did not strictly follow the specified JSON structure and field names (e.g., 'nprs' instead of 'NPRS', 'picture' instead of 'Picture'). The score is not higher due to these formatting and structural unalignments, but it is not lower because the substantive information requested by the prompt was included.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and relevant imaging findings. The content is highly relevant to scleroderma, accurately describing hallmark features such as skin thickening, Raynaud's phenomenon, and systemic involvement. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

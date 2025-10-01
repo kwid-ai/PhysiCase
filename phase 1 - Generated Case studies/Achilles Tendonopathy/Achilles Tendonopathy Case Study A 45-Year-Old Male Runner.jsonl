@@ -1,0 +1,27 @@
+{
+    "id": "b4dedf2e-d8e1-405c-ba71-eeeb9a2f806a",
+    "condition": "Achilles Tendonopathy",
+    "title": "Achilles Tendonopathy Case Study: A 45-Year-Old Male Runner",
+    "clinical_history": "A 45-year-old male, avid runner, presented with a 6-week history of right ankle pain. He reported a gradual onset of pain and stiffness in the Achilles tendon region, which worsened over time. The patient noted that the pain is more pronounced in the mornings and after running. He has been training for a marathon and increased his running distance by 20% over the past 3 months.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Achilles tendon region",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "running, especially uphill or with quick changes of direction; jumping; landing from jumps; and morning stiffness",
+    "picture": "A 24-hour picture of the patient's symptoms shows that the pain is worse in the morning (8/10) and improves slightly throughout the day, but worsens again after running or jumping activities.",
+    "easing_factors": "rest; ice; stretching; and heel lifts",
+    "past_history": "history of ankle sprains (2 times) 5 and 7 years ago; overuse injuries in the past, including shin splints and plantar fasciitis",
+    "medical_history": "generally healthy; takes NSAIDs as needed for pain",
+    "medications": "ibuprofen 400mg 3 times a day as needed",
+    "personal_history": "married with two children; works as an accountant; enjoys running and hiking in his free time",
+    "imaging": "Ultrasound imaging revealed tendinosis and thickening of the Achilles tendon, with no signs of rupture",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

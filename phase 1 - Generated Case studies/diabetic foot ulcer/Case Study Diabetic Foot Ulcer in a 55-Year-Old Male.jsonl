@@ -1,0 +1,32 @@
+{
+    "id": "2f0ea7d8-abea-4c38-8c2a-f153839a5fd7",
+    "condition": "diabetic foot ulcer",
+    "title": "Case Study: Diabetic Foot Ulcer in a 55-Year-Old Male",
+    "clinical_history": "A 55-year-old male with a 10-year history of type 2 diabetes presents with a non-healing ulcer on the plantar surface of his right foot. The patient reports that the ulcer started as a small blister 6 weeks ago and has gradually increased in size despite conservative treatment with topical antibiotics and dressings. He has a history of neuropathy and has experienced numbness and tingling in his feet for several years. The patient has been managing his diabetes with medication and diet but has struggled with adherence to his treatment plan.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "pain and tenderness at the ulcer site",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "burning sensation in the foot due to neuropathy",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "prolonged standing, walking, or pressure on the affected foot",
+    "picture": "a photograph of the patient's foot with the ulcer",
+    "easing_factors": "rest, elevation of the foot",
+    "past_history": "history of hypertension, hyperlipidemia, and diabetic nephropathy",
+    "medical_history": "type 2 diabetes for 10 years, with complications including neuropathy and nephropathy",
+    "medications": "metformin, lisinopril, atorvastatin, and gabapentin for neuropathy",
+    "personal_history": "married with two children, works as an accountant, and has a sedentary lifestyle",
+    "imaging": "X-rays of the foot show no signs of osteomyelitis or Charcot changes, but MRI may be ordered to rule out deeper tissue involvement",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

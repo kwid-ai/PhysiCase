@@ -1,0 +1,27 @@
+{
+    "id": "5d9813ec-9954-44da-be1f-d34e704da944",
+    "condition": "Hamstring strain",
+    "title": "Case Study: Hamstring Strain in a Recreational Soccer Player",
+    "clinical_history": "A 28-year-old male recreational soccer player presented with a hamstring strain injury. He reported that during a soccer game 3 days prior to presentation, he experienced a sudden onset of sharp pain in the back of his thigh while sprinting. He heard a 'pop' and felt a severe pulling sensation in his hamstring. Since then, he has been experiencing pain and stiffness in the affected area, making it difficult for him to walk and perform daily activities.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "pain and stiffness in the posterior thigh, specifically in the biceps femoris muscle",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "sitting, bending, and stretching; aggravated by activities that involve hip flexion and knee extension, such as walking uphill or climbing stairs",
+    "picture": "A 24-hour pain picture shows that the pain is constant, with an increase in pain during activities and at night",
+    "easing_factors": "rest, ice, and compression; relieved by activities that involve relaxation and stretching of the hamstring muscle",
+    "past_history": "previous history of minor hamstring strains, but nothing severe; has a history of inadequate warm-up and stretching before playing soccer",
+    "medical_history": "generally healthy, but has a history of mild hypertension; no previous surgeries",
+    "medications": "none, but uses over-the-counter pain relievers such as ibuprofen for pain management",
+    "personal_history": "married with two children; works as an accountant and plays soccer recreationally 2-3 times a week",
+    "imaging": "MRI of the affected thigh showed a grade 2 hamstring strain in the biceps femoris muscle",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

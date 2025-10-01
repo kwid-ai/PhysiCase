@@ -1,0 +1,70 @@
+{
+    "id": "eb0d2c3b-4c80-4b95-a68a-93a9aa20f894",
+    "condition": "Hodgkins Lymphoma",
+    "title": "Matthew's Unilateral Neck and Shoulder Pain in the Context of Hodgkin's Lymphoma",
+    "clinical_history": "Matthew is a 28-year-old graduate student presenting with a 4-week history of persistent right-sided neck pain, accompanied by intermittent aching extending into the right shoulder and upper trapezius. He notes the insidious onset of a palpable lump above his right clavicle, initially painless, which has since become increasingly tender. Over recent weeks, he has developed mild systemic symptoms including fatigue, nocturnal sweating, and a low-grade fever. The pain worsens with sustained postures (e.g., reading or working at a desk) or when performing heavy lifting at the gym. There is no history of recent trauma, and he denies prior issues involving the neck or shoulder. Examination reveals palpable, firm, non-tender, enlarged right supraclavicular lymph nodes and restricted neck rotation due to discomfort. He is currently awaiting biopsy results.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right supraclavicular fossa and right upper trapezius",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Associated neck stiffness and general ache in shoulder musculature",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged sitting, studying with head down, lifting weights above shoulder height, turning head to the left, and nighttime (due to sweats and discomfort in supine position).",
+    "picture": "[insert image highlighting right-sided supraclavicular region and upper trapezius/shoulder area]",
+    "easing_factors": "Short periods of rest, use of a warm compress on the affected area, gentle stretching, and acetaminophen (Tylenol) as needed.",
+    "past_history": "No prior musculoskeletal complaints involving the neck or shoulder. History of mild seasonal allergies.",
+    "medical_history": "No major chronic conditions. No previous surgeries or hospitalizations.",
+    "medications": "Acetaminophen 500mg prn (as needed for pain); no ongoing prescription medications.",
+    "personal_history": "Non-smoker, moderate alcohol use, physically active with regular weight training. Lives alone in university housing, under significant academic and financial pressures.",
+    "imaging": "Ultrasound of the neck revealing multiple enlarged lymph nodes in the right supraclavicular chain; CT scan pending.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, demonstrating neutrality and fairness throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a respectful and appropriate response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9182425532696177,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, NPRS scores, aggravating and easing factors, relevant past and medical history, medications, personal history, and imaging. The content is highly relevant to Hodgkin's lymphoma, accurately describing classic symptoms (lymphadenopathy, B symptoms), examination findings, and appropriate investigations. The response is clear, comprehensive, and clinically accurate, supporting patient safety. The only minor shortcoming is the placeholder for the image rather than an actual image or more descriptive text, which slightly detracts from completeness.",
+            "success": true
+        }
+    ]
+}

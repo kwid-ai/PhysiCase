@@ -1,0 +1,70 @@
+{
+    "id": "41a5216c-d9e1-447a-b402-1376ea6e2ecd",
+    "condition": "fibromyalgia",
+    "title": "Complex Widespread Pain in a Middle-Aged Female with Fibromyalgia",
+    "clinical_history": "Mrs. Linda Brown is a 47-year-old administrative assistant who presents with a 4-year history of generalized muscle pain and fatigue. Her primary complaints include persistent, diffuse aching and stiffness in the neck, shoulders, upper and lower back, and hips. The pain is present daily, fluctuates in intensity, and is often accompanied by sleep disturbances, unrefreshing sleep, intermittent headaches, and episodes of 'brain fog' affecting memory and concentration. She reports that the symptoms have slowly worsened over the last year, particularly after a period of heightened work-related stress. She denies significant joint swelling or redness. There is no associated fever, weight loss, or rashes.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral trapezius, rhomboids, lumbar paraspinals, and gluteal muscles",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "quadriceps and forearm extensors",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Prolonged sitting or standing, cold or damp weather, elevated stress, poor-quality sleep, and excessive physical activity.",
+    "picture": "[illustration or diagram indicating widespread pain points, focusing on neck, upper back, lower back, and hips]",
+    "easing_factors": "Warm showers, gentle stretching, low-impact aerobic exercise (e.g., walking, swimming), cognitive behavioral relaxation techniques, and regular sleep routine.",
+    "past_history": "No significant trauma or surgery. Occasional mild anxiety episodes in the past, otherwise healthy.",
+    "medical_history": "No history of inflammatory arthritis, autoimmune disorders, or neuropathies. Diagnosed with mild depression 2 years ago, managed non-pharmacologically.",
+    "medications": "Duloxetine 30 mg daily for pain and mood stabilization, paracetamol as needed, magnesium supplement, and occasional use of melatonin for sleep.",
+    "personal_history": "Lives with spouse, has two teenage children. Sedentary work. Former amateur tennis player until symptoms worsened. Reports high work pressure and feels responsible for elderly parent care, adding to her stress load.",
+    "imaging": "Previous cervical and lumbar spine X-rays and MRI unremarkable; no evidence of structural pathology.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the output is highly aligned with the prompt, providing all required case study elements in detail. The only issue is minor: the keys 'nprs' and 'picture' are not capitalized as specified ('NPRS' and 'Picture'), which slightly reduces the score. Otherwise, the content and structure are excellent!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. The response is balanced and objective.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The information is highly relevant to fibromyalgia, clinically accurate, and comprehensive, addressing patient safety and excluding red flags. Minor details are not missing, and the response is clear and well-structured.",
+            "success": true
+        }
+    ]
+}

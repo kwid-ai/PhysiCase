@@ -1,0 +1,70 @@
+{
+    "id": "74aaa0b8-7f68-48e7-ade9-65c67aa8e418",
+    "condition": "Calf muscle tear",
+    "title": "The Weekend Warrior's Snap: A Case of Acute Medial Gastrocnemius Tear",
+    "clinical_history": "The patient is a 48-year-old male software engineer, Mr. Johnson, who presents with a two-day history of severe right calf pain. He was playing a competitive doubles tennis match when he ran forward to the net for a volley. As he pushed off his right foot, he experienced a sudden, sharp pain in his calf, which he described as 'feeling like someone had kicked me from behind.' He reports hearing a distinct 'pop' at the time of injury. He was unable to continue the match and could not bear weight on his right leg. Significant swelling and ecchymosis (bruising) developed over the medial aspect of his calf within a few hours. He is now ambulating with two crutches, non-weight bearing on the right side.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Sharp, localized pain in the medial belly of the calf muscle, triggered by any attempt to contract the muscle or bear weight.",
+            "score": "8-9/10"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Constant, diffuse throbbing and aching throughout the posterior calf, present even at rest.",
+            "score": "4-6/10"
+        }
+    ],
+    "aggrevating_factors": "Any form of weight-bearing on the right leg, active plantarflexion (pointing the foot), passive dorsiflexion (stretching the calf), walking (impossible without crutches), descending stairs, and prolonged dependency of the leg.",
+    "picture": "Image highlighting the medial head of the gastrocnemius muscle on the posterior aspect of the lower leg, noting the area of maximal tenderness and visible bruising.",
+    "easing_factors": "Strict non-weight bearing, elevation of the leg above the level of the heart, application of an ice pack, and use of a compression sleeve. He finds some relief from prescribed analgesics.",
+    "past_history": "Mr. Johnson reports a history of intermittent Achilles tendon tightness, particularly after exercise, for which he has never sought treatment. He recalls a minor 'calf pull' in the same leg about three years ago after a sudden sprint, which resolved with a week of rest.",
+    "medical_history": "Diagnosed with hypertension 5 years ago, well-controlled with medication. Otherwise, he is in good general health. No history of DVT or clotting disorders.",
+    "medications": "Lisinopril 10mg daily for hypertension. Taking Ibuprofen 600mg every 8 hours for pain and inflammation since the injury.",
+    "personal_history": "Married with two children. Works a sedentary desk job from home, often sitting for 8-10 hours a day. He is a 'weekend warrior,' engaging in high-intensity sports like tennis and basketball on Saturdays and Sundays but is minimally active during the week. He is anxious about the recovery time and his ability to return to playing tennis.",
+    "imaging": "A musculoskeletal ultrasound was performed which confirmed a Grade II tear at the musculotendinous junction of the medial head of the gastrocnemius. The scan also ruled out a concomitant Achilles tendon rupture or deep vein thrombosis (DVT).",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, directly addressing all aspects of the input task with no irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or perspectives, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, relevant past and medical history, medications, personal history, and imaging findings. The content is highly relevant to an acute medial gastrocnemius tear, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would compromise patient safety or clinical accuracy.",
+            "success": true
+        }
+    ]
+}

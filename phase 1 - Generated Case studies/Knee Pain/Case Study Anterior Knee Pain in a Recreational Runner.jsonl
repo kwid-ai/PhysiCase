@@ -1,0 +1,32 @@
+{
+    "id": "571d57a9-dde3-49a2-a06f-152ed11bd8d6",
+    "condition": "Knee Pain",
+    "title": "Case Study: Anterior Knee Pain in a Recreational Runner",
+    "clinical_history": "Mr. Rahul Sharma is a 36-year-old software engineer and recreational runner who presents with a 3-month history of gradually worsening pain in his right knee. The pain initially started as a mild discomfort after completing his regular 5k runs but has since progressed to persistent aching, especially during and after physical activity. Rahul reports increased pain with prolonged sitting (\"movie sign\"), stair descent, and squatting. He denies locking, significant swelling, or giving way but describes occasional crepitus. There is no history of trauma, surgery, or previous major knee injuries. On assessment, tenderness is noted over the patellofemoral joint with mild swelling and pain on resisted knee extension.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "anterior knee (patellofemoral joint, quadriceps tendon)",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "mild aching in lateral retinaculum",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Running (particular during downhill segments), stair descent, prolonged sitting (>30 min), deep squatting, rising from a chair, kneeling",
+    "picture": "[insert anatomical diagram highlighting the anterior aspect of the knee, patellofemoral region, and quadriceps tendon]",
+    "easing_factors": "Rest, gentle stretching of quadriceps and hamstrings, application of ice post-activity, reducing running distance",
+    "past_history": "Occasional episodes of mild knee pain following intense physical activity over the past 2 years, all of which resolved with rest. No previous surgeries or major trauma.",
+    "medical_history": "Mild seasonal allergic rhinitis. Otherwise healthy.",
+    "medications": "Occasional paracetamol 500mg post-run as needed; no regular medications.",
+    "personal_history": "Non-smoker, moderate alcohol intake (1-2 drinks/week), BMI 27. Enjoys running 3-4 times/week and participating in community fun runs. Works predominantly at a desk job with long hours of sitting.",
+    "imaging": "Not yet performed; will consider if symptoms persist or escalate after rehabilitation.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "id": "c13779ee-7cf3-44bc-a316-bad820db8e81",
+    "condition": "Coronavirus",
+    "title": "Post-COVID Myalgia and Functional Decline in a Middle-Aged Laboratory Technician",
+    "clinical_history": "Mr. Raj Kapoor is a 48-year-old laboratory technician who presented to physiotherapy following a confirmed diagnosis of COVID-19 four weeks ago. His acute infection was moderate: he required hospitalization for supplemental oxygen (via nasal cannula) for 8 days but was not admitted to ICU. He reports persistent generalized muscle aches and marked weakness, particularly in the lower limbs\u00e2\u20ac\u201dthighs and calves\u00e2\u20ac\u201das well as diffuse shoulder girdle discomfort. He denies prior similar complaints and previously enjoyed walking 5 km most mornings. At follow-up, Raj describes difficulty rising from a chair, climbing stairs, and persistent fatigue that limits his activity. He also reports disrupted sleep due to muscle discomfort. He denies chest pain or shortness of breath, though notes occasional dry cough. No neurological deficits are evident, but his muscle bulk appears slightly reduced. He does not report joint swelling or redness.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral thigh and calf muscles \u00e2\u20ac\u201c aching, fatigue-related soreness",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Bilateral shoulder girdle \u00e2\u20ac\u201c intermittent ache",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Prolonged walking, rising from a chair, stair climbing, carrying groceries, extended standing.",
+    "picture": "[Picture: Diffuse highlighting of lower limb muscles and shoulder girdle]",
+    "easing_factors": "Rest, gentle stretching, warm showers, pacing of activities, acetaminophen (as needed).",
+    "past_history": "No known comorbidities. No significant previous musculoskeletal problems.",
+    "medical_history": "Admitted for COVID-19 4 weeks ago; non-smoker, non-diabetic, no known hypertension or cardiovascular disease.",
+    "medications": "Paracetamol 500mg as needed for muscle aches (max 2/day); multivitamin; previously received dexamethasone during hospitalization.",
+    "personal_history": "Lives with spouse and two teenage children. Previously independent in all activities of daily living (ADLs). Primary earner for the family. Mild anxiety regarding slow recovery and financial concerns about returning to work.",
+    "imaging": "No imaging to date. Routine labs during admission were within normal range except transient elevated inflammatory markers (CRP, ferritin).",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias and provides a balanced and objective response.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and relevant imaging/lab findings. The content is highly relevant to post-COVID myalgia and functional decline, with clear, comprehensive, and clinically accurate information. There are no factual inaccuracies or omissions that would impact patient safety.",
+            "success": true
+        }
+    ]
+}

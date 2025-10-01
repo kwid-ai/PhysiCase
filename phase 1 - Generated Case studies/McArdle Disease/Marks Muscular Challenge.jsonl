@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By793YgY82B5rtkYBchFRvQm3ItUk",
+    "condition": "McArdle Disease",
+    "title": "Mark's Muscular Challenge",
+    "clinical_history": "Mark is a 30-year-old software engineer who has recently taken up hiking on weekends. He presents with complaints of cramping muscle pain and stiffness during his hikes, especially in the thighs and calves. He notes that the pain becomes unbearable and forces him to stop and rest. Interestingly, the pain often subsides after a brief rest, allowing him to resume hiking, albeit cautiously. He experiences muscle weakness with exertion which improves when he slows down his pace or stops entirely.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "thigh and calf muscle cramps",
+            "score": "7-8"
+        }
+    ],
+    "aggrevating_factors": "Prolonged exercise, particularly hiking uphill, or running for more than 10 minutes.",
+    "picture": "[Insert image of areas primarily affected by muscle cramps in the thighs and calves]",
+    "easing_factors": "Short rest periods frequently relieve muscle pain, allowing for continued physical activity at a moderate pace.",
+    "past_history": "No previous history of similar muscular issues. He has a relatively sedentary lifestyle with the exception of his recent hiking interest.",
+    "medical_history": "No significant medical history, though he was always less inclined towards physical exertion during school sports.",
+    "medications": "Occasional ibuprofen for muscle soreness post-exercise.",
+    "personal_history": "Mark lives alone and works long hours in front of a computer. He decided to take up hiking to improve his physique and combat work-related stress. He does not smoke and drinks alcohol socially.",
+    "imaging": "No imaging conducted at this time. Mark was advised to monitor symptoms and report any prolonged or severe episodes.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 366,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1054,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1420
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

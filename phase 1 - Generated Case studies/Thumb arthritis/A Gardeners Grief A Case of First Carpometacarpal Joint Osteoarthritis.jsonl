@@ -1,0 +1,32 @@
+{
+    "id": "3e11ae0a-cd3b-448d-985c-c08029fc68c5",
+    "condition": "Thumb arthritis",
+    "title": "A Gardener's Grief: A Case of First Carpometacarpal Joint Osteoarthritis",
+    "clinical_history": "The patient, Mr. David Chen, is a 68-year-old retired architect, who presents with a chief complaint of progressively worsening pain in his right thumb. He is right-hand dominant. The onset was insidious, beginning approximately five years ago as a minor ache, but has become significantly more pronounced and functionally limiting over the past year. He describes the pain as a deep, grinding ache located at the base of his thumb. His primary passion is building intricate ship models, a hobby that requires fine motor control and pinching maneuvers, which he now finds nearly impossible to perform for more than 10-15 minutes. He reports a noticeable loss of grip and pinch strength, frequently dropping tools or finding it difficult to open jars and turn doorknobs. A 'bump' has become more prominent at the base of his thumb, and he occasionally experiences a catching or locking sensation with movement. Regarding the 24-hour picture, he reports significant stiffness and pain upon waking, which lasts for about 30-45 minutes. The pain subsides to a low-level ache but is sharply exacerbated by activities. By the end of the day, his thumb feels weak and throbs, especially if he has been active in his workshop.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Deep, localized ache at the right first carpometacarpal (CMC) joint. Occasional sharp, grinding pain with movement.",
+            "score": "3-4/10 at rest, increasing to 7-8/10 with aggravating activities"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Secondary diffuse ache across the thenar eminence and into the dorsal aspect of the wrist.",
+            "score": "2-3/10, present mainly after prolonged activity"
+        }
+    ],
+    "aggrevating_factors": "Any activity involving forceful pinching or gripping: using a screwdriver, writing for extended periods, buttoning a shirt, turning a key, and his model-building hobby. Pain is significantly worse with twisting motions, like opening a jar.",
+    "picture": "[insert image highlighting the carpometacarpal (CMC) joint at the base of the thumb and the thenar eminence]",
+    "easing_factors": "Complete rest from activity, application of a warm compress, and wearing a neoprene thumb spica splint which he bought online. He notes the splint provides stability but finds it cumbersome.",
+    "past_history": "No history of significant trauma to the hand or wrist. He recalls his career as an architect involved decades of manual drafting and model building, which he believes may have contributed to the 'wear and tear'.",
+    "medical_history": "Hypertension, well-controlled with medication. Hypercholesterolemia. Otherwise in good general health with no history of systemic inflammatory conditions (e.g., Rheumatoid Arthritis, Psoriatic Arthritis).",
+    "medications": "Lisinopril for hypertension. Atorvastatin for cholesterol. Takes over-the-counter Naproxen Sodium (220mg) once or twice daily on days with increased pain.",
+    "personal_history": "Retired, lives with his wife. He is finding the functional limitations increasingly frustrating, as his hobby is a primary source of enjoyment and mental engagement. His wife has noted he is more irritable lately, which he attributes to the constant, nagging pain and inability to pursue his passions.",
+    "imaging": "X-ray of the right hand performed one month prior. The report confirms a diagnosis of osteoarthritis of the first CMC joint, noting significant joint space narrowing, subchondral sclerosis, and osteophyte formation, consistent with Eaton-Littler stage III changes.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

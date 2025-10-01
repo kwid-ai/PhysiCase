@@ -1,0 +1,70 @@
+{
+    "id": "18df0560-e138-42dc-9e56-d53befafa4d8",
+    "condition": "Lewy Body Dementia",
+    "title": "Graham: A Case of Lewy Body Dementia with Progressive Musculoskeletal Impairment",
+    "clinical_history": "Graham is a 70-year-old retired engineer who presented with a two-year history of progressive cognitive decline, vivid visual hallucinations, fluctuating levels of attention, and recent onset of parkinsonian motor features. He reports frequent episodes of muscle stiffness, particularly in the lower limbs and axial muscles, described as a persistent ache with intermittent cramping. He mentions difficulty rising from chairs, shuffling gait, and two recent falls in the past month. His sleep is disturbed due to acting out dreams (REM sleep behavior disorder), and his wife notes increased slowness in movement and occasional tremulousness. Graham finds activities of daily living increasingly challenging, needing assistance with dressing and bathing. He also reports dull pain in his lumbar region, possibly due to his increasingly stooped posture.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral lower limb rigidity (calves, quadriceps, hamstrings), proximal more than distal",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "lumbar paraspinal muscles (secondary postural pain from stooped gait)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Extended periods of walking, transitioning from sitting to standing, turning quickly, episodes of confusion or agitation; cold weather appears to make the rigidity and pain worse.",
+    "picture": "[Insert diagram of musculoskeletal system with bilateral lower limb musculature and lumbar paraspinals highlighted]",
+    "easing_factors": "Resting in a reclined position, gentle stretching, application of moist heat, and slow, assisted mobilization.",
+    "past_history": "No significant orthopaedic injuries relevant to complaint. History of hypertension (well-managed) and mild osteoarthritis of the knees.",
+    "medical_history": "Diagnosed with Lewy Body Dementia 18 months ago. No history of cerebrovascular accidents or significant trauma.",
+    "medications": "Currently on rivastigmine patch (for cognitive symptoms), low-dose levodopa/carbidopa (for motor symptoms), and melatonin at bedtime for REM sleep disorder; paracetamol as needed for pain.",
+    "personal_history": "Lives with his wife who is his primary carer; two adult children living independently. Formerly very active, Graham has withdrawn from most social and recreational activities due to fear of hallucinations and falls.",
+    "imaging": "Recent brain MRI showing mild generalized atrophy, greater in occipital and parietal regions; no acute infarct or mass lesion.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to Lewy Body Dementia with musculoskeletal impairment, demonstrating clinical accuracy and attention to patient safety. The response is clear, comprehensive, and includes minor but important details such as REM sleep behavior disorder and specific medication regimens. No factual inaccuracies or omissions are present.",
+            "success": true
+        }
+    ]
+}

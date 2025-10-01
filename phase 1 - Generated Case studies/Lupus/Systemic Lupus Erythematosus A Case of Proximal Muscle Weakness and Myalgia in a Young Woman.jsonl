@@ -1,0 +1,32 @@
+{
+    "id": "42fdcc1f-365f-439a-accf-c32ffb8763ee",
+    "condition": "Lupus",
+    "title": "Systemic Lupus Erythematosus: A Case of Proximal Muscle Weakness and Myalgia in a Young Woman",
+    "clinical_history": "Jessica M., a 29-year-old administrative assistant, presents with a six-month history of intermittent, diffuse muscle aches and progressive weakness in her upper arms and thighs. She describes prominent difficulty climbing stairs, rising from low chairs, and lifting objects overhead. The pain is described as a deep, aching sensation, worsening towards the evening and after physical activity. She recounts morning stiffness lasting about 45 minutes, joint swelling in her hands and knees intermittently, and reports several episodes of low-grade fevers, oral ulcers, and photosensitive facial rashes. She denies any significant trauma. There is associated mild swelling and tenderness along the proximal muscle bellies of the quadriceps and deltoids. She is currently unable to participate in her previously regular yoga sessions, owing to fatigue and muscle discomfort.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral proximal quadriceps and deltoid muscles (myalgia)",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Small joints of hands and knees (arthralgia/secondary complaint)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged physical activity, exposure to sunlight, and stress exacerbate muscle pain and fatigue. High-impact exercises and repetitive stair climbing markedly increase symptoms.",
+    "picture": "Proximal muscle tenderness noted in thighs and upper arms; malar rash over cheeks evident after sunlight exposure.",
+    "easing_factors": "Rest, gentle stretching, and non-steroidal anti-inflammatory drugs (NSAIDs) provide some symptom relief. Cool compresses ease discomfort after sun exposure.",
+    "past_history": "No history of recent infections, previous trauma, or prior rheumatologic disease. No significant childhood illnesses.",
+    "medical_history": "Family history notable for autoimmune thyroid disease (mother). No previous surgeries.",
+    "medications": "Recently commenced on hydroxychloroquine 200 mg daily by her rheumatologist. Occasional ibuprofen for pain. Topical sunscreen prescribed for photoprotection.",
+    "personal_history": "Non-smoker, consumes minimal alcohol. Single, lives alone, reports increased work-related stress recently. She exercises occasionally but has reduced activity due to symptoms.",
+    "imaging": "No recent imaging of musculoskeletal system. Laboratory studies reveal elevated ANA and mild creatine kinase elevation. Consider MRI if myositis is suspected.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

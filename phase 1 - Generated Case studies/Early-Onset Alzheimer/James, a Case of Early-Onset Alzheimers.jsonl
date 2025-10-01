@@ -1,0 +1,52 @@
+{
+    "id": "chatcmpl-By76LqfnIMcMhQdJroph9dEKeET1W",
+    "condition": "Early-Onset Alzheimer",
+    "title": "James, a Case of Early-Onset Alzheimer's",
+    "clinical_history": "James is a 52-year-old software engineer who has been experiencing progressive memory loss over the past year. He reports difficulty in remembering recent events and conversations. His wife has noticed that he has become increasingly forgetful, often misplacing items and struggling with familiar tasks like using the TV remote. He has also had trouble managing time and appointments, leading to stress and frustration.",
+    "nprs": [],
+    "aggrevating_factors": "Increased stress, changes in routine, fatigue, and distractions.",
+    "picture": "[insert image of the brain highlighting areas affected in Alzheimer's Disease]",
+    "easing_factors": "Consistent routine, decluttering environment, keeping a written schedule, cognitive therapy.",
+    "past_history": "No significant past medical history. No history of head trauma.",
+    "medical_history": "Family history of Alzheimer's Disease, with his mother diagnosed in her late 60s.",
+    "medications": "Prescribed Donepezil to help manage symptoms.",
+    "personal_history": "James is married with two children, ages 18 and 21. He was an active member of a local chess club and enjoyed hiking, but has recently reduced participation due to memory challenges.",
+    "imaging": "MRI scan shows mild atrophy consistent with early Alzheimer's disease.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 282,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1053,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1335
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

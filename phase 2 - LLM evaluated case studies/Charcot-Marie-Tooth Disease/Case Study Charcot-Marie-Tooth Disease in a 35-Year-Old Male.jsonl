@@ -1,0 +1,70 @@
+{
+    "id": "2f7c0d25-1b16-4e7c-bf35-2bf37b06fbb0",
+    "condition": "Charcot-Marie-Tooth Disease",
+    "title": "Case Study: Charcot-Marie-Tooth Disease in a 35-Year-Old Male",
+    "clinical_history": "A 35-year-old male, who works as an IT specialist, presented with a 5-year history of progressive weakness and atrophy in his lower extremities. He reported difficulty walking and frequent tripping over his own feet. The patient also complained of numbness and tingling sensations in his feet and legs. He has a family history of similar symptoms, with his father and grandfather experiencing similar issues.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral foot and ankle pain, described as burning and aching",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Intermittent sharp pain in the lower legs, particularly during physical activity",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, or running; high-impact activities such as jumping or hiking",
+    "picture": "The patient exhibits bilateral foot drop, with an inability to dorsiflex his feet. He has difficulty walking on his heels and has a noticeable steppage gait.",
+    "easing_factors": "Rest, sitting, and elevation of the legs",
+    "past_history": "The patient has a history of multiple ankle sprains and has undergone physical therapy for lower extremity strengthening and gait training.",
+    "medical_history": "The patient has been diagnosed with Charcot-Marie-Tooth Disease (CMT) type 1A, confirmed through genetic testing and electromyography (EMG).",
+    "medications": "The patient is currently taking gabapentin for pain management and has tried physical therapy in the past to improve mobility and strength.",
+    "personal_history": "The patient is married with two children and works full-time as an IT specialist. He reports difficulty with daily activities such as walking, climbing stairs, and participating in recreational activities.",
+    "imaging": "The patient has undergone MRI and X-ray imaging, which revealed bilateral peroneal muscle atrophy and mild pes cavus deformity.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' as required by the prompt. All other instructions are followed well, so the score remains high.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to Charcot-Marie-Tooth Disease, accurately describing typical symptoms, family history, examination findings, and diagnostic confirmation. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

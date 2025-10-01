@@ -1,0 +1,32 @@
+{
+    "id": "bea478aa-f8aa-4605-9294-8935ef37e0c9",
+    "condition": "Low Back Pain",
+    "title": "Chronic Low Back Pain in a Manual Laborer: The Case of Mr. Robert H.",
+    "clinical_history": "Mr. Robert H., a 48-year-old warehouse worker, presents with a 6-month history of persistent low back pain. The pain began insidiously after several months of increased overtime shifts requiring frequent lifting and prolonged stooping. He describes a deep, aching discomfort centralized over the lumbar spine, occasionally radiating to the right buttock (but not below the knee). He rates his primary pain as moderate to severe, worse by the end of his workday. He reports associated morning stiffness lasting up to 30 minutes and periodic sleep disruption due to discomfort when rolling in bed. The pain intensity fluctuates with activity levels, and he notes that it tends to increase with prolonged standing, lifting heavy objects, or forward bending. Sitting with adequate back support or lying supine with knees bent provides some relief. He has no lower limb weakness, numbness, or changes in bowel/bladder function.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "central lower lumbar region (L4-L5, L5-S1 paraspinals and multifidus)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "intermittent right gluteal pain (gluteus maximus, piriformis)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing (>30 minutes), repetitive lifting or bending, twisting movements, sitting on low chairs, driving for long durations, coughing or sneezing (mildly aggravating).",
+    "picture": "Patient reports greatest pain late in the workday, especially after multiple lifts, often with increased discomfort in the evening. Mornings marked by stiffness, which improves within an hour. Pain can also flare at night, particularly after excessive daytime activity, occasionally interrupting sleep.",
+    "easing_factors": "Rest in supine with knees bent, supportive chair with lumbar roll, use of hot packs, over-the-counter NSAIDs, gentle walking.",
+    "past_history": "Two minor episodes of acute low back pain in his late thirties, both resolving within a week. No trauma or prior surgeries. History of mild obesity and sedentary lifestyle outside of work.",
+    "medical_history": "Borderline hypertension controlled with diet, BMI 29. No diabetes or systemic illness.",
+    "medications": "Ibuprofen 400 mg as needed (up to twice daily), occasional use of topical analgesic cream.",
+    "personal_history": "Married, two adolescent children. High job stress due to recent layoffs at work. Reports limited time for recreational activity; no structured exercise routine. Non-smoker, occasional alcohol. Feels increased job insecurity and worries about providing for his family.",
+    "imaging": "Lumbar spine X-ray shows mild degenerative disc changes at L4-L5 and L5-S1, no evidence of fracture or malignancy. No red flag findings.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

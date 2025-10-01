@@ -1,0 +1,32 @@
+{
+    "id": "5bcc6b8a-35b1-4ed9-8110-6b5dad646540",
+    "condition": "Cerebral Palsy",
+    "title": "Liam's Transition: Managing Spastic Diplegia in a University Setting",
+    "clinical_history": "Liam is a 19-year-old male in his first year of university, studying computer engineering. He was diagnosed with spastic diplegic Cerebral Palsy at 18 months of age. While he has managed his condition effectively throughout his childhood with consistent physical therapy and assistive devices, the transition to a large, sprawling university campus has presented new challenges. He reports a significant increase in lower limb muscle tightness and pain (P1) and new-onset low back pain (P2) over the past three months since starting his studies. He walks with a classic scissoring gait, using bilateral ankle-foot orthoses (AFOs) for stability, but finds the long distances between lecture halls and his dormitory exhausting. He notes increased difficulty with stairs and has had two near-falls in the last month, eroding his confidence in independent ambulation on campus. He is concerned that his physical limitations are impacting his ability to keep up with his demanding academic schedule and participate in social activities.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral hamstrings, hip adductors, and gastrocnemius muscles. Characterized by constant high tone/tightness with intermittent sharp, painful spasms.",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Lumbar spine region. Described as a persistent, dull ache.",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Walking for more than 15-20 minutes, especially on inclined or uneven surfaces. Ascending/descending stairs. Prolonged sitting (>45 minutes) in rigid lecture hall chairs, which increases low back pain and hamstring tightness. Cold, damp weather noticeably increases overall spasticity.",
+    "picture": "A diagram illustrating the human musculature from a posterior view, with primary focus areas highlighted: the hamstring group, the hip adductor group (medial thigh), and the gastrocnemius (major calf muscle). A secondary focus area is highlighted in the lumbar region of the back.",
+    "easing_factors": "A dedicated stretching routine performed for 20 minutes each morning and evening. Short rest periods (5-10 minutes) after walking long distances. Consistent use of prescribed Baclofen. Application of a heat pack to his low back before sleep.",
+    "past_history": "Diagnosed with spastic diplegic CP at 18 months following developmental delays. He has received consistent physical and occupational therapy throughout childhood and adolescence. At age 12, he underwent a bilateral surgical procedure for hamstring and heel cord lengthening to improve his gait and range of motion. He has utilized various orthotics throughout his life, currently using bilateral solid AFOs for ambulation.",
+    "medical_history": "Primary diagnosis of Spastic Diplegic Cerebral Palsy. No history of seizures. Otherwise in good general health with all immunizations up to date.",
+    "medications": "Oral Baclofen 10mg, taken three times daily to manage spasticity. Ibuprofen 400mg, taken as needed for significant muscle or back pain, approximately 3-4 times per week.",
+    "personal_history": "Liam lives in a university dormitory room on the second floor; while an elevator is available, it is often crowded and slow, leading him to use the stairs frequently. He is the older of two children and describes his family as very supportive, though they live a three-hour drive away. He is highly motivated academically but expresses significant frustration with his current physical endurance. He reports feeling socially isolated, as he often declines invitations from peers that involve activities he finds physically prohibitive, such as walking to off-campus events or playing casual sports.",
+    "imaging": "A brain MRI conducted at age 2 revealed evidence of periventricular leukomalacia, which is consistent with his CP diagnosis. Hip and spine surveillance X-rays at age 16 showed stable hip joints with no evidence of subluxation and a mild, non-progressive thoracolumbar scoliosis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "f262a4c4-6c90-4571-9e7c-904d35591c96",
+    "condition": "Cerebral Palsy",
+    "title": "Case Study: Spastic Diplegia Cerebral Palsy in a Young Adult",
+    "clinical_history": "Meet Emma, a 22-year-old with spastic diplegia cerebral palsy. She was born prematurely at 28 weeks and had a birth weight of 1 kg. Emma's cerebral palsy was diagnosed at 12 months of age, and she has been receiving physical therapy and occupational therapy since then. She has a history of muscle spasticity, particularly in her lower limbs, which affects her gait and balance. Emma uses a walker for long distances and has difficulty with fine motor tasks. She experiences pain and stiffness in her muscles, especially after periods of inactivity or excessive use.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral lower limb muscle spasticity and stiffness",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Occasional sharp pain in the lower back",
+            "score": "4-5"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking long distances, and muscle fatigue",
+    "picture": "A 24-hour picture of Emma's daily activities, including her morning routine, physical therapy sessions, and evening stretching exercises.",
+    "easing_factors": "Rest, stretching exercises, and physical therapy sessions",
+    "past_history": "Emma has a history of multiple surgeries, including bilateral Achilles tendon lengthening and hamstring release. She has also received botulinum toxin injections to manage muscle spasticity.",
+    "medical_history": "Emma has a history of constipation, gastroesophageal reflux disease (GERD), and seizures, which are well-managed with medication.",
+    "medications": "Baclofen for muscle spasticity, omeprazole for GERD, and carbamazepine for seizures",
+    "personal_history": "Emma lives with her family and attends a local university, studying social work. She is independent in her daily activities but requires assistance with transfers and balance.",
+    "imaging": "X-rays of her lower limbs and spine show mild scoliosis and bilateral hip subluxation.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

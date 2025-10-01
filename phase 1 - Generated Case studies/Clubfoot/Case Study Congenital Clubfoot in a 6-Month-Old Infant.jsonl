@@ -1,0 +1,27 @@
+{
+    "id": "f38ab407-f4f6-4be2-963e-4b37c4c32945",
+    "condition": "Clubfoot",
+    "title": "Case Study: Congenital Clubfoot in a 6-Month-Old Infant",
+    "clinical_history": "A 6-month-old male infant, born at 38 weeks gestation via cesarean section, presents with a congenital clubfoot deformity in his right foot. The parents first noticed the deformity at birth. The infant's foot is in a position of plantar flexion, inversion, and adduction, with a decreased ankle joint dorsiflexion range. The parents report that the infant experiences difficulty in moving his foot and has not shown any improvement over the past 6 months.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right foot and ankle",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Passive stretching of the foot and ankle, particularly in the direction of dorsiflexion and eversion",
+    "picture": "An image of a 6-month-old infant's right foot showing clubfoot deformity",
+    "easing_factors": "Gentle manipulation and mobilization of the foot and ankle",
+    "past_history": "The infant has a family history of clubfoot, with a maternal aunt who had a similar condition. The infant has been otherwise healthy, with no other medical conditions or complications.",
+    "medical_history": "The infant was born at 38 weeks gestation via cesarean section, with a birth weight of 3.2 kg. He has been followed up regularly by his pediatrician and has received routine vaccinations.",
+    "medications": "None",
+    "personal_history": "The infant lives with his parents and has an older sibling who is 2 years old. The family has a supportive network of relatives and friends.",
+    "imaging": "X-rays of the right foot and ankle showing a clubfoot deformity with a decreased talocalcaneal angle",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

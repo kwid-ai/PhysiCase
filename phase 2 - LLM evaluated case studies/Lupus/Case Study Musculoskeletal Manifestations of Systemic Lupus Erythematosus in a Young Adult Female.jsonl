@@ -1,0 +1,70 @@
+{
+    "id": "e7873de5-0359-4394-9aed-9f6f52ce8721",
+    "condition": "Lupus",
+    "title": "Case Study: Musculoskeletal Manifestations of Systemic Lupus Erythematosus in a Young Adult Female",
+    "clinical_history": "Maria H., a 28-year-old administrative assistant, presents with a 3-month history of diffuse, intermittent joint pain affecting both hands, wrists, and knees. She complains of pronounced morning stiffness lasting over an hour, often with noticeable swelling of the small joints of her hands. Episodes are more frequent following busy workdays spent typing or after prolonged standing. Maria also reports increased fatigue, occasional low-grade fevers, and a red, butterfly-shaped rash over her cheeks and nose after sun exposure. She denies any recent trauma but notes that her mother was diagnosed with rheumatoid arthritis in her forties. Past consultations have involved non-specific joint pain, but current symptoms are more persistent and severe. Recent bloodwork confirmed a positive ANA and anti-dsDNA, consistent with systemic lupus erythematosus.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral wrists and small joints of the hands (MCP, PIP joints)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Bilateral knees (episodic aching and mild swelling)",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Prolonged typing or use of hands, weight-bearing activity (climbing stairs, extended walking), cold weather, and sustained sun exposure.",
+    "picture": "Patient presents with visible swelling and decreased active range of motion in wrists and proximal hand joints. Facial malar rash is notable after sun exposure. Mild knee effusion noted bilaterally.",
+    "easing_factors": "Rest with hands elevated, use of cold packs for swollen joints, NSAIDs as needed, gentle range-of-motion exercises in the morning, and avoidance of prolonged sun exposure.",
+    "past_history": "Prior episodes of migratory arthralgia over the past year, previously attributed to overuse.",
+    "medical_history": "No prior major illnesses. Mild iron-deficiency anemia noted six months ago.",
+    "medications": "Recently started on Hydroxychloroquine 200mg daily, NSAIDs (ibuprofen) as needed for pain.",
+    "personal_history": "Non-smoker, moderate alcohol use (1-2 drinks/week), single, lives alone but has a supportive circle of friends. Reports increased stress recently due to promotion at work. No children. Enjoys hiking but has curtailed activity due to pain.",
+    "imaging": "Plain radiographs of hands and knees show no erosions; soft tissue swelling present in small joints of hands. Musculoskeletal ultrasound reveals mild synovitis in MCP and PIP joints.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to systemic lupus erythematosus, accurately describing musculoskeletal and systemic manifestations, laboratory findings, and appropriate management. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

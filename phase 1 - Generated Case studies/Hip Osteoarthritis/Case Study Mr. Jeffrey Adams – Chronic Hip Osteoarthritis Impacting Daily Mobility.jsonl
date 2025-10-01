@@ -1,0 +1,32 @@
+{
+    "id": "5c2b6396-7a89-4d51-a2dd-8aa1406b992d",
+    "condition": "Hip Osteoarthritis",
+    "title": "Case Study: Mr. Jeffrey Adams – Chronic Hip Osteoarthritis Impacting Daily Mobility",
+    "clinical_history": "Mr. Jeffrey Adams is a 67-year-old retired postal worker presenting to the outpatient physical therapy clinic complaining of persistent right hip pain ongoing for the past 9 months, with gradual onset. Initially, he noticed an intermittent, dull ache deep in his right groin region, especially after walking for extended periods or rising from a seated position. Over the past four months, the pain intensity and frequency have increased, now affecting his ability to walk more than 20 minutes and causing a pronounced limp by the end of the day. He experiences marked morning stiffness lasting over 45 minutes and difficulty ascending stairs. He reports secondary discomfort along the lateral aspect of his hip, occasionally radiating into the upper thigh. He denies any history of significant trauma but reports previous minor right hip ‘aches’ after long walks over the last 6-7 years. Clicking and catching sensations are present, but no locking. Sleep is increasingly disturbed due to discomfort when rolling or lying on his right side.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Deep right groin pain and anteromedial thigh",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Lateral hip (trochanteric region); intermittent ache or burning",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged walking (>20 min), standing, rising from low chairs, climbing stairs, crossing legs, car transfers, deep squatting. Symptoms exacerbated after shopping trips or extended standing during meal preparation.",
+    "picture": "[image representation: highlighting right groin, anteromedial upper thigh, and outer (lateral) hip]",
+    "easing_factors": "Short seated rests, warm compresses, gentle supine knee flexion, low-resistance cycling. Over-the-counter acetaminophen provides partial relief.",
+    "past_history": "History of mild right hip discomfort following extensive walking or hiking over past several years, but was manageable without medical intervention until this past year. Mild right ankle sprain 12 years previously; full recovery.",
+    "medical_history": "Hypertension (well managed with lisinopril), mild hyperlipidemia, BMI 31. No known diabetes or cardiovascular disease. No history of inflammatory arthritis.",
+    "medications": "Lisinopril 20mg daily, Atorvastatin 10mg daily, Acetaminophen 500mg as needed (up to 2x/day recently for pain)",
+    "personal_history": "Non-smoker; drinks alcohol occasionally with dinner. Married, lives with spouse in single-story home. Previously very active, now reports reduced participation in community walking group due to pain. Enjoys gardening but now requires frequent breaks.",
+    "imaging": "Recent right hip radiograph shows reduced joint space (especially superolateral), subchondral sclerosis, and osteophyte formation consistent with moderate osteoarthritis per Kellgren-Lawrence criteria.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

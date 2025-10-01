@@ -1,0 +1,27 @@
+{
+    "id": "853781f0-59bc-4d52-83aa-834643c05636",
+    "condition": "Headache",
+    "title": "A Case of Tension-Type Headache",
+    "clinical_history": "Emily is a 32-year-old marketing specialist who presents with a 6-month history of tension-type headaches. She reports that the headaches started after a significant increase in workload and stress at her job. The headaches are described as a dull, aching sensation that affects both sides of her head, often starting in the neck and shoulders and radiating to the forehead.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral frontal and temporal regions, with associated neck and shoulder tension",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": "Prolonged computer use, stress, poor posture, and lack of sleep",
+    "picture": "A 24-hour picture showing the headache pattern: The headaches typically start in the late morning, worsen throughout the day, and improve slightly in the evening. However, they have been increasing in frequency and intensity over the past few months.",
+    "easing_factors": "Over-the-counter pain relievers, relaxation techniques, and massage",
+    "past_history": "History of episodic tension-type headaches as a teenager, but they resolved spontaneously. She has a family history of migraines.",
+    "medical_history": "Generally healthy, but has experienced some episodes of neck pain and stiffness in the past.",
+    "medications": "Occasional use of acetaminophen or ibuprofen for headache relief",
+    "personal_history": "Married with two young children, works full-time, and has a busy social life. She reports feeling overwhelmed and stressed about meeting her responsibilities.",
+    "imaging": "None to date, as her primary care physician suspects tension-type headaches based on her symptoms and medical history.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

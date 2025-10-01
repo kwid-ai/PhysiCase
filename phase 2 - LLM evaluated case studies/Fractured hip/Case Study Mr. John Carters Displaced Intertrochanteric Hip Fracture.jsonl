@@ -1,0 +1,70 @@
+{
+    "id": "0e3d01b5-b8f1-46f9-b137-af6021239479",
+    "condition": "Fractured hip",
+    "title": "Case Study: Mr. John Carter's Displaced Intertrochanteric Hip Fracture",
+    "clinical_history": "John Carter is a 78-year-old retired factory worker who presented to the emergency department following a slip and fall on his kitchen floor. He immediately experienced severe left hip pain and was unable to bear weight. Emergency medical services found him lying supine, with the left leg shortened and externally rotated. He reports a history of occasional dizziness, most recently a week prior to the fall. On examination, the affected hip is tender to palpation, with marked restrictions in active and passive movement and significant guarding due to pain. Radiographs confirm a displaced intertrochanteric fracture of the left femur. He is scheduled for surgical fixation.",
+    "nprs": [
+        {
+            "context": "P1 - Primary",
+            "affected_area": "Left hip region (deep, lateral, and groin)",
+            "score": "8-10"
+        },
+        {
+            "context": "P2 - Secondary",
+            "affected_area": "Left thigh (proximal musculature), radiating pain",
+            "score": "4-5"
+        }
+    ],
+    "aggrevating_factors": "Attempting to move or rotate the left lower limb, weight bearing, transferring between bed and chair, coughing or sneezing. Pain worsens with any movement of the hip.",
+    "picture": "Throughout the day, pain is severe at rest and excruciating with any attempted movement. Sleep is fragmented due to pain despite standard analgesia. Unable to perform basic activities of daily living independently since the fall.",
+    "easing_factors": "Application of cold packs, immobilization of the limb, administration of opioid analgesics, and remaining supine with minimal movement.",
+    "past_history": "History of hypertension for 15 years, managed with medications. No previous falls recorded. Osteopenia noted in recent DEXA scan, but no prior fractures.",
+    "medical_history": "Hypertension (well-controlled), osteopenia, benign prostatic hyperplasia. No known cardiac or pulmonary comorbidities.",
+    "medications": "Lisinopril 10mg daily, Hydrochlorothiazide 25mg daily, Tamsulosin 0.4mg at night, Acetaminophen as needed for headaches, Oxycodone 5mg every 4 hours PRN for hip pain since hospitalization.",
+    "personal_history": "Lives alone in a one-story home. Widowed 10 years ago. Three adult children, all living out of state. He manages independent self-care but requires a cane for outdoor ambulation. No tobacco or alcohol use.",
+    "imaging": "AP and lateral radiographs of the pelvis and left hip confirm a displaced intertrochanteric fracture of the left femur. No head injury on CT. Pre-operative labs within normal limits.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the content is thorough and all required information is present, but the output does not fully align with the specified JSON structure\u2014field names and capitalization do not match exactly as instructed. This prevents a perfect score, but the high score reflects that all substantive prompt requirements were addressed.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, directly addressing all aspects of the input task with no irrelevant statements. Excellent job staying focused and thorough!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone throughout.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to a displaced intertrochanteric hip fracture, with accurate clinical presentation, examination findings, and appropriate pain assessment. The response is clear, comprehensive, and clinically accurate, with no omissions or factual errors, ensuring patient safety and reflecting best practices.",
+            "success": true
+        }
+    ]
+}

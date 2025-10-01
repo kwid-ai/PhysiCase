@@ -1,0 +1,32 @@
+{
+    "id": "8a8d88de-25a8-410d-95c0-8102ecaa7253",
+    "condition": "Ankle Sprain",
+    "title": "Ankle Sprain Case Study: Emily's Experience",
+    "clinical_history": "Emily, a 28-year-old recreational soccer player, presented to the clinic with a complaint of severe pain and swelling on the lateral aspect of her right ankle. She reported that during a soccer game 2 days ago, she landed awkwardly on her right ankle while trying to change direction quickly, which resulted in a sudden sharp pain and a feeling of 'giving way'. She was unable to bear weight on her ankle immediately after the injury and had to be helped off the field. Since then, she has been experiencing pain, swelling, and stiffness in her ankle, making it difficult for her to walk or participate in daily activities.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral ankle pain, sharp and aching",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "medial ankle pain, mild and aching",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "weight-bearing activities such as walking, standing, and climbing stairs; ankle movements, especially inversion and eversion",
+    "picture": "A 24-hour picture of Emily's ankle would show significant swelling and bruising on the lateral aspect, with difficulty bearing weight on the affected limb.",
+    "easing_factors": "rest, ice, compression, and elevation (RICE); taking pain medication such as ibuprofen",
+    "past_history": "Emily has had a previous ankle injury 5 years ago, which was managed conservatively. She has been relatively active in sports and physical activities since then but has not had any significant injuries.",
+    "medical_history": "generally healthy, no chronic medical conditions",
+    "medications": "ibuprofen 400mg every 4-6 hours as needed for pain and inflammation",
+    "personal_history": "married, works as a marketing specialist, and enjoys playing soccer and hiking in her free time",
+    "imaging": "X-rays of the ankle were taken immediately after the injury, which showed no evidence of fractures or dislocations. An MRI may be ordered in the future to assess the extent of ligamentous damage.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

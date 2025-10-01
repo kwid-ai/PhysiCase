@@ -1,0 +1,32 @@
+{
+    "id": "003ab52d-0e80-4b5f-9324-d37a9fce10bf",
+    "condition": "Rotator Cuff Injury",
+    "title": "Rotator Cuff Injury in an Overhead Athlete: The Case of Mark",
+    "clinical_history": "Mark is a 38-year-old recreational tennis player and sales executive who presents with a 3-week history of progressive right shoulder pain. The onset was insidious, initially noticed during an overhead smash in a competitive match. He describes the pain as deep and poorly localized over the lateral aspect of the shoulder, exacerbated by serving, lifting objects overhead, and reaching behind his back. There is night pain, particularly when lying on the right shoulder, resulting in disrupted sleep. He reports weakness in the arm, especially during abduction and external rotation. He denies any significant trauma, numbness, or tingling. He has reduced ability to carry briefcases and perform work-related presentations that require overhead pointing.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right lateral deltoid region (primary: supraspinatus and infraspinatus tendons)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "upper arm (secondary ache along anterior deltoid with certain movements)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Overhead activities (serving, throwing, lifting objects above shoulder height), reaching behind the back, sleeping on the affected side, and repetitive arm elevation.",
+    "picture": "[image of the right shoulder, localizing symptoms to the lateral deltoid region, with markings indicating involvement of supraspinatus and infraspinatus tendons]",
+    "easing_factors": "Rest, application of ice packs, avoiding overhead activities, and use of a supportive brace. Non-dominant arm use for daily activities.",
+    "past_history": "Prior episode of mild right shoulder discomfort 2 years ago, resolved with brief rest. No history of shoulder dislocations or surgeries.",
+    "medical_history": "Unremarkable. No history of diabetes, rheumatologic, or systemic disease.",
+    "medications": "Occasional ibuprofen 400mg as needed for pain, typically in the evenings.",
+    "personal_history": "Non-smoker. Social alcohol use. Works long hours at a desk job, with high levels of professional stress but finds tennis to be his main stress reliever. Married with two young children.",
+    "imaging": "Plain radiographs: unremarkable. Ultrasound: partial-thickness tear of the supraspinatus tendon with mild subacromial bursitis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

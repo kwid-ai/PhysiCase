@@ -1,0 +1,32 @@
+{
+    "id": "1754231b-b05c-4f6a-ab6b-191b06a61c98",
+    "condition": "TMJ Jaw and Ear Pain",
+    "title": "TMJ Dysfunction Presenting with Jaw and Ear Pain: The Case of Mr. Mark Daniels",
+    "clinical_history": "Mr. Mark Daniels is a 37-year-old architect who presents with a 3-month history of right-sided jaw pain, radiating into the temporal region and right ear. He reports a dull ache throughout the day, which escalates to a sharp pain when chewing tough foods or yawning. He notes frequent clicking and mild locking of the jaw, especially in the morning. Mark has been waking at night with jaw discomfort and a sensation of fullness in the right ear. He denies hearing loss or dizziness. Mr. Daniels admits to increased stress at work, and his spouse has observed repeated clenching of his jaw during sleep.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right temporomandibular joint – including masseter and temporalis muscles",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right preauricular and ear region",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Chewing hard/tough foods, yawning, prolonged speaking, jaw clenching (noted during stress or sleep), morning after sleep",
+    "picture": "[insert image with highlighted right TMJ region, masseter, temporalis, and periauricular area]",
+    "easing_factors": "Soft diet, hot compresses over jaw, NSAIDs temporarily relieve pain, relaxation exercises",
+    "past_history": "Minor jaw trauma during rugby in early 20s, self-limited. Reports history of bruxism during college exams.",
+    "medical_history": "No significant chronic illnesses. No prior surgeries. No allergies reported.",
+    "medications": "Occasional ibuprofen 400 mg PRN; uses mouthguard at night (recently prescribed by dentist).",
+    "personal_history": "Works long hours at a desk; high-pressure profession. Married, two young children. Reports high occupational and parental stress. Limited physical activity.",
+    "imaging": "None to date. Dental panoramic X-ray pending to exclude other dental causes.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

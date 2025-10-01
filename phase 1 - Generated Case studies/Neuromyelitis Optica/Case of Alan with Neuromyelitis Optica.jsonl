@@ -1,0 +1,63 @@
+{
+    "id": "chatcmpl-By79GUhUQco81GBcawCAymklX8TEs",
+    "condition": "Neuromyelitis Optica",
+    "title": "Case of Alan with Neuromyelitis Optica",
+    "clinical_history": "Alan is a 38-year-old software developer who initially presented six months ago with sudden onset of bilateral visual impairment, which he described as a 'blurred and foggy' vision, making it difficult for him to concentrate on his computer screen. This episode, mainly affecting both eyes, resolved after a few days with the help of oral corticosteroids. Recently, Alan experienced sudden weakness in his lower limbs, accompanied by numbness and tingling sensations. The weakness gradually worsened, affecting his ability to walk and complete daily chores. Alan reported intermittent bladder dysfunction and has had a few episodes of urinary incontinence over the past weeks.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lower limb weakness and paraesthesia",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "intermittent headache due to visual strain",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "prolonged sitting, stressful work conditions, screen work without breaks.",
+    "picture": "[insert image highlighting spine and optic pathway]",
+    "easing_factors": "Rest, taking periodic breaks from screen work.",
+    "past_history": "Notable for the past episode of blurred vision six months ago. No significant medical or surgical history otherwise.",
+    "medical_history": "No significant past medical history.",
+    "medications": "Currently on Rituximab infusions as part of long-term management. Takes ibuprofen as needed for headaches.",
+    "personal_history": "Single, lives alone, works from home primarily due to the current health condition restrictions. Participates in a local community support group for individuals with chronic illnesses.",
+    "imaging": "Recent MRI of the brain and spine shows longitudinally extensive transverse myelitis and bilateral optic nerve enhancement consistent with neuromyelitis optica spectrum disorder.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 414,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1055,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1469
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

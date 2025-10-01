@@ -1,0 +1,65 @@
+{
+    "id": "436aff13-f7c3-4537-a3d2-9902ec29c18a",
+    "condition": "Addison",
+    "title": "A Case of Progressive Adynamia and Myalgia in a 42-Year-Old Male",
+    "clinical_history": "Mr. Chen is a 42-year-old high school biology teacher and soccer coach who presents to physical therapy via direct access with a chief complaint of profound, progressive fatigue and widespread muscle pain over the last 6-8 months. The onset was insidious, initially attributed to 'burnout' from his demanding schedule. However, his symptoms have worsened to the point where he has had to take a leave of absence from coaching. He reports a debilitating lack of energy that is not alleviated by rest, describing it as 'feeling like the plug has been pulled'. His muscle pain is a deep, aching sensation, primarily in his legs and low back, making activities like walking up stairs or even standing to teach his class incredibly difficult. He has also experienced episodes of lightheadedness and dizziness, especially when rising from a seated or lying position. His wife, who accompanied him to the initial evaluation, adds that he has lost approximately 15 pounds unintentionally and that his skin has taken on a 'tanned' appearance, even on areas not exposed to the sun, which she first noticed on his old surgical scars and the creases of his palms.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "A deep, diffuse, and constant ache in the bilateral quadriceps, hamstrings, and low back muscles.",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": null,
+    "picture": null,
+    "easing_factors": "Complete rest provides minimal relief for the fatigue but can temporarily decrease the intensity of the muscle ache. Lying down immediately alleviates the dizziness. The patient reports an unusual and strong craving for salty foods (e.g., potato chips, pickles), and notes a slight, fleeting improvement in his malaise after consuming them.",
+    "past_history": "Appendectomy at age 18. Otherwise, has always been physically active and has no significant history of musculoskeletal injuries.",
+    "medical_history": "Diagnosed with Hashimoto's thyroiditis (an autoimmune condition) 3 years ago, which is well-managed with medication. This history of autoimmune disease is a significant clinical indicator.",
+    "medications": "Levothyroxine for Hashimoto's. Has been self-treating the muscle pain with over-the-counter NSAIDs (Ibuprofen) with negligible effect.",
+    "personal_history": "Married with two children. Expresses significant frustration and low mood related to his inability to work and participate in family activities. He is an avid hiker and can no longer tolerate even short trails, which has impacted his mental well-being.",
+    "imaging": "No imaging has been performed. However, due to the constellation of symptoms (hyperpigmentation, hypotension, fatigue, salt craving) and history of another autoimmune condition, the physical therapist has referred Mr. Chen to his primary care physician with a strong recommendation for an endocrinology work-up, including blood tests to assess cortisol and ACTH levels.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.75,
+            "reason": "The score is 0.75 because the output does not follow the exact key names and capitalization specified in the required JSON structure (e.g., 'nprs' instead of 'NPRS', 'picture' instead of 'Picture', and a mismatch in 'aggrevating_factors'). However, the content and structure otherwise closely follow the prompt, which is why the score is not lower.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content; it is entirely appropriate.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9982013788458739,
+            "reason": "The output contains all required fields in the specified format and is highly relevant to the likely diagnosis of adrenal insufficiency (Addison's disease), given the clinical history of fatigue, myalgia, hyperpigmentation, hypotension, salt craving, and a background of autoimmune disease. The response is clear, comprehensive, and clinically accurate, emphasizing the need for urgent endocrinological evaluation and appropriate laboratory work-up, which prioritizes patient safety. No significant details are missing.",
+            "success": true
+        }
+    ]
+}

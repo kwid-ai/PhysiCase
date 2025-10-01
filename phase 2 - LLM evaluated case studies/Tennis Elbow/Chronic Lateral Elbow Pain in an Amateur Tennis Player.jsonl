@@ -1,0 +1,70 @@
+{
+    "id": "67d39a35-d9c0-482e-9310-64ab1ae27e07",
+    "condition": "Tennis Elbow",
+    "title": "Chronic Lateral Elbow Pain in an Amateur Tennis Player",
+    "clinical_history": "Mr. James Clark is a 42-year-old right-handed accountant and recreational tennis player who presents with lateral right elbow pain persisting for the past 8 weeks. He reports a gradual onset of pain, which he initially noticed during his weekly tennis matches, particularly when hitting backhand shots. Over time, the pain has increased in frequency and intensity, now occurring during routine tasks such as shaking hands, opening jars, or lifting a kettle. He describes the pain as a constant, dull ache with intermittent sharp exacerbations, especially after prolonged wrist extension or gripping activities. There is mild morning stiffness, resolving after a few minutes of elbow movement, but the pain tends to worsen towards the end of the day, particularly after work or exercise. No history of recent trauma or systemic symptoms reported.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral epicondyle of right elbow (origin of extensor carpi radialis brevis)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "proximal dorsal forearm (muscle belly of wrist extensors)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Repetitive gripping, racquet sports (notably backhand stroke), lifting objects with a pronated forearm, typing for prolonged periods, and direct palpation of the lateral elbow.",
+    "picture": "[insert image demonstrating point tenderness at the lateral epicondyle and muscle bulk of forearm extensors]",
+    "easing_factors": "Rest, application of ice packs, use of an elbow strap, non-steroidal anti-inflammatory drugs (NSAIDs) provide partial relief. Avoiding tennis and heavy lifting has helped reduce acute exacerbations.",
+    "past_history": "No prior elbow or upper limb injuries. Occasional episodes of mild wrist pain after unaccustomed activity in the past, self-resolving.",
+    "medical_history": "Non-contributory. No known inflammatory diseases or metabolic conditions. Up to date with health screenings.",
+    "medications": "Ibuprofen 400 mg as needed, approximately once daily for the past week.",
+    "personal_history": "Married, two teenage children. Works full time at a desk job; spends an average of 8 hours daily on a computer. Engages in recreational tennis once or twice weekly for over 10 years. No tobacco or alcohol use. Reports moderate work-related stress and has recently increased tennis activity as a coping strategy.",
+    "imaging": "None performed to date. Plain films and ultrasound may be considered if symptoms persist or worsen to rule out differential diagnoses (e.g., intra-articular pathology, calcific tendonitis).",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the output contains all the required information, but the field names and structure do not exactly match the specified output_format (e.g., 'nprs' instead of 'NPRS', 'picture' instead of 'Picture'), and the order of fields is not as requested. The score is not higher due to these formatting misalignments, but it is still high because the content itself is comprehensive and complete.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and imaging considerations. The content is highly relevant to chronic lateral elbow pain in a tennis player, with clear, comprehensive, and clinically accurate information. There are no factual inaccuracies or omissions that would impact patient safety.",
+            "success": true
+        }
+    ]
+}

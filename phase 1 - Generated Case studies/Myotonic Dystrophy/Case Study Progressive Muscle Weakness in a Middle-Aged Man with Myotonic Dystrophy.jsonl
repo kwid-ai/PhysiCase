@@ -1,0 +1,32 @@
+{
+    "id": "762f6848-b58e-4f4b-8d72-ac8facad239f",
+    "condition": "Myotonic Dystrophy",
+    "title": "Case Study: Progressive Muscle Weakness in a Middle-Aged Man with Myotonic Dystrophy",
+    "clinical_history": "Mr. Simon Brown is a 45-year-old male accountant who presents with progressive muscle weakness and stiffness over the past 5 years, most prominent in his distal limbs. He first noticed difficulties in releasing his grip after shaking hands or using tools, and more recently has developed bilateral foot drop leading to frequent tripping. He reports facial muscle weakness, including difficulty smiling and mild slurred speech. On questioning, he also describes excessive daytime sleepiness and mild difficulty swallowing. Family history is positive for his mother and one maternal uncle with similar symptoms in mid-life. Neurological examination reveals myotonia (delayed muscle relaxation), weakness and wasting in the distal muscles of the forearms and lower legs, mild facial diplegia, and cataracts on slit lamp examination.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "distal forearm and hand muscles (grip weakness and stiffness)",
+            "score": "2-4"
+        },
+        {
+            "context": "P2",
+            "affected_area": "anterior lower leg muscles (foot drop, fatigue-related cramping/pain)",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Cold weather and inactivity worsen hand stiffness. Repetitive activity increases muscle fatigue. Walking on uneven ground aggravates foot drop and cramping.",
+    "picture": "[insert diagram highlighting affected distal upper and lower extremity muscles, especially forearm flexors, intrinsic hand muscles, tibialis anterior, and peroneal group]",
+    "easing_factors": "Gentle warming, light stretching and slow movement reduce stiffness. Rest alleviates muscle fatigue.",
+    "past_history": "No significant past medical history other than longstanding mild myopia. No history of trauma or neurological illness.",
+    "medical_history": "No diabetes, hypertension, or cardiac disease noted on screening, but recent ECG shows first degree heart block, a known complication of myotonic dystrophy.",
+    "medications": "Occasional use of over-the-counter NSAIDs for lower leg cramps. Recently started modafinil for daytime sleepiness after neurological consultation. Not on antimyotonic medications currently.",
+    "personal_history": "Married, two children in high school. Smokes one pack of cigarettes daily for 20 years. Drinks alcohol socially. Sedentary occupation with limited physical activity. Expresses concern over progressive disability and ability to work in future.",
+    "imaging": "No MRI performed. Muscle biopsy pending. Slit lamp examination revealed early cataracts. Nerve conduction studies and EMG compatible with myotonic dystrophy.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

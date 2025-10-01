@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By785LIH9o2Y4791pc0bDFhPCS612",
+    "condition": "Thumb arthritis",
+    "title": "Mr. Johnson's Battle with Thumb Arthritis",
+    "clinical_history": "Mr. Edward Johnson is a 68-year-old retired carpenter who presents with persistent pain and stiffness in the base of his right thumb. Over the past year, he has noticed increasing difficulty with tasks that involve gripping, pinching, or twisting, such as opening jars or using a screwdriver, which previously were part of his daily routine. The pain is described as a dull ache, which occasionally becomes sharp with specific movements. Swelling at the base of the thumb is noted, along with a noticeable bony enlargement. He is right-handed, and the symptoms are affecting his ability to perform household chores and his favorite hobby, woodworking.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "base of the right thumb (carpometacarpal joint)",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": "forceful gripping, pinching, twisting motions, and activities that require pressure through the thumb joint",
+    "picture": "[insert image of a hand highlighting the base of the right thumb]",
+    "easing_factors": "rest, applying ice packs, wearing a thumb brace to stabilize the joint, and using adaptive tools that require less grip strength",
+    "past_history": "diagnosed with osteoarthritis in the right knee four years ago, managed with lifestyle modifications and occasional NSAIDs.",
+    "medical_history": "Hypertension, controlled with medication. No history of diabetes or cardiac issues.",
+    "medications": "Ibuprofen 400 mg as needed for pain, Lisinopril for hypertension.",
+    "personal_history": "Lives with his wife in a single-story home. Two adult children living out of state. Enjoys working in his home workshop, gardening, and watching sports.",
+    "imaging": "Recent X-ray shows joint space narrowing and osteophyte formation at the base of the right thumb, consistent with thumb arthritis.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 412,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1463
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

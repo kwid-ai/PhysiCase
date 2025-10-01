@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By7655xkEuWmIJCQ9M1LYLhczGtlh",
+    "condition": "Adult Spastic Cerebral Palsy",
+    "title": "John with Adult Spastic Cerebral Palsy",
+    "clinical_history": "John is a 38-year-old software developer who was diagnosed with spastic cerebral palsy at birth. Over the years he has been able to maintain a high degree of independence despite his condition. He experiences increased muscle tone and stiffness primarily in his lower limbs, mainly affecting his right leg more than his left. He walks with a pronounced spastic gait and uses a cane for stability during long distances. Recently, John has noted an increase in muscle spasms and pain, particularly after long hours of sitting at his desk, or after attempting to engage in physical exercises like cycling.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right lower limb - primary site of muscle spasms and stiffness",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": "prolonged sitting, rapid changes in position, attempts to increase physical activity beyond usual levels, cold weather conditions",
+    "picture": "[insert image showing increased tone and muscle spasms in the lower limbs]",
+    "easing_factors": "warm baths, muscle relaxants, stretching exercises",
+    "past_history": "John has undergone several surgical interventions in his early years, including a selective dorsal rhizotomy, which significantly reduced the severity of his spasticity during childhood. He has also undergone regular physiotherapy throughout his life.",
+    "medical_history": "other than cerebral palsy, John is otherwise healthy and without significant comorbidities.",
+    "medications": "Baclofen as a muscle relaxant; Ibuprofen for pain management, prn",
+    "personal_history": "John is single and lives alone in an apartment equipped with adaptive technology to aid his lifestyle. He's active in a community support group for individuals with CP and advocates for workplace accessibility improvements.",
+    "imaging": "recent X-rays indicate no new skeletal abnormalities; past MRI shows characteristic brain lesions associated with CP but no progressive changes.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 417,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1056,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1473
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

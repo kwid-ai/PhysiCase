@@ -1,0 +1,32 @@
+{
+    "id": "32c62ec5-2c7d-49fb-8f13-e4fd765afb99",
+    "condition": "Arthritic Joints",
+    "title": "Rheumatoid Arthritis Case Study: Karen's Persistent Joint Pain",
+    "clinical_history": "Karen is a 45-year-old marketing executive who has been experiencing persistent joint pain and stiffness in her hands, wrists, knees, and ankles for the past 6 months. She reports that the pain and stiffness are worse in the mornings and improve throughout the day. She has difficulty performing daily activities such as typing, cooking, and walking due to the pain and stiffness. She has also noticed swelling and redness in her hands and wrists.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "hands and wrists",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "knees and ankles",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "prolonged periods of inactivity, cold weather, and overexertion",
+    "picture": "",
+    "easing_factors": "warm baths, physical therapy, and medication",
+    "past_history": "Karen has a family history of rheumatoid arthritis. Her mother was diagnosed with the condition 10 years ago.",
+    "medical_history": "Karen has been diagnosed with early-stage rheumatoid arthritis. She has not started any disease-modifying antirheumatic drugs (DMARDs) yet but is taking over-the-counter pain relievers.",
+    "medications": "Ibuprofen 400mg three times a day as needed for pain relief",
+    "personal_history": "Karen is married with two young children. She works part-time and has to balance her work and family responsibilities. She has to take regular breaks to rest her joints.",
+    "imaging": "X-rays of her hands and wrists show joint space narrowing and early signs of erosions.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

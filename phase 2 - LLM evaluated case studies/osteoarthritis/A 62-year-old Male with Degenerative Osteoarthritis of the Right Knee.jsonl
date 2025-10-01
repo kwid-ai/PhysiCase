@@ -1,0 +1,65 @@
+{
+    "id": "6dd09fcc-d585-400c-87aa-2e295ceb6c77",
+    "condition": "osteoarthritis",
+    "title": "A 62-year-old Male with Degenerative Osteoarthritis of the Right Knee",
+    "clinical_history": "A 62-year-old male, Mr. Thompson, presents with a 6-month history of progressive right knee pain. He reports that the pain started insidiously, with no specific incident or trauma. Over the past few months, he has noticed increased stiffness in the knee, particularly in the mornings and after prolonged periods of inactivity. He also reports difficulty walking long distances and climbing stairs, which has significantly impacted his daily activities and overall quality of life.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right knee pain, primarily medial and anterior",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "Walking long distances (> 30 minutes), climbing stairs, squatting, and standing for prolonged periods",
+    "picture": "The patient reports a 24-hour pain pattern, with pain typically worse in the mornings (7/10) and easing slightly throughout the day, but increasing again in the evenings (6/10) after prolonged activity.",
+    "easing_factors": "Rest, application of heat, and use of NSAIDs (e.g., ibuprofen)",
+    "past_history": "History of hypertension, controlled with medication. No previous knee injuries or surgeries.",
+    "medical_history": "Recently diagnosed with type 2 diabetes, managed through diet and exercise.",
+    "medications": "Ibuprofen 400mg prn for pain, Lisinopril 10mg daily for hypertension, and Metformin 500mg twice daily for type 2 diabetes.",
+    "personal_history": "Married with two adult children. Works as an accountant but has had to reduce his work hours due to knee pain. Enjoys gardening and playing golf but has had to limit these activities due to his knee condition.",
+    "imaging": "X-rays of the right knee showing joint space narrowing, osteophytes, and subchondral sclerosis, consistent with degenerative osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the content is thorough and covers all required case study elements, but the JSON field names and structure do not exactly match the specified output_format (e.g., 'nprs' instead of 'NPRS', and some casing/order mismatches). This prevents a perfect score, but the alignment is still high due to the comprehensive inclusion of all requested information.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output uses gendered language ('his'), which introduces gender bias by assuming the subject's gender, rather than using inclusive terms like 'their'.",
+            "success": false
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, relevant past and medical history, medications, personal history, and imaging findings. The information is highly relevant to degenerative osteoarthritis of the knee, is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

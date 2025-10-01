@@ -1,0 +1,96 @@
+{
+    "id": "chatcmpl-By785LIH9o2Y4791pc0bDFhPCS612",
+    "condition": "Thumb arthritis",
+    "title": "Mr. Johnson's Battle with Thumb Arthritis",
+    "clinical_history": "Mr. Edward Johnson is a 68-year-old retired carpenter who presents with persistent pain and stiffness in the base of his right thumb. Over the past year, he has noticed increasing difficulty with tasks that involve gripping, pinching, or twisting, such as opening jars or using a screwdriver, which previously were part of his daily routine. The pain is described as a dull ache, which occasionally becomes sharp with specific movements. Swelling at the base of the thumb is noted, along with a noticeable bony enlargement. He is right-handed, and the symptoms are affecting his ability to perform household chores and his favorite hobby, woodworking.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "base of the right thumb (carpometacarpal joint)",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": "forceful gripping, pinching, twisting motions, and activities that require pressure through the thumb joint",
+    "picture": "[insert image of a hand highlighting the base of the right thumb]",
+    "easing_factors": "rest, applying ice packs, wearing a thumb brace to stabilize the joint, and using adaptive tools that require less grip strength",
+    "past_history": "diagnosed with osteoarthritis in the right knee four years ago, managed with lifestyle modifications and occasional NSAIDs.",
+    "medical_history": "Hypertension, controlled with medication. No history of diabetes or cardiac issues.",
+    "medications": "Ibuprofen 400 mg as needed for pain, Lisinopril for hypertension.",
+    "personal_history": "Lives with his wife in a single-story home. Two adult children living out of state. Enjoys working in his home workshop, gardening, and watching sports.",
+    "imaging": "Recent X-ray shows joint space narrowing and osteophyte formation at the base of the right thumb, consistent with thumb arthritis.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 412,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1463
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.75,
+            "reason": "The score is 0.75 because the output contains minor formatting errors in the JSON keys (case sensitivity and a misspelling), but otherwise follows the prompt instructions well. The score is not higher due to these unalignments, but it is still solid because all required content is present and well-structured.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 0.9375,
+            "reason": "The score is 0.94 because the output is highly relevant and well-structured, but it includes statements about the absence of diabetes and cardiac issues, which are not directly pertinent to a thumb arthritis case unless present. Otherwise, the case study is thorough and appropriate for the input task.",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. The response is balanced and objective.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS with context and affected area, aggravating and easing factors, relevant past and medical history, medications, personal history, and imaging findings. The content is highly relevant to thumb arthritis, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would impact patient safety.",
+            "success": true
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": "75b2b07f-12d5-4129-b6a0-199ef4b48884",
+    "condition": "Acute Motor Axonal Neuropathy",
+    "title": "A Case of Acute Motor Axonal Neuropathy in a 35-Year-Old Male",
+    "clinical_history": "A 35-year-old male, who works as a software engineer, presented with a 5-day history of progressive weakness in his lower limbs. He initially noticed difficulty walking and standing from a seated position, which rapidly progressed to an inability to ambulate without assistance. He reports that the weakness started in his legs and has been symmetrical. The patient also complains of a 2-day history of numbness and tingling in his hands and feet. He has no recent history of travel, fever, or illness.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral lower limb weakness and numbness",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Bilateral hand numbness and tingling",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, or any physical activity exacerbates the weakness and numbness",
+    "picture": "A 24-hour picture showing the patient's inability to walk or stand without assistance, with an inability to dorsiflex his feet",
+    "easing_factors": "Rest and recumbency provide some relief",
+    "past_history": "The patient has a history of a recent upper respiratory tract infection 2 weeks prior to the onset of symptoms",
+    "medical_history": "Generally healthy, with no significant medical conditions",
+    "medications": "None, apart from over-the-counter pain medications which have provided minimal relief",
+    "personal_history": "Married with two young children. Works from home as a software engineer, which involves prolonged sitting",
+    "imaging": "EMG and nerve conduction studies (NCS) have been ordered but not yet completed. MRI of the spine and brain have been normal.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

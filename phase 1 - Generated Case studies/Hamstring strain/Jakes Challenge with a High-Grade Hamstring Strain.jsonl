@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By78D0x1YkSTLpvEdZyCx5uPsxZxI",
+    "condition": "Hamstring strain",
+    "title": "Jake's Challenge with a High-Grade Hamstring Strain",
+    "clinical_history": "Jake is a 21-year-old college soccer player who was sprinting during a game when he suddenly felt a sharp, tearing sensation in the back of his right thigh. He immediately fell to the ground and was unable to continue playing. His coach and team physiotherapist had to assist him to the sideline. He reports significant swelling and bruising around the posterior thigh region appeared within hours. Weight-bearing is painful and he walks with a considerable limp.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "posterior right thigh",
+            "score": "7-8"
+        }
+    ],
+    "aggrevating_factors": "attempting to walk, bending the knee, activities requiring explosive movements like sprinting or jumping.",
+    "picture": "[insert image of the posterior thigh region highlighting the hamstring]",
+    "easing_factors": "resting with the leg elevated, applying ice packs to the affected area, gentle compression around the thigh.",
+    "past_history": "previous mild hamstring strain in the same leg one year ago, which resolved with conservative treatment and rehabilitation.",
+    "medical_history": "overall healthy, non-smoker, no other significant medical problems.",
+    "medications": "ibuprofen as needed for pain and swelling.",
+    "personal_history": "studying sports management and very committed to the college soccer team. He maintains a regular fitness regimen including weight training and endurance exercises.",
+    "imaging": "MRI confirmed a Grade 2b hamstring strain involving the biceps femoris muscle.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 341,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1052,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1393
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

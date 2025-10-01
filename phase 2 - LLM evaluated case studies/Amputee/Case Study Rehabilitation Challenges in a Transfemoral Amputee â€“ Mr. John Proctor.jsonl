@@ -1,0 +1,70 @@
+{
+    "id": "92c0cc48-3079-44a7-bad9-d3618833cdca",
+    "condition": "Amputee",
+    "title": "Case Study: Rehabilitation Challenges in a Transfemoral Amputee \u00e2\u20ac\u201c Mr. John Proctor",
+    "clinical_history": "Mr. John Proctor is a 48-year-old male, formerly employed as a construction site foreman, who underwent a left transfemoral (above-knee) amputation 7 months ago following a severe workplace accident involving a heavy machinery crush injury. Since the amputation, Mr. Proctor reports persistent pain and decreased mobility, despite the use of a custom-fitted prosthesis. His primary complaint is distal thigh stump pain (P1), ranging from deep aching to occasional sharp, burning sensations, particularly after periods of prosthetic use or prolonged ambulation. He also describes secondary low back pain (P2), which he attributes to altered gait mechanics and prolonged use of crutches prior to receiving his prosthesis. Mr. Proctor is motivated to regain independence but has noted increasing frustration with residual limb discomfort, phantom limb sensations, and difficulty sleeping.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Distal femoral stump pain (muscle and bone at amputation site \u00e2\u20ac\u201c quadriceps, hamstring, remnant femur)",
+            "score": "5-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Low back pain (lumbar paraspinals, possibly associated with compensatory overuse)",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Prolonged prosthetic use, excessive walking (>30 min), standing on hard surfaces, weather changes (cold/damp), ill-fitting prosthetic socket, and increased physical activity.",
+    "picture": "[Illustration of a male patient with left above-knee amputation, indicating areas of pain at the distal thigh and low back.]",
+    "easing_factors": "Rest (removing prosthesis when possible), use of residual limb shrinker, warm compresses, gentle stump massage, and short periods of non-weight-bearing activity. Occasional use of acetaminophen provides moderate relief.",
+    "past_history": "No significant medical or surgical history prior to the accident. No prior history of musculoskeletal pain or injury.",
+    "medical_history": "Unremarkable prior to the incident. Recent psychological stress related to adjustment and adaptation post-amputation.",
+    "medications": "Acetaminophen 500 mg as needed for pain. Sertraline 50 mg once daily for symptoms of mild depression.",
+    "personal_history": "Divorced, lives alone in a single-level apartment. Prior to injury, was physically active and enjoyed hiking and carpentry. Reports emotional struggles with loss of limb and identity as a worker. Support is limited to periodic visits from adult children and a local friend. Currently undergoing counseling for emotional adaptation.",
+    "imaging": "Post-operative radiographs confirm well-healed distal femoral stump with no signs of osteomyelitis or heterotopic ossification.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any loaded language or partiality.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to a transfemoral amputee, addressing both physical and psychological aspects. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

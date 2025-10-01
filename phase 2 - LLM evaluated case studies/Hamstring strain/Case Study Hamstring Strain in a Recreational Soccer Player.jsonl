@@ -1,0 +1,65 @@
+{
+    "id": "5d9813ec-9954-44da-be1f-d34e704da944",
+    "condition": "Hamstring strain",
+    "title": "Case Study: Hamstring Strain in a Recreational Soccer Player",
+    "clinical_history": "A 28-year-old male recreational soccer player presented with a hamstring strain injury. He reported that during a soccer game 3 days prior to presentation, he experienced a sudden onset of sharp pain in the back of his thigh while sprinting. He heard a 'pop' and felt a severe pulling sensation in his hamstring. Since then, he has been experiencing pain and stiffness in the affected area, making it difficult for him to walk and perform daily activities.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "pain and stiffness in the posterior thigh, specifically in the biceps femoris muscle",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "sitting, bending, and stretching; aggravated by activities that involve hip flexion and knee extension, such as walking uphill or climbing stairs",
+    "picture": "A 24-hour pain picture shows that the pain is constant, with an increase in pain during activities and at night",
+    "easing_factors": "rest, ice, and compression; relieved by activities that involve relaxation and stretching of the hamstring muscle",
+    "past_history": "previous history of minor hamstring strains, but nothing severe; has a history of inadequate warm-up and stretching before playing soccer",
+    "medical_history": "generally healthy, but has a history of mild hypertension; no previous surgeries",
+    "medications": "none, but uses over-the-counter pain relievers such as ibuprofen for pain management",
+    "personal_history": "married with two children; works as an accountant and plays soccer recreationally 2-3 times a week",
+    "imaging": "MRI of the affected thigh showed a grade 2 hamstring strain in the biceps femoris muscle",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' in the JSON structure. All other prompt instructions are followed well, so the score is high, but not perfect due to this minor formatting issue.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content; it is entirely appropriate.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, pain assessment, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to a hamstring strain in a recreational soccer player, with accurate clinical details such as mechanism of injury, symptoms, and MRI findings. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "id": "32c62ec5-2c7d-49fb-8f13-e4fd765afb99",
+    "condition": "Arthritic Joints",
+    "title": "Rheumatoid Arthritis Case Study: Karen's Persistent Joint Pain",
+    "clinical_history": "Karen is a 45-year-old marketing executive who has been experiencing persistent joint pain and stiffness in her hands, wrists, knees, and ankles for the past 6 months. She reports that the pain and stiffness are worse in the mornings and improve throughout the day. She has difficulty performing daily activities such as typing, cooking, and walking due to the pain and stiffness. She has also noticed swelling and redness in her hands and wrists.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "hands and wrists",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "knees and ankles",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "prolonged periods of inactivity, cold weather, and overexertion",
+    "picture": "",
+    "easing_factors": "warm baths, physical therapy, and medication",
+    "past_history": "Karen has a family history of rheumatoid arthritis. Her mother was diagnosed with the condition 10 years ago.",
+    "medical_history": "Karen has been diagnosed with early-stage rheumatoid arthritis. She has not started any disease-modifying antirheumatic drugs (DMARDs) yet but is taking over-the-counter pain relievers.",
+    "medications": "Ibuprofen 400mg three times a day as needed for pain relief",
+    "personal_history": "Karen is married with two young children. She works part-time and has to balance her work and family responsibilities. She has to take regular breaks to rest her joints.",
+    "imaging": "X-rays of her hands and wrists show joint space narrowing and early signs of erosions.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the key, which is a minor formatting issue. All other prompt instructions are followed well, resulting in a high score.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9977022632222555,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to rheumatoid arthritis, accurately describing typical symptoms, risk factors, and early radiographic changes. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

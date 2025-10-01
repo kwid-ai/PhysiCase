@@ -1,0 +1,65 @@
+{
+    "id": "b1d78faa-2d24-45bf-9236-a3cbd37c86fc",
+    "condition": "tendinitis",
+    "title": "A 45-year-old Tennis Coach with Lateral Elbow Tendinitis",
+    "clinical_history": "John is a 45-year-old tennis coach at a local club. He has been coaching tennis for over 10 years and has recently increased his coaching load.  About 6 weeks ago, he started to notice a gradual onset of pain on the lateral aspect of his right elbow, which has progressively worsened. The pain is more pronounced when he is coaching and hitting backhands. He reports that he has not changed his technique but has been using a new racket with a slightly different grip size. He has also been playing more frequently, often coaching 6 days a week.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral elbow pain, described as sharp and aching",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "coaching tennis, especially backhand shots, gripping the racket, lifting heavy objects, and direct pressure on the lateral elbow",
+    "picture": "A 24-hour picture showing a person holding a tennis racket with an emphasis on the lateral elbow",
+    "easing_factors": "rest, ice application, and NSAIDs",
+    "past_history": "Had a similar episode of lateral elbow pain 5 years ago, which resolved with physical therapy and rest. He has a history of overuse injuries, including a stress fracture in his left foot 2 years ago.",
+    "medical_history": "Generally healthy, but has high cholesterol and hypertension, which are well-managed with medication.",
+    "medications": "Ibuprofen 400mg 3 times a day as needed for pain and inflammation",
+    "personal_history": "Married with two children, both in high school. He is very active and enjoys playing tennis, hiking, and cycling in his free time.",
+    "imaging": "X-rays of the elbow showed no signs of fractures or osteoarthritis, but ultrasound revealed inflammation and tendon thickening consistent with tendinitis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8333333333333334,
+            "reason": "The score is 0.83 because the output closely follows the prompt instructions, but there are minor unalignments: the keys 'nprs' and 'picture' are not case-matched to the required 'NPRS' and 'Picture', and the output does not clarify if there are no secondary pain complaints. The score is not higher due to these small but important format and completeness issues, but it is still strong because the majority of the prompt is well-addressed.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to lateral elbow tendinitis, with clear and comprehensive information about symptom onset, aggravating activities, and management. The response is clinically accurate, addresses patient safety, and provides a thorough picture of the case without missing any key details.",
+            "success": true
+        }
+    ]
+}

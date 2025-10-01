@@ -1,0 +1,32 @@
+{
+    "id": "826613a3-1403-4974-be6b-47d16485501e",
+    "condition": "Calf muscle tear",
+    "title": "Acute Medial Gastrocnemius Tear in a Recreational Tennis Player",
+    "clinical_history": "John M., a 42-year-old recreational tennis player, experienced a sudden sharp pain in his right calf while pushing off for a serve during a weekend tennis match. He reported an audible 'pop' at the moment of injury, followed by immediate weakness and an inability to continue play. Swelling and bruising developed over the medial aspect of his calf within a few hours. John has difficulty weight-bearing on the affected leg and describes a persistent ache at rest with sharp, stabbing pain on attempted walking, especially during push-off. He denied any prior similar injuries but reports occasional calf tightness after longer matches. John works as a software engineer, typically sedentary during the week, and plays tennis 1-2 times per week to maintain fitness.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Medial right calf (gastrocnemius)",
+            "score": "7-9"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Posterior-lateral right calf (soleus region: secondary muscular strain)",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Walking (especially toe-off), running, climbing stairs, standing for prolonged periods, calf stretching.",
+    "picture": "Swelling, ecchymosis, and palpable tenderness over the medial belly of the right gastrocnemius. Antalgic gait observed with decreased ability to push off from the right foot.",
+    "easing_factors": "Rest, non-weightbearing (using crutches), ice application, elevating the leg, compression sleeve.",
+    "past_history": "No history of major musculoskeletal injuries. Occasional muscle tightness after extended periods of tennis or sitting.",
+    "medical_history": "Non-contributory; no chronic illnesses. No history of diabetes, peripheral vascular disease, or coagulopathy.",
+    "medications": "Ibuprofen 400mg as needed for pain over the past 24 hours.",
+    "personal_history": "Non-smoker, occasional alcohol use. Married with two children. Regularly plays tennis for recreation and stress relief. Has a family history of hypertension.",
+    "imaging": "Ultrasound of the right calf ordered; shows partial thickness tear of the medial head of the gastrocnemius with mild local hematoma. No evidence of deep vein thrombosis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

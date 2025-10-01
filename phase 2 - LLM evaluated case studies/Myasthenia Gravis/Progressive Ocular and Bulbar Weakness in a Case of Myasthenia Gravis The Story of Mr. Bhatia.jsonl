@@ -1,0 +1,70 @@
+{
+    "id": "7fb4b555-5a9f-4773-8b69-759601bb8f62",
+    "condition": "Myasthenia Gravis",
+    "title": "Progressive Ocular and Bulbar Weakness in a Case of Myasthenia Gravis: The Story of Mr. Bhatia",
+    "clinical_history": "Mr. Ramesh Bhatia is a 48-year-old bank manager who presents with a three-month history of gradually worsening double vision, drooping of both eyelids (worse in the evenings), and increasing difficulty with chewing and swallowing solid foods by the end of the workday. He notes voice fatigue during long conversations and increased weakness, especially after exertion or late in the day. In the mornings, he feels relatively well, but as the day progresses, he frequently experiences weakness in his facial musculature, difficulty raising his arms to comb his hair, and muscle fatigue without sensory disturbances. His symptoms improve with short rest and after meals. He denies any respiratory difficulties but feels subjectively weaker over the recent few weeks.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "extraocular muscles (bilateral ptosis, intermittent diplopia)",
+            "score": "0-2"
+        },
+        {
+            "context": "P2",
+            "affected_area": "bulbar muscles (dysphagia, dysarthria, neck flexors, mild proximal upper limb fatigue)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged talking, reading, chewing hard foods, physical exertion, late evening hours, emotional stress",
+    "picture": "[insert diagram of cranial nerves/muscles with particular emphasis on extraocular muscles, bulbar area, and proximal limb muscles]",
+    "easing_factors": "Short naps, periods of rest, pyridostigmine dose, softer food, cooler environment",
+    "past_history": "No significant neurological illness. No trauma. Mild hypertension for 4 years, well-controlled.",
+    "medical_history": "Mild hypertension, no diabetes, non-smoker, no recent infections",
+    "medications": "Pyridostigmine 60mg q6h, amlodipine 5mg daily",
+    "personal_history": "Lives with spouse, two teenage children. Moderate work-related stress. Enjoys walking in the evenings but activity has reduced due to fatigue. No alcohol use. Adequate sleep, though quality impacted by work stress.",
+    "imaging": "MRI brain (normal), chest CT to rule out thymoma (pending at time of presentation)",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the key, which is a minor formatting issue. All other prompt instructions are followed well, resulting in a high score.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and it presents information in a fair and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context, aggravating and easing factors, relevant past and medical history, medications, personal history, and imaging. The content is highly relevant to myasthenia gravis, accurately describing classic symptoms such as fluctuating ocular and bulbar weakness, diurnal variation, and response to rest. The response is clear, comprehensive, and clinically accurate, with no factual errors or omissions that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

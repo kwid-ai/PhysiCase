@@ -1,0 +1,32 @@
+{
+    "id": "c13779ee-7cf3-44bc-a316-bad820db8e81",
+    "condition": "Coronavirus",
+    "title": "Post-COVID Myalgia and Functional Decline in a Middle-Aged Laboratory Technician",
+    "clinical_history": "Mr. Raj Kapoor is a 48-year-old laboratory technician who presented to physiotherapy following a confirmed diagnosis of COVID-19 four weeks ago. His acute infection was moderate: he required hospitalization for supplemental oxygen (via nasal cannula) for 8 days but was not admitted to ICU. He reports persistent generalized muscle aches and marked weakness, particularly in the lower limbs—thighs and calves—as well as diffuse shoulder girdle discomfort. He denies prior similar complaints and previously enjoyed walking 5 km most mornings. At follow-up, Raj describes difficulty rising from a chair, climbing stairs, and persistent fatigue that limits his activity. He also reports disrupted sleep due to muscle discomfort. He denies chest pain or shortness of breath, though notes occasional dry cough. No neurological deficits are evident, but his muscle bulk appears slightly reduced. He does not report joint swelling or redness.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral thigh and calf muscles – aching, fatigue-related soreness",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Bilateral shoulder girdle – intermittent ache",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Prolonged walking, rising from a chair, stair climbing, carrying groceries, extended standing.",
+    "picture": "[Picture: Diffuse highlighting of lower limb muscles and shoulder girdle]",
+    "easing_factors": "Rest, gentle stretching, warm showers, pacing of activities, acetaminophen (as needed).",
+    "past_history": "No known comorbidities. No significant previous musculoskeletal problems.",
+    "medical_history": "Admitted for COVID-19 4 weeks ago; non-smoker, non-diabetic, no known hypertension or cardiovascular disease.",
+    "medications": "Paracetamol 500mg as needed for muscle aches (max 2/day); multivitamin; previously received dexamethasone during hospitalization.",
+    "personal_history": "Lives with spouse and two teenage children. Previously independent in all activities of daily living (ADLs). Primary earner for the family. Mild anxiety regarding slow recovery and financial concerns about returning to work.",
+    "imaging": "No imaging to date. Routine labs during admission were within normal range except transient elevated inflammatory markers (CRP, ferritin).",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

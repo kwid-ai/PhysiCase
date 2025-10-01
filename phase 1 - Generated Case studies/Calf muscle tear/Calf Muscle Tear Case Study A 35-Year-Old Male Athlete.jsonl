@@ -1,0 +1,32 @@
+{
+    "id": "0c5fa0da-9a78-477c-b6a5-612de0335bef",
+    "condition": "Calf muscle tear",
+    "title": "Calf Muscle Tear Case Study: A 35-Year-Old Male Athlete",
+    "clinical_history": "A 35-year-old male athlete presented with a sudden onset of severe pain in his right calf muscle during a soccer game. He reported feeling a 'pop' in his calf as he was sprinting down the field. The patient has been experiencing difficulty walking and has limited mobility in his right ankle.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right calf muscle",
+            "score": "7-9"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right ankle",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Weight-bearing activities such as walking, running, and jumping; ankle dorsiflexion",
+    "picture": "A 24-hour picture showing increased pain and stiffness in the morning, with gradual improvement throughout the day",
+    "easing_factors": "Rest, ice, and compression",
+    "past_history": "Previous history of ankle sprains and calf strains, but nothing severe",
+    "medical_history": "Generally healthy, with no significant medical conditions",
+    "medications": "Ibuprofen as needed for pain management",
+    "personal_history": "Active athlete, plays soccer recreationally 2-3 times a week",
+    "imaging": "Ultrasound imaging revealed a grade 2 calf muscle tear",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

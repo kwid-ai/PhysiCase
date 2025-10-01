@@ -1,0 +1,96 @@
+{
+    "id": "chatcmpl-By781w7OvZ7y0u6IX0G8lezMpodYZ",
+    "condition": "Finger fracture",
+    "title": "Jeremy's Unexpected Fracture",
+    "clinical_history": "Jeremy, a 22-year-old college soccer player, presented to the clinic with swelling and pain in his right index finger. Two days ago, while practicing for a major tournament, he accidentally jammed his finger against a teammate's knee while trying to steal the ball. He noticed immediate pain and, in the hours following, swelling and bruising on the affected finger. Despite the discomfort, he completed the practice session by taping his finger to his index finger, falsely assuming it was a minor sprain. The following day, typing notes for his course, he found it frustratingly tender and decided to seek professional advice.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right index finger",
+            "score": "7"
+        }
+    ],
+    "aggrevating_factors": "any attempt to grip objects, typing, and movement of the finger joint",
+    "picture": "[insert image highlighting right index finger]",
+    "easing_factors": "rest, application of ice, and keeping the finger immobilized",
+    "past_history": "No significant injuries to the hands previously. History of multiple ankle sprains due to playing sports.",
+    "medical_history": "No known allergies, up-to-date on vaccinations, and no significant medical conditions.",
+    "medications": "Occasionally takes ibuprofen for minor aches from sports activities",
+    "personal_history": "Active college student majoring in Physical Education. Lives in an apartment nearby the university with three of his teammates. Engages regularly in competitive sports.",
+    "imaging": "X-ray revealing a non-displaced fracture of the proximal phalanx of the right index finger",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 360,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1411
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the key, which is a minor formatting issue. All other prompt instructions are followed well, resulting in a high score.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, well-structured, and directly addresses all aspects of the input task without any irrelevant statements. Great job staying focused and thorough!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.996267311613631,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS score, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to a finger fracture, with clear and comprehensive information about the injury mechanism, symptoms, and clinical context. The response is clear, clinically accurate, and prioritizes patient safety by noting the fracture and appropriate management steps. No significant details are missing.",
+            "success": true
+        }
+    ]
+}

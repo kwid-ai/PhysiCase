@@ -1,0 +1,63 @@
+{
+    "id": "chatcmpl-By79KZGOhFMvC3olKf36yI5fS86NL",
+    "condition": "Rhabdomyolysis",
+    "title": "Case of Alan's Exercise-Induced Rhabdomyolysis",
+    "clinical_history": "Alan is a 45-year-old male, an avid fitness enthusiast who started a new high-intensity interval training (HIIT) program two weeks ago. He increased his workout intensity significantly, aiming to overcome a weight plateau. Four days ago, after an intense session comprising repetitive high-load squats and sprints, Alan began experiencing severe muscle soreness beyond his usual discomfort. Notably, his urine turned dark, akin to cola color. He reports persistent pain chiefly in his thighs and calves, accompanied by swelling. Alan also reported weakness and difficulty walking.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "thigh muscles",
+            "score": "8-9"
+        },
+        {
+            "context": "P2",
+            "affected_area": "calves",
+            "score": "7"
+        }
+    ],
+    "aggrevating_factors": "Walking, rising from a seated position, and any physical exertion.",
+    "picture": "A diagram of human lower limb highlights the anterior thigh and posterior calf.",
+    "easing_factors": "Laying supine with legs elevated, icing affected areas, and rest",
+    "past_history": "Attempted a similar high-intensity workout regimen 2 years ago but experienced 'general soreness', no notable rhabdomyolysis symptoms were present.",
+    "medical_history": "No significant past medical history. No chronic diseases or previous surgeries. Reports taking protein supplements regularly.",
+    "medications": "Occasional ibuprofen for muscle soreness",
+    "personal_history": "Alan works as an IT specialist and has a sedentary lifestyle outside his routine workouts. He lives with his partner and has a balanced diet, high in protein to support muscle building.",
+    "imaging": "Recent ultrasounds have not been performed. Blood tests reveal elevated creatine kinase levels and myoglobinuria consistent with rhabdomyolysis.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 412,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1055,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1467
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

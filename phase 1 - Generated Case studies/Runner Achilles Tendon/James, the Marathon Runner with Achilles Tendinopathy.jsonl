@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By75tcw9ktSW2HWzrEL58K7yxD98F",
+    "condition": "Runner Achilles Tendon",
+    "title": "James, the Marathon Runner with Achilles Tendinopathy",
+    "clinical_history": "James is a 32-year-old professional marathon runner. He initially started experiencing discomfort in his right Achilles tendon after an intense hill training session 4 weeks ago. At first, the pain was mild and present only after running. However, over the past week, it has intensified and is now persistent, especially prominent upon waking up in the morning. He describes it as a dull ache with occasional sharp stinging when he tries to do speed work or hill repeats. The pain is affecting his stride and is accompanied by stiffness, particularly in the mornings.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right Achilles tendon",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "Running, especially on inclines or uneven surfaces, prolonged standing, and wearing tight or inappropriate footwear.",
+    "picture": "[insert image of a person highlighting right Achilles tendon]",
+    "easing_factors": "Rest, application of ice, and elevating the foot above heart level.",
+    "past_history": "Sprained right ankle twice over the past 5 years, but no other significant injuries.",
+    "medical_history": "Generally healthy, with no significant past medical conditions.",
+    "medications": "Occasionally uses Ibuprofen to manage the pain, especially before events or training.",
+    "personal_history": "Single, living alone in a city apartment. Works as a freelance health blogger, often typing for long hours. Enjoys hiking on weekends as a hobby.",
+    "imaging": "Ultrasound reveals thickening and irregular dynamic thickening of the Achilles tendon along with increased vascularity consistent with tendinopathy.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 365,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1053,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1418
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

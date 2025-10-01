@@ -1,0 +1,32 @@
+{
+    "id": "616ba168-6071-41cb-97a0-65c56115a7bb",
+    "condition": "Early-Onset Alzheimer",
+    "title": "Case Study: Early-Onset Alzheimer’s Impacting Mobility and Activities of Daily Living in a Middle-Aged Adult",
+    "clinical_history": "Mark Johnson is a 52-year-old accountant who presented with increased forgetfulness, difficulty in organizing daily tasks, and recent falls at home. He has noticed trouble recalling recent events, misplacing objects, and becoming disoriented in familiar environments. Over the past 6 months, Mark's family has noted a progressive decline in his ability to perform routine tasks such as cooking, managing finances, and attending appointments. Recently, Mark reported experiencing stiffness and weakness in his lower limbs, which has contributed to a shuffling gait and reduced stability. He also complains of intermittent muscle soreness in the lower back and thighs, particularly after longer periods of standing or walking. Although these physical complaints are secondary, they are impacting his independence in activities of daily living. No history of significant trauma, stroke, or orthopedic injury is reported.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "thigh and lower leg muscles (proximal and distal muscle groups involved in gait)",
+            "score": "2-4"
+        },
+        {
+            "context": "P2",
+            "affected_area": "lower back muscles (paraspinals), intermittent soreness",
+            "score": "1-3"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking long distances, changes in environment (increasing confusion leads to compensatory muscle tension and instability), multitasking during physical activity.",
+    "picture": "Patient describes ‘good’ periods in the morning with increased confusion and restlessness in the late afternoon (sundowning), increased physical fatigue after unstructured activities, occasional muscle cramps at night.",
+    "easing_factors": "Assistance with mobility (walker or cane), structured routines, supervised exercise with frequent sit-down breaks, gentle stretching, simple cueing by caregivers.",
+    "past_history": "Well-controlled hypertension; no history of diabetes, cerebrovascular accidents or major orthopedic events.",
+    "medical_history": "Father diagnosed with Alzheimer’s disease in his late 60s; mother with history of osteoarthritis.",
+    "medications": "Donepezil 10mg daily, Memantine 10mg BID, occasional acetaminophen for muscle discomfort, Lisinopril 10mg daily for blood pressure.",
+    "personal_history": "Married for 30 years, two grown children. Lives with supportive spouse. Formerly active in recreational cycling and community groups but has withdrawn from these activities in recent months. Occasional mild depressive symptoms reported. Non-smoker, moderate alcohol use previously, now abstinent. No illicit drug use.",
+    "imaging": "CT brain: mild diffuse cerebral atrophy. No acute infarcts or masses. No spinal or lower limb imaging to date.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

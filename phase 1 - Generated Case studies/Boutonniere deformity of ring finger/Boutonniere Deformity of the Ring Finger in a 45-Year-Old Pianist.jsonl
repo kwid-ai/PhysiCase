@@ -1,0 +1,32 @@
+{
+    "id": "217638f4-e943-4657-afa3-eb9fea67700d",
+    "condition": "Boutonniere deformity of ring finger",
+    "title": "Boutonniere Deformity of the Ring Finger in a 45-Year-Old Pianist",
+    "clinical_history": "A 45-year-old right-handed pianist presents with a 6-week history of progressive deformity and pain in the ring finger of her right hand.  She first noticed the problem after a concert where she played for an extended period.  Initially, she experienced stiffness and mild pain in the finger, which she attributed to overuse.  However, over the following weeks, the finger began to buckle at the proximal interphalangeal (PIP) joint and hyperextend at the distal interphalangeal (DIP) joint, resulting in a Boutonniere deformity.  She reports difficulty playing the piano and performing daily activities such as dressing and grooming.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "pain and stiffness at the PIP joint of the ring finger",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "pain and stiffness at the DIP joint of the ring finger",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "playing the piano, gripping, grasping, and flexion of the finger",
+    "picture": "The ring finger is flexed at the PIP joint and hyperextended at the DIP joint, resembling a Boutonniere deformity.",
+    "easing_factors": "rest, ice, and stretching exercises",
+    "past_history": "history of tendonitis in the right wrist, treated with physical therapy and resolved 2 years ago",
+    "medical_history": "generally healthy, takes occasional acetaminophen for headaches",
+    "medications": "none for this condition",
+    "personal_history": "married with two children, works as a pianist and music teacher",
+    "imaging": "X-rays of the right hand showing no fractures or dislocations, but confirming the Boutonniere deformity",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

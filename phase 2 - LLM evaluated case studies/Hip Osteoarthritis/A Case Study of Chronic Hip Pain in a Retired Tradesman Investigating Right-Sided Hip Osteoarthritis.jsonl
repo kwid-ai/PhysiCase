@@ -1,0 +1,70 @@
+{
+    "id": "e46dc897-7d67-4caf-9b14-d895f4ac5ed0",
+    "condition": "Hip Osteoarthritis",
+    "title": "A Case Study of Chronic Hip Pain in a Retired Tradesman: Investigating Right-Sided Hip Osteoarthritis",
+    "clinical_history": "Arthur is a 68-year-old retired carpenter who presents with a gradual, insidious onset of right hip pain over the past 3 years. The pain was initially intermittent, mostly noticeable after long days of working in his garden or woodworking shop. However, over the last 6 months, the pain has become more constant and has started to significantly limit his daily function. He describes a primary deep, 'toothache-like' pain in his right groin (P1) which sometimes radiates down the front of his thigh towards his knee. He also reports a secondary aching pain over the side of his hip (P2), especially when he has been walking for a while. He notes significant stiffness in the morning, which takes at least an hour to 'loosen up'. He has difficulty with tasks like putting on his socks and shoes and getting in and out of his car. He has started using a walking stick he found in his garage for longer walks, which he feels provides some security and eases the pain.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right groin and anterior thigh; described as a deep, constant ache with intermittent sharp stabs on movement.",
+            "score": "3-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Right lateral hip/buttock; described as an intermittent ache, often associated with compensatory gait.",
+            "score": "2-5"
+        }
+    ],
+    "aggrevating_factors": null,
+    "picture": null,
+    "easing_factors": "Short periods of rest, lying down with a pillow under his knees, using a heat pack on the hip in the evenings, and the use of his walking stick. Over-the-counter pain relievers provide moderate, temporary relief.",
+    "past_history": "History of a fall from a step ladder approximately 10 years ago, landing heavily on his right side. He was bruised and sore for several weeks but did not seek medical attention as the pain resolved. He played amateur football until his early 30s. No other significant musculoskeletal injuries.",
+    "medical_history": "Generally in good health. Diagnosed with mild hypertension 5 years ago, which is well-controlled with medication. He has a Body Mass Index (BMI) of 29, having gained approximately 20 pounds since retirement.",
+    "medications": "Lisinopril 10mg daily for hypertension. Takes Ibuprofen 400mg as needed (prn) for hip pain, usually 1-2 times per day. Has tried glucosamine supplements in the past with no perceived benefit.",
+    "personal_history": "Lives with his wife in a two-story home. They have two adult children who live nearby. He was a very active individual prior to the escalation of his hip pain, enjoying gardening, woodworking, and walking his dog. He is now frustrated by his physical limitations and expresses concern about becoming a burden on his wife. His goal is to be able to walk his dog for 30 minutes and work in his garden without severe pain.",
+    "imaging": "Antero-posterior (AP) and lateral X-rays of the right hip were performed 2 months ago. The radiology report indicates moderate to severe degenerative changes, characterized by a significant loss of superior joint space, subchondral sclerosis, and prominent osteophyte formation around the femoral head and acetabular rim, consistent with a diagnosis of osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.75,
+            "reason": "The score is 0.75 because the output mostly follows the prompt's structure and content requirements, but there are some key misalignments: the JSON keys do not exactly match the specified format (e.g., 'nprs' instead of 'NPRS', 'picture' instead of 'Picture'), and some required fields are left null or missing content (e.g., 'aggrevating_factors' is null despite relevant information being present in the case study). The score is not higher due to these structural and content mismatches, but it is not lower because the majority of the required information is present and well-elaborated.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a respectful and appropriate response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9022977368153784,
+            "reason": "The output contains all required fields as per the output format, with detailed and clinically accurate information relevant to chronic right-sided hip osteoarthritis. The clinical history, pain descriptions, past and medical history, medications, and imaging findings are comprehensive and clear. Minor shortcomings include 'aggrevating_factors' and 'picture' being null, which slightly reduces completeness, but this does not compromise clinical accuracy or patient safety.",
+            "success": true
+        }
+    ]
+}

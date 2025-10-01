@@ -1,0 +1,70 @@
+{
+    "id": "85a64ab4-6b7f-4d8f-bc16-977e8338d359",
+    "condition": "rheumatoid arthritis",
+    "title": "Rheumatoid Arthritis in a Retired Librarian: Early Morning Stiffness and Functional Decline",
+    "clinical_history": "Mr. Daniel Morton is a 62-year-old retired librarian who presents with a 6-month history of progressively worsening joint pain and stiffness, predominantly affecting both hands and wrists. He describes significant morning stiffness lasting over an hour, notably struggling to open jars or button his shirt after waking. He also reports intermittent swelling and pain in both knees. On physical examination, there is visible swelling and tenderness over the metacarpophalangeal (MCP) joints, proximal interphalangeal (PIP) joints, and mild warmth over both wrists. He notices fatigue and occasional low-grade fevers in the afternoon. He has begun to find daily activities, such as gardening and book sorting, increasingly difficult due to reduced grip strength and pain.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral hands and wrists (MCP and PIP joints, wrists)",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "bilateral knees (patella and surrounding synovium)",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Morning activity, prolonged grasping (e.g. opening jars), extended standing or walking, cold weather exacerbates symptoms",
+    "picture": "[insert image demonstrating swelling of the hands and wrists, synovitis]",
+    "easing_factors": "Warm compresses, moderate hand exercises, rest, nonsteroidal anti-inflammatory drugs (NSAIDs)",
+    "past_history": "No major trauma. Reports mild carpal tunnel-like symptoms in past winter, now worsened. Family history of autoimmune disease\u00e2\u20ac\u201dmother had rheumatoid arthritis.",
+    "medical_history": "Diagnosed hypertension (well-controlled), hyperlipidemia. No previous joint injuries or surgeries.",
+    "medications": "Ibuprofen 400mg TID as needed for pain. Recently started on methotrexate 7.5mg weekly by his rheumatologist. Occasional acetaminophen for breakthrough pain.",
+    "personal_history": "Non-smoker, moderate alcohol use (1-2 glasses of wine/week). Retired, lives with his wife, enjoys gardening and reading. Sedentary during winter months, more active spring-summer. Increasing concern about losing functional independence due to persistent symptoms.",
+    "imaging": "Recent hand and wrist X-rays show mild joint-space narrowing and periarticular osteopenia suggestive of early rheumatoid arthritis changes.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to rheumatoid arthritis, accurately describing classic symptoms such as morning stiffness, symmetrical joint involvement, and functional decline. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors, ensuring patient safety and reflecting best practices.",
+            "success": true
+        }
+    ]
+}

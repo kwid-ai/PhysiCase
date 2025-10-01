@@ -1,0 +1,32 @@
+{
+    "id": "2d088da0-25b4-47eb-8473-7e946105d8ba",
+    "condition": "Ankle Sprain",
+    "title": "Lateral Ankle Sprain Following Recreational Soccer: The Case of Mr. Thomas Evans",
+    "clinical_history": "Mr. Thomas Evans is a 32-year-old accountant and amateur soccer player with no significant medical comorbidities. He presented to the outpatient physical therapy department 3 days after sustaining an injury to his right ankle during a weekend league match. He reports landing awkwardly as he attempted to pivot and change direction while running, resulting in an immediate inversion of the right foot. He describes hearing a 'pop' and feeling sharp pain along the outside of his ankle, followed by swelling and difficulty bearing weight. He was unable to continue playing. Since the injury, he reports persistent lateral ankle pain, swelling, mild bruising, and a sensation of instability. He is ambulatory with a limp, has not returned to sport, and utilizes ice and over-the-counter ibuprofen for pain management.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Lateral ankle (anterior talofibular ligament region, peroneal muscles)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Mild discomfort in the midfoot with prolonged walking secondary to compensation",
+            "score": "1-2"
+        }
+    ],
+    "aggrevating_factors": "Weight bearing, walking >10 minutes, stairs (especially descending), changing direction rapidly, activities involving plantarflexion and inversion of the ankle.",
+    "picture": "Visible swelling and mild ecchymosis over the lateral malleolus, mild to moderate limp on ambulation. Patient reports nighttime discomfort and increased swelling during the day, peaking in the evening.",
+    "easing_factors": "Rest, elevation, ice application, use of elastic compression bandage, NSAIDs. Gentle range of motion exercises below threshold of pain also provide some relief.",
+    "past_history": "Reports a minor right ankle sprain playing basketball 4 years prior. Recovered fully with no residual symptoms. No history of fractures or major injuries to the lower limbs.",
+    "medical_history": "Unremarkable. No chronic illnesses, surgeries, or allergies. Non-smoker, occasional alcohol use.",
+    "medications": "Ibuprofen 400mg oral, as needed for pain, maximum twice daily.",
+    "personal_history": "Works in a sedentary office setting. Regularly engages in recreational soccer and jogging. No current psychosocial stressors. Motivated to return to sport and maintain physical activity for general health.",
+    "imaging": "No imaging performed at this stage—Ottawa Ankle Rules negative for fracture risk; managed as Grade II lateral ankle sprain.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

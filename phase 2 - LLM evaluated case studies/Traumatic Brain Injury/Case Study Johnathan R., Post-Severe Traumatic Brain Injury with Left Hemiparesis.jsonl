@@ -1,0 +1,70 @@
+{
+    "id": "b79da65e-b265-4ca2-bbe4-ca02fe937b27",
+    "condition": "Traumatic Brain Injury",
+    "title": "Case Study: Johnathan R., Post-Severe Traumatic Brain Injury with Left Hemiparesis",
+    "clinical_history": "Johnathan is a 32-year-old male software engineer who sustained a severe traumatic brain injury (TBI) three months ago in a high-speed motor vehicle accident (T-bone collision, driver's side impact). He experienced a prolonged loss of consciousness at the scene and was transported to a Level 1 Trauma Center with an initial Glasgow Coma Scale (GCS) score of 6. He spent two weeks in a medically induced coma in the ICU to manage intracranial pressure, followed by a six-week stay in an inpatient neuro-rehabilitation unit. He has now been discharged home and is presenting to outpatient physical therapy to continue his recovery. Johnathan's primary difficulties include significant cognitive fatigue, memory deficits, left-sided weakness (hemiparesis), and persistent headaches. He walks with a quad cane and requires supervision due to significant balance impairments and left-sided neglect. His primary goal is to improve his independence with mobility and eventually return to his intellectually demanding career.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Global, throbbing headaches, often localized behind the eyes and at the base of the skull. Described as a constant pressure with intermittent sharp, intense spikes.",
+            "score": "5-8/10"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Aching and stiffness in the left shoulder (glenohumeral joint) and left calf (gastrocnemius/soleus complex) secondary to increased muscle tone (spasticity).",
+            "score": "3-5/10"
+        }
+    ],
+    "aggrevating_factors": null,
+    "picture": null,
+    "easing_factors": "Resting in a dark, quiet environment significantly eases the headache (P1). Gentle, slow passive range of motion and stretching of the left arm and leg, provided by his wife, can temporarily decrease the aching and stiffness (P2). Prescribed medications offer moderate relief.",
+    "past_history": "Johnathan was in excellent health prior to the accident. He has no significant past medical history. He was an active individual, participating in recreational running (5k races) and hiking. No prior neurological or significant musculoskeletal injuries.",
+    "medical_history": "Severe TBI with diffuse axonal injury and a small right-sided subdural hematoma. Required emergency decompressive craniectomy to manage intracranial pressure. Following stabilization, he underwent an extensive inpatient rehabilitation program focusing on basic mobility, ADLs, and speech therapy.",
+    "medications": "Gabapentin (for seizure prophylaxis and neuropathic pain), Baclofen (to manage spasticity), Acetaminophen (as needed for headache management).",
+    "personal_history": "Johnathan lives with his wife in a two-story home with the master bedroom on the second floor. His wife is his primary caregiver and is currently on family medical leave from her job. He is on long-term disability from his work as a software engineer. The stairs in his home present a significant safety risk and functional barrier. He expresses frustration and low mood related to his current level of dependence.",
+    "imaging": "Initial head CT scan upon admission revealed a right subdural hematoma with significant midline shift. A follow-up brain MRI performed 4 weeks post-injury confirmed the resolution of the hematoma and demonstrated findings consistent with diffuse axonal injury, particularly in the corpus callosum and brainstem.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8181818181818182,
+            "reason": "The score is 0.82 because the output mostly follows the prompt instructions, but there are minor unalignments in the JSON key names ('nprs' instead of 'NPRS' and 'picture' instead of 'Picture'). The content and structure are otherwise well-aligned, which keeps the score relatively high.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9377540661794489,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, past and medical history, medications, personal history, and imaging. The content is highly relevant to severe TBI with left hemiparesis, demonstrating clinical accuracy and attention to patient safety. The response is clear and comprehensive, but minor details are missing, such as the 'aggrevating_factors' and 'picture' fields, which are present but set to null. This slightly detracts from completeness, but overall, the case is well-documented and clinically sound.",
+            "success": true
+        }
+    ]
+}

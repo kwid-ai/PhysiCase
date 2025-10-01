@@ -1,0 +1,70 @@
+{
+    "id": "e7db32e0-d7f7-4453-bfbb-c7bbf5bee0b5",
+    "condition": "McArdle Disease",
+    "title": "Case Study: Managing McArdle Disease in a Young Adult",
+    "clinical_history": "Meet Emily, a 25-year-old graduate student who has been experiencing muscle cramps, fatigue, and shortness of breath during physical activities. She first noticed these symptoms during her undergraduate studies, particularly during intense exercise sessions or when playing sports. Emily reports that her muscles often feel stiff and sore after exertion, and she has to take regular breaks to rest. She has also noticed that her symptoms worsen in hot weather. Emily's condition was diagnosed as McArdle Disease, a genetic disorder affecting the enzyme myophosphorylase, which is necessary for muscle glycogen breakdown.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Muscles of the lower extremities, particularly the calves and thighs",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Upper body muscles, including the arms and shoulders",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Intense physical activity, especially aerobic exercises like running or cycling, hot weather, and high-intensity interval training",
+    "picture": "A 24-hour picture showing Emily's daily activities, including her exercise routine, rest periods, and symptom management strategies",
+    "easing_factors": "Rest, ice packs or cold compresses on affected muscles, and engaging in low-intensity exercises like yoga or swimming",
+    "past_history": "Emily has a family history of McArdle Disease, with her mother and younger brother also diagnosed with the condition. She has been managing her symptoms with lifestyle modifications and physical therapy.",
+    "medical_history": "Emily is generally healthy, with no other significant medical conditions. She takes no medications regularly but uses over-the-counter pain relievers occasionally for muscle soreness.",
+    "medications": "None regularly, occasional use of ibuprofen for pain management",
+    "personal_history": "Emily is a graduate student pursuing a master's degree in exercise science. She lives with her family and is actively involved in raising awareness about McArdle Disease.",
+    "imaging": "Muscle biopsy and genetic testing confirmed the diagnosis of McArdle Disease; no recent imaging studies have been conducted",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8571428571428571,
+            "reason": "The score is 0.86 because while the output covers all required content and is well-structured, it does not fully adopt the authoritative writing style of a senior professor, and there are inconsistencies in the JSON key names and structure compared to the prompt instructions. These issues prevent a higher score, but the output is still quite aligned due to its comprehensive and relevant content.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a respectful and appropriate response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.932082129433083,
+            "reason": "The output contains all required fields and is highly relevant to McArdle Disease, accurately describing clinical history, symptoms, aggravating and easing factors, and diagnostic confirmation. The response is clear, comprehensive, and clinically accurate, with appropriate attention to patient safety. However, it is missing minor details such as specific recommendations for exercise management or dietary advice, which are often important in McArdle Disease care.",
+            "success": true
+        }
+    ]
+}

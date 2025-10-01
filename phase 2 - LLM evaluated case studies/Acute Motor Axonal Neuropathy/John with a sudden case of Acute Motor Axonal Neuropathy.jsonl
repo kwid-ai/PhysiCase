@@ -1,0 +1,101 @@
+{
+    "id": "chatcmpl-By75xwe1BLbxyR7UbJjHBScWQdlug",
+    "condition": "Acute Motor Axonal Neuropathy",
+    "title": "John with a sudden case of Acute Motor Axonal Neuropathy",
+    "clinical_history": "John is a 38-year-old construction worker who presented to the clinic with rapidly progressive weakness in his lower extremities. Approximately one week prior, John experienced a mild upper respiratory infection which he believes is unrelated. His symptoms began three days ago with tingling and weakness in his feet that quickly progressed to his calves and thighs. By today, he cannot walk without help and has difficulty lifting his arms. He reports no sensory loss nor changes in bowel or bladder function. John is very concerned as his symptoms have escalated rapidly, and he has noticed significant muscle wasting in a short amount of time.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lower extremities",
+            "score": "3-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "upper extremities",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "physical exertion, walking, and attempting to climb stairs",
+    "picture": "[insert image of a human figure highlighting lower and upper limb]",
+    "easing_factors": "rest, corticosteroids",
+    "past_history": "John has a history of hypertension for which he takes Lisinopril. He has no previous neurological or musculoskeletal complaints and generally leads an active lifestyle due to his work.",
+    "medical_history": "other than hypertension, he is generally healthy. No prior history of neurological disorders. Recent mild upper respiratory infection.",
+    "medications": "Lisinopril for hypertension",
+    "personal_history": "John is married with two young children. As a construction worker, he takes pride in his physical abilities and is worried about his capacity to provide for his family due to his current condition.",
+    "imaging": "Electromyography (EMG) shows markedly reduced motor nerve conduction velocities and amplitudes, consistent with motor axonal damage.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 414,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1056,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1470
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' (lowercase) instead of 'NPRS' (uppercase) for the Numeric Pain Rating Scale key. All other prompt instructions are followed well, so the score is high, but not perfect due to this minor formatting issue.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, directly addressing all aspects of the input task with no irrelevant statements. Excellent job staying focused and thorough!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.79169837893565,
+            "reason": "The output contains all required fields and is relevant to Acute Motor Axonal Neuropathy, accurately describing a typical clinical history, examination findings, and appropriate investigations. The response is clear and mostly comprehensive, with good attention to clinical accuracy and patient safety. However, there is a minor inaccuracy: corticosteroids are not standard first-line treatment for this condition (IVIG or plasmapheresis are preferred), which could impact patient safety. Otherwise, the case is well-constructed and detailed.",
+            "success": true
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "id": "0ab511c2-aae2-49db-b1b8-68a51393feae",
+    "condition": "Coronavirus",
+    "title": "Post-COVID Myalgia and Fatigue in a Middle-Aged Office Worker",
+    "clinical_history": "Mr. Daniel Li is a 48-year-old accountant who contracted Coronavirus (COVID-19) seven weeks ago. He experienced moderate respiratory symptoms, including cough, shortness of breath, and fever, requiring 5 days of hospital admission but no intensive care. Two weeks following acute illness, he developed persistent, diffuse muscle aches and profound fatigue. He complains of deep aching pain primarily in his thighs and shoulder girdle, with milder discomfort in the lumbar region. He reports difficulty climbing stairs, standing from a seated position, and lifting moderate weights due to both pain and subjective weakness. He experiences heightened symptoms following minimal exertion, necessitating rest periods throughout the workday. He describes his pain as constant but fluctuating, with notable exacerbation in the evening.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral quadriceps and deltoid regions",
+            "score": "5-6"
+        },
+        {
+            "context": "P2",
+            "affected_area": "lower back muscles (lumbar paraspinals)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "physical activity (walking >10 minutes, stair climbing), prolonged sitting, lifting objects, stress, poor sleep",
+    "picture": "Patient highlights both thighs and shoulders as primary pain zones with secondary discomfort in lower back. Appearance is fatigued, uses handrails when climbing stairs, takes frequent rests.",
+    "easing_factors": "Rest, gentle stretching, warm showers, acetaminophen. Brief naps (20\u00e2\u20ac\u201c30min) offer some relief.",
+    "past_history": "No significant musculoskeletal complaints before COVID-19 infection. Mild, well-controlled hypertension diagnosed 3 years ago.",
+    "medical_history": "Hypertension, BMI 29, no previous respiratory or neuromuscular disorders.",
+    "medications": "Lisinopril 10mg daily, acetaminophen 500mg as needed for pain (max 3x/day after COVID-19), daily multivitamin",
+    "personal_history": "Lives with spouse, two teenage children. No tobacco. Low habitual activity prior to illness (sedentary job, occasional weekend walks). Reports heightened stress due to work demands and pandemic uncertainties.",
+    "imaging": "None to date. Laboratory: Normal CBC and CK, negative for autoimmune markers.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the pain rating section. All other prompt instructions are followed well, and the content is thorough and detailed. Great job overall\u2014just a minor formatting tweak needed!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and relevant laboratory findings. The content is highly relevant to post-COVID myalgia and fatigue, with clear, comprehensive, and clinically accurate descriptions. There are no factual inaccuracies or omissions that would impact patient safety.",
+            "success": true
+        }
+    ]
+}

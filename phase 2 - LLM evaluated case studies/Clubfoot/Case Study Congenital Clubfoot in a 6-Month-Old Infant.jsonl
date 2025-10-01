@@ -1,0 +1,65 @@
+{
+    "id": "f38ab407-f4f6-4be2-963e-4b37c4c32945",
+    "condition": "Clubfoot",
+    "title": "Case Study: Congenital Clubfoot in a 6-Month-Old Infant",
+    "clinical_history": "A 6-month-old male infant, born at 38 weeks gestation via cesarean section, presents with a congenital clubfoot deformity in his right foot. The parents first noticed the deformity at birth. The infant's foot is in a position of plantar flexion, inversion, and adduction, with a decreased ankle joint dorsiflexion range. The parents report that the infant experiences difficulty in moving his foot and has not shown any improvement over the past 6 months.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right foot and ankle",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Passive stretching of the foot and ankle, particularly in the direction of dorsiflexion and eversion",
+    "picture": "An image of a 6-month-old infant's right foot showing clubfoot deformity",
+    "easing_factors": "Gentle manipulation and mobilization of the foot and ankle",
+    "past_history": "The infant has a family history of clubfoot, with a maternal aunt who had a similar condition. The infant has been otherwise healthy, with no other medical conditions or complications.",
+    "medical_history": "The infant was born at 38 weeks gestation via cesarean section, with a birth weight of 3.2 kg. He has been followed up regularly by his pediatrician and has received routine vaccinations.",
+    "medications": "None",
+    "personal_history": "The infant lives with his parents and has an older sibling who is 2 years old. The family has a supportive network of relatives and friends.",
+    "imaging": "X-rays of the right foot and ankle showing a clubfoot deformity with a decreased talocalcaneal angle",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8461538461538461,
+            "reason": "The score is 0.85 because the output provides all required case study elements in a clear and structured manner, but it does not fully follow the specified writing style of a senior professor and does not use the exact field names and casing as required by the output format. These issues prevent a higher score, but the content is otherwise well-aligned with the prompt instructions.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout. Well done on maintaining objectivity.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9731058566911021,
+            "reason": "The output contains all required fields, including clinical history, NPRS, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to congenital clubfoot in a 6-month-old infant, with accurate clinical details such as foot position, family history, and imaging findings. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

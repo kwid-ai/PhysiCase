@@ -1,0 +1,27 @@
+{
+    "id": "f398162f-b793-4199-afbc-585cc189a257",
+    "condition": "Hernia",
+    "title": "Case Study: A 45-Year-Old Male with a Diagnosis of Inguinal Hernia",
+    "clinical_history": "A 45-year-old male, who works as a construction worker, presents with a 3-day history of a painful lump in his right groin area. He reports that the pain started suddenly while lifting heavy materials at work. The patient describes the pain as sharp and aching, which worsens when coughing, sneezing, or straining during bowel movements. He also experiences discomfort and a feeling of heaviness in the groin area, especially towards the end of the day.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right groin area",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "coughing, sneezing, straining during bowel movements, heavy lifting, bending, or twisting",
+    "picture": "A 24-hour picture showing the patient's typical day with activities that exacerbate the condition",
+    "easing_factors": "resting in a supine position, applying ice to the affected area",
+    "past_history": "The patient has a history of intermittent lower back pain, which he manages with occasional physical therapy sessions. He has also had a previous episode of groin strain 5 years ago, which resolved with conservative management.",
+    "medical_history": "The patient is generally healthy, but has been diagnosed with hypertension and hyperlipidemia. He is taking medication for these conditions.",
+    "medications": "Amlodipine 5mg daily, Atorvastatin 20mg daily",
+    "personal_history": "The patient is married with two children and works as a construction worker. He smokes 1 pack of cigarettes per day and has a sedentary lifestyle outside of work.",
+    "imaging": "Ultrasound of the groin area shows a 2cm inguinal hernia on the right side",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": "3539c972-8876-48e1-81f1-0a6618061093",
+    "condition": "Low Back Pain",
+    "title": "A Case of Chronic Low Back Pain in a Sedentary Office Worker",
+    "clinical_history": "Meet John, a 42-year-old office worker who has been experiencing chronic low back pain for the past 6 months. He reports that the pain started gradually, with no specific incident or trauma. John spends most of his day sitting at a desk, working on a computer, and has a sedentary lifestyle. He has tried various treatments, including over-the-counter pain medications and physical therapy, but the pain persists.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lower back, specifically the lumbar region",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "prolonged sitting, standing, bending, lifting heavy objects, and twisting",
+    "picture": "a diagram of the lumbar spine highlighting the affected area",
+    "easing_factors": "rest, heat application, and gentle stretching",
+    "past_history": "John has a history of intermittent back pain, which he attributes to his previous job as a manual laborer. He has not had any significant injuries or surgeries in the past 5 years.",
+    "medical_history": "John has hypertension and high cholesterol, which are managed through medication and lifestyle modifications.",
+    "medications": "acetaminophen 1000mg every 4-6 hours as needed for pain",
+    "personal_history": "John is married with two children and works as an accountant in a large firm. He reports feeling stressed and overwhelmed at work, which he believes contributes to his back pain.",
+    "imaging": "MRI of the lumbar spine shows mild degenerative changes at L4-L5 and L5-S1 levels, with no significant herniation or stenosis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "4f29d90e-2ab3-4021-8724-61d25f053ee7",
+    "condition": "Amyotrophic Lateral Sclerosis",
+    "title": "A 55-year-old male with Progressive Muscle Weakness and Amyotrophic Lateral Sclerosis",
+    "clinical_history": "A 55-year-old male, John, presented with a 6-month history of progressive muscle weakness, twitching, and wasting in his right arm. He reported difficulty performing daily activities such as dressing, brushing his teeth, and walking. The symptoms started with mild weakness in his right hand, which gradually progressed to his right arm and then to his left arm. He also experiences muscle cramps and stiffness, particularly in the evening.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right arm and hand muscle cramps and stiffness",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "left arm and hand muscle weakness",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged physical activity, muscle fatigue, and emotional stress",
+    "picture": "A 24-hour picture showing progressive muscle weakness and wasting, particularly in the upper limbs.",
+    "easing_factors": "Rest, physical therapy, and medication",
+    "past_history": "No significant past medical history, but his father had a similar condition.",
+    "medical_history": "Recently diagnosed with Amyotrophic Lateral Sclerosis (ALS) based on clinical presentation, electromyography (EMG), and nerve conduction studies.",
+    "medications": "Riluzole 50mg twice daily, pain management with acetaminophen and tramadol as needed",
+    "personal_history": "Married with two children, works as an accountant, and enjoys reading and watching movies in his free time.",
+    "imaging": "EMG and nerve conduction studies showing denervation of muscles in the upper limbs, MRI of the brain and spinal cord to rule out other conditions.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

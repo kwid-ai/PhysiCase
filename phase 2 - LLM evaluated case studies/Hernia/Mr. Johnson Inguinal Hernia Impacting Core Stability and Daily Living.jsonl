@@ -1,0 +1,70 @@
+{
+    "id": "42de65f4-4cc9-4ff3-b619-fb1ad114d616",
+    "condition": "Hernia",
+    "title": "Mr. Johnson: Inguinal Hernia Impacting Core Stability and Daily Living",
+    "clinical_history": "Mr. Daniel Johnson is a 48-year-old warehouse manager who reports a progressive bulge in his right lower abdomen for the past 3 months. He noticed mild discomfort after lifting a heavy box at work but had no sudden, sharp pain. Over the last 4 weeks, he has experienced intermittent aching localized to the right inguinal region, exacerbated by physical exertion, coughing, or prolonged standing. His pain subsides at rest or when lying supine. On examination, a palpable, reducible mass is noted in the right inguinal region, which becomes prominent with Valsalva maneuver. He denies any nausea, vomiting, or systemic symptoms.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right lower abdominal wall/inguinal region",
+            "score": "2-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Secondary discomfort radiating to right groin with heavy lifting",
+            "score": "1-3"
+        }
+    ],
+    "aggrevating_factors": "Heavy lifting, bending, coughing, sustained standing, straining during bowel movements.",
+    "picture": "Pain and palpable bulge are most evident in the right inguinal region, especially during activity; patient often supports the right lower abdomen with his hand when rising from a chair or when lifting.",
+    "easing_factors": "Rest, lying supine, use of an abdominal binder, avoidance of heavy lifting.",
+    "past_history": "No previous surgeries; reports occasional constipation; no prior episodes of abdominal or groin pain.",
+    "medical_history": "Hypertension managed with lisinopril; BMI: 31 (obese); no diabetes or anticoagulant use.",
+    "medications": "Lisinopril 10mg daily; acetaminophen as needed for pain (rarely used).",
+    "personal_history": "Non-smoker, moderate alcohol use socially; engaged in regular manual work; reports increased work demands over the last year and limited time for exercise.",
+    "imaging": "Abdominal ultrasound confirmed a reducible right inguinal hernia with no evidence of bowel incarceration.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to an inguinal hernia, with accurate clinical details such as a reducible bulge, pain characteristics, and risk factors. The response is clear, comprehensive, and clinically accurate, with no omissions or factual errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

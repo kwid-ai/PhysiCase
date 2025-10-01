@@ -1,0 +1,70 @@
+{
+    "id": "e8ceac41-1af7-4612-b9d9-242b70a7da92",
+    "condition": "TMJ Jaw and Ear Pain",
+    "title": "Case Study: Temporomandibular Joint (TMJ) Disorder with Jaw and Ear Pain",
+    "clinical_history": "A 35-year-old marketing executive, Sarah, presented with a 6-week history of jaw and ear pain. She reported that the pain started after a period of intense stress at work and a change in her diet to more hard and chewy foods. The pain is localized to her right jaw and ear, and she describes it as a dull ache that worsens throughout the day. She also experiences clicking and popping sounds in her jaw when she opens and closes her mouth.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right jaw and ear",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "secondary complaint of headache",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "chewing, talking, yawning, eating hard or chewy foods, stress",
+    "picture": "24-hour pain pattern: pain is typically worse in the morning and evening, with some relief during meals",
+    "easing_factors": "applying heat or cold packs to the affected area, massage, relaxation techniques",
+    "past_history": "history of bruxism and teeth grinding at night",
+    "medical_history": "generally healthy, but has a history of migraines",
+    "medications": "ibuprofen as needed for pain relief",
+    "personal_history": "married with two young children, works full-time, and has a high-stress job",
+    "imaging": "X-rays of the TMJ showed joint space narrowing and degenerative changes",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.75,
+            "reason": "The score is 0.75 because the output provides all the required content, but the JSON keys 'nprs' and 'picture' do not match the specified 'NPRS' and 'Picture' in the prompt, which affects strict format alignment. However, the information itself is complete and well-structured, which is why the score is not lower.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, directly addressing all aspects of the input task with no irrelevant statements. Excellent job staying focused and thorough!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias and presents information in a fair and balanced manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including title, clinical history, NPRS scores, aggravating and easing factors, pain pattern, past and medical history, medications, personal history, and imaging. The content is highly relevant to TMJ disorder, with clear and comprehensive details about symptoms, history, and clinical findings. The response is clinically accurate, prioritizes patient safety, and does not omit any significant information.",
+            "success": true
+        }
+    ]
+}

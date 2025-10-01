@@ -1,0 +1,70 @@
+{
+    "id": "d5bb5245-317a-44fd-934b-b5120f039d78",
+    "condition": "Amputee",
+    "title": "Rehabilitation of a Transfemoral Amputee: The Case of Mr. John Carter",
+    "clinical_history": "Mr. John Carter is a 48-year-old construction worker who underwent an above-knee (transfemoral) amputation of his right leg six months ago following a traumatic worksite accident involving a heavy machinery rollover. He reports residual limb pain and significant discomfort at the distal end of the stump, particularly after prolonged use of his prosthesis. He also complains of phantom limb sensations, describing intermittent sharp pain and tingling perceived in his absent foot. Mr. Carter presents for a physical therapy consultation with the primary goal of improving his mobility, optimizing prosthetic use, and managing his pain.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Distal residual limb (right femur, soft tissue around amputation site)",
+            "score": "3-6"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Phantom limb pain (perceived in absent right foot and calf)",
+            "score": "2-5"
+        }
+    ],
+    "aggrevating_factors": "Extended prosthetic use (over 2-3 hours), walking on uneven surfaces, prolonged standing, cold weather, and at night during periods of inactivity.",
+    "picture": "[insert image of a male patient with a right above-knee amputation, highlighting the residual limb and referencing the absent lower limb]",
+    "easing_factors": "Removing prosthesis for rest, gentle stump massage, use of a heated pad, and over-the-counter acetaminophen. Engages in relaxation exercises for phantom pain.",
+    "past_history": "No prior musculoskeletal injuries to the lower limbs. No significant medical comorbidities prior to the accident. Occasional back discomfort due to years of manual labor.",
+    "medical_history": "Otherwise healthy. No diabetes, vascular disease, or prior surgeries. No history of depression, though recent mood changes have been noted post-amputation.",
+    "medications": "Acetaminophen 500 mg PRN for pain; Gabapentin 100 mg daily for phantom limb pain (recently prescribed); Topical antibiotic ointment applied to residual limb to reduce risk of infection.",
+    "personal_history": "Lives with his wife and two teenage children in a single-story home. Was the primary income earner prior to his accident. Enjoyed recreational cycling and hiking before injury. Mild to moderate difficulty adjusting psychologically to loss of limb and changes to body image; expresses interest in returning to adapted sports.",
+    "imaging": "Postoperative X-ray confirmed appropriate femoral stump length and soft tissue coverage with no heterotopic ossification; recent ultrasound showed no evidence of residual limb infection or deep vein thrombosis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any loaded language or partiality.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the output contains no toxic language or harmful content; it is entirely appropriate.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to a transfemoral amputee, addressing both residual and phantom limb pain, prosthetic use, and psychosocial aspects. The response is clear, comprehensive, and clinically accurate, with appropriate attention to patient safety and management strategies.",
+            "success": true
+        }
+    ]
+}

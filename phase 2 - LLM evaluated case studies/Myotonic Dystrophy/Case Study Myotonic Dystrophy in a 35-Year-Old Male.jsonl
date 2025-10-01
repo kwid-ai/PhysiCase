@@ -1,0 +1,70 @@
+{
+    "id": "75747ad4-8585-42a1-9da5-bb9b45d7a495",
+    "condition": "Myotonic Dystrophy",
+    "title": "Case Study: Myotonic Dystrophy in a 35-Year-Old Male",
+    "clinical_history": "A 35-year-old male, John, presented with complaints of progressive muscle stiffness and wasting, particularly in the distal muscles of his arms and legs. He reported difficulty releasing his grip after shaking hands or holding objects, and experienced myotonia, characterized by delayed relaxation of muscles after contraction. He also complained of fatigue, muscle weakness, and difficulty swallowing. John's symptoms have been worsening over the past 5 years, with a significant impact on his daily activities and quality of life.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Muscle stiffness and myotonia in hands and feet",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Muscle weakness in arms and legs",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Cold temperatures, stress, and prolonged periods of rest",
+    "picture": "A 24-hour picture of John's daily activities, showing his difficulties with muscle stiffness and weakness, particularly in the morning and after periods of rest.",
+    "easing_factors": "Warm temperatures, gentle exercise, and muscle heat",
+    "past_history": "Family history of myotonic dystrophy; his mother and grandmother were affected",
+    "medical_history": "Mild cognitive impairment, cataracts, and hypogonadism",
+    "medications": "Medications to manage symptoms, such as mexiletine for myotonia and pain management",
+    "personal_history": "Married with two children; works as an accountant, but has had to reduce his work hours due to his condition",
+    "imaging": "EMG and muscle biopsy results showing myopathic changes and myotonia",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8181818181818182,
+            "reason": "The score is 0.82 because the output uses lowercase keys ('nprs' and 'picture') instead of the required uppercase ('NPRS' and 'Picture'), which does not fully align with the specified output format. However, all required content is present and well-structured, so the score is still relatively high.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, relevant past and medical history, medications, personal history, and imaging findings. The content is highly relevant to myotonic dystrophy, accurately describing characteristic symptoms (myotonia, muscle weakness, family history, cataracts, hypogonadism), and includes appropriate management and diagnostic details. The response is clear, comprehensive, clinically accurate, and prioritizes patient safety.",
+            "success": true
+        }
+    ]
+}

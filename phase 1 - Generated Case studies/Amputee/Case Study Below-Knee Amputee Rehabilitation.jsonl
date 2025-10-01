@@ -1,0 +1,32 @@
+{
+    "id": "41ca80f2-7e4f-49dc-b6a2-084fc8eebdc8",
+    "condition": "Amputee",
+    "title": "Case Study: Below-Knee Amputee Rehabilitation",
+    "clinical_history": "Meet John, a 45-year-old male who underwent a below-knee amputation (BKA) of his left leg due to a traumatic injury sustained in a motorcycle accident 6 months ago. He has a history of phantom limb pain and residual limb pain. John is currently experiencing difficulty with prosthetic use, reporting issues with balance, mobility, and pain management. He has been referred to physical therapy to improve his functional abilities and reduce pain.",
+    "nprs": [
+        {
+            "context": "Primary",
+            "affected_area": "Residual limb and phantom limb",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary",
+            "affected_area": "Lower back and intact leg",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Prolonged prosthetic use, ambulation on uneven surfaces, and changes in weather",
+    "picture": "24-hour pain pattern shows increased pain at night and with prolonged activity",
+    "easing_factors": "Rest, elevation of the residual limb, and pain medication",
+    "past_history": "John has a history of hypertension and hyperlipidemia. He was an avid hiker and cyclist prior to the accident.",
+    "medical_history": "The amputation was performed 6 months ago, and John has been using a prosthetic limb for 3 months. He has experienced several skin irritations and pressure sores on the residual limb.",
+    "medications": "Gabapentin for neuropathic pain, acetaminophen for pain management, and lisinopril for hypertension",
+    "personal_history": "John is married with two children and works as an engineer. He reports feeling depressed and anxious since the accident, and has been experiencing difficulties with body image and self-esteem.",
+    "imaging": "X-rays of the residual limb show no signs of bone fragmentation or other complications. MRI of the intact leg is normal.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

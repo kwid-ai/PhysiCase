@@ -1,0 +1,32 @@
+{
+    "id": "551c4be1-892b-4489-92cf-58d084c23699",
+    "condition": "Multiple Sclerosis",
+    "title": "Case Study: Sarah Jones – Functional Decline in Multiple Sclerosis",
+    "clinical_history": "Sarah Jones is a 38-year-old accountant who presents for physiotherapy due to progressive weakness and fatigue primarily affecting her lower limbs over the past three months. She describes an insidious onset of right leg heaviness, frequent tripping, and occasional left arm numbness. Her initial diagnosis of relapsing-remitting Multiple Sclerosis (MS) was made eight years ago after an episode of optic neuritis. At present, she reports muscle spasms, balance difficulties, and increased clumsiness—especially after periods of prolonged activity or in hot environments. Gait instability and spasticity have recently contributed to a fall at home, though there were no serious injuries. She is concerned about maintaining her independence and keeping up with her two school-aged children.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right lower limb (quadriceps, gastrocnemius)",
+            "score": "3-6"
+        },
+        {
+            "context": "P2",
+            "affected_area": "left arm (forearm extensor group, occasional hand cramping)",
+            "score": "1-3"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking distances >200 meters, exposure to heat, emotional stress, and strenuous physical activity exacerbate symptoms. Fatigue often worsens toward the end of the day.",
+    "picture": "[insert image of person demonstrating dropped foot and increased tone in right leg]",
+    "easing_factors": "Rest, cooling strategies, regular stretching, and the use of her prescribed walking stick. Breaks during activity, lower room temperature, and muscle relaxation techniques offer symptomatic relief.",
+    "past_history": "History of optic neuritis eight years ago followed by sensory symptoms and intermittent fatigue. No previous major mobility restrictions until the past year. No surgical history.",
+    "medical_history": "Diagnosed relapsing-remitting Multiple Sclerosis (eight years), mild hypertension (well controlled), no diabetes or significant comorbidities.",
+    "medications": "Interferon beta-1a (subcutaneous, 3 times weekly), Baclofen 10mg BID for spasticity, Lisinopril 5mg QD for blood pressure. Uses vitamin D and calcium supplements.",
+    "personal_history": "Married with two children aged 8 and 10. Formerly active in recreational cycling, now limited by fatigue. Works part-time. Reports mild anxiety regarding disease progression and impact on family life.",
+    "imaging": "MRI brain and spine (six months ago): Multiple periventricular, juxtacortical, and spinal lesions consistent with demyelination. Increased high T2 signal in cervical spinal cord.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

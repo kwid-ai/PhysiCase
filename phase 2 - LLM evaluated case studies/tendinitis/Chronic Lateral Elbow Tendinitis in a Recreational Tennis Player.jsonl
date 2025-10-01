@@ -1,0 +1,70 @@
+{
+    "id": "10573fc0-4f3d-46ea-bf41-aaebf0594cf1",
+    "condition": "tendinitis",
+    "title": "Chronic Lateral Elbow Tendinitis in a Recreational Tennis Player",
+    "clinical_history": "Mr. John McClellan is a 44-year-old right-handed accountant who presents with a 3-month history of persistent lateral right elbow pain. The onset was insidious but correlates with his return to weekend tennis after a 12-year hiatus. He reports playing two to three times per week, 1-2 hours per session. He first noted mild discomfort during backhand swings, which progressed to an aching pain that persists at rest and worsens with gripping activities such as shaking hands, opening jars, or holding his coffee mug. He denies any trauma, swelling, numbness, or systemic symptoms. He has been self-managing with occasional ice and over-the-counter analgesics, with negligible improvement.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Lateral epicondyle of right elbow (ECRB and EDC tendons)",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Forearm extensor muscle belly discomfort",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Tennis strokes (especially single-handed backhands), gripping or lifting objects with the right hand, typing for prolonged periods, carrying grocery bags, resisted wrist extension.",
+    "picture": "[insert illustration highlighting right lateral elbow and dorsal forearm]",
+    "easing_factors": "Rest, ice pack application, avoiding provoking activities, occasional use of NSAIDs (ibuprofen), counterforce bracing provides mild relief.",
+    "past_history": "No previous significant musculoskeletal injuries. No prior elbow or upper limb issues.",
+    "medical_history": "Generally healthy; mild hypertension controlled with amlodipine. Non-smoker. BMI: 27.",
+    "medications": "Amlodipine 5 mg OD for hypertension, Ibuprofen 400 mg PRN for pain (2-3 times weekly).",
+    "personal_history": "Married, two teenage children, works long office hours leading to a mostly sedentary lifestyle. Prior to resuming tennis, exercise was limited to occasional weekend walks. Motivation for tennis was increased social interaction and health.",
+    "imaging": "No imaging performed to date. Clinical diagnosis supported by tenderness over lateral epicondyle and pain reproduced on resisted wrist extension.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to chronic lateral elbow tendinitis, with accurate clinical details and appropriate mention of examination findings and management. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

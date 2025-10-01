@@ -1,0 +1,32 @@
+{
+    "id": "5eec2398-0700-45cb-afe9-47797d4c60ac",
+    "condition": "Adult Spastic Cerebral Palsy",
+    "title": "Case Study: Adult Spastic Cerebral Palsy - Sarah's Experience",
+    "clinical_history": "Sarah is a 35-year-old woman with a history of spastic cerebral palsy. She was born prematurely and had a difficult neonatal period, which led to her diagnosis. As a child, she underwent various treatments, including physical therapy, occupational therapy, and selective dorsal rhizotomy. She has a history of muscle spasms, stiffness, and limited mobility. Sarah has been experiencing increased muscle tone and stiffness in her lower extremities, particularly in her hamstrings and adductors, which has affected her gait and balance. She reports difficulty with transfers and ambulation, requiring the use of a walker for support.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral lower extremity stiffness and muscle spasms",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Left hip flexor pain",
+            "score": "4-5"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, or sitting; muscle fatigue; cold temperatures; and certain medications",
+    "picture": "A 24-hour picture of Sarah's daily activities, including her morning routine, transfers, and ambulation with a walker",
+    "easing_factors": "Stretching exercises, warm baths, and relaxation techniques",
+    "past_history": "Sarah has a history of multiple orthopedic surgeries, including bilateral hamstring lengthening and left adductor release. She has also received botulinum toxin injections for muscle spasticity management.",
+    "medical_history": "Sarah has a history of osteoporosis and is taking calcium and vitamin D supplements. She also experiences chronic constipation and urinary incontinence.",
+    "medications": "Baclofen for muscle spasticity, acetaminophen for pain management, and calcium and vitamin D supplements for osteoporosis",
+    "personal_history": "Sarah is married and has two children. She works part-time as a writer and uses assistive technology to manage her writing tasks. She enjoys spending time with her family and participating in adaptive sports, such as para-swimming.",
+    "imaging": "X-rays of her lower extremities and pelvis show evidence of osteoporosis and degenerative joint changes.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

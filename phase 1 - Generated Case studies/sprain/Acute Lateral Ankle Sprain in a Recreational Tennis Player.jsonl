@@ -1,0 +1,32 @@
+{
+    "id": "8a4c21c1-bad8-437b-90af-620bd1e82a32",
+    "condition": "sprain",
+    "title": "Acute Lateral Ankle Sprain in a Recreational Tennis Player",
+    "clinical_history": "James is a 34-year-old recreational tennis player who sustained an injury to his right ankle during a doubles match three days ago. While chasing a wide ball, he landed awkwardly on the outside of his foot and immediately felt a sharp pain along the outer aspect of his right ankle. He was unable to continue playing and noted swelling developing rapidly within the hour. He has been able to weight-bear with significant discomfort but walks with an obvious limp. James reports that the ankle feels unstable, especially when negotiating stairs or uneven ground. He did not hear a pop but experienced moderate bruising by the following day. He denies any previous major ankle injuries.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right lateral ankle (ATFL, CFL ligaments)",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "mild diffuse discomfort over dorsum of foot (secondary soft tissue swelling)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Weight-bearing, walking (especially on uneven surfaces), descending stairs, attempting lateral movements, and especially inversion or twisting motions of the foot.",
+    "picture": "[insert image highlighting the lateral aspect of the right ankle, marked swelling, ecchymosis]",
+    "easing_factors": "Rest, elevation, ice application, compression bandage, and partial off-loading using crutches. Reports marginal relief with over-the-counter pain medication.",
+    "past_history": "No prior history of significant ankle injuries. Occasional minor ankle discomfort after long tennis sessions, but nothing requiring medical attention.",
+    "medical_history": "Generally healthy, no chronic medical conditions. Occasional mild seasonal allergies.",
+    "medications": "Ibuprofen 400 mg as needed (1-2 times per day since injury), no regular medications.",
+    "personal_history": "Works as a software engineer, lives with partner, active lifestyle including regular tennis and cycling. No tobacco use, moderate alcohol consumption socially.",
+    "imaging": "No imaging performed to date; Ottawa Ankle Rules negative for fracture.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "6026e1ec-aba9-409f-8b86-507f1f6297a9",
+    "condition": "Multiple Sclerosis",
+    "title": "Fatigue and Weakness in a Patient with Multiple Sclerosis",
+    "clinical_history": "A 35-year-old female, diagnosed with relapsing-remitting Multiple Sclerosis (MS) 5 years ago, presents with complaints of fatigue, weakness, and numbness in her lower extremities. She reports difficulty walking and maintaining balance, which has worsened over the past 6 months. The patient has experienced two relapses in the past year, with the most recent one resulting in a 2-week hospital stay for acute exacerbation of MS symptoms.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral lower extremity weakness and fatigue",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "intermittent numbness and tingling in the legs",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "prolonged walking, standing, or physical activity; high temperatures; stress",
+    "picture": "A 24-hour picture of the patient's symptoms shows that her fatigue and weakness worsen throughout the day, with a significant increase in symptoms after lunch and in the late afternoon.",
+    "easing_factors": "rest, relaxation, cool environments",
+    "past_history": "The patient has a history of optic neuritis in her left eye 3 years ago, which resolved with corticosteroid treatment. She has also experienced occasional bladder and bowel dysfunction.",
+    "medical_history": "The patient has been taking disease-modifying therapy (DMT) for MS, specifically interferon beta-1a, for the past 5 years. She has also been managing her symptoms with physical therapy, occupational therapy, and lifestyle modifications.",
+    "medications": "interferon beta-1a, baclofen for muscle spasms, and vitamin D supplements",
+    "personal_history": "The patient is married with two young children and works part-time as a freelance writer. She has had to make significant lifestyle adjustments due to her MS diagnosis, including reducing her work hours and relying on her family for support.",
+    "imaging": "MRI scans show multiple white matter lesions in the brain and spinal cord, consistent with MS.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "id": "d52cb1fb-4ba3-464e-8db2-8e747952c736",
+    "condition": "spastic diplegic cerebral palsy",
+    "title": "Case Study: Spastic Diplegic Cerebral Palsy in an Adolescent Male",
+    "clinical_history": "James, a 14-year-old male, presents to the outpatient physical therapy clinic accompanied by his mother. He was diagnosed with spastic diplegic cerebral palsy shortly after birth due to premature delivery at 29 weeks. James has a history of delayed motor milestones and underwent bilateral Achilles tendon lengthening at age 7. He ambulates independently but with marked scissoring gait, increased effort, and frequent tripping. He reports persistent tightness in both hamstrings and calves, worsening throughout the day, especially after prolonged walking or during physical education classes. Occasionally, James complains of cramping discomfort in his lower legs, particularly in the evenings. There are no new neurological symptoms. Spasticity predominantly affects his lower limbs with mild adductor involvement. He uses a single-point cane intermittently when fatigued.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral hamstrings and gastrocnemius-soleus complex",
+            "score": "3-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "bilateral adductors (cramping discomfort, intermittent)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Prolonged walking (>20 minutes), running, carrying a school bag, cold weather, and standing for extended periods.",
+    "picture": "[Image of a young adolescent with visible increased tone and scissoring in bilateral lower extremities, heel walking pattern evident.]",
+    "easing_factors": "Resting in supine position, warm bath in the evening, gentle stretching, and use of ankle-foot orthoses.",
+    "past_history": "Born at 29 weeks gestation via emergency cesarean section. Neonatal ICU stay for 2 months. Underwent bilateral Achilles tendon lengthening at age 7. History of mild asthma, no hospital admissions in the past five years.",
+    "medical_history": "No seizures or significant comorbidities. Vaccination history up to date. Growth parameters within normal percentile for age.",
+    "medications": "Baclofen 10 mg PO bid for lower limb spasticity; uses salbutamol inhaler prn for occasional asthma symptoms.",
+    "personal_history": "Resides with both parents and two siblings. Attends mainstream school with physical adaptations. Enjoys video games and chess; limited participation in sports due to motor limitations. Family is supportive, with mother as primary caregiver.",
+    "imaging": "Recent pelvic x-ray shows mild bilateral hip subluxation (<20%). No bony deformities requiring intervention at present. Previous MRI at age 6 revealed periventricular leukomalacia consistent with prematurity.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and demonstrates neutrality throughout. Excellent job maintaining objectivity.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to spastic diplegic cerebral palsy in an adolescent, with accurate and comprehensive clinical details. The response is clear, thorough, and clinically accurate, ensuring patient safety and reflecting best practices.",
+            "success": true
+        }
+    ]
+}

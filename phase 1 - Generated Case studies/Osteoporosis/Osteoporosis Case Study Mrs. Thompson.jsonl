@@ -1,0 +1,32 @@
+{
+    "id": "0105180e-fabb-48aa-b326-838fa6c1b558",
+    "condition": "Osteoporosis",
+    "title": "Osteoporosis Case Study: Mrs. Thompson",
+    "clinical_history": "Mrs. Thompson is a 72-year-old retired librarian who was diagnosed with osteoporosis 5 years ago. She has been experiencing back pain and stiffness, particularly in her thoracic and lumbar spine. She reports a gradual onset of pain over the past year, which has worsened over time. She has a history of fractures, including a compression fracture in her thoracic spine 2 years ago.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "thoracic and lumbar spine",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "generalized back pain",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "prolonged standing, bending, lifting, and walking long distances",
+    "picture": "thoracic and lumbar spine X-ray showing vertebral compression fractures and decreased bone density",
+    "easing_factors": "rest, heat therapy, and pain medication",
+    "past_history": "history of fractures, including a compression fracture in her thoracic spine 2 years ago, hysterectomy 10 years ago",
+    "medical_history": "osteoporosis, hypertension, and hyperlipidemia",
+    "medications": "alendronate, calcium, and vitamin D supplements, lisinopril, and atorvastatin",
+    "personal_history": "married with two children, enjoys gardening and reading, but has had to reduce activities due to pain and fear of fractures",
+    "imaging": "thoracic and lumbar spine X-ray, DEXA scan showing decreased bone density",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

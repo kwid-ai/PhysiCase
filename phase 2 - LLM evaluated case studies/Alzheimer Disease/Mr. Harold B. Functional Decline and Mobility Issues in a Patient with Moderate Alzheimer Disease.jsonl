@@ -1,0 +1,70 @@
+{
+    "id": "9b54e34d-c6ff-4c20-8b74-77b90a800a44",
+    "condition": "Alzheimer Disease",
+    "title": "Mr. Harold B.: Functional Decline and Mobility Issues in a Patient with Moderate Alzheimer Disease",
+    "clinical_history": "Mr. Harold B. is an 81-year-old retired accountant, admitted for assessment due to increasing difficulty with mobility and recurrent falls within the home. Over the past 18 months, family members have noticed progressively worsening memory impairment, difficulty following instructions, and reliance on assistance to perform activities of daily living. In the past 6 months, his daughter reports episodes of wandering, frequent tripping, and trouble initiating movement, particularly when rising from a chair or turning corners. Mr. B. exhibits generalized muscle weakness, most notable in the proximal lower limb muscles, with a shuffling gait and decreased balance. Although he sometimes complains of a dull ache in the lower back and thighs, his ability to reliably communicate pain levels is variable due to cognitive impairment. He requires increasing support with personal care and has difficulty participating in exercise routines. There is no history of recent trauma, but he has sustained minor soft tissue injuries to the legs from previous falls.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "proximal lower limb muscles (hip flexors, quadriceps, gluteals)",
+            "score": "2-4"
+        },
+        {
+            "context": "P2",
+            "affected_area": "lumbar paraspinal muscles (secondary complaint, dull ache)",
+            "score": "1-2"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, attempting to rise from low chairs, navigating stairs, fatigue at the end of the day.",
+    "picture": "[Depicts elderly man with slouched posture, reduced stride length, assisted walking, highlighted pain in thighs and lower back]",
+    "easing_factors": "Assistance with transfers, supervised gentle walking on level surfaces, use of mobility aids, brief periods of seated rest.",
+    "past_history": "Hypertension and hyperlipidemia well controlled with medication; no prior history of stroke or major orthopedic surgeries. Long-standing sedentary lifestyle post-retirement.",
+    "medical_history": "No history of diabetes, ischemic heart disease, or significant musculoskeletal injuries. Family history positive for Alzheimer\u00e2\u20ac\u2122s disease (mother, maternal aunt).",
+    "medications": "Donepezil 10 mg daily, Memantine 10 mg BID, Amlodipine 5 mg daily, Atorvastatin 20 mg daily. Occasional acetaminophen for aches.",
+    "personal_history": "Widower; lives with adult daughter who is primary caregiver. Reports decreased participation in community groups due to social withdrawal. Non-smoker, occasional wine with dinner. Previously active in local bridge club, now limited by cognitive and physical decline.",
+    "imaging": "Non-contrast CT head 1 year ago showing generalized cortical atrophy consistent with Alzheimer\u00e2\u20ac\u2122s disease. No recent musculoskeletal imaging. No evidence of recent fractures.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Great job! The output follows all prompt instructions with no unalignments detected. Keep up the excellent work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to a patient with moderate Alzheimer disease experiencing functional decline and mobility issues. The response is clear, comprehensive, and clinically accurate, addressing both cognitive and physical aspects, and prioritizes patient safety by noting fall risk and support needs. No factual errors or omissions were identified.",
+            "success": true
+        }
+    ]
+}

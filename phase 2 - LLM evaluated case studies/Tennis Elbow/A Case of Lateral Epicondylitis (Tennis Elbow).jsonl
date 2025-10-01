@@ -1,0 +1,65 @@
+{
+    "id": "dc3a20fd-ca6d-4c0e-a069-700a7dcd61d6",
+    "condition": "Tennis Elbow",
+    "title": "A Case of Lateral Epicondylitis (Tennis Elbow)",
+    "clinical_history": "John is a 45-year-old recreational tennis player and a part-time carpenter. He reports a 6-week history of pain and stiffness on the outside of his left elbow, which started insidiously without any specific incident. The pain is worse with gripping, lifting, and twisting movements, and has begun to interfere with his daily activities and sports. He has tried to manage his symptoms with rest and over-the-counter pain relievers but has not seen significant improvement.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral elbow pain",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "gripping, lifting, twisting movements, especially with the forearm in pronation; activities such as turning a door handle, shaking hands, or using a screwdriver",
+    "picture": "The patient presents with tenderness over the lateral epicondyle, and pain is exacerbated by resisted wrist extension.",
+    "easing_factors": "rest, ice, and NSAIDs provide temporary relief",
+    "past_history": "Previous episodes of elbow pain, managed conservatively; reports a history of repetitive strain injuries in the past",
+    "medical_history": "generally healthy, with controlled hypertension",
+    "medications": "ibuprofen as needed for pain",
+    "personal_history": "married with two children; works part-time as a carpenter and enjoys recreational tennis and golfing",
+    "imaging": "X-rays of the elbow show no significant abnormalities; MRI may show tendinosis of the extensor carpi radialis brevis tendon",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8181818181818182,
+            "reason": "The score is 0.82 because the output closely follows the prompt instructions, but there are minor unalignments in the JSON key names ('nprs' instead of 'NPRS' and 'picture' instead of 'Picture'). The content and structure are otherwise well-aligned, which is why the score is not lower.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9982013788458739,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS, aggravating and easing factors, examination findings, past and medical history, medications, personal history, and imaging. The content is highly relevant to lateral epicondylitis, with accurate clinical presentation and appropriate mention of examination findings and imaging. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

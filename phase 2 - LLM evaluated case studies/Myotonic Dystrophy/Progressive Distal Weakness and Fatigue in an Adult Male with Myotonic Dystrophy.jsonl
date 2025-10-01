@@ -1,0 +1,70 @@
+{
+    "id": "a2541aba-e3f8-4c94-b573-651e1d71331d",
+    "condition": "Myotonic Dystrophy",
+    "title": "Progressive Distal Weakness and Fatigue in an Adult Male with Myotonic Dystrophy",
+    "clinical_history": "Mr. Samuel Wright is a 38-year-old accountant who presents with progressive weakness and myotonia, most prominent over the past two years. He reports difficulty releasing his grip after shaking hands or using tools (eg, screwdriver), and notes increasing clumsiness and trouble climbing stairs due to 'heavy legs.' Facial muscle weakness has contributed to ptosis and difficulty with articulation. He has experienced increased fatigue throughout the day and muscle pain, particularly in his distal extremities. His wife reports that he snores loudly and occasionally stops breathing at night. Mr. Wright has a history of early-onset cataracts (removed at 34) and mild type 2 diabetes diagnosed last year. There is a significant family history, with his mother developing similar symptoms in her 40s. He denies any traumatic injuries.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "distal forearm and hand muscles (flexors, intrinsic hand)",
+            "score": "5-6"
+        },
+        {
+            "context": "P2",
+            "affected_area": "distal lower leg muscles (tibialis anterior, peroneals, gastrocnemius)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Cold temperatures, sustained gripping, repetitive tasks, prolonged ambulation, and poor sleep exacerbate symptoms. Fatigue intensifies muscle pain by afternoon.",
+    "picture": "[Image: Marked muscle wasting and weakness in the hands and lower legs, frontal balding, ptosis, and facial muscle weakness]",
+    "easing_factors": "Brief rest periods and gentle stretching; warm environments tend to reduce myotonia.",
+    "past_history": "No significant orthopedic injury. Early-onset cataracts at 34 (surgically removed). Intermittent palpitations noted over the past year; ECG pending.",
+    "medical_history": "Type 2 diabetes mellitus diagnosed one year ago (mild, diet-controlled initially). No known cardiac events, but family history significant for cardiac arrhythmia in mother.",
+    "medications": "Metformin 500mg daily, multivitamin. No regular pain medication.",
+    "personal_history": "Married, two children (ages 8 and 5). Non-smoker, consumes alcohol occasionally. Sedentary occupation; low physical activity outside of work. Reports feelings of frustration and mild depression due to progressive disability and reduced social engagement.",
+    "imaging": "NCS/EMG: Myotonia and distal muscle weakness; muscle biopsy and genetic testing confirmed diagnosis of myotonic dystrophy type 1.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias and provides a balanced and objective response.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content; it is entirely appropriate.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, relevant NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to myotonic dystrophy, accurately describing characteristic symptoms (progressive distal weakness, myotonia, facial involvement, cataracts, diabetes, sleep apnea, and family history). The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

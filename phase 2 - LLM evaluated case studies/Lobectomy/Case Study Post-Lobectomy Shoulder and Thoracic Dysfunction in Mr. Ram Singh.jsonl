@@ -1,0 +1,70 @@
+{
+    "id": "a3d76d0a-16c3-4cf0-abe0-1dc2aa827b79",
+    "condition": "Lobectomy",
+    "title": "Case Study: Post-Lobectomy Shoulder and Thoracic Dysfunction in Mr. Ram Singh",
+    "clinical_history": "Mr. Ram Singh, a 62-year-old retired civil engineer, underwent a left upper lobectomy via thoracotomy 4 weeks ago for early-stage non-small cell lung carcinoma. He was previously independent in all activities of daily living and engaged in regular walks and yoga. Post-surgery, Mr. Singh reports persistent left-sided chest, upper back, and shoulder pain, which increased with movement and breathing. He also experiences a reduced range of motion in his left shoulder with mild swelling and a sensation of stiffness. He mentions significant fatigue and mild shortness of breath, more pronounced during activity. Sleep is disturbed due to pain when lying on the affected side.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Left thoracic wall and posterior shoulder (primary incision and muscle area)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Left scapular region (secondary musculoskeletal compensation and postural tension)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Deep breathing, coughing, reaching overhead, lying on the left side, prolonged sitting without support, attempting household or yard activities.",
+    "picture": "Patient localizes primary pain to surgical site over left thoracic wall and adjacent shoulder, occasionally radiating posteriorly to scapular region.",
+    "easing_factors": "Supporting the arm in a sling while resting, shallow breathing, heat application, use of prescribed analgesics. Gentle, supported active-assisted range of motion exercises offer transient relief.",
+    "past_history": "No significant prior surgery; history of controlled hypertension for 10 years. No prior shoulder or thoracic pain.",
+    "medical_history": "Mild hypertension, no diabetes or other chronic illness. Recent thoracotomy for pulmonary neoplasm.",
+    "medications": "Paracetamol 1000 mg prn, Ibuprofen 400 mg twice daily, regular antihypertensive (Amlodipine 5mg once daily).",
+    "personal_history": "Non-smoker for 12 years, previously moderate smoker. Married, lives with spouse. No history of alcohol abuse. Previously independent with good exercise tolerance. Motivation to resume daily walks and independent function.",
+    "imaging": "Post-operative chest radiograph at 2 weeks showed expected post-lobectomy changes with mild left basilar atelectasis. No evidence of acute complication.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, directly addressing all aspects of the input task with no irrelevant statements. Excellent job staying focused and thorough!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias and maintains a neutral and objective tone throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to the post-lobectomy condition, accurately describing typical symptoms such as pain, reduced range of motion, and fatigue. The response is clear, comprehensive, and clinically accurate, with no omissions or factual errors, ensuring patient safety and appropriate context.",
+            "success": true
+        }
+    ]
+}

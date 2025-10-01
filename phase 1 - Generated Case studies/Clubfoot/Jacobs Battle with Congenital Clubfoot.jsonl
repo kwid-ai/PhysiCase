@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By77VYMcj9Uk5uqbQXSZwkVSTpJKe",
+    "condition": "Clubfoot",
+    "title": "Jacob's Battle with Congenital Clubfoot",
+    "clinical_history": "Jacob is a 5-year-old boy who was diagnosed with bilateral congenital clubfoot at birth. He underwent corrective surgery at 3 months old followed by serial casting until 8 months of age. Jacob's feet have shown significant improvement post-surgery, but he continues to have residual, mild stiffness in the ankle joints. While Jacob actively engages in nursery school activities, he sometimes struggles with prolonged standing or running.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Stiffness and mild discomfort in both ankles",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Extended walking or standing, running, and squatting.",
+    "picture": "[insert image of a child's feet, emphasizing the corrected clubfoot anatomy]",
+    "easing_factors": "Occasional rest and gentle ankle stretching exercises.",
+    "past_history": "Jacob was born at full term with no other congenital anomalies. The corrective surgery at 3 months was successful, followed by casting to aid in further correction.",
+    "medical_history": "Besides clubfoot, Jacob has been healthy and has met various developmental milestones.",
+    "medications": "None currently prescribed, though analgesics such as children's ibuprofen were used post-surgery.",
+    "personal_history": "Jacob is the youngest of three siblings. His family has been actively involved in his rehabilitation process. His parents engage him in playful activities and encourage gentle physical play to improve mobility without pushing boundaries.",
+    "imaging": "Ultrasound imaging of the feet was performed prior to surgical correction, showing typical clubfoot anatomy.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 352,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1403
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

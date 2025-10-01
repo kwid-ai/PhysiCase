@@ -1,0 +1,70 @@
+{
+    "id": "78b7fad6-1b02-4ef6-878a-7995fc12e4cd",
+    "condition": "Knee Pain",
+    "title": "Case Study: Chronic Anterior Knee Pain in a Recreational Runner",
+    "clinical_history": "Mr. David Kim is a 42-year-old male who presents with a 4-month history of gradual onset right anterior knee pain. He is an avid recreational runner, typically covering 20\u00e2\u20ac\u201c30 km each week. The pain began after he increased his weekly mileage in preparation for a half marathon. Initially, David noticed a dull ache around his right patella after longer runs. Over time, the pain became more constant and now occasionally interferes with activities of daily living, such as descending stairs or rising from a chair. He describes his primary pain as an ache at the front of his knee (P1) and, less frequently, a secondary pain along the lateral side of his knee (P2), which he attributes to compensatory movement patterns. There is no history of trauma, instability, locking, or catching. Swelling is minimal, but he sometimes experiences morning stiffness lasting less than 10 minutes. David works as a software engineer and often sits for long periods, reporting increased discomfort after prolonged sitting (the \u00e2\u20ac\u02dctheater sign\u00e2\u20ac\u2122). He has attempted to manage symptoms with over-the-counter analgesics and by applying ice after runs, with temporary relief. He recently reduced his running volume but is keen to resume his training regimen.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "anterior aspect of right knee (patellofemoral region)",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "lateral knee (secondary compensatory pain)",
+            "score": "1-3"
+        }
+    ],
+    "aggrevating_factors": "running (especially downhill), prolonged sittings, stair descent, squatting, jumping, resuming activity after inactivity",
+    "picture": "[insert image highlighting anterior and lateral aspects of the right knee]",
+    "easing_factors": "rest, application of ice, reduced running volume, occasional use of NSAIDs",
+    "past_history": "No significant prior knee injuries. Occasional mild ankle sprains in high school; fully recovered. No previous surgeries.",
+    "medical_history": "Unremarkable. No known chronic illnesses. No previous surgeries.",
+    "medications": "Ibuprofen 400mg PRN (maximum once daily for current episode); multivitamin daily",
+    "personal_history": "Lives with partner and two children. Non-smoker, drinks socially on weekends. Engages in regular physical activity with running as primary sport. Works long hours at a desk job.",
+    "imaging": "No imaging to date; pending x-ray and MRI only if symptoms persist despite conservative management.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to chronic anterior knee pain in a recreational runner, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would compromise patient safety.",
+            "success": true
+        }
+    ]
+}

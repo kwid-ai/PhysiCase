@@ -1,0 +1,32 @@
+{
+    "id": "f107408b-22b9-4d41-8f2a-cf99218a3c9e",
+    "condition": "Arthritic Joints",
+    "title": "Mrs. Wilson’s Progressive Arthritic Knee: A Case Analysis",
+    "clinical_history": "Mrs. Evelyn Wilson is a 63-year-old retired librarian who presents with a 5-year history of right knee pain, gradually worsening over the past year. She describes the pain as a deep ache with intermittent episodes of sharp catching sensations, particularly noticeable upon rising from a seated position and during ambulation. Stiffness is worst in the mornings and after prolonged periods of inactivity, while swelling develops after longer walks or household activities. She reports a reduction in her walking distance, increasing reliance on handrails when negotiating stairs, and difficulty kneeling or squatting. Mrs. Wilson reports disturbed sleep due to discomfort when changing positions at night. No history of recent trauma is noted, though she underwent an appendectomy at age 20 and has a longstanding diagnosis of hypertension.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right medial knee joint - constant aching pain",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right lateral knee and lower thigh - intermittent catching/sharp pain",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Standing/walking longer than 30 minutes, climbing stairs (particularly descending), squatting, rising from chair, weather changes (damp/cold).",
+    "picture": "[image: right knee with tenderness at medial joint line, mild effusion, limited flexion]",
+    "easing_factors": "Sitting with leg elevated, use of a heating pad, slow-paced walking on even surfaces, use of acetaminophen as needed.",
+    "past_history": "No prior history of significant musculoskeletal trauma. Sedentary occupation for over three decades. Reports occasional low back pain, non-limiting.",
+    "medical_history": "Diagnosed hypertension managed by amlodipine for 10 years. No diabetes, no cardiac history. Appendectomy at age 20.",
+    "medications": "Acetaminophen 500mg TID PRN for pain; Amlodipine 5mg daily for hypertension.",
+    "personal_history": "Widowed, lives independently. Two adult children visit weekly. Non-smoker, occasional wine on weekends. No regular exercise routine but enjoys gardening within tolerance. Weight has increased by 12 kg in the last 8 years.",
+    "imaging": "Recent plain radiographs of right knee reveal decreased joint space medially, osteophyte formation, and mild subchondral sclerosis consistent with osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

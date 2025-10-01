@@ -1,0 +1,70 @@
+{
+    "id": "d3c1aaf9-6aae-46c5-a513-679f256fed4c",
+    "condition": "Amyotrophic Lateral Sclerosis",
+    "title": "Progressive Limb Weakness in a 58-year-old Male with Amyotrophic Lateral Sclerosis (ALS)",
+    "clinical_history": "Mr. Stephen Harris is a 58-year-old retired mechanical engineer who presents with an 8-month history of progressive weakness and muscle wasting, initially starting in the right hand and gradually involving both upper and lower limbs. The patient noticed increasing difficulty with fine motor tasks such as buttoning his shirt and gripping tools, followed by frequent tripping while walking. In the last 2 months, Stephen has experienced slurred speech and mild difficulty swallowing liquids. He denies sensory loss or bladder/bowel involvement. His wife reports muscle twitching in his arms and legs, and noticeable weight loss over the past 6 months. There is no family history of neurodegenerative disease.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right hand and forearm\u00e2\u20ac\u201dmuscle cramps and aching with use",
+            "score": "3-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "bilateral calves\u00e2\u20ac\u201doccasional tightness and cramping, especially at night",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "excessive use of affected muscles (e.g., prolonged walking, fine hand activities), cold weather worsens cramps",
+    "picture": "[insert schematic of upper and lower limbs highlighting wasting in intrinsic hand muscles, forearms, and calves]",
+    "easing_factors": "rest, gentle stretching, warm compress on affected muscles at night",
+    "past_history": "Mild hypertension, well controlled. No previous neurological or musculoskeletal conditions.",
+    "medical_history": "Diagnosed hypertension (on ACE inhibitor), no diabetes, no recent infections or trauma.",
+    "medications": "Riluzole 50mg BID, Baclofen 10mg TID (for muscle spasticity), Lisinopril 10mg OD",
+    "personal_history": "Lives with spouse in a single-story home, independent with all ADLs until recently. Non-smoker, moderate alcohol use (2-3 drinks/week), previously physically active, especially enjoys gardening. No recent travel or environmental/occupational exposures.",
+    "imaging": "MRI Brain and cervical spine (performed to exclude other pathology): Unremarkable. EMG confirms widespread denervation and fasciculations in affected limbs consistent with ALS.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments detected. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and appropriate response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and relevant imaging. The content is highly relevant to ALS, accurately describing progressive limb weakness, muscle wasting, fasciculations, and bulbar symptoms, with no sensory involvement. The response is clear, comprehensive, and clinically accurate, with appropriate attention to patient safety and diagnostic workup.",
+            "success": true
+        }
+    ]
+}

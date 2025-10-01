@@ -1,0 +1,32 @@
+{
+    "id": "993de028-bfb1-42a9-878c-e4748235b091",
+    "condition": "Thumb arthritis",
+    "title": "Margaret's Case of Basal Thumb Arthritis",
+    "clinical_history": "Margaret is a 62-year-old retired librarian who presents with a 5-month history of pain and functional limitation at the base of her right thumb. She reports progressively increasing discomfort while performing household activities such as opening jars, turning door handles, and writing. The pain is localized to the base of the thumb, often radiating into the thenar eminence. She describes morning stiffness lasting around 10-15 minutes and swelling at the carpometacarpal (CMC) joint after use. She occasionally notices a grinding sensation during movement. There is no recent trauma, but she recalls a history of frequent, repetitive hand use from years of shelving books. Physical examination reveals tenderness and mild swelling over the first CMC joint, with crepitus and reduced thumb abduction.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right first carpometacarpal (CMC) joint",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "thenar muscles (secondary, aching following overuse)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Activities requiring pinching (e.g., key pinch, holding a pen), forceful gripping, opening tight containers, prolonged hand use.",
+    "picture": "[insert image highlighting the base of the right thumb/C MC joint with swelling]",
+    "easing_factors": "Rest, use of thumb splint, application of ice, gentle massage of the thenar eminence, and use of over-the-counter analgesics.",
+    "past_history": "No significant trauma to the right hand. Last year had mild tendinitis of the right wrist which resolved with rest. No inflammatory arthritis diagnosed.",
+    "medical_history": "Mild hypertension, well-controlled with diet and exercise. No diabetes or autoimmune disease reported.",
+    "medications": "Occasional use of acetaminophen 500 mg for pain (as needed), no regular NSAIDs due to gastric sensitivity.",
+    "personal_history": "Lives independently. Widowed, no children. Enjoys knitting and gardening but has cut down on these due to hand pain. Generally active and social.",
+    "imaging": "X-ray of the right hand reveals joint space narrowing and subchondral sclerosis at the first CMC joint, consistent with early osteoarthritic changes.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

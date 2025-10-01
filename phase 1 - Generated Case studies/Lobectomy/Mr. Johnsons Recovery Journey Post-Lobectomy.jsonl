@@ -1,0 +1,63 @@
+{
+    "id": "chatcmpl-By78rutnW7jFrscWtKfwTjTrTTUZD",
+    "condition": "Lobectomy",
+    "title": "Mr. Johnson's Recovery Journey Post-Lobectomy",
+    "clinical_history": "Mr. James Johnson is a 64-year-old retired firefighter who underwent a right upper lobectomy 3 weeks ago due to early-stage lung cancer. Prior to the surgery, Mr. Johnson was in relatively good health, although he had a history of smoking for 20 years, having quit 15 years ago. Post-operatively, he has been experiencing difficulty with deep breathing and has noted pain upon inspiration which has limited his ability to engage in physical activities. He reports increased tiredness by mid-afternoon and is finding it hard to resume his daily routine, including his walks around the neighborhood.",
+    "nprs": [
+        {
+            "context": "Primary",
+            "affected_area": "thoracic region (surgical site)",
+            "score": "5-6"
+        },
+        {
+            "context": "Secondary",
+            "affected_area": "intercostal and back muscles due to compensatory mechanisms",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "deep breathing, coughing, lying on the right side, and any attempt at lifting.",
+    "picture": "[insert image of the thoracic region highlighting the surgical site on the right side]",
+    "easing_factors": "sitting upright, using a pillow for support against the surgical site when coughing, taking prescribed pain medications",
+    "past_history": "Mr. Johnson had a significant smoking history but has been smoke-free for the past 15 years. No other significant comorbidities.",
+    "medical_history": "Hypertension managed with medications.",
+    "medications": "Oxycodone for pain management, Lisinopril for hypertension.",
+    "personal_history": "Mr. Johnson is married with two adult children, enjoys fishing, and was previously active in community volunteer firefighting. He expresses a strong desire to regain his pre-surgery vitality.",
+    "imaging": "Post-operative chest X-ray shows normal surgical findings with no pneumothorax or pleural effusions.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 426,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1477
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

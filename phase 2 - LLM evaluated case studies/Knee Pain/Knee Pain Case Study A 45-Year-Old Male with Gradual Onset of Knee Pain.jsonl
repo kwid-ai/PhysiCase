@@ -1,0 +1,70 @@
+{
+    "id": "c76f0491-6f55-4085-802f-2b70f21016c4",
+    "condition": "Knee Pain",
+    "title": "Knee Pain Case Study: A 45-Year-Old Male with Gradual Onset of Knee Pain",
+    "clinical_history": "A 45-year-old male, John, presents with a 3-month history of gradual onset of knee pain. He reports that the pain started after increasing his running distance and intensity for a charity event. Initially, the pain was mild and only occurred after running, but over time, it has progressed to occur during and after running, as well as with daily activities such as climbing stairs and getting up from a seated position.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Anterior knee pain, described as a dull ache",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Medial knee pain, described as a sharp stabbing pain",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Running, climbing stairs, getting up from a seated position, and prolonged standing",
+    "picture": "A 24-hour picture of the patient's knee pain shows that the pain is worse in the morning and evening, with a gradual increase in pain throughout the day.",
+    "easing_factors": "Rest, ice, and over-the-counter pain medication",
+    "past_history": "The patient has a history of a left ankle fracture 10 years ago, which was treated with open reduction and internal fixation. He has also experienced intermittent lower back pain over the past 5 years.",
+    "medical_history": "The patient is generally healthy, but has high cholesterol and is slightly overweight.",
+    "medications": "Ibuprofen 400mg prn for pain",
+    "personal_history": "The patient is married with two children and works as an accountant. He is an avid runner and enjoys outdoor activities.",
+    "imaging": "X-rays of the knee show mild joint space narrowing and osteophytes, consistent with early-stage osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the key, which is a minor formatting issue. All other prompt instructions are followed well, resulting in a high score.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, addresses all aspects of the input task, and contains no irrelevant statements. Excellent job staying focused and thorough!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9989013057642644,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, NPRS scores with context, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to the case of gradual onset knee pain in a middle-aged male, and the information is clear, comprehensive, and clinically accurate, supporting patient safety.",
+            "success": true
+        }
+    ]
+}

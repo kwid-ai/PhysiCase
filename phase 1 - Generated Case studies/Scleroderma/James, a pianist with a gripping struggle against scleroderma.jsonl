@@ -1,0 +1,63 @@
+{
+    "id": "chatcmpl-By79OqBHO2uvwqOvLZeWgbbDPEjmV",
+    "condition": "Scleroderma",
+    "title": "James, a pianist with a gripping struggle against scleroderma",
+    "clinical_history": "James is a 34-year-old professional pianist who started experiencing difficulties with his finger movements approximately 3/12 ago. He initially noticed a mild swelling and stiffness in his fingers, particularly in the mornings. Over time, the symptoms have worsened, affecting his ability to play piano, which he is required to do professionally. James also mentions developing thickened patches on the skin of his hands and forearms, which are now restricting his flexibility. He reports feelings of fatigue, particularly in the afternoons, and occasionally, shortness of breath. Lately, Raynaud's phenomenon, a condition associated with scleroderma, has caused painful fingers upon exposure to cold weather.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Finger joints and hands - stiffness and pain primarily in the mornings and after prolonged activity",
+            "score": "4-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Forearms due to skin thickening",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "cold exposure, prolonged piano playing, early morning movements",
+    "picture": "[insert image of hands showing scleroderma-related skin thickening and joint deformity]",
+    "easing_factors": "Warm compresses, gentle hand exercises, and short breaks during piano playing",
+    "past_history": "No previous medical conditions of note. He did recall minor instances of joint pain during high school, which he dismissed as overuse due to his practice regimen.",
+    "medical_history": "Diagnosed with scleroderma 1/12 ago upon referral to a rheumatologist, after initial evaluations by a general practitioner.",
+    "medications": "Prescribed methotrexate and anti-inflammatory medications to manage symptoms. Occasionally uses OTC pain relievers as needed.",
+    "personal_history": "James lives in a city apartment with his long-term partner. He has no children and comes from a musical family, which played a large role in his career path. Outside of music, James enjoys gardening and has recently started mindfulness meditation to manage stress.",
+    "imaging": "Recent X-rays of the fingers show early signs of joint space narrowing suggestive of mild arthritis. No organ involvement seen via ultrasound.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 494,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1053,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1547
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

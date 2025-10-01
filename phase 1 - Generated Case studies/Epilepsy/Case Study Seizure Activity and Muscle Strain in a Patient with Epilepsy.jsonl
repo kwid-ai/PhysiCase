@@ -1,0 +1,32 @@
+{
+    "id": "e3bdc955-982c-4891-bd42-7aa4c58d3e53",
+    "condition": "Epilepsy",
+    "title": "Case Study: Seizure Activity and Muscle Strain in a Patient with Epilepsy",
+    "clinical_history": "A 30-year-old male patient with a history of epilepsy presents with complaints of muscle strain and soreness following a recent seizure episode. The patient reports that during the seizure, he experienced intense muscle contractions and was found on the floor with signs of trauma. He was hospitalized for a short period and is now being followed up as an outpatient. The patient has a history of generalized tonic-clonic seizures and has been experiencing increased frequency of seizures over the past year.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral muscle soreness and stiffness, particularly in the neck, shoulder, and back muscles",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Localized pain and tenderness over the lumbar spine",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged physical activity, bending, lifting, or twisting, which exacerbate the muscle strain and soreness",
+    "picture": "A 24-hour picture showing the patient's typical daily activities and sleep patterns",
+    "easing_factors": "Rest, relaxation, and application of heat or cold packs to the affected areas",
+    "past_history": "The patient has a history of head trauma from a childhood accident, which may have contributed to the development of epilepsy. He has also experienced several episodes of status epilepticus in the past.",
+    "medical_history": "The patient is currently taking antiepileptic medications, including carbamazepine and clobazam, to control his seizures. He has a history of hypertension and hyperlipidemia.",
+    "medications": "Carbamazepine 400mg BID, Clobazam 10mg TID, Atenolol 50mg QD, Simvastatin 20mg QD",
+    "personal_history": "The patient is married with two children and works as a software engineer. He has a sedentary lifestyle and reports difficulty adhering to a regular exercise routine due to his condition.",
+    "imaging": "MRI of the brain and cervical spine show no significant abnormalities, but X-rays of the lumbar spine reveal mild degenerative changes.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

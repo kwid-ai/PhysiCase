@@ -1,0 +1,27 @@
+{
+    "id": "057228ab-1d04-4607-a782-43538d2ac477",
+    "condition": "Finger fracture",
+    "title": "Case Study: A 35-Year-Old Male with a Finger Fracture",
+    "clinical_history": "A 35-year-old right-handed male, who works as a carpenter, presents with a complaint of pain and swelling in his left index finger. He reports that he injured his finger while working on a construction site 3 days ago. He was using a hammer when he accidentally hit his finger instead of the nail. He noticed immediate pain, swelling, and difficulty moving the finger. He has been experiencing increased pain and stiffness since the injury.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "left index finger",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "Flexion, extension, and rotation of the left index finger; gripping objects; and direct pressure on the finger",
+    "picture": "The patient has a visibly swollen and bruised left index finger, which is held in a slightly flexed position.",
+    "easing_factors": "Rest; ice application; and elevation of the hand",
+    "past_history": "The patient has a history of a distal radius fracture in his right wrist 5 years ago, which was managed conservatively. He has also had occasional episodes of thumb pain and stiffness, which he attributes to overuse from work-related activities.",
+    "medical_history": "Generally healthy; takes occasional acetaminophen for pain relief",
+    "medications": "Acetaminophen 1000mg every 4-6 hours as needed for pain",
+    "personal_history": "Married with two children; works full-time as a carpenter; enjoys playing guitar and hiking in his free time",
+    "imaging": "X-ray of the left index finger shows a non-displaced fracture of the proximal phalanx",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

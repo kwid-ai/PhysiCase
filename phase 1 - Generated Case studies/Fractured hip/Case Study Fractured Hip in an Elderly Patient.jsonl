@@ -1,0 +1,32 @@
+{
+    "id": "1d999789-eb7a-4e19-a044-207e946983ee",
+    "condition": "Fractured hip",
+    "title": "Case Study: Fractured Hip in an Elderly Patient",
+    "clinical_history": "Mrs. Thompson is an 82-year-old retired librarian who was admitted to the hospital after a fall at home. She reported hearing a loud crack and experiencing severe pain in her left hip. She was unable to bear weight on the affected side and had difficulty moving her leg. She was diagnosed with a fractured hip and underwent surgery to repair the fracture. Currently, she is experiencing pain and stiffness in her hip and thigh.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "left hip and thigh",
+            "score": "7-9"
+        },
+        {
+            "context": "P2",
+            "affected_area": "lower back and buttock",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "weight-bearing activities such as walking, standing, and climbing stairs; movement of the affected hip",
+    "picture": "A 24-hour picture of Mrs. Thompson showing her limited mobility and pain while moving",
+    "easing_factors": "rest, ice, and pain medication",
+    "past_history": "history of osteoporosis, hypertension, and hyperlipidemia; previous fractures of the wrist and ankle",
+    "medical_history": "osteoporosis, hypertension, and hyperlipidemia",
+    "medications": "acetaminophen, oxycodone, and alendronate",
+    "personal_history": "widowed, lives alone, and has limited social support; difficulty with activities of daily living due to pain and limited mobility",
+    "imaging": "X-rays and CT scans of the hip and pelvis showing the fracture",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

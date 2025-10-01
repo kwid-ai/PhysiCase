@@ -1,0 +1,32 @@
+{
+    "id": "61669d33-6cde-42ac-85f0-1ecb25033340",
+    "condition": "sprain",
+    "title": "Case Study: Ankle Sprain in a Young Athlete",
+    "clinical_history": "A 19-year-old male soccer player presented to the clinic with a complaint of severe pain and swelling on the lateral aspect of his right ankle. He reported that during a soccer match 2 days ago, he landed awkwardly from a jump and heard a 'pop' sound. He was unable to bear weight on his ankle immediately after the injury and has been experiencing pain and stiffness since then. He has been applying ice and using crutches to ambulate.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral ankle pain",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "ankle stiffness and soreness",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "weight-bearing activities such as walking, running, and jumping; ankle dorsiflexion and inversion",
+    "picture": "A 24-hour picture of the patient's ankle would show significant swelling and bruising on the lateral aspect, with difficulty bearing weight on the affected ankle.",
+    "easing_factors": "rest, ice, compression, and elevation (RICE); oral pain medications",
+    "past_history": "history of a similar injury to the left ankle 6 months ago, which was managed conservatively",
+    "medical_history": "generally healthy, no significant medical conditions",
+    "medications": "ibuprofen 400mg every 4-6 hours as needed for pain",
+    "personal_history": "active young adult, plays soccer 3 times a week, and works part-time as a fitness instructor",
+    "imaging": "X-rays of the ankle were taken in the emergency department and were negative for any fractures",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

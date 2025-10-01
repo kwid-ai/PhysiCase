@@ -1,0 +1,32 @@
+{
+    "id": "99262b3d-d051-4891-8853-26edff2914b3",
+    "condition": "Adult Spastic Cerebral Palsy",
+    "title": "Case Study: Adult Spastic Cerebral Palsy - Gait Disturbance and Pain",
+    "clinical_history": "Meet Emma, a 35-year-old woman with a history of spastic cerebral palsy. She has a long-standing history of spasticity and dystonia in her lower limbs, which has resulted in a characteristic gait disturbance. Emma reports that her symptoms have worsened over the past year, with increased stiffness and pain in her lower limbs, particularly in her adductor and hamstring muscles. She experiences difficulty walking long distances and has a tendency to trip due to her spastic gait.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral lower limb spasticity and stiffness, particularly in adductor and hamstring muscles",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Intermittent sharp pain in her left hip and knee",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged walking, standing, or sitting in a position that exacerbates her spasticity. Specific aggravating factors include walking uphill or on uneven terrain, and activities that require quick changes of direction.",
+    "picture": "A 24-hour picture of Emma's daily activities reveals that she experiences increased pain and stiffness in the morning, which improves slightly with gentle stretching and movement. However, her symptoms worsen throughout the day, particularly after periods of prolonged standing or walking.",
+    "easing_factors": "Stretching exercises, particularly for her hamstrings and hip flexors, and the use of orthotics to support her feet and ankles.",
+    "past_history": "Emma has a history of multiple orthopedic surgeries, including bilateral adductor releases and a left hamstring lengthening procedure. She has also received botulinum toxin injections to manage her spasticity.",
+    "medical_history": "Emma has a history of epilepsy, which is well-controlled with medication. She also experiences occasional urinary incontinence, which is managed with medication and lifestyle modifications.",
+    "medications": "Baclofen 20mg tid for spasticity, acetaminophen 650mg q4h prn for pain, and diazepam 5mg qhs for muscle relaxation.",
+    "personal_history": "Emma lives with her partner and two children. She requires assistance with daily activities, including transfers and balance. She uses a walker for ambulation and has limited mobility due to her spasticity and pain.",
+    "imaging": "X-rays of her hips and knees reveal mild degenerative changes, consistent with her age and history of cerebral palsy. An MRI of her brain is normal.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

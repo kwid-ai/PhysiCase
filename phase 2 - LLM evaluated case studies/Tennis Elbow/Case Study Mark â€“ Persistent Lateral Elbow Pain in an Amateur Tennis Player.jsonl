@@ -1,0 +1,70 @@
+{
+    "id": "2b93e4df-32db-4edb-82c0-28d9434bb1c4",
+    "condition": "Tennis Elbow",
+    "title": "Case Study: Mark \u00e2\u20ac\u201c Persistent Lateral Elbow Pain in an Amateur Tennis Player",
+    "clinical_history": "Mark is a 42-year-old office worker and keen amateur tennis player who presents with a 4-week history of progressive pain over the outer aspect of his right elbow. He reports that the pain started gradually during a period when he increased his tennis matches from twice weekly to four times weekly in preparation for a local tournament. He specifically notes pain with gripping his tennis racquet, particularly during backhand strokes, and also experiences discomfort when lifting objects such as a kettle or briefcase. Pain is exacerbated after practice sessions and tends to linger for hours afterward. There is occasional mild swelling over the lateral elbow, but no pins and needles or numbness. He denies previous injuries to the area, though he did experience a similar but self-resolving episode two years ago, which settled with rest. Mark has tried over-the-counter ibuprofen with some relief but continues to play tennis. He is otherwise well and has no significant medical conditions.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Lateral epicondyle of right humerus (origin of wrist extensors)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Forearm extensor muscle bulk (secondary aching after activity)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Gripping racquet, especially during backhand shots; lifting objects with palm down (pronation); typing for long periods; resisted wrist or finger extension.",
+    "picture": "[Image would show a person pointing to outer side of the right elbow, possibly holding a tennis racquet]",
+    "easing_factors": "Rest from racquet sports; use of ice packs after play; nonsteroidal anti-inflammatory drugs (NSAIDs like ibuprofen) provide temporary relief.",
+    "past_history": "Previous minor episode of similar elbow pain two years ago after increased tennis, resolved with rest. No fractures or significant trauma to the elbow.",
+    "medical_history": "Generally healthy; no chronic illnesses. No history of inflammatory arthritis or neurological symptoms.",
+    "medications": "Ibuprofen 400 mg as needed, approximately once daily after matches.",
+    "personal_history": "Right hand dominant, works as a project manager and spends extended hours typing. Married with two teenage children, enjoys active lifestyle including weekend tennis, jogging, and golf.",
+    "imaging": "No imaging performed to date. Clinical assessment consistent with lateral epicondylitis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to lateral elbow pain (lateral epicondylitis/tennis elbow), with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would impact patient safety or clinical accuracy.",
+            "success": true
+        }
+    ]
+}

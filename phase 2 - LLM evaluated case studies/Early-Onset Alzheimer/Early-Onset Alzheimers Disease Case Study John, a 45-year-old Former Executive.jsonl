@@ -1,0 +1,70 @@
+{
+    "id": "eb398627-725a-49fb-909d-cc6e3dc3774e",
+    "condition": "Early-Onset Alzheimer",
+    "title": "Early-Onset Alzheimer's Disease Case Study: John, a 45-year-old Former Executive",
+    "clinical_history": "John, a 45-year-old former executive, was diagnosed with Early-Onset Alzheimer's disease (EOAD) 2 years ago. He initially presented with difficulties in word retrieval and spatial navigation. Over time, his symptoms have progressed to include significant memory loss, confusion, and difficulty with daily tasks. He requires assistance with most activities of daily living and has noticeable changes in mood and behavior. Recently, John has been experiencing increased stiffness and rigidity, particularly in the morning, which affects his mobility and balance.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Lower back and hip stiffness",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Shoulder and neck stiffness",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged sitting or standing, transitions from sitting to standing, and walking long distances",
+    "picture": "A 24-hour picture showing increased stiffness in the morning and evening, with some relief after gentle exercise",
+    "easing_factors": "Gentle stretching, short walks, and warm baths",
+    "past_history": "History of hypertension, controlled with medication. No previous history of musculoskeletal issues.",
+    "medical_history": "Diagnosed with Early-Onset Alzheimer's disease 2 years ago. Currently taking donepezil and memantine.",
+    "medications": "Donepezil 10mg daily, memantine 10mg twice daily, and lisinopril 10mg daily for hypertension",
+    "personal_history": "Married with two teenage children. He was a former executive and had to retire early due to his condition. He enjoys reading and spending time with his family.",
+    "imaging": "MRI scans show significant atrophy in the temporal lobes, consistent with EOAD. X-rays of the spine and hips show mild degenerative changes.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.75,
+            "reason": "The score is 0.75 because the LLM output mostly follows the required JSON structure and content, but there are some unalignments in field capitalization (e.g., 'nprs' instead of 'NPRS', 'picture' instead of 'Picture'). The score is not higher because these minor format mismatches deviate from the prompt's explicit output format, but it is still relatively high since the content and structure are otherwise well-aligned.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.996267311613631,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to Early-Onset Alzheimer's disease, with appropriate mention of cognitive decline, functional impairment, and associated symptoms. The response is clear, comprehensive, and clinically accurate, with no factual errors or omissions that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

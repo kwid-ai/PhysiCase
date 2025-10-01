@@ -1,0 +1,27 @@
+{
+    "id": "6dd09fcc-d585-400c-87aa-2e295ceb6c77",
+    "condition": "osteoarthritis",
+    "title": "A 62-year-old Male with Degenerative Osteoarthritis of the Right Knee",
+    "clinical_history": "A 62-year-old male, Mr. Thompson, presents with a 6-month history of progressive right knee pain. He reports that the pain started insidiously, with no specific incident or trauma. Over the past few months, he has noticed increased stiffness in the knee, particularly in the mornings and after prolonged periods of inactivity. He also reports difficulty walking long distances and climbing stairs, which has significantly impacted his daily activities and overall quality of life.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right knee pain, primarily medial and anterior",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "Walking long distances (> 30 minutes), climbing stairs, squatting, and standing for prolonged periods",
+    "picture": "The patient reports a 24-hour pain pattern, with pain typically worse in the mornings (7/10) and easing slightly throughout the day, but increasing again in the evenings (6/10) after prolonged activity.",
+    "easing_factors": "Rest, application of heat, and use of NSAIDs (e.g., ibuprofen)",
+    "past_history": "History of hypertension, controlled with medication. No previous knee injuries or surgeries.",
+    "medical_history": "Recently diagnosed with type 2 diabetes, managed through diet and exercise.",
+    "medications": "Ibuprofen 400mg prn for pain, Lisinopril 10mg daily for hypertension, and Metformin 500mg twice daily for type 2 diabetes.",
+    "personal_history": "Married with two adult children. Works as an accountant but has had to reduce his work hours due to knee pain. Enjoys gardening and playing golf but has had to limit these activities due to his knee condition.",
+    "imaging": "X-rays of the right knee showing joint space narrowing, osteophytes, and subchondral sclerosis, consistent with degenerative osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

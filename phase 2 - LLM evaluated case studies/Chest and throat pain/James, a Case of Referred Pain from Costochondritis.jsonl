@@ -1,0 +1,101 @@
+{
+    "id": "chatcmpl-By77QLtwPv2jApHVVhTycycbIFtzJ",
+    "condition": "Chest and throat pain",
+    "title": "James, a Case of Referred Pain from Costochondritis",
+    "clinical_history": "James is a 45-year-old insurance broker who initially started experiencing discomfort in his chest about 3/52 weeks ago. The pain gradually increased to a constant state and began radiating to his throat. The pain is generally described as a sharp, stabbing, or aching sensation right near the sternum but sometimes feels like a dull ache in the throat when at rest. James noted that the pain escalated after an intense workout at the gym where he lifted heavy weights, emphasizing on bench pressing without a warm-up. He has a sedentary lifestyle punctuated by periods of intense physical activity a few times a week. He reports a history of rheumatoid arthritis but has not experienced a recent flare-up.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "sternal and upper chest region, exacerbated by movement and respiratory activities",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "dull ache in the throat, generally at rest or end of day",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "lifting weights, particularly bench press, deep breathing, coughing, and twisting motion.",
+    "picture": "[insert image of the front torso with particular emphasis on sternum radiating to the throat]",
+    "easing_factors": "resting in a semi-reclined position, ice packs, and over-the-counter anti-inflammatory like Ibuprofen",
+    "past_history": "history of rheumatoid arthritis; managed with medication and lifestyle. Had a significant episode of costochondritis five years ago.",
+    "medical_history": "diagnosed with rheumatoid arthritis seven years ago, regularly monitored and medicated.",
+    "medications": "currently takes methotrexate for rheumatoid arthritis, Ibuprofen prn for pain relief",
+    "personal_history": "married with two young children. Leads a busy professional life, often falls into poor ergonomic postures. Social drinker and non-smoker. No family history of cardiac issues.",
+    "imaging": "none to date, differential diagnosis suggests musculoskeletal origin given history and presentation",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 464,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1053,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1517
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9090909090909091,
+            "reason": "The score is 0.91 because the output contains all required information in detail, but minor unalignment exists due to incorrect field names ('nprs' instead of 'NPRS', 'picture' instead of 'Picture') and field order not matching the prompt's specified structure. The score is not higher because of these formatting issues, but it remains high since the content itself is comprehensive and complete.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9437823499114202,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to costochondritis, with clear links to the patient's symptoms, history of rheumatoid arthritis, and recent physical activity. The response is comprehensive and clear, with minor issues such as a placeholder for the image rather than an actual image and a small typo in 'aggrevating_factors.' Clinical accuracy and patient safety are well addressed, but the lack of an actual image and minor typographical errors prevent a perfect score.",
+            "success": true
+        }
+    ]
+}

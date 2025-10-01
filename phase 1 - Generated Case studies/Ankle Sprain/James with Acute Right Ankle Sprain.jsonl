@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By76agmhlPp0h7uHLp2v37kjfFsMm",
+    "condition": "Ankle Sprain",
+    "title": "James with Acute Right Ankle Sprain",
+    "clinical_history": "James, a 34-year-old construction worker, was playing a recreational basketball game last weekend. While attempting to defend an opposing player, he landed awkwardly on his right foot resulting in excessive inversion of the ankle. He immediately felt a sharp pain and was unable to continue playing, having to be helped to the sideline. The ankle began to swell significantly within an hour, and by the following morning, there was notable bruising around the lateral aspect of his ankle. James reports persistent pain when trying to bear weight, and he notices instability or a 'rolling' sensation when attempting to walk.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral aspect of the right ankle",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "weight-bearing activities, especially walking and going downstairs. His job involves standing and walking on uneven surfaces, which also increases pain.",
+    "picture": "[insert image of a right ankle indicating lateral aspect pain]",
+    "easing_factors": "keeping the foot elevated, applying ice, and taking over-the-counter ibuprofen",
+    "past_history": "James has had previous ankle sprains on the same side during his high school years but had no issues in recent years.",
+    "medical_history": "non-contributory",
+    "medications": "Ibuprofen 400 mg every 8 hours for pain management",
+    "personal_history": "James lives an active lifestyle, regularly engaging in outdoor sports. Married with two children, he maintains a busy schedule balancing family and work.",
+    "imaging": "X-ray conducted in the emergency room showed no fractures but evidence of soft tissue swelling.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 368,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1053,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1421
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

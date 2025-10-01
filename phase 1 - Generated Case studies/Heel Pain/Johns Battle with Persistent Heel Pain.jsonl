@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By78J62WUxL8KQMU4vMvJfAQpuROM",
+    "condition": "Heel Pain",
+    "title": "John's Battle with Persistent Heel Pain",
+    "clinical_history": "John is a 45-year-old construction worker. Approximately 3 months ago, he began experiencing a dull ache in his right heel after long working days standing on concrete surfaces. Initially, the pain was mild and only after work, but gradually it started persisting even during work hours. He now experiences sharp pain first thing in the morning upon waking and significant discomfort after periods of inactivity. He describes the pain (P1) as primarily located at the underside of the heel, sometimes radiating to the arch of his foot. John walks with a noticeable limp towards the end of his workday and has begun using a makeshift padding in his boots to alleviate discomfort.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "underside of right heel, sometimes radiating to the arch",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": null,
+    "picture": "[insert image of a foot highlighting the heel area]",
+    "easing_factors": "rest, application of ice packs, elevation, and using supportive insoles in shoes",
+    "past_history": "John does not report any significant past injuries to the foot or ankle but recalls struggling with Achilles tendonitis about 5 years ago which resolved with conservative management.",
+    "medical_history": "diagnosed with type 2 diabetes 3 years ago, which he manages with diet and metformin. He is otherwise healthy and not on any other regular medications.",
+    "medications": "occasionally takes over-the-counter ibuprofen for pain relief",
+    "personal_history": "lives with his wife and two teenage children. Enjoys woodworking as a hobby but has had to reduce this activity due to prolonged standing aggravating his heel pain. Family is supportive, but he worries about work performance due to pain.",
+    "imaging": "none to date, but there is a plan to obtain a foot X-ray to rule out a heel spur or other structural issues",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 448,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1499
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

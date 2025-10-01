@@ -1,0 +1,32 @@
+{
+    "id": "5a1b61b9-6455-4aab-811f-c597a98cb5d6",
+    "condition": "Stiff Person Syndrome",
+    "title": "Case Study: Stiff Person Syndrome in a 45-Year-Old Female",
+    "clinical_history": "A 45-year-old female, Sarah, presented with a 6-month history of progressive stiffness and rigidity in her trunk and lower limbs. She reported difficulty walking and maintaining balance due to stiffness in her legs and back. The symptoms started with intermittent episodes of stiffness in her legs, which gradually worsened and became constant. She also experiences episodes of severe stiffness that can last for hours, making it difficult for her to move or perform daily activities.",
+    "nprs": [
+        {
+            "context": "Primary Complaint",
+            "affected_area": "Trunk and bilateral lower limbs",
+            "score": "7-9"
+        },
+        {
+            "context": "Secondary Complaint",
+            "affected_area": "Neck and upper limbs",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, or physical activity; stress and anxiety",
+    "picture": "A 24-hour picture showing stiffness and rigidity in the trunk and lower limbs, with difficulty walking and maintaining balance",
+    "easing_factors": "Rest, relaxation, and benzodiazepines",
+    "past_history": "History of autoimmune disorders (thyroiditis), and a family history of autoimmune diseases",
+    "medical_history": "Diagnosed with type 1 diabetes and autoimmune thyroiditis",
+    "medications": "Benzodiazepines (clonazepam), baclofen, and physical therapy",
+    "personal_history": "Married with two children, works as an accountant, and has a sedentary lifestyle",
+    "imaging": "MRI of the spine and brain: normal; EMG and nerve conduction studies: normal; Blood tests: positive for GAD65 antibodies",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

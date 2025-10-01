@@ -1,0 +1,70 @@
+{
+    "id": "67fd78b5-984a-4ad2-be6c-87701f9238e2",
+    "condition": "Rotator Cuff Injury",
+    "title": "Mr. Chen: A Case of an Acute Traumatic Rotator Cuff Injury",
+    "clinical_history": "Mr. David Chen is a 48-year-old, right-hand dominant software engineer who presents with a chief complaint of severe right shoulder pain. The onset of symptoms occurred four days ago while he was performing home renovations. He reports falling from a 6-foot stepladder, landing directly on his right side with his arm slightly abducted. He describes an immediate, sharp, 'tearing' sensation in his shoulder, followed by an inability to lift the arm. Over the subsequent 24-48 hours, the pain intensified, and he noted significant swelling and the development of bruising over the upper arm. He reports profound weakness, making simple activities of daily living such as combing his hair, dressing, or reaching for his seatbelt nearly impossible. He also notes a 'catching' sensation with any attempted movement. His primary pain (P1) is located at the top and front of his shoulder, radiating down the lateral aspect of his arm to the deltoid insertion. As a result of guarding and altered mechanics, he has developed a secondary ache (P2) in his upper trapezius and neck region.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right anterolateral shoulder (supraspinatus/infraspinatus region) with radiation to the mid-humerus. Described as a constant deep ache at rest, with sharp, excruciating pain on attempted movement.",
+            "score": "6-9/10"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Right upper trapezius and ipsilateral cervical paraspinals. Described as a dull, tight ache.",
+            "score": "3-4/10"
+        }
+    ],
+    "aggrevating_factors": "Any active movement of the right arm, particularly abduction or forward flexion; reaching overhead or behind his back; lifting any object (e.g., a cup of coffee); lying on the right side; sudden or unguarded movements.",
+    "picture": "[A human figure highlighting the Rotator Cuff muscle group (Supraspinatus, Infraspinatus, Teres Minor, Subscapularis) of the right shoulder, with a primary pain pattern indicated over the anterolateral deltoid region radiating distally, and a secondary pain pattern over the upper trapezius.]",
+    "easing_factors": "Complete rest with the arm supported in a sling or on a pillow; application of an ice pack for 15-20 minutes; over-the-counter anti-inflammatory medication.",
+    "past_history": "Mr. Chen reports a few episodes of minor right shoulder soreness over the past several years, which he attributes to 'overdoing it' with his DIY projects. These episodes were self-limiting, resolving within a day or two with rest and were never severe enough to limit function or seek medical attention.",
+    "medical_history": "Hypertension, well-managed with medication. Otherwise, he is in good health. No history of diabetes or systemic inflammatory conditions.",
+    "medications": "Lisinopril 10mg daily for hypertension. Taking Ibuprofen 600mg every 6-8 hours for shoulder pain, with moderate relief.",
+    "personal_history": "Works a desk job as a software engineer, which is currently manageable as it involves minimal use of his right arm. He is married with two high-school-aged children. He is an avid DIY enthusiast and is distressed about his inability to perform his hobbies and the potential for long-term functional deficits. He is concerned about the possibility of needing surgery.",
+    "imaging": "An MRI of the right shoulder was ordered by his primary care physician and the report indicates: 'Full-thickness tear of the anterior fibers of the supraspinatus tendon measuring approximately 1.5cm with minimal tendon retraction. Significant subacromial-subdeltoid bursitis and joint effusion are also noted.'",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the pain rating section. All other prompt instructions are followed well, so the score is high, but not perfect due to this minor formatting issue.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to an acute traumatic rotator cuff injury, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would compromise patient safety or clinical accuracy.",
+            "success": true
+        }
+    ]
+}

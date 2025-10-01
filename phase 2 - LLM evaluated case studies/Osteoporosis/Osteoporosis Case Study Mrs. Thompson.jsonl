@@ -1,0 +1,70 @@
+{
+    "id": "0105180e-fabb-48aa-b326-838fa6c1b558",
+    "condition": "Osteoporosis",
+    "title": "Osteoporosis Case Study: Mrs. Thompson",
+    "clinical_history": "Mrs. Thompson is a 72-year-old retired librarian who was diagnosed with osteoporosis 5 years ago. She has been experiencing back pain and stiffness, particularly in her thoracic and lumbar spine. She reports a gradual onset of pain over the past year, which has worsened over time. She has a history of fractures, including a compression fracture in her thoracic spine 2 years ago.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "thoracic and lumbar spine",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "generalized back pain",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "prolonged standing, bending, lifting, and walking long distances",
+    "picture": "thoracic and lumbar spine X-ray showing vertebral compression fractures and decreased bone density",
+    "easing_factors": "rest, heat therapy, and pain medication",
+    "past_history": "history of fractures, including a compression fracture in her thoracic spine 2 years ago, hysterectomy 10 years ago",
+    "medical_history": "osteoporosis, hypertension, and hyperlipidemia",
+    "medications": "alendronate, calcium, and vitamin D supplements, lisinopril, and atorvastatin",
+    "personal_history": "married with two children, enjoys gardening and reading, but has had to reduce activities due to pain and fear of fractures",
+    "imaging": "thoracic and lumbar spine X-ray, DEXA scan showing decreased bone density",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8461538461538461,
+            "reason": "The score is 0.85 because the output contains all required case study elements and is well-structured, but it does not strictly follow the specified JSON key capitalization and lacks the nuanced, authoritative tone of a senior professor. These issues prevent a higher score, but the content is otherwise comprehensive and relevant, justifying its current score.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content; it is entirely appropriate.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, relevant imaging, past and medical history, medications, and personal history. The content is highly relevant to osteoporosis, with accurate clinical details such as vertebral compression fractures, decreased bone density, and appropriate medications. The response is clear, comprehensive, and clinically accurate, prioritizing patient safety by mentioning risk factors and management.",
+            "success": true
+        }
+    ]
+}

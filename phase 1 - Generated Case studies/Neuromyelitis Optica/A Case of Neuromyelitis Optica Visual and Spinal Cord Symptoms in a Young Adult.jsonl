@@ -1,0 +1,32 @@
+{
+    "id": "0b543e15-4cf9-4605-a0a5-88b2cd6e0428",
+    "condition": "Neuromyelitis Optica",
+    "title": "A Case of Neuromyelitis Optica: Visual and Spinal Cord Symptoms in a Young Adult",
+    "clinical_history": "A 28-year-old female, Sarah, presented with a 2-day history of sudden vision loss in her right eye, accompanied by severe eye pain, particularly with movement. She also reported numbness and weakness in her lower extremities, which progressed over 2 days, resulting in difficulty walking. She experienced urinary retention and constipation. Her symptoms started 1 week after a viral infection.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "optic nerve",
+            "score": "8-10"
+        },
+        {
+            "context": "P2",
+            "affected_area": "lower extremities",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "eye movement, walking, standing for long periods",
+    "picture": "A 24-hour picture showing a person with a notable decrease in visual acuity and motor function in lower limbs",
+    "easing_factors": "rest, medication",
+    "past_history": "No significant past medical history, but she had a similar episode of vision loss in her left eye 2 years ago, which resolved with treatment.",
+    "medical_history": "Recently diagnosed with a viral infection 1 week prior to the onset of symptoms.",
+    "medications": "Currently taking corticosteroids and pain management medication.",
+    "personal_history": "A graduate student, living alone. She has a history of stress due to academic pressures.",
+    "imaging": "MRI showing lesions in the optic nerve and spinal cord.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

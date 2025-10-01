@@ -1,0 +1,70 @@
+{
+    "id": "07619fae-4906-40d6-8dd4-5c7aa03b376c",
+    "condition": "sarcopenia",
+    "title": "Mr. Roberts: A Case of Age-Related Sarcopenia and Functional Decline",
+    "clinical_history": "Mr. Samuel Roberts is a 74-year-old retired postal worker referred by his primary care physician due to progressive weakness, decreased muscle mass, and difficulty performing activities of daily living over the past 18 months. Mr. Roberts reports increasing reliance on his cane and furniture for support when rising from chairs or getting out of bed. He describes generalized fatigue, noticeable thinning of his upper and lower limb muscles, and two minor falls in the past six months while getting up from low chairs. He denies acute pain but reports a sense of heaviness and occasional aching in his thighs, especially after long walks or household tasks. His wife also notes he walks slower, struggles to climb stairs, and hesitates before stepping off curbs. He remains cognitively intact and denies any confusion.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral quadriceps, hamstrings, gluteal muscles (proximal lower limbs)",
+            "score": "2-3"
+        },
+        {
+            "context": "P2",
+            "affected_area": "bilateral deltoids and biceps (upper limb muscles, less frequent)",
+            "score": "1-2"
+        }
+    ],
+    "aggrevating_factors": "Long walks (>15 minutes), repetitive stair climbing, prolonged standing (>20 minutes), rising from a low seat, carrying groceries.",
+    "picture": "[Image of an elderly male with visible lower limb muscle wasting, using a cane for mobility]",
+    "easing_factors": "Resting in a seated or supine position, using support (handrails, cane), limiting the duration of physical tasks.",
+    "past_history": "History of hypertension and mild osteoarthritis in knees; no major surgeries or hospitalizations in the past decade. No prior muscle disorders.",
+    "medical_history": "Well-controlled hypertension; BMI of 27; mild lower limb osteoarthritic changes noted on prior X-ray. No diabetes or cardiac events.",
+    "medications": "Amlodipine 5mg daily for hypertension, acetaminophen prn for knee discomfort.",
+    "personal_history": "Former smoker (quit 20 years ago), modest alcohol intake (social occasions), lives with his spouse in a single-level residence. Previously physically active (gardening, walking), now less so due to fatigue and decreased confidence after falls. Eats regular but protein-light meals.",
+    "imaging": "No recent imaging; prior knee X-rays (2 years ago) showed mild osteoarthritic changes. No dedicated muscle imaging. DEXA scan ordered for sarcopenia assessment.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any loaded language or partiality.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with affected areas, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to age-related sarcopenia, accurately describing functional decline, muscle weakness, and risk factors. The response is clear, comprehensive, and clinically accurate, with no factual errors or omissions that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

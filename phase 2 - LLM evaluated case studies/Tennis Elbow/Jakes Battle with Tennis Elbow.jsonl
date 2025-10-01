@@ -1,0 +1,101 @@
+{
+    "id": "chatcmpl-By77ocXydqANrjEtxxubUGf6n5LpE",
+    "condition": "Tennis Elbow",
+    "title": "Jake's Battle with Tennis Elbow",
+    "clinical_history": "Jake is a 42-year-old software engineer who spends most of his day at a desk. He started experiencing pain on the lateral aspect of his right elbow about three months ago. Jake began a new tennis regimen with increased frequency, playing 4-5 times a week. About a month after the increased activity, he noted a sharp pain in his right elbow after an intense game. The pain appeared with specific movements, such as lifting his coffee mug or typing for extended periods. Jake reports the pain as (P1) a sharp, burning sensation directly at the lateral elbow and (P2) a secondary aching that radiates into his forearm, particularly when gripping objects tightly.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral elbow",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "distal forearm radiating from the elbow",
+            "score": "4-5"
+        }
+    ],
+    "aggrevating_factors": "gripping objects, typing for more than 30 minutes, and playing tennis, particularly with backhand strokes.",
+    "picture": "[insert image of forearm with focus on lateral elbow region]",
+    "easing_factors": "ice application to the area 2-3 times a day, rest from tennis activities, and use of a forearm brace",
+    "past_history": "No previous elbow or arm injuries. He did, however, experience a rotator cuff injury on the same side two years ago, which was resolved with physical therapy.",
+    "medical_history": "Jake is generally healthy with no significant medical issues. He is slightly overweight and has started a lifestyle modification to address this with increased physical activity.",
+    "medications": "Ibuprofen 400mg prn for pain management",
+    "personal_history": "Jake lives a sedentary lifestyle at work but has been actively trying to become healthier. Married with two children, he dedicates weekends to coaching his children's youth soccer team. No family history of musculoskeletal disorders.",
+    "imaging": "None to date, but clinical symptoms point towards lateral epicondylitis.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 466,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1052,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1518
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the key, which is a minor formatting issue. All other prompt instructions are followed well, resulting in a high score.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9679178712162946,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, NPRS scores with context, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to tennis elbow (lateral epicondylitis), with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would impact patient safety or clinical accuracy.",
+            "success": true
+        }
+    ]
+}

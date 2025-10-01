@@ -1,0 +1,32 @@
+{
+    "id": "86617234-c6aa-48f6-8f00-fdb9f01e3175",
+    "condition": "Heel Pain",
+    "title": "Case Study: Chronic Heel Pain in a Middle-Aged Runner",
+    "clinical_history": "Mr. William Anderson is a 47-year-old recreational runner who presents with an insidious onset of right heel pain over the last 3 months. He first noticed discomfort in the mornings upon getting out of bed, characterized by a sharp, stabbing pain localized at the bottom of his right heel. The pain diminishes after a few minutes of walking but recurs after periods of rest and intensifies during prolonged activities, particularly after running. He runs approximately 20-25 kilometers per week, and has recently increased his mileage in preparation for a local half marathon. He reports taking over-the-counter painkillers with partial relief. He denies any history of direct trauma to the heel.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "plantar aspect of right heel (plantar fascia insertion at calcaneus)",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "diffuse ache in the right midfoot after longer runs",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "First steps in the morning, standing after prolonged sitting, running (especially on hard surfaces), walking barefoot on tiles or hardwood floors, prolonged standing (over 45 minutes).",
+    "picture": "[insert image showing area under the heel and plantar fascia involvement]",
+    "easing_factors": "Rest, ice application post-activity, wearing cushioned shoes with good arch support, brief stretching of the calf and plantar fascia, over-the-counter NSAIDs.",
+    "past_history": "No significant heel injuries in the past. Some history of mild intermittent low back discomfort after long car drives, unrelated to current complaint.",
+    "medical_history": "Medically stable, non-smoker, BMI 28. No diabetes, peripheral vascular disease or inflammatory joint conditions. No prior surgeries.",
+    "medications": "Ibuprofen 400mg prn (as needed, 2-3 times/week); no regular prescriptions.",
+    "personal_history": "Works as a real estate agent with variable activity levels – periods of prolonged standing during open houses and significant walking throughout the week. Resides with spouse and two teenage children. He describes himself as generally active with a busy work and family life. Has been more motivated to exercise since his last medical checkup revealed slightly raised cholesterol levels.",
+    "imaging": "No imaging performed to date; diagnosis based on clinical examination. Will consider musculoskeletal ultrasound if symptoms persist or worsen.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "361fbeaf-c3a9-4299-8ebc-50174702e89d",
+    "condition": "TMJ Jaw and Ear Pain",
+    "title": "TMJ Jaw and Ear Pain in a Young Adult",
+    "clinical_history": "Emily, a 25-year-old graduate student, presents with a 6-week history of temporomandibular joint (TMJ) jaw and ear pain. She reports that the pain started after a prolonged period of intense studying and teeth grinding. The pain is localized to her jaw, ear, and temple area. She experiences difficulty chewing, yawning, and even talking. Emily also reports clicking and popping sounds in her jaw when she opens and closes her mouth.",
+    "nprs": [
+        {
+            "context": "Primary",
+            "affected_area": "TMJ and jaw",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary",
+            "affected_area": "Ear and temple",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Chewing, yawning, talking, teeth grinding, and clenching",
+    "picture": "24-hour pain pattern: pain is usually mild in the morning, increases throughout the day, and peaks in the evening",
+    "easing_factors": "Applying heat or cold packs to the affected area, massaging the jaw, and taking over-the-counter pain relievers",
+    "past_history": "History of bruxism and teeth grinding, previous orthodontic treatment",
+    "medical_history": "Generally healthy, but has a history of stress and anxiety",
+    "medications": "Occasional use of ibuprofen for pain relief",
+    "personal_history": "Lives alone, works part-time, and is a full-time graduate student. She reports high levels of stress due to academic pressures",
+    "imaging": "None to date, but referral for TMJ X-rays or MRI is being considered",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

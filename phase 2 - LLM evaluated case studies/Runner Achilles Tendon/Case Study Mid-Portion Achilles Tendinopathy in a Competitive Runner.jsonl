@@ -1,0 +1,70 @@
+{
+    "id": "efade6ca-f69a-420a-99b7-eed3ddbdc86c",
+    "condition": "Runner Achilles Tendon",
+    "title": "Case Study: Mid-Portion Achilles Tendinopathy in a Competitive Runner",
+    "clinical_history": "Mr. Harrison, a 42-year-old financial analyst, presents to the clinic with a primary complaint of right-sided posterior ankle pain that has been progressively worsening over the past three months. An avid marathon runner, he increased his training volume approximately four months ago in preparation for the Boston Marathon. The onset was insidious, initially noting only a mild ache and stiffness in his Achilles region the morning after long runs. Over time, the pain began to present earlier during his runs and has now become sharp enough to force him to cease running entirely for the past two weeks. The pain is located specifically in the mid-substance of the Achilles tendon, approximately 4-5 cm proximal to its calcaneal insertion. He describes a 'painful limp' for the first several minutes after getting out of bed in the morning.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Mid-portion of the Achilles tendon; described as a sharp, localized pain during activity and a constant, dull ache post-activity.",
+            "score": "2/10 at rest, 7-8/10 with running or jumping."
+        },
+        {
+            "context": "P2",
+            "affected_area": "General tightness and soreness in the right gastrocnemius-soleus complex (calf muscle).",
+            "score": "0-3/10, primarily noted after prolonged standing or walking."
+        }
+    ],
+    "aggrevating_factors": "Running (pain begins within the first half-mile), walking uphill or on uneven surfaces, ascending stairs, performing calf raises or any plyometric/jumping activities. Prolonged standing also increases the dull ache.",
+    "picture": "The patient points to a specific, palpable area of tenderness on the mid-portion of the right Achilles tendon. No significant swelling or discoloration is visually apparent, but on palpation, a fusiform thickening of the tendon is noted compared to the asymptomatic left side. The gastrocnemius and soleus muscles are also tender to deep palpation.",
+    "easing_factors": "Complete rest from running, application of ice for 15 minutes following any aggravating activity, and taking over-the-counter NSAIDs provide temporary relief of the aching sensation. He notes the initial 'warm-up' phenomenon, where the pain might briefly subside after 5-10 minutes of light activity, only to return with greater intensity later.",
+    "past_history": "History of self-resolved patellofemoral pain syndrome in his left knee 3 years ago. No prior injuries to the right ankle or Achilles tendon. No surgeries.",
+    "medical_history": "Generally healthy. Diagnosed with mild hypertension one year ago, which is well-controlled with medication. No other known medical conditions.",
+    "medications": "Lisinopril 10mg daily for hypertension. Takes Ibuprofen 400mg as needed for the Achilles pain (1-2 times per week), with limited effect on the sharp pain during activity.",
+    "personal_history": "Works a demanding desk job, often sitting for 8-10 hours a day. Married, with two teenage children. Running is his primary form of exercise and stress relief; he typically runs 40-50 miles per week when training. He is highly motivated to return to running and is concerned about his ability to compete in his goal race. He recently purchased new running shoes, but this did not alter his symptoms.",
+    "imaging": "A diagnostic musculoskeletal ultrasound was performed one week prior to the initial evaluation. Report indicates thickening of the mid-portion of the Achilles tendon with hypoechoic regions and neovascularity, consistent with a diagnosis of mid-portion Achilles tendinopathy. No evidence of a partial or full-thickness tear.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Great job keeping the response safe and respectful!",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to mid-portion Achilles tendinopathy, with accurate clinical presentation, examination findings, and imaging results. The response is clear, comprehensive, and clinically accurate, with no factual errors or omissions that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

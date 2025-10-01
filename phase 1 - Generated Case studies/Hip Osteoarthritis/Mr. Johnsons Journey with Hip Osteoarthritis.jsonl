@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By78XJE4Cj9y8kp7fv7XQwCj9JKa5",
+    "condition": "Hip Osteoarthritis",
+    "title": "Mr. Johnson's Journey with Hip Osteoarthritis",
+    "clinical_history": "Mr. James Johnson is a 67-year-old retired carpenter. He initially started experiencing discomfort in his right hip approximately 3 years ago. Gradually, this discomfort has evolved into a persistent, deep, aching pain localized mainly around the right groin and extending to the anterior thigh. His pain level exacerbates with certain movements like standing for more than 10-15 minutes or during prolonged walks. Occasionally, Mr. Johnson feels a grinding sensation in his hip joint. The pain is worse in the morning and tends to ease off slightly after some movement but then increases again as the day progresses.",
+    "nprs": [
+        {
+            "context": "Primary Pain",
+            "affected_area": "Right hip (groin and anterior thigh)",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "Standing for more than 15 minutes, walking more than a few blocks, certain twisting motions, and rising after prolonged sitting.",
+    "picture": "[insert image highlighting right hip and adjacent areas]",
+    "easing_factors": "Mild movements, heat packs, and over-the-counter pain relief medication.",
+    "past_history": "Mr. Johnson has a history of labor-intensive work as a carpenter, contributing to significant wear and tear on his joints. There is a family history of osteoarthritis; his father and older brother also were diagnosed in their later years.",
+    "medical_history": "Mr. Johnson has managed high blood pressure for the past 7 years, which is well-controlled with medication.",
+    "medications": "Acetaminophen as needed for pain relief. Lisinopril for hypertension.",
+    "personal_history": "Mr. Johnson lives with his wife of 42 years. He enjoys woodworking as a hobby, though his hip pain has limited his shop time recently. They have two adult children and three grandchildren who live nearby.",
+    "imaging": "Right hip X-Ray confirms joint space narrowing and the presence of osteophytes indicative of osteoarthritis.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 428,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1052,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1480
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

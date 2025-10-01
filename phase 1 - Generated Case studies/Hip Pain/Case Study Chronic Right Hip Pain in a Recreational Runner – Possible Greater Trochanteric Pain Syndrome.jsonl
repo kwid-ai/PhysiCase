@@ -1,0 +1,32 @@
+{
+    "id": "9f928c5f-507d-4244-bc5d-1068a42af386",
+    "condition": "Hip Pain",
+    "title": "Case Study: Chronic Right Hip Pain in a Recreational Runner – Possible Greater Trochanteric Pain Syndrome",
+    "clinical_history": "Mr. Thomas Ackers is a 47-year-old recreational runner who presents with a 3-month history of gradually worsening right lateral hip pain. The pain began insidiously after he increased his weekly running distance from 10km to 20km, preparing for a half marathon. He describes the pain as an aching and sometimes burning sensation, primarily located over the lateral aspect of the right hip, occasionally radiating down the lateral thigh. The pain worsens during prolonged walking, running, or when climbing stairs. He also experiences pain when lying on his right side at night, which occasionally wakes him. He denies any recent trauma, numbness, or systemic symptoms. He reports minor morning stiffness that resolves within 15 minutes and increased soreness after long periods of inactivity.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right lateral hip—gluteal tendons and greater trochanter",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Lateral thigh (occasionally, secondary complaint)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Worsens with running, climbing stairs, prolonged walking (more than 30 min), and lying on right side.",
+    "picture": "[insert image of athlete highlighting lateral hip and greater trochanteric region]",
+    "easing_factors": "Rest, application of ice, gentle stretching, sleeping on the left side with a pillow between knees.",
+    "past_history": "No history of major lower limb injury or surgery. Reports mild iliotibial band tightness in the past managed with self-stretching.",
+    "medical_history": "Mild hypercholesterolemia, well-controlled on statins. No other chronic diseases. Nonsmoker.",
+    "medications": "Atorvastatin 10mg daily. Occasional ibuprofen (200mg) for pain relief.",
+    "personal_history": "Works as an accountant. Runs recreationally 3-4 times per week. Married with two teenage children. BMI 27. Reports increased work-related stress over past year.",
+    "imaging": "No imaging performed to date. Clinical diagnosis suggests Greater Trochanteric Pain Syndrome, but further assessment may indicate need for MRI if symptoms persist or worsen.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

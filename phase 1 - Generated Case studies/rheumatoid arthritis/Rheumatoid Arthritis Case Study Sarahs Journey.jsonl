@@ -1,0 +1,32 @@
+{
+    "id": "46e5332a-081f-4efa-924b-da189febd274",
+    "condition": "rheumatoid arthritis",
+    "title": "Rheumatoid Arthritis Case Study: Sarah's Journey",
+    "clinical_history": "Sarah is a 45-year-old marketing executive who has been experiencing symptoms of rheumatoid arthritis for the past 18 months. She initially noticed morning stiffness and swelling in her hands and feet, which gradually worsened over time. She reports difficulty performing daily activities such as buttoning her shirt, opening jars, and walking long distances due to pain and stiffness. Sarah's symptoms have been gradually progressing, with increased frequency of flares and decreased effectiveness of her morning routine.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "hands, particularly the MCP and PIP joints",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "feet, particularly the MTP joints",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": "morning stiffness lasting 2-3 hours, prolonged standing, walking long distances, and repetitive hand activities",
+    "picture": "A 24-hour picture showing increased stiffness and pain in the morning, which gradually improves throughout the day with activity",
+    "easing_factors": "warm baths, gentle exercises, and short periods of rest",
+    "past_history": "Sarah has a history of mild depression and anxiety, for which she has been taking selective serotonin reuptake inhibitors (SSRIs) for the past 5 years.",
+    "medical_history": "Sarah has been diagnosed with hypertension and hyperlipidemia, for which she takes medication. She has a family history of rheumatoid arthritis, with her mother being diagnosed at a young age.",
+    "medications": "methotrexate 20mg/week, folic acid 5mg/week, ibuprofen 400mg prn, and prednisone 5mg/day",
+    "personal_history": "Sarah is married with two children, aged 12 and 15. She works part-time and has had to make significant adjustments to her lifestyle due to her symptoms. She enjoys yoga and swimming but has had to reduce her participation in these activities due to her condition.",
+    "imaging": "X-rays of her hands and feet show joint erosions and narrowing of the joint space, consistent with rheumatoid arthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

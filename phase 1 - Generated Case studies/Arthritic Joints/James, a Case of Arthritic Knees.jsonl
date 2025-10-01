@@ -1,0 +1,63 @@
+{
+    "id": "chatcmpl-By78iTHdKOMWxlw7Hf2dyS0ZXKOx8",
+    "condition": "Arthritic Joints",
+    "title": "James, a Case of Arthritic Knees",
+    "clinical_history": "James is a 65-year-old retired civil engineer who has been experiencing worsening knee pain over the past 18 months. He has difficulty with activities such as getting up from sitting, climbing stairs, and walking long distances. The pain is generally located in both knees, with the right knee being more painful than the left. He notes that his knees feel particularly stiff in the morning and hears creaking sounds during movement. Previously an avid golfer, James has had to reduce his time on the course due to discomfort.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right knee: aching and throbbing pain, associated with stiffness",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "left knee: intermittent discomfort with occasional sharp pain",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "prolonged walking, climbing stairs, standing for more than 20 minutes, transitioning from sitting to standing, squatting",
+    "picture": "[insert image highlighting the knee joints]",
+    "easing_factors": "rest, application of ice packs, gentle stretching exercises",
+    "past_history": "James has been diagnosed with hypertension for the past 10 years, which is well-controlled with medication. He underwent arthroscopic surgery on his right knee 5 years ago for a torn meniscus.",
+    "medical_history": "diagnosed with osteoarthritis 18 months ago; family history of arthritis",
+    "medications": "taking Ibuprofen (200 mg) twice daily for pain management, along with antihypertensive medication",
+    "personal_history": "James lives with his wife and enjoys spending time with their grandchildren. He used to play tennis regularly but has stopped due to knee pain. He enjoys reading and is part of a book club.",
+    "imaging": "X-rays show joint space narrowing consistent with osteoarthritis, more severe in the right knee compared to the left",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 432,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1053,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1485
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

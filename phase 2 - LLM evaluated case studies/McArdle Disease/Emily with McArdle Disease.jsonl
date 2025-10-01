@@ -1,0 +1,70 @@
+{
+    "id": "2d934bfa-d9cd-4a0b-a5b8-e05b7012acae",
+    "condition": "McArdle Disease",
+    "title": "Emily with McArdle Disease",
+    "clinical_history": "Emily is a 25-year-old graduate student.  She first noticed symptoms of exercise intolerance and muscle cramps during her college years, particularly during high school gym class or when playing sports.  Over time, she noticed that even simple activities like walking up stairs or doing light exercise would leave her feeling exhausted and with significant muscle pain.  She also reports that she often experiences muscle cramps, stiffness, and weakness, especially in her lower extremities.  Emily has learned to manage her symptoms by adjusting her activity level and eating frequently to maintain energy levels.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "constant, muscle cramps and stiffness in lower extremities",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "intermittent, fatigue and muscle weakness",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "prolonged or intense physical activity, high-intensity exercise, fasting or skipping meals",
+    "picture": "a 24-hour picture showing Emily's typical daily activities, including periods of rest and eating",
+    "easing_factors": "rest, eating carbohydrate-rich foods, avoiding high-intensity exercise",
+    "past_history": "Emily has a family history of McArdle Disease, with her mother and younger brother also affected.",
+    "medical_history": "generally well, but has been diagnosed with mild iron deficiency anemia.",
+    "medications": "currently taking iron supplements, but no medications specifically for McArdle Disease.",
+    "personal_history": "unmarried, living alone, working part-time and studying full-time.  She has to carefully plan her daily activities to manage her symptoms.",
+    "imaging": "none to date, but has had genetic testing to confirm the diagnosis of McArdle Disease.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8181818181818182,
+            "reason": "The score is 0.82 because the output mostly follows the prompt instructions, but there are minor unalignments in the JSON key names ('nprs' instead of 'NPRS' and 'picture' instead of 'Picture'). The score is not higher due to these formatting issues, but it is still strong because all required content is present and well-structured.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9377540668798146,
+            "reason": "The output contains all required fields and is highly relevant to McArdle Disease, accurately describing exercise intolerance, muscle cramps, and the impact on daily life. It includes aggravating and easing factors, NPRS scores, and relevant family and medical history. The only minor shortcoming is the lack of more detailed imaging or laboratory findings, but this does not significantly affect clinical accuracy or patient safety.",
+            "success": true
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": "0f8f6480-e8ca-49f8-a71b-c70422f17fd4",
+    "condition": "Hip Osteoarthritis",
+    "title": "Case Study: Hip Osteoarthritis in a 62-year-old Retiree",
+    "clinical_history": "A 62-year-old male retiree presented with complaints of right hip pain that has been gradually worsening over the past 6 months. He reports that the pain started after increasing his golfing activities. The patient describes the pain as being located in the groin area and radiating down to the knee. He has difficulty walking long distances and has a limited range of motion in his right hip, particularly with internal rotation and adduction.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "deep groin pain",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "lateral hip pain",
+            "score": "4-5"
+        }
+    ],
+    "aggrevating_factors": "prolonged walking (> 30 minutes), standing, climbing stairs, and internal rotation of the hip",
+    "picture": "A 24-hour pain profile showing increased pain in the morning and evening",
+    "easing_factors": "rest, heat application, and use of a cane for ambulation",
+    "past_history": "history of osteoporosis, managed with medication and lifestyle modifications",
+    "medical_history": "hypertension, controlled with medication",
+    "medications": "acetaminophen as needed for pain, and celecoxib for inflammation",
+    "personal_history": "married with two children, enjoys golfing and gardening, but has had to reduce activities due to pain",
+    "imaging": "X-rays showing joint space narrowing and osteophytes in the right hip, consistent with osteoarthritis",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

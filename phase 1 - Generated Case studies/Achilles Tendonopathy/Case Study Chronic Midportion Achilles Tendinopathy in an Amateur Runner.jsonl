@@ -1,0 +1,32 @@
+{
+    "id": "b9a9a707-c598-48a8-bda8-b32f516ad8ad",
+    "condition": "Achilles Tendonopathy",
+    "title": "Case Study: Chronic Midportion Achilles Tendinopathy in an Amateur Runner",
+    "clinical_history": "Michael Holland is a 42-year-old male, recreational distance runner, who presents with a 6-month history of progressively worsening pain in his right Achilles tendon. The discomfort began insidiously, initially noticeable only after morning runs, and has gradually increased in both frequency and intensity. Michael describes stiffness and pain at the posterior aspect of the ankle, particularly evident on rising in the morning and during the first few steps after periods of rest. Over the past month, he has also noted localized swelling and occasional crepitus in the tendon region. Despite modifying his running regime by reducing weekly mileage and switching to softer surfaces, he continues to experience persistent pain, which now sometimes limits his ability to train. He denies any history of recent trauma but recalls a mild ankle sprain on the same side two years ago. Recently, he has started over-the-counter NSAIDs with minimal relief.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right midportion Achilles tendon (insertional and non-insertional portions)",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "distal calf musculature (secondary discomfort with prolonged running)",
+            "score": "1-3"
+        }
+    ],
+    "aggrevating_factors": "Running (especially uphill or speedwork), prolonged walking, climbing stairs, jumping, rising onto toes, and returning to activity after periods of rest.",
+    "picture": "[suggested image: male athlete highlighting right Achilles tendon, with mild localized swelling 2-6 cm proximal to its calcaneal insertion]",
+    "easing_factors": "Resting, application of ice packs after activity, gentle stretching of the calf muscles, and wearing supportive footwear. Partial relief with NSAIDs.",
+    "past_history": "Mild right ankle inversion sprain 2 years ago; full recovery reported at the time, no ongoing instability. No prior Achilles tendon issues.",
+    "medical_history": "Otherwise healthy. No history of systemic inflammatory disease, diabetes, or peripheral vascular issues. No known drug allergies. Non-smoker.",
+    "medications": "Occasional ibuprofen (200-400mg prn), mainly post-run.",
+    "personal_history": "Michael is an accountant, working primarily at a desk. Runs 30-40 km per week as part of an amateur club. No history of elite sports participation. Recently increased training intensity in preparation for a half-marathon. Rare alcohol use. Married with two young children.",
+    "imaging": "No imaging to date, though clinical examination shows thickening and tenderness of the right Achilles tendon 3 cm above the calcaneal insertion, with a mild palpable nodule. Passive dorsiflexion reproduces symptoms. Imaging (ultrasound or MRI) to be considered if no improvement after conservative management.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "5dcaf8c3-c10f-4906-8692-e8c6ba35433e",
+    "condition": "Hamstring strain",
+    "title": "Hamstring Strain in an Amateur Soccer Player: The Case of Mark",
+    "clinical_history": "Mark is a 28-year-old male who presents with acute left posterior thigh pain sustained during a recreational soccer match three days ago. He reports that while sprinting to intercept a ball, he suddenly felt a sharp, pulling pain in the back of his left thigh, followed by immediate inability to continue running. He describes ongoing soreness and tightness in the region, with difficulty walking at a normal pace. There is no report of previous injury to the area, though he recalls mild hamstring tightness after games over the past month. He reports bruising and localized swelling on the posterior aspect of the mid-thigh.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "left posterior thigh (proximal-mid hamstrings; biceps femoris)",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "secondary discomfort radiating above the knee (distal hamstring region)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Attempting to walk quickly, running, ascending and descending stairs, stretching the hamstring, sitting for prolonged periods especially with knee extended.",
+    "picture": "Pain is most intense immediately after the injury (NPRS 8), transitions to constant dull ache (NPRS 5-6) through the day, and worsens (NPRS 7) with activity or attempts to stretch. Discomfort increases by evening if the leg is used more, but is mild (NPRS 2-3) at rest or with the leg supported. He uses crutches for partial off-loading.",
+    "easing_factors": "Rest, application of ice, keeping the knee slightly flexed, non-weightbearing or using crutches, gentle compression. Avoidance of stretching.",
+    "past_history": "No previous hamstring injuries. Occasional muscle soreness post-exercise. No significant trauma or surgical history.",
+    "medical_history": "Otherwise healthy. No chronic diseases. No prior musculoskeletal issues.",
+    "medications": "Ibuprofen 400 mg every 8 hours as needed for pain.",
+    "personal_history": "Works as an IT consultant, mostly sedentary during weekdays. Recreational soccer player, trains 2-3 times per week. Non-smoker, occasional alcohol use. Recently increased training intensity as part of local league preparation.",
+    "imaging": "Awaiting outpatient ultrasound to assess the grade of strain and rule out complete muscle tear.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

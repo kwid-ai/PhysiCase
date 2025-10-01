@@ -1,0 +1,32 @@
+{
+    "id": "15b51203-74dc-429c-aa00-4d2af69594ed",
+    "condition": "Hip Pain",
+    "title": "A 45-year-old Male with Hip Pain",
+    "clinical_history": "A 45-year-old male, John, presented with a 3-week history of right hip pain. He reports that the pain started after a sudden increase in his running routine. He describes the pain as deep and aching in the groin area, with intermittent sharp pain when he moves his hip in certain positions or bears weight on it.",
+    "nprs": [
+        {
+            "context": "Primary",
+            "affected_area": "Right hip and groin",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary",
+            "affected_area": "Lower back and buttock",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Running, jumping, climbing stairs, and prolonged standing or sitting",
+    "picture": "A 45-year-old male with visible discomfort in the right hip and groin area",
+    "easing_factors": "Rest, ice, and over-the-counter pain medication",
+    "past_history": "History of osteoarthritis in his family, with his mother having undergone hip replacement surgery",
+    "medical_history": "Generally healthy, but has high cholesterol and hypertension",
+    "medications": "Occasional use of ibuprofen for pain relief",
+    "personal_history": "Married with two children, works as an accountant, and enjoys running and hiking in his free time",
+    "imaging": "X-rays of the right hip and pelvis show mild joint space narrowing and osteophytes",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

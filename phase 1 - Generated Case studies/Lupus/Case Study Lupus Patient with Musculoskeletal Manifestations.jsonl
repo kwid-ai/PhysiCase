@@ -1,0 +1,32 @@
+{
+    "id": "1ff1ddbd-7b9b-4744-864c-694b350861d5",
+    "condition": "Lupus",
+    "title": "Case Study: Lupus Patient with Musculoskeletal Manifestations",
+    "clinical_history": "A 35-year-old female patient, diagnosed with Systemic Lupus Erythematosus (SLE or Lupus) 5 years ago, presents with complaints of chronic pain and stiffness in her muscles and joints. She reports that her symptoms worsen over time, with increased fatigue, and morning stiffness lasting several hours. The patient has a history of multiple joint flares, with symmetrical polyarthritis affecting her hands, feet, knees, and elbows.",
+    "nprs": [
+        {
+            "context": "Primary Complaint",
+            "affected_area": "Bilateral hands, feet, and knee joints",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary Complaint",
+            "affected_area": "Muscle pain and stiffness in the upper and lower limbs",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged periods of inactivity, exposure to sunlight, stress, and certain medications",
+    "picture": "A 24-hour pain profile showing increased pain and stiffness in the morning, with gradual improvement throughout the day",
+    "easing_factors": "Rest, ice packs, and pain relief medications such as NSAIDs",
+    "past_history": "The patient has a history of recurrent oral ulcers, malar rash, and photosensitivity, which are characteristic symptoms of Lupus.",
+    "medical_history": "The patient has been diagnosed with Lupus 5 years ago and has been experiencing musculoskeletal manifestations, including arthritis and myalgia, for the past 3 years.",
+    "medications": "Prednisone 5mg daily, Hydroxychloroquine 200mg twice daily, and Ibuprofen 400mg as needed for pain relief",
+    "personal_history": "The patient is married with two children and works part-time as an administrative assistant. She reports experiencing stress and fatigue due to her condition and its impact on her daily activities.",
+    "imaging": "X-rays of the hands and feet show joint erosions and deformities consistent with Lupus-related arthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

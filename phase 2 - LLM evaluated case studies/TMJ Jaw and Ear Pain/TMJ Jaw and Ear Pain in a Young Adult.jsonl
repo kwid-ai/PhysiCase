@@ -1,0 +1,70 @@
+{
+    "id": "361fbeaf-c3a9-4299-8ebc-50174702e89d",
+    "condition": "TMJ Jaw and Ear Pain",
+    "title": "TMJ Jaw and Ear Pain in a Young Adult",
+    "clinical_history": "Emily, a 25-year-old graduate student, presents with a 6-week history of temporomandibular joint (TMJ) jaw and ear pain. She reports that the pain started after a prolonged period of intense studying and teeth grinding. The pain is localized to her jaw, ear, and temple area. She experiences difficulty chewing, yawning, and even talking. Emily also reports clicking and popping sounds in her jaw when she opens and closes her mouth.",
+    "nprs": [
+        {
+            "context": "Primary",
+            "affected_area": "TMJ and jaw",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary",
+            "affected_area": "Ear and temple",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Chewing, yawning, talking, teeth grinding, and clenching",
+    "picture": "24-hour pain pattern: pain is usually mild in the morning, increases throughout the day, and peaks in the evening",
+    "easing_factors": "Applying heat or cold packs to the affected area, massaging the jaw, and taking over-the-counter pain relievers",
+    "past_history": "History of bruxism and teeth grinding, previous orthodontic treatment",
+    "medical_history": "Generally healthy, but has a history of stress and anxiety",
+    "medications": "Occasional use of ibuprofen for pain relief",
+    "personal_history": "Lives alone, works part-time, and is a full-time graduate student. She reports high levels of stress due to academic pressures",
+    "imaging": "None to date, but referral for TMJ X-rays or MRI is being considered",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the output does not follow the required JSON structure or field names as specified in the prompt. The field names and structure do not match the example, resulting in complete unalignment with the prompt instructions.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, directly addressing all aspects of the input task with no irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias and maintains a neutral and objective tone throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a respectful and appropriate response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.996267311613631,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, relevant past and medical history, medication use, personal history, and imaging considerations. The content is highly relevant to TMJ jaw and ear pain in a young adult, with clear and comprehensive information about symptoms, context, and management. There are no factual inaccuracies, and patient safety and clinical accuracy are maintained throughout.",
+            "success": true
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "dc3a20fd-ca6d-4c0e-a069-700a7dcd61d6",
+    "condition": "Tennis Elbow",
+    "title": "A Case of Lateral Epicondylitis (Tennis Elbow)",
+    "clinical_history": "John is a 45-year-old recreational tennis player and a part-time carpenter. He reports a 6-week history of pain and stiffness on the outside of his left elbow, which started insidiously without any specific incident. The pain is worse with gripping, lifting, and twisting movements, and has begun to interfere with his daily activities and sports. He has tried to manage his symptoms with rest and over-the-counter pain relievers but has not seen significant improvement.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral elbow pain",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "gripping, lifting, twisting movements, especially with the forearm in pronation; activities such as turning a door handle, shaking hands, or using a screwdriver",
+    "picture": "The patient presents with tenderness over the lateral epicondyle, and pain is exacerbated by resisted wrist extension.",
+    "easing_factors": "rest, ice, and NSAIDs provide temporary relief",
+    "past_history": "Previous episodes of elbow pain, managed conservatively; reports a history of repetitive strain injuries in the past",
+    "medical_history": "generally healthy, with controlled hypertension",
+    "medications": "ibuprofen as needed for pain",
+    "personal_history": "married with two children; works part-time as a carpenter and enjoys recreational tennis and golfing",
+    "imaging": "X-rays of the elbow show no significant abnormalities; MRI may show tendinosis of the extensor carpi radialis brevis tendon",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

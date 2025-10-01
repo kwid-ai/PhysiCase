@@ -1,0 +1,27 @@
+{
+    "id": "3f320f14-d270-420d-89c1-aa9ae7ec45b8",
+    "condition": "Heel Pain",
+    "title": "A Case of Heel Pain in a Recreational Runner",
+    "clinical_history": "A 38-year-old male, who is an avid recreational runner, presented with a complaint of heel pain that started 6 weeks ago. The pain is localized to the inferior aspect of his heel and has been getting worse over time. He reports that the pain is most noticeable during the first few steps in the morning and after prolonged periods of rest. He also experiences pain during and after running, which has forced him to reduce his running frequency and distance.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "heel pain, specifically on the inferior aspect",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "prolonged standing, walking, and running; worse in the morning and after rest",
+    "picture": "The patient reports a 24-hour picture of pain that is typically worse in the morning (7/10) and improves slightly throughout the day, but increases again after prolonged activity (6/10).",
+    "easing_factors": "rest, ice, and stretching; reports some relief with orthotics",
+    "past_history": "history of plantar fasciitis 2 years ago, which resolved with physical therapy and orthotics",
+    "medical_history": "generally healthy, but has gained 10 pounds over the last year",
+    "medications": "ibuprofen as needed for pain",
+    "personal_history": "married with two young children, works as an accountant in a small firm",
+    "imaging": "X-rays of the heel showed a small heel spur, but no other abnormalities",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

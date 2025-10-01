@@ -1,0 +1,32 @@
+{
+    "id": "fa65523c-85a8-4239-b4f2-46eb42b4a629",
+    "condition": "Rotator Cuff Injury",
+    "title": "A 45-Year-Old Male with Rotator Cuff Injury",
+    "clinical_history": "A 45-year-old male, who works as a construction worker, presents with a 3-week history of right shoulder pain. He reports that the pain started after a fall while working on a scaffold, where he landed on his outstretched arm. He has been experiencing pain and stiffness in his right shoulder, which has worsened over time. He has difficulty lifting his arm above 90 degrees and has limited mobility in his shoulder joint.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "supraspinatus muscle",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "anterior deltoid muscle",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "abduction, flexion, and extension of the shoulder joint; lifting heavy objects; sleeping on the affected side",
+    "picture": "pain and stiffness in the right shoulder region",
+    "easing_factors": "rest; application of heat or cold packs; gentle pendulum exercises",
+    "past_history": "previous episodes of shoulder pain, 5 years ago, which resolved with physical therapy; no previous surgeries",
+    "medical_history": "generally healthy; takes occasional NSAIDs for pain relief",
+    "medications": "ibuprofen 400mg, 3 times a day, as needed",
+    "personal_history": "married with two children; works full-time as a construction worker; enjoys playing golf on weekends",
+    "imaging": "X-rays and MRI of the right shoulder, showing a partial tear of the supraspinatus tendon",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

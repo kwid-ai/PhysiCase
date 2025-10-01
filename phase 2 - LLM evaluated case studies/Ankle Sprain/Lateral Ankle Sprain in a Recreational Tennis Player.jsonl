@@ -1,0 +1,70 @@
+{
+    "id": "5fc8959a-d69e-4227-993a-69e63b200e71",
+    "condition": "Ankle Sprain",
+    "title": "Lateral Ankle Sprain in a Recreational Tennis Player",
+    "clinical_history": "Mr. James Turner is a 34-year-old recreational tennis player who sustained a right ankle injury 3 days ago during a doubles match. While reaching for a wide shot, he landed awkwardly on the lateral edge of his right foot, experiencing an immediate rolling sensation and a 'pop.' He was unable to continue playing and noted swelling on the lateral aspect of the ankle within 30 minutes. He has been managing with rest, ice, compression, and elevation since the incident. He reports ongoing pain and difficulty weight-bearing, especially during the first steps on waking and when climbing stairs. There is no history of previous significant ankle injuries. Mr. Turner is otherwise healthy and trains recreationally 2-3 times a week.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral aspect of right ankle (anterior talofibular ligament region, peroneal muscle group)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "dorsolateral foot (secondary due to compensatory gait, mild ache)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "weight-bearing activities (walking, especially on uneven ground), stair climbing, side stepping, twisting motions, and running.",
+    "picture": "[insert image of right foot with swelling and bruising over the lateral malleolus]",
+    "easing_factors": "rest, elevation, use of ice packs, and mild compression. Avoiding weight-bearing reduces pain significantly.",
+    "past_history": "No significant previous ankle injuries; mild right knee pain after long tennis matches in the past, not currently symptomatic.",
+    "medical_history": "No chronic medical conditions. No allergies. No previous surgeries.",
+    "medications": "Occasional ibuprofen (up to 400 mg twice daily over the past 3 days) for pain and swelling.",
+    "personal_history": "Works as a software engineer. Non-smoker, social alcohol use. Enjoys recreational sports, including tennis and hiking. Lives with his partner; no children.",
+    "imaging": "No imaging done to date; Ottawa Ankle Rules suggest no fracture risk, but swelling and ecchymosis noted around the lateral malleolus on examination.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions perfectly with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0000000000000002,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to a lateral ankle sprain in a recreational tennis player, with clear and comprehensive information about the injury mechanism, symptoms, and management. The response is clinically accurate, prioritizes patient safety by referencing the Ottawa Ankle Rules, and does not omit any significant details.",
+            "success": true
+        }
+    ]
+}

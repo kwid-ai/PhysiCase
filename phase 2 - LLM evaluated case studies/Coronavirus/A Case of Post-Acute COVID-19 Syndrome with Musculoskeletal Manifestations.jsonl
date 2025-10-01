@@ -1,0 +1,70 @@
+{
+    "id": "291aeec0-96d7-4d62-a40e-5debe2ec61ec",
+    "condition": "Coronavirus",
+    "title": "A Case of Post-Acute COVID-19 Syndrome with Musculoskeletal Manifestations",
+    "clinical_history": "A 45-year-old previously healthy male, who works as an accountant, presented with a 6-week history of persistent fatigue, muscle aches, and joint pains following a moderate COVID-19 infection. He initially experienced fever, cough, and shortness of breath, which resolved within two weeks. However, he continued to experience debilitating fatigue, generalized muscle aches, and joint pains, particularly in the lower limbs.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral lower limb muscle aches and pains, particularly in the quadriceps, hamstrings, and gluteal regions",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Intermittent sharp pains in the bilateral knee joints",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, or climbing stairs; changing positions from sitting to standing",
+    "picture": "A 24-hour pain profile showing fluctuating levels of pain throughout the day, with a gradual increase in pain levels towards the evening",
+    "easing_factors": "Rest, relaxation, and application of heat to the affected areas",
+    "past_history": "No significant past medical history; occasional episodes of lower back pain following prolonged sitting or bending",
+    "medical_history": "COVID-19 infection 6 weeks prior to presentation, managed conservatively; no hospitalizations or intensive care unit admissions",
+    "medications": "Acetaminophen 1000mg as needed for pain and fever; occasional use of ibuprofen 400mg for pain relief",
+    "personal_history": "Married with two children; works full-time as an accountant; enjoys hiking and playing sports in his free time, but has had to significantly reduce these activities due to persistent symptoms",
+    "imaging": "None to date; pending further evaluation with MRI or ultrasound to rule out other potential causes of musculoskeletal symptoms",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.7692307692307693,
+            "reason": "The score is 0.77 because the output mostly follows the prompt instructions and includes all required case study elements. However, it falls short of a higher score due to not using the specified writing style of a senior professor and minor misalignments in JSON key capitalization ('nprs' instead of 'NPRS', 'picture' instead of 'Picture'). These prevent a perfect score, but the content is otherwise well-aligned with the prompt.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0000000000000002,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to post-acute COVID-19 syndrome with musculoskeletal manifestations, is clear, comprehensive, and clinically accurate. There are no factual errors or omissions that would impact patient safety.",
+            "success": true
+        }
+    ]
+}

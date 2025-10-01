@@ -1,0 +1,70 @@
+{
+    "id": "501f8ef7-f9a9-42a7-a7bb-c16c7bba055f",
+    "condition": "Bells Palsy",
+    "title": "A Case of Bell's Palsy in a 35-Year-Old Female",
+    "clinical_history": "A 35-year-old female, Sarah, presented with a 2-day history of sudden onset of right-sided facial weakness. She reported that she woke up with a feeling of numbness and weakness on the right side of her face, which made it difficult for her to smile, close her eye, or move her eyebrow on the affected side. She denied any history of trauma, infection, or recent travel. She also reported experiencing taste disturbances and hyperacusis (sensitivity to sound) on the affected side.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right-sided facial weakness and numbness",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right-sided headache and discomfort around the ear",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "talking, eating, and exposure to loud noises",
+    "picture": "24-hour picture: The patient reports that her symptoms have been constant over the past 2 days, with no significant changes throughout the day.",
+    "easing_factors": "resting, avoiding loud noises, and using warm compresses on the affected side",
+    "past_history": "No significant past medical history, but she had a similar episode of transient facial weakness on the left side 5 years ago, which resolved on its own within a week.",
+    "medical_history": "Generally healthy, with no chronic medical conditions",
+    "medications": "Currently taking no medications, but was prescribed prednisone by her primary care physician, which she started 2 days ago",
+    "personal_history": "Married with two young children, works part-time as a marketing specialist, and enjoys hiking and reading in her free time",
+    "imaging": "MRI of the brain and facial nerve conduction studies are pending",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is a minor formatting issue: the key for the pain rating scale is 'nprs' instead of the required 'NPRS'. All other prompt instructions are followed well, which keeps the score high.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, addresses all aspects of the input prompt, and contains no irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9904650529959517,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and pending imaging. The content is highly relevant to Bell's Palsy, accurately describing typical symptoms such as sudden unilateral facial weakness, taste disturbance, and hyperacusis. The response is clear, comprehensive, and clinically accurate, with no factual errors or omissions that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

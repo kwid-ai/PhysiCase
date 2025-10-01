@@ -1,0 +1,32 @@
+{
+    "id": "6225e3a4-c365-40f9-a256-be408b70388e",
+    "condition": "Hodgkins Lymphoma",
+    "title": "Case Study: A 28-Year-Old Male with Insidious Onset of Thoracic Pain and Constitutional Symptoms",
+    "clinical_history": "Mr. David Chen, a 28-year-old architect, presents to physical therapy with a primary complaint of persistent, deep, and aching mid-thoracic back pain. The onset was insidious, beginning approximately 3 months ago with no specific mechanism of injury. Initially, he attributed the discomfort to long hours at his desk. However, the pain has progressively worsened and is now constant. More concerning is the profound fatigue he experiences, which he describes as 'bone-deep' and unalleviated by rest. He reports waking up several nights a week 'completely drenched in sweat,' requiring him to change his bedding. He also mentions an unintentional weight loss of approximately 15 pounds over the last 2-3 months. On direct questioning, he notes a painless lump on the left side of his neck that has been present for about two months. He mentions an odd phenomenon where his neck and back pain significantly intensifies for an hour or two after consuming even a single alcoholic beverage.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Deep, gnawing ache in the mid-thoracic spine and interscapular region. This is a constant pain.",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Occasional, dull ache over the left supraclavicular fossa, which becomes sharp and intense after alcohol consumption.",
+            "score": "2-3, increasing to 8"
+        }
+    ],
+    "aggrevating_factors": "The thoracic pain is mildly aggravated by prolonged static postures (sitting, standing) and deep inspiration. The fatigue is exacerbated by minimal physical or cognitive effort. Consumption of alcohol is a significant and unusual aggravating factor for the cervical and thoracic pain.",
+    "picture": "Symptoms are present 24/7. The pain and stiffness are most pronounced upon waking in the morning. The key feature is the presence of drenching night sweats, occurring 3-4 times per week, which disrupts his sleep. The profound fatigue is constant throughout the day, limiting his ability to work effectively and engage in social activities.",
+    "easing_factors": "Traditional easing factors such as positional changes, stretching, or heat provide only minimal and very transient relief. Rest does not significantly diminish the underlying pain or fatigue.",
+    "past_history": "No significant past musculoskeletal history. He reports a right ankle sprain (Grade II) during a university soccer match 8 years ago, which resolved with physical therapy.",
+    "medical_history": "Previously fit and well. Diagnosed with mononucleosis (Epstein-Barr virus) at age 19. On physical examination, a firm, non-tender, rubbery lymph node (approximately 2cm) is palpable in the left supraclavicular chain. There may also be palpable nodes in the axillary or inguinal regions upon a more thorough screen.",
+    "medications": "Takes Ibuprofen 400mg 1-2 times per day, with negligible effect on his symptoms.",
+    "personal_history": "Works long hours as an architect. Lives with his partner. Socially drinks 1-2 beers on weekends. He denies any recent illness, travel, or exposure to infectious diseases prior to the onset of these symptoms.",
+    "imaging": "A thoracic spine X-ray was ordered by his General Practitioner one month ago, which was reported as 'unremarkable,' showing no signs of fracture or degenerative changes.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "edd68b0e-15d9-4956-8f7b-21b4439e4e15",
+    "condition": "Hamstring strain",
+    "title": "Acute Hamstring Strain in a Recreational Runner: The Case of Mr. Samuel Greene",
+    "clinical_history": "Samuel Greene is a 38-year-old recreational runner and IT project manager who presented with posterior left thigh pain that began acutely three days ago during a local 10k race. He reports that as he attempted to sprint in the last 200 meters, he felt a sudden, sharp pain in the back of his left thigh, described as a 'pulling' sensation, followed by immediate difficulty walking. He stopped running immediately and has been limping since. The pain is localized to the mid-belly of his left posterior thigh, with occasional radiating ache down toward the knee. He denies numbness, tingling, or a popping sound at the time of injury. He has RICE’d the area (rest, ice, compression, elevation) and refrained from running since the incident.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Left posterior thigh (mid-belly of hamstrings, primarily biceps femoris)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Diffuse ache extending toward the left popliteal fossa (secondary complaint)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Walking, especially uphill or at a brisk pace; attempting to bend forward with straight knees; initial sitting and especially rising from a seated position; ascending stairs; gentle passive stretching of hamstrings.",
+    "picture": "Pain is at its worst upon waking and after prolonged sitting. Throughout the day, pain and stiffness decrease with gentle movement, but increase significantly if activity intensity is elevated. Swelling and mild bruising appeared within 24 hours post-injury, and he notes stiffness at rest.",
+    "easing_factors": "Rest, application of ice, gentle unloaded range of motion, avoiding stretching or sudden movement. Pain slightly improves with slow, supported walking or gentle cycling without resistance.",
+    "past_history": "No previous hamstring injuries but a minor right Achilles tendon strain two years ago; otherwise unremarkable.",
+    "medical_history": "Non-contributory. No known chronic illnesses. No history of diabetes, neuropathy, or musculoskeletal disorders.",
+    "medications": "Occasional ibuprofen (400mg q8h PRN for pain); no regular medications.",
+    "personal_history": "Works long hours seated at a desk. Runs recreationally 3-4 times per week. Non-smoker, drinks socially. Married with two young children. Reports increased work-related stress over the past few months and admits to inadequate warm-up prior to recent races.",
+    "imaging": "No imaging performed yet. Clinical exam revealed localized tenderness and mild ecchymosis over the mid-left hamstring group. Plan to monitor recovery and consider ultrasound if symptoms persist beyond two weeks.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

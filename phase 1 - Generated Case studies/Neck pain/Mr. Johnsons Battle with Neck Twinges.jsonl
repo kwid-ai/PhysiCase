@@ -1,0 +1,63 @@
+{
+    "id": "chatcmpl-By77GMo8q9IGR19Nw9pJxfQqjt35K",
+    "condition": "Neck pain",
+    "title": "Mr. Johnson's Battle with Neck Twinges",
+    "clinical_history": "Mr. James Johnson is a 48-year-old office manager who has been experiencing neck pain for the past 3 months. His symptoms began gradually and have become progressively worse. The pain is located in the cervical region and occasionally radiates to his left shoulder. Mr. Johnson, an avid golfer, recalls that his pain is more pronounced after a long session of working at his desk during weekdays. On weekends, after playing golf, the pain tends to ease slightly but persists at a lower intensity. He describes the pain as a deep, throbbing sensation, with intermittent sharp twinges.",
+    "nprs": [
+        {
+            "context": "Primary Pain",
+            "affected_area": "cervical region",
+            "score": "5-7"
+        },
+        {
+            "context": "Secondary Pain",
+            "affected_area": "left shoulder",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged desk work, sitting hunched over, stress, sudden neck movements.",
+    "picture": "[insert image of the cervical region with indication of pain radiating towards left shoulder]",
+    "easing_factors": "Playing golf, applying warm compress, gentle neck stretching exercises.",
+    "past_history": "No significant past medical history. Occasionally experiences mild headaches, which he attributes to work stress.",
+    "medical_history": "Mild hypertension diagnosed 2 years ago, managed with lifestyle changes.",
+    "medications": "Currently not taking any medications for neck pain. Uses over-the-counter pain relievers like ibuprofen occasionally.",
+    "personal_history": "Sedentary job, enjoys weekend golfing. Lives with his spouse and two teenage children. Non-smoker, occasional drinker.",
+    "imaging": "No imaging conducted yet. Consideration for MRI if symptoms persist or worsen.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 395,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1446
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

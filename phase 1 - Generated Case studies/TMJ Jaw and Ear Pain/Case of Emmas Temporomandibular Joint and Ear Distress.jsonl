@@ -1,0 +1,63 @@
+{
+    "id": "chatcmpl-By78fYyF7S1Fve57Uru01cUGF08K3",
+    "condition": "TMJ Jaw and Ear Pain",
+    "title": "Case of Emma's Temporomandibular Joint and Ear Distress",
+    "clinical_history": "Emma is a 32-year-old administrative assistant who reports persistent pain in the jaw and ear area for over 4 weeks. The onset of symptoms began insidiously and without a specific incident. Emma describes the pain (P1) as mainly located in the left temporomandibular joint (TMJ) and radiating towards her left ear (P2), often influencing her ability to concentrate at work. She also reports increased pain while eating solid foods and experiencing a clicking sensation when opening her mouth. Emma is also dealing with stress in her workplace, which she suspects might be exacerbating her condition.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "left TMJ region, constant aching with occasional sharp spikes",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "left ear, intermittent dull ache",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "chewing solid foods, opening mouth wide such as when yawning, prolonged speaking",
+    "picture": "[insert image highlighting jaw and ear on the left side]",
+    "easing_factors": "warm compresses, jaw relaxation exercises",
+    "past_history": "Emma had orthodontic work including braces during her teenage years but was subsequently told that her alignment was satisfactory. No previous history of jaw or ear complaints.",
+    "medical_history": "No significant medical history reported.",
+    "medications": "Ibuprofen occasionally for pain management",
+    "personal_history": "Single and lives alone. Works full-time as an administrative assistant, with occasional overtime due to a high workload. Enjoys singing as a hobby, which she has had to reduce due to the pain. Does not smoke and consumes alcohol socially.",
+    "imaging": "none performed; potential referral for imaging if symptoms persist beyond conservative management phase",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 416,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1055,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1471
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

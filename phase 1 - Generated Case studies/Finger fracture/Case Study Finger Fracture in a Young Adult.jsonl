@@ -1,0 +1,32 @@
+{
+    "id": "c91ecb03-08f1-46ce-8f19-fe5047d1738a",
+    "condition": "Finger fracture",
+    "title": "Case Study: Finger Fracture in a Young Adult",
+    "clinical_history": "A 25-year-old right-handed graphic designer, Sarah, presented to the clinic with a complaint of pain and swelling in her left index finger. She reported that she had fallen onto her outstretched hand while walking down the stairs 2 days ago. She noticed immediate pain and swelling in her finger, which has been persistent since then. She has difficulty moving her finger and has been experiencing pain when trying to extend it.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Left index finger, specifically at the distal interphalangeal joint",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Dorsal aspect of the left hand and wrist",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Flexion and extension of the left index finger, especially when trying to make a fist or grasp objects",
+    "picture": "A 24-hour picture of the patient's left hand and finger would show swelling and bruising around the distal interphalangeal joint, with limited range of motion.",
+    "easing_factors": "Rest, ice application, and elevation of the affected hand",
+    "past_history": "Sarah has a history of occasional wrist pain due to her job as a graphic designer, which involves prolonged typing and mouse use. However, she has never had any previous fractures or significant injuries to her hands or fingers.",
+    "medical_history": "Generally healthy, with no significant medical conditions. She takes no regular medications.",
+    "medications": "None",
+    "personal_history": "Sarah is a graduate student pursuing her master's degree in graphic design. She is right-handed and uses her left hand for support while working on her computer. She has a busy schedule and often works long hours, which may contribute to her wrist and hand discomfort.",
+    "imaging": "X-ray of the left index finger, which revealed a non-displaced fracture of the distal phalanx.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

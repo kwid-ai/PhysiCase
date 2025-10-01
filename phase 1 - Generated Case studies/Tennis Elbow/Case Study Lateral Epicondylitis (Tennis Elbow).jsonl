@@ -1,0 +1,27 @@
+{
+    "id": "00d3494c-9154-453c-b41d-7825550578c3",
+    "condition": "Tennis Elbow",
+    "title": "Case Study: Lateral Epicondylitis (Tennis Elbow)",
+    "clinical_history": "A 45-year-old right-handed male, who works as a plumber, presents with a 6-week history of right elbow pain. He reports that the pain started insidiously, with no specific incident of trauma. He describes the pain as being on the outside of his elbow and radiating down to his forearm. The patient reports that the pain worsens with gripping, lifting, and twisting movements, making it difficult for him to perform his daily work activities. He also experiences pain when extending his wrist against resistance.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right lateral elbow",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "Gripping, lifting, twisting movements, extension of wrist against resistance, and direct pressure on the lateral elbow",
+    "picture": "The patient exhibits tenderness over the lateral epicondyle, and pain is exacerbated by stretching the wrist extensors.",
+    "easing_factors": "Rest, ice application, and NSAIDs",
+    "past_history": "The patient has a history of repetitive strain injuries, having experienced similar symptoms in his left wrist 5 years ago, which resolved with physical therapy. He is an avid golfer and plays 2-3 times a week.",
+    "medical_history": "Generally healthy, with no significant medical conditions. He takes no regular medications.",
+    "medications": "Occasional NSAIDs for pain relief",
+    "personal_history": "Married with two children, works full-time as a plumber, and is active in sports.",
+    "imaging": "X-rays of the elbow are normal, with no signs of osteoarthritis or fractures.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

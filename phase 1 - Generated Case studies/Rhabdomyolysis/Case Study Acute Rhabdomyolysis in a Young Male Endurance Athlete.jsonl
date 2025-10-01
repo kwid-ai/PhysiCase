@@ -1,0 +1,32 @@
+{
+    "id": "1760ab55-371b-46b0-bece-b3785b5368b1",
+    "condition": "Rhabdomyolysis",
+    "title": "Case Study: Acute Rhabdomyolysis in a Young Male Endurance Athlete",
+    "clinical_history": "John T., a 22-year-old male university track athlete, presented to the clinic with severe muscle pain and profound weakness in both thighs and calves following a marathon conducted under atypically hot and humid conditions three days prior. He reports dark, tea-colored urine beginning the morning after the race and progressive inability to walk without assistance. He describes significant swelling in his lower limbs and generalized fatigue. He recalls consuming little water during the event. Denies recent trauma, new medication, or viral illness.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral quadriceps and gastrocnemius (primary muscle groups affected)",
+            "score": "7-9"
+        },
+        {
+            "context": "P2",
+            "affected_area": "lower back (secondary complaint related to compensatory overuse)",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Ambulation, standing from sitting, ascending/descending stairs, palpation of affected muscles.",
+    "picture": "[Insert image illustrating swelling and tenderness of bilateral thighs and calves]",
+    "easing_factors": "Rest, gentle limb elevation, application of cool packs. Minimal relief with oral NSAIDs.",
+    "past_history": "No prior similar episodes. History of recurrent muscle cramps after intensive sports in the past.",
+    "medical_history": "Otherwise healthy, no history of diabetes, renal or cardiac disease.",
+    "medications": "Acetaminophen and ibuprofen as needed for pain since onset; began IV fluids upon emergency admission for hydration and renal protection.",
+    "personal_history": "Non-smoker, non-drinker, competitive athlete since age 12, currently pursuing a degree in sports science. Reports striving to outpace personal best despite adverse weather conditions during event.",
+    "imaging": "No imaging performed; diagnosis based on clinical findings and laboratory evidence of elevated creatine kinase and myoglobinuria.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

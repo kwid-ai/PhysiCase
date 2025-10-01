@@ -1,0 +1,32 @@
+{
+    "id": "988af01b-bf37-4fb5-95e2-001038943bc8",
+    "condition": "Runner Achilles Tendon",
+    "title": "Case Study: Chronic Achilles Tendinopathy in a Marathon Runner",
+    "clinical_history": "Mark L., a 38-year-old competitive marathon runner, presents with a 3-month history of gradually worsening pain and stiffness in his right Achilles tendon. Symptoms began after increasing his weekly running mileage in preparation for a marathon. He reports initial morning stiffness that improves after a few steps, but the pain intensifies during the later stages of his runs, especially when training on hilly terrain. Mark denies any specific injury but recalls minor discomfort after a sprint session. Over time, he noticed swelling and occasional crepitus along the tendon. He is particularly concerned about decreased push-off power and mild limping after long runs. Mark has started skipping training sessions and is frustrated by his slow recovery.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Achilles tendon (distal third, midline posterior aspect of right ankle)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Calf muscle (secondary soreness, tightness post-run)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Running, particularly uphill, speedwork, prolonged walking, and climbing stairs. Morning activities and resuming movement after sitting for extended periods.",
+    "picture": "Clinical photos would reveal localized swelling and mild thickening along the distal Achilles tendon, with possible palpable nodularity and mild erythema.",
+    "easing_factors": "Relative rest, ice application, eccentric calf exercises, use of heel lifts in shoes, and short-term reduction in running volume.",
+    "past_history": "No previous history of Achilles tendon injury. Minor lateral ankle sprain two years ago; recovered fully. History of mild plantar fasciitis last year, resolved with physiotherapy.",
+    "medical_history": "Fit and healthy, no chronic illnesses. Non-smoker, occasional alcohol intake.",
+    "medications": "PRN ibuprofen after runs (not taken daily). Using topical diclofenac gel.",
+    "personal_history": "Works as an IT consultant with a mostly sedentary daytime routine. Runs 5-6 days per week (40-60 km total). Married, two young children. Admits to feeling stressed balancing family, work, and training commitments.",
+    "imaging": "Ultrasound: Hypoechoic changes and thickening of the midportion of the Achilles tendon, minimal neovascularization, no frank tear detected. No calcifications or embedded foreign bodies observed.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

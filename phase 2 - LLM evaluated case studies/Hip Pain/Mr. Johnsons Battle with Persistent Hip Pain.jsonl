@@ -1,0 +1,96 @@
+{
+    "id": "chatcmpl-By78SeZCR41ZEKs2wqAEdNeELaEeG",
+    "condition": "Hip Pain",
+    "title": "Mr. Johnson's Battle with Persistent Hip Pain",
+    "clinical_history": "Mr. Johnson is a 65-year-old retired civil engineer who arrived at the clinic with complaints of persistent right hip pain. The pain has gradually worsened over the past six months and is especially disruptive in the mornings and after prolonged inactivity. He describes the pain as a deep, aching sensation that occasionally radiates down the anteromedial thigh. He experiences difficulty climbing stairs and getting up from a sitting position, often requiring support from the armrests or nearby furniture.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right hip and groin",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "prolonged sitting, walking for more than 15 minutes, climbing stairs, getting in and out of cars.",
+    "picture": "[insert image of a person highlighting the right hip and groin areas]",
+    "easing_factors": "rest, applying a heating pad, taking frequent sitting breaks when walking.",
+    "past_history": "previous knee arthroscopy 4 years ago due to a meniscus tear. No prior hip issues.",
+    "medical_history": "diagnosed with Type 2 diabetes 7 years ago, hypertension for the last decade \u00e2\u20ac\u201c both are under control with medication.",
+    "medications": "Metformin 500mg, Lisinopril 10mg daily, Ibuprofen 400mg as needed for pain.",
+    "personal_history": "divorced, lives alone. Has two adult children who visit on weekends. Enjoys reading and gardening but has reduced his gardening activities due to the hip pain.",
+    "imaging": "X-Ray showed mild osteoarthritic changes in the right hip, with narrowing of the joint space.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 379,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1430
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments detected. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias and maintains a neutral and objective tone throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a respectful and appropriate response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9320821300824607,
+            "reason": "The output contains all required fields, including a detailed clinical history, NPRS score, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is relevant to persistent hip pain and demonstrates clinical accuracy, mentioning osteoarthritic changes and appropriate comorbidities. The response is clear and comprehensive, but the 'picture' field is a placeholder rather than an actual image, which is a minor omission. Patient safety and accuracy are maintained throughout.",
+            "success": true
+        }
+    ]
+}

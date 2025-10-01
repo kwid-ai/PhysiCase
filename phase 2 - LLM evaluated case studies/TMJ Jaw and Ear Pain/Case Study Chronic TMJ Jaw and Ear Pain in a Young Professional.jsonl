@@ -1,0 +1,70 @@
+{
+    "id": "fd985430-97a7-4504-b588-36d7165afc78",
+    "condition": "TMJ Jaw and Ear Pain",
+    "title": "Case Study: Chronic TMJ Jaw and Ear Pain in a Young Professional",
+    "clinical_history": "Jessica M., a 29-year-old marketing executive, presents with a 5-month history of right-sided jaw pain accompanied by intermittent ear discomfort and fullness. The pain began insidiously, initially noted as mild aching in the TMJ region with increased computer work and periods of high stress at her job. She reports pain worsening with prolonged speaking, chewing tough foods, and during periods of emotional stress. Occasionally, she experiences a clicking sensation in her jaw without any episodes of locking or dislocation. Jessica also describes intermittent tinnitus in the right ear and difficulty sleeping on her right side due to discomfort. There is no history of recent dental procedures or facial trauma.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right TMJ / Masseter and Temporalis Muscles (primary complaint)",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Right Ear Fullness/Aching (secondary complaint)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Chewing tough or crunchy foods (e.g., steak, bagels), prolonged speaking (meetings >30 minutes), yawning widely, clenching jaw during stressful periods, sleeping on right side.",
+    "picture": "Patient points to pain immediately anterior to the tragus of the right ear, radiating along the jawline with secondary referral into the ear canal.",
+    "easing_factors": "Resting jaw (minimal talking), applying warm compress to the area, avoiding hard foods, gentle jaw stretching exercises, NSAIDs as needed.",
+    "past_history": "Reported habitual nail biting and frequent gum chewing since adolescence. Mild bruxism reported by dental provider two years ago.",
+    "medical_history": "Otherwise healthy. No history of systemic arthropathy. No neurological disorders.",
+    "medications": "Occasional use of ibuprofen 400mg as needed for pain (no more than 3x/week).",
+    "personal_history": "High-stress job with frequent deadlines and presentations. Reports moderate anxiety, especially during work projects. Lives alone, recently increased work-from-home hours. No tobacco; social alcohol use.",
+    "imaging": "Panoramic radiograph unremarkable. No evidence of joint erosion or bony changes. MRI not yet ordered.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions perfectly with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to chronic TMJ and ear pain, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would impact patient safety or clinical accuracy.",
+            "success": true
+        }
+    ]
+}

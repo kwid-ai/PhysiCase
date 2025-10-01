@@ -1,0 +1,27 @@
+{
+    "id": "6ca5c80d-44aa-402e-9e69-1811f4ce47c8",
+    "condition": "Hernia",
+    "title": "A 45-year-old male with a case of inguinal hernia",
+    "clinical_history": "John, a 45-year-old sales representative, reports a 3-month history of intermittent right groin pain that worsens throughout the day, especially after prolonged standing or walking. He describes the onset of pain as insidious and mentions that it is often accompanied by a dull ache in the lower abdomen. The pain does not radiate to other areas but is sometimes associated with a sense of heaviness in the groin. John has noticed that the pain increases with heavy lifting, bending, or straining during bowel movements.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right groin and lower abdomen",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "prolonged standing, walking, heavy lifting, bending, straining during bowel movements",
+    "picture": "a 24-hour picture showing increased pain during the day, especially after activities",
+    "easing_factors": "lying down, applying ice to the affected area",
+    "past_history": "appendectomy 10 years ago, no previous abdominal surgeries",
+    "medical_history": "hypertension, controlled with medication",
+    "medications": "Amlodipine 5mg daily, occasional acetaminophen for pain",
+    "personal_history": "married with two children, works long hours, and has a relatively sedentary lifestyle outside of work",
+    "imaging": " Ultrasound of the abdomen and groin area shows a 2cm indirect inguinal hernia on the right side",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

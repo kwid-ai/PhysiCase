@@ -1,0 +1,37 @@
+{
+    "id": "dca95ecf-6a8f-494e-9d70-33b6d1a0c0a0",
+    "condition": "Myasthenia Gravis",
+    "title": "A Case Study of Myasthenia Gravis: Emily's Experience",
+    "clinical_history": "Emily is a 32-year-old marketing specialist who presented with fluctuating muscle weakness, particularly in the ocular, bulbar, and proximal limb muscles. She reported experiencing double vision, drooping eyelids, and difficulty swallowing, which worsened throughout the day. Emily's symptoms began insidiously, with mild eyelid drooping and intermittent diplopia over the past 6 months. Over the past 2 months, her symptoms have progressed, and she now experiences difficulty speaking and swallowing, as well as weakness in her arms and legs.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Eye muscles (bilateral ptosis and diplopia)",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Proximal limb muscles (fatigue and weakness in arms and legs)",
+            "score": "4-6"
+        },
+        {
+            "context": "P3",
+            "affected_area": "Bulbar muscles (dysphagia and dysarthria)",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": "Prolonged physical activity, heat, stress, and infections",
+    "picture": "A 24-hour picture showing Emily's fluctuating muscle weakness, with worsening symptoms throughout the day",
+    "easing_factors": "Rest, cool environment, and medications",
+    "past_history": "Emily has a history of thymus gland abnormalities, with a thymectomy performed 2 years ago. She also has a family history of autoimmune disorders.",
+    "medical_history": "Myasthenia Gravis diagnosed 6 months ago, with a recent hospitalization for a myasthenic crisis. She is generally well but experiences frequent exacerbations.",
+    "medications": "Pyridostigmine, prednisone, and azathioprine",
+    "personal_history": "Married with two young children. Emily is a nonsmoker and occasionally drinks socially. She has a sedentary job and tries to maintain a regular exercise routine.",
+    "imaging": "Chest CT scan showing thymus gland abnormalities prior to thymectomy",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By79SWhifCE3cR5VNWGxTkKD0xgo2",
+    "condition": "Rotator Cuff Injury",
+    "title": "Mark's Conundrum with Rotator Cuff Injury",
+    "clinical_history": "Mark is a 45-year-old avid golfer and office worker. Two months ago, he felt a sharp pain in his right shoulder during a golf swing. The pain has persisted and worsened with certain activities. He experiences a dull ache over the anterolateral shoulder, radiating down the arm to the elbow. He reports weakness in the shoulder when lifting objects overhead or reaching behind him. Night-time discomfort often wakes him up, particularly if he sleeps on his right side.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "anterolateral shoulder, radiating down to the elbow",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": "overhead activities, lifting heavy objects, reaching behind the back, prolonged typing or desk work, and golf swings.",
+    "picture": "[insert image of a person highlighting right shoulder and arm]",
+    "easing_factors": "rest, ice application, and over-the-counter pain relievers such as ibuprofen.",
+    "past_history": "Mark had a minor shoulder strain eight years ago after a tennis match, which resolved completely. No previous history of shoulder surgeries or significant injuries.",
+    "medical_history": "Mark has a history of mild hypertension, managed with lifestyle changes, and occasional episodes of acid reflux.",
+    "medications": "Ibuprofen as needed for pain relief.",
+    "personal_history": "Mark is married with two teenage children. He maintains an active lifestyle, enjoying golf and jogging. Professionally, he is a marketing manager and spends significant hours working at a computer.",
+    "imaging": "Ultrasound imaging confirmed a partial tear of the supraspinatus tendon.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 373,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1054,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1427
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

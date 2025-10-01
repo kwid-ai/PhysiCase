@@ -1,0 +1,32 @@
+{
+    "id": "144db388-b935-44d0-987f-4499ac6e0c6c",
+    "condition": "Hernia",
+    "title": "John's Case of Inguinal Hernia in a Manual Labourer",
+    "clinical_history": "John, a 48-year-old male warehouse worker, presents with a gradual onset of discomfort and swelling in the right lower abdomen and groin for the past 3 months. He reports a noticeable bulge in the right groin region, which becomes more prominent when lifting heavy boxes at work or coughing. He describes a dull ache and a sense of heaviness in the area, particularly after prolonged standing or physical exertion. Occasionally, the pain radiates to the upper inner thigh but is absent at rest. He denies any bowel or urinary symptoms. There is no history of trauma. This is his first episode of such complaints.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right inguinal region (primary hernia site) - dull, aching pain and sense of heaviness",
+            "score": "3-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Occasional radiation to right upper inner thigh (secondary discomfort)",
+            "score": "1-2"
+        }
+    ],
+    "aggrevating_factors": "Heavy lifting, coughing, prolonged standing, straining during bowel movements, end of workday",
+    "picture": "[Image showing prominence at right inguinal crease, location of palpable hernia bulge]",
+    "easing_factors": "Lying down, reducing activity, local support with a hernia truss, non-steroidal anti-inflammatory drugs (NSAIDs) if used",
+    "past_history": "No previous abdominal surgeries or hernias. Unremarkable surgical history. No known chronic illnesses.",
+    "medical_history": "Mild hypertension managed with lifestyle measures. No diabetes or respiratory conditions.",
+    "medications": "Occasional over-the-counter paracetamol for discomfort. Not on regular medication.",
+    "personal_history": "Lives with wife and two teenage children. Has worked manual jobs for over 25 years. Smokes 10 cigarettes daily for 20 years. No alcohol dependence. Exercises infrequently. BMI of 29; considered overweight.",
+    "imaging": "Ultrasound of right groin confirms presence of a reducible right inguinal hernia with no bowel involvement or incarceration.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

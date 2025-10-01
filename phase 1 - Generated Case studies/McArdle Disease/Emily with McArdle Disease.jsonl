@@ -1,0 +1,32 @@
+{
+    "id": "2d934bfa-d9cd-4a0b-a5b8-e05b7012acae",
+    "condition": "McArdle Disease",
+    "title": "Emily with McArdle Disease",
+    "clinical_history": "Emily is a 25-year-old graduate student.  She first noticed symptoms of exercise intolerance and muscle cramps during her college years, particularly during high school gym class or when playing sports.  Over time, she noticed that even simple activities like walking up stairs or doing light exercise would leave her feeling exhausted and with significant muscle pain.  She also reports that she often experiences muscle cramps, stiffness, and weakness, especially in her lower extremities.  Emily has learned to manage her symptoms by adjusting her activity level and eating frequently to maintain energy levels.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "constant, muscle cramps and stiffness in lower extremities",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "intermittent, fatigue and muscle weakness",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "prolonged or intense physical activity, high-intensity exercise, fasting or skipping meals",
+    "picture": "a 24-hour picture showing Emily's typical daily activities, including periods of rest and eating",
+    "easing_factors": "rest, eating carbohydrate-rich foods, avoiding high-intensity exercise",
+    "past_history": "Emily has a family history of McArdle Disease, with her mother and younger brother also affected.",
+    "medical_history": "generally well, but has been diagnosed with mild iron deficiency anemia.",
+    "medications": "currently taking iron supplements, but no medications specifically for McArdle Disease.",
+    "personal_history": "unmarried, living alone, working part-time and studying full-time.  She has to carefully plan her daily activities to manage her symptoms.",
+    "imaging": "none to date, but has had genetic testing to confirm the diagnosis of McArdle Disease.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

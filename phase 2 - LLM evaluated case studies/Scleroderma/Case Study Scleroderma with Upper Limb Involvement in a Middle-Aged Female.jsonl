@@ -1,0 +1,70 @@
+{
+    "id": "4d668558-5e78-4a8d-8284-72e31e2eebfe",
+    "condition": "Scleroderma",
+    "title": "Case Study: Scleroderma with Upper Limb Involvement in a Middle-Aged Female",
+    "clinical_history": "Mrs. Anita Deshmukh is a 47-year-old accountant presenting with increasing tightness and pain in her hands, fingers, and forearms for the past 18 months. She reports progressive difficulty gripping objects, stiffness on waking that improves marginally by mid-morning, and occasional swelling of her fingers. She describes Raynaud's phenomenon with her fingers becoming pale and painful in cold environments, lasting from several minutes to up to an hour. Her skin appears shiny and thickened over the hands, wrists, and distal forearms. She has also noticed small digital ulcers on the tips of two fingers over the last 4 months. She complains of primary pain and functional limitation in the hands, with secondary aching in the forearms from overuse and compensatory movement.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral hands and fingers (particularly MCP and PIP joints), extensor surface",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "distal forearms (dull ache after use, muscle fatigue)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Cold exposure, repetitive gripping/typing, long periods of immobility (such as sleeping or sitting at a desk), stressful situations (provoking Raynaud's), intensive housekeeping activities (wringing clothes, carrying bags), and contact with irritants due to fragile skin.",
+    "picture": "[insert clinical depiction of sclerodactyly in hands and tight, shiny forearm skin]",
+    "easing_factors": "Warming hands, gentle stretching and massage, use of paraffin wax baths, taking regular breaks during manual activities, avoiding cold and use of hand moisturizers.",
+    "past_history": "Diagnosed with gastroesophageal reflux disease (GERD) 2 years ago; mild hypertension controlled with medication. No previous musculoskeletal trauma or autoimmune disorders reported. Family history notable for rheumatoid arthritis in mother.",
+    "medical_history": "Reports unintentional 5 kg weight loss over 12 months and intermittent shortness of breath with moderate exertion. No previous hospitalizations related to this condition.",
+    "medications": "Nifedipine (for Raynaud's), omeprazole (for GERD), amlodipine (for mild hypertension), regular use of topical emollients and silicone-based dressings for digital ulcers. Occasional NSAIDs for pain relief.",
+    "personal_history": "Married, with two teenage daughters. Non-smoker, drinks alcohol socially. Previously very active; reduced hobbies such as gardening and knitting due to pain and dexterity issues. Lives in a joint family home. Reports moderate emotional stress due to chronic illness and its effect on work productivity.",
+    "imaging": "Hand X-rays show mild resorption of distal phalanges (acro-osteolysis); HRCT chest pending to screen for interstitial lung involvement.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content; it is entirely appropriate.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and relevant imaging. The content is highly relevant to scleroderma with upper limb involvement, demonstrating clinical accuracy and attention to patient safety. The response is clear, comprehensive, and includes minor but important details such as Raynaud's phenomenon, digital ulcers, and acro-osteolysis, with no factual errors or omissions.",
+            "success": true
+        }
+    ]
+}

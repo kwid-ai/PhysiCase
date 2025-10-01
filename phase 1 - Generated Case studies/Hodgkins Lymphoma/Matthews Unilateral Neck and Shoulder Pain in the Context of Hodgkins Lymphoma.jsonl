@@ -1,0 +1,32 @@
+{
+    "id": "eb0d2c3b-4c80-4b95-a68a-93a9aa20f894",
+    "condition": "Hodgkins Lymphoma",
+    "title": "Matthew's Unilateral Neck and Shoulder Pain in the Context of Hodgkin's Lymphoma",
+    "clinical_history": "Matthew is a 28-year-old graduate student presenting with a 4-week history of persistent right-sided neck pain, accompanied by intermittent aching extending into the right shoulder and upper trapezius. He notes the insidious onset of a palpable lump above his right clavicle, initially painless, which has since become increasingly tender. Over recent weeks, he has developed mild systemic symptoms including fatigue, nocturnal sweating, and a low-grade fever. The pain worsens with sustained postures (e.g., reading or working at a desk) or when performing heavy lifting at the gym. There is no history of recent trauma, and he denies prior issues involving the neck or shoulder. Examination reveals palpable, firm, non-tender, enlarged right supraclavicular lymph nodes and restricted neck rotation due to discomfort. He is currently awaiting biopsy results.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right supraclavicular fossa and right upper trapezius",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Associated neck stiffness and general ache in shoulder musculature",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged sitting, studying with head down, lifting weights above shoulder height, turning head to the left, and nighttime (due to sweats and discomfort in supine position).",
+    "picture": "[insert image highlighting right-sided supraclavicular region and upper trapezius/shoulder area]",
+    "easing_factors": "Short periods of rest, use of a warm compress on the affected area, gentle stretching, and acetaminophen (Tylenol) as needed.",
+    "past_history": "No prior musculoskeletal complaints involving the neck or shoulder. History of mild seasonal allergies.",
+    "medical_history": "No major chronic conditions. No previous surgeries or hospitalizations.",
+    "medications": "Acetaminophen 500mg prn (as needed for pain); no ongoing prescription medications.",
+    "personal_history": "Non-smoker, moderate alcohol use, physically active with regular weight training. Lives alone in university housing, under significant academic and financial pressures.",
+    "imaging": "Ultrasound of the neck revealing multiple enlarged lymph nodes in the right supraclavicular chain; CT scan pending.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

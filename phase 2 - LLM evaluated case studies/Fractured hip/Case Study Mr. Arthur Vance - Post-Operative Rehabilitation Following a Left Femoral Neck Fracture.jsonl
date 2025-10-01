@@ -1,0 +1,70 @@
+{
+    "id": "7d488caf-2c23-449d-a017-944cbb230daa",
+    "condition": "Fractured hip",
+    "title": "Case Study: Mr. Arthur Vance - Post-Operative Rehabilitation Following a Left Femoral Neck Fracture",
+    "clinical_history": "Mr. Arthur Vance, an 82-year-old retired accountant, is presenting for physical therapy 3 days post-operatively following a left total hip arthroplasty (THA) via a posterior approach. The procedure was necessitated by a displaced subcapital femoral neck fracture sustained after a mechanical fall at home. Mr. Vance reports that he was getting out of bed in the middle of the night, tripped on a rug, and fell directly onto his left hip. He experienced immediate, severe pain and was unable to stand. His wife called for an ambulance, and he was transported to the emergency department where the fracture was confirmed via radiography. He is currently hospitalized on the orthopedic floor and is under weight-bearing as tolerated (WBAT) precautions for his left lower extremity. He presents with significant post-operative edema and ecchymosis around the left hip and thigh. His primary complaint (P1) is a deep, aching pain at the lateral aspect of his left hip, near the incision site, which becomes sharp with any attempted movement. He also reports a secondary diffuse ache in his low back (P2) from prolonged recumbency.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Lateral hip and groin (surgical site). Constant deep ache, which becomes sharp with transfers and ambulation.",
+            "score": "4/10 at rest, 7-8/10 with movement"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Lumbar spine. Intermittent, diffuse ache.",
+            "score": "2-3/10"
+        }
+    ],
+    "aggrevating_factors": "Any weight-bearing on the left leg, sit-to-stand transfers, ambulation with a walker, active or passive hip flexion beyond 80 degrees, hip adduction, and internal rotation. Prolonged sitting also increases stiffness and pain.",
+    "picture": "24-Hour Picture: In the morning, Mr. Vance reports significant stiffness and pain upon his first attempts to move or get out of bed, which can take him upwards of 15 minutes. Pain levels fluctuate throughout the day, peaking during and immediately after physical therapy sessions. Pain is generally lowest in the late evening but can disrupt sleep, particularly when he attempts to shift positions in bed.",
+    "easing_factors": "Rest in a supine position with an abduction pillow between his legs, regular administration of prescribed analgesics, and application of an ice pack to the surgical site.",
+    "past_history": "History of two previous falls in the last year, both without significant injury. Treated for benign prostatic hyperplasia (BPH) 5 years ago. Otherwise, no significant musculoskeletal history.",
+    "medical_history": "Diagnosed with Osteoporosis 3 years ago following a DEXA scan. Also manages Hypertension and Type II Diabetes Mellitus, both of which are reportedly well-controlled with medication. Wears glasses for vision.",
+    "medications": "Oxycodone 5mg every 4-6 hours as needed for pain, Tylenol 1000mg scheduled Q6H, Lovenox (Enoxaparin) 40mg daily for DVT prophylaxis, Lisinopril for hypertension, Metformin for diabetes, and Alendronate (Fosamax) for osteoporosis.",
+    "personal_history": "Mr. Vance is retired and lives with his wife in a two-story home with a first-floor bathroom but second-floor bedroom. He was previously independent with all activities of daily living and ambulated without an assistive device. He enjoyed daily walks around his neighborhood and gardening. He is a non-smoker and consumes alcohol socially (1-2 glasses of wine per week). His primary goal is to return home and regain his independence.",
+    "imaging": "Pre-operative anteroposterior (AP) and lateral hip X-rays confirmed a displaced left subcapital femoral neck fracture (Garden stage IV). Post-operative X-rays confirm satisfactory placement of the total hip arthroplasty components.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias and provides a balanced perspective, as indicated by the absence of any cited biased phrases. Excellent neutrality is maintained throughout the response.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, NPRS scores, aggravating and easing factors, 24-hour pain picture, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to the post-operative rehabilitation of a left femoral neck fracture treated with total hip arthroplasty. The response is clear, comprehensive, and clinically accurate, addressing patient safety (e.g., WBAT precautions, DVT prophylaxis) and providing a thorough overview of the patient's status. No significant details are missing.",
+            "success": true
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "id": "chatcmpl-By78bw8OrUg1gYAWplK8W6gCY0Qg9",
+    "condition": "Fractured hip",
+    "title": "James, the Athletic High School Coach with a Hip Fracture Mystery",
+    "clinical_history": "James is a 62-year-old retired high school athletic coach who leads an active lifestyle, participating in golf every weekend and attending a yoga class twice weekly. Approximately 2 weeks ago, he tripped over an uneven pavement while jogging in his neighborhood, fell, and experienced immediate sharp pain in his left hip. He managed to get up with difficulty and limp home with assistance. Since then, he's experienced progressive pain, worsened with activities. He's noticed a significant limp, particularly painful during weight-bearing activities and has struggled to sleep due to pain.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "constant, sharp ache in the left hip",
+            "score": "7-9"
+        }
+    ],
+    "aggrevating_factors": "walking more than 10 minutes, standing for over 5 minutes, climbing stairs, and attempts to jog. Getting out of bed in the morning is particularly painful.",
+    "picture": "[insert image of a person highlighting the left hip region]",
+    "easing_factors": "sitting in a reclined position, ibuprofen provides temporary relief, applying ice packs",
+    "past_history": "Previous minor sprains during sporting activities but no significant injuries. No prior hip issues.",
+    "medical_history": "Generally healthy, maintains a good exercise regimen, slightly elevated cholesterol controlled with diet.",
+    "medications": "Ibuprofen 400 mg every 6 hours, as needed",
+    "personal_history": "Married for 35 years with two grown children. Enjoys spending time with his grandchildren and engaging in leisure sports. Volunteers at a local sports club occasionally.",
+    "imaging": "An x-ray taken at the local clinic confirmed a nondisplaced fracture of the femoral neck.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 387,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1053,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1440
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions perfectly with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone throughout.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9562176500885797,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, pain assessment, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to a hip fracture in an active older adult, with clear, comprehensive, and clinically accurate information. There are no factual inaccuracies or omissions that would impact patient safety.",
+            "success": true
+        }
+    ]
+}

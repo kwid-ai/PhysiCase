@@ -1,0 +1,70 @@
+{
+    "id": "504c1022-4e44-46d3-be5a-0b7cd0a88850",
+    "condition": "Rotator Cuff Injury",
+    "title": "Rotator Cuff Injury Case Study: A 45-Year-Old Male with Shoulder Pain",
+    "clinical_history": "A 45-year-old male, who works as a construction worker, presents with a 3-week history of right shoulder pain. He reports that the pain started after a fall while working on a scaffolding at a construction site. He felt a sudden sharp pain in his shoulder and was unable to move his arm. He has been experiencing pain and stiffness in his shoulder since then, which has been affecting his daily activities and sleep. He has difficulty lifting his arm above 90 degrees and has weakness in his shoulder, particularly when trying to lift objects or perform overhead activities.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right shoulder, specifically over the deltoid region",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right upper arm and forearm, particularly with movement",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Lifting heavy objects, overhead activities, reaching behind his back, and sleeping on the affected side",
+    "picture": "A 24-hour picture showing the patient with his arm in a sling, with an ice pack applied to the affected area",
+    "easing_factors": "Rest, ice application, and physical therapy interventions such as gentle mobilization and strengthening exercises",
+    "past_history": "Previous history of shoulder injuries, including a dislocated shoulder 10 years ago, which was managed conservatively. He has also had episodes of lower back pain, which he manages with occasional physical therapy and exercise.",
+    "medical_history": "Generally healthy, but with a history of hypertension, which is well-controlled with medication.",
+    "medications": "Acetaminophen 1000mg every 4-6 hours as needed for pain, and a daily multivitamin.",
+    "personal_history": "Married with two children, works full-time as a construction worker, and enjoys weekend golfing and hiking. He reports increased stress levels due to work-related demands and family responsibilities.",
+    "imaging": "X-rays of the right shoulder show no evidence of fractures or dislocations. An MRI of the right shoulder reveals a partial tear of the supraspinatus tendon and tendinopathy of the infraspinatus tendon.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8571428571428571,
+            "reason": "The score is 0.86 because the output contains all required case study elements and is thorough, but it does not fully adopt the reflective, nuanced style of a senior professor, and it does not strictly follow the specified JSON field names and structure. These issues prevent a higher score, but the content is otherwise well-aligned with the prompt.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 0.9473684210526315,
+            "reason": "The score is 0.95 because the output is highly relevant and well-structured for a rotator cuff injury case study, but it includes some irrelevant details about lower back pain and its management, which are not directly related to the rotator cuff condition. However, the majority of the content remains focused and appropriate for the task.",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to a rotator cuff injury, with clear and comprehensive information about the patient's presentation, history, and imaging results. The response is clinically accurate, prioritizes patient safety, and provides a thorough case study without missing any minor details.",
+            "success": true
+        }
+    ]
+}

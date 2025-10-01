@@ -1,0 +1,32 @@
+{
+    "id": "137e88d2-56bb-4abf-b8e2-33d4d8c97de2",
+    "condition": "Addison",
+    "title": "Case Study: Addison's Disease with Associated Musculoskeletal Complaints",
+    "clinical_history": "A 35-year-old female, Sarah, presents with a history of fatigue, weight loss, and muscle weakness over the past year. She was diagnosed with Addison's disease 6 months ago and has been on corticosteroid replacement therapy since then. Despite treatment, she continues to experience muscle pain and weakness, particularly in the lower extremities. She reports difficulty getting up from a seated position and has noticed increased fatigue after minimal exertion.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral lower extremity muscle pain, particularly in the quadriceps and hamstrings",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Lower back pain, described as a dull ache",
+            "score": "4-5"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, or climbing stairs; lifting heavy objects",
+    "picture": "A 24-hour picture showing a person with a slightly stooped posture, using a cane for support while walking",
+    "easing_factors": "Rest, particularly lying down; heat application to the affected areas",
+    "past_history": "No previous history of musculoskeletal complaints; however, she has a history of autoimmune disorders (Type 1 diabetes)",
+    "medical_history": "Addison's disease diagnosed 6 months ago; currently on hydrocortisone 20mg/day and fludrocortisone 0.1mg/day",
+    "medications": "Hydrocortisone 20mg/day, fludrocortisone 0.1mg/day, and occasional acetaminophen for pain",
+    "personal_history": "Married with two children; works part-time as an administrative assistant; enjoys hiking and reading in her free time",
+    "imaging": "X-rays of the lumbar spine and pelvis show mild osteopenia; no fractures or other abnormalities noted",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

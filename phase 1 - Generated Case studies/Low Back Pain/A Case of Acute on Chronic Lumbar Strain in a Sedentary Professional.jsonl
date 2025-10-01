@@ -1,0 +1,32 @@
+{
+    "id": "03f95e76-bf7b-4049-b782-4f6069c7047b",
+    "condition": "Low Back Pain",
+    "title": "A Case of Acute on Chronic Lumbar Strain in a Sedentary Professional",
+    "clinical_history": "Mr. Davies is a 48-year-old software engineer who presents with a 3-day history of acute low back pain. He reports the pain began the morning after spending a full Saturday doing extensive landscaping, which involved repetitive bending, lifting heavy paving stones, and twisting. He felt a minor 'twinge' during the activity but did not stop. Upon waking the next day, he experienced significant pain and stiffness in his low back, making it difficult to get out of bed. The primary complaint (P1) is a constant, deep ache across the beltline, which becomes sharp and intense with movement. He also notes a secondary, dull, radiating ache into his right buttock and the back of his upper thigh (P2), which does not travel past the knee. He reports no pins and needles, numbness, or leg weakness. His bowel and bladder function are normal. The pain has forced him to work from home and significantly limit his daily activities.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Central lumbar spine; primarily involving the lumbar erector spinae, quadratus lumborum, and deep multifidus muscles. Characterized as a constant deep ache with sharp, stabbing pain upon flexion or rotation.",
+            "score": "7-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Right gluteal region and proximal hamstrings. A referred somatic pain, described as a dull, heavy ache.",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Forward bending (flexion), such as tying shoes; transitioning from sitting to standing; prolonged sitting (>20 minutes); lifting any object over 5 lbs; twisting the torso; coughing or sneezing.",
+    "picture": "[Image of a posterior view of the human torso, highlighting the lumbar region in dark red (P1) and the right gluteal/upper posterior thigh region in a lighter red (P2).]",
+    "easing_factors": "Lying supine with knees bent and supported by pillows; application of a heat pack; short, slow walks on a level surface; over-the-counter anti-inflammatories.",
+    "past_history": "Mr. Davies reports approximately 15 years of intermittent, low-grade mechanical low back pain, with episodes occurring 2-3 times per year, typically following periods of inactivity or unaccustomed physical labor. He describes these past episodes as a '3/10' ache that would resolve spontaneously within 2-3 days. He has never sought medical or therapeutic intervention for his back before, as this is the most severe and debilitating episode he has experienced.",
+    "medical_history": "Diagnosed with hyperlipidemia 5 years ago, managed with diet and statin medication. Otherwise, he is in good general health with no history of major surgeries or trauma.",
+    "medications": "Atorvastatin daily for hyperlipidemia. Taking Ibuprofen 400mg as needed for the current pain.",
+    "personal_history": "Married, father of two high-school-aged children. He works a demanding, high-stress job that requires him to sit for 8-10 hours a day. He admits his home office setup is not ergonomically optimized. He does not have a regular exercise routine but considers himself fairly active on weekends with home projects and yard work. He reports increased work stress over the past six months due to a major project deadline.",
+    "imaging": "None to date. Given the mechanical nature of the symptoms and absence of red flags, imaging is not currently indicated.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

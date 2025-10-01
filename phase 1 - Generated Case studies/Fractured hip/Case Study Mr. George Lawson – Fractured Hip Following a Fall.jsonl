@@ -1,0 +1,32 @@
+{
+    "id": "5852680a-f9f3-4d14-b5e5-fade505220d7",
+    "condition": "Fractured hip",
+    "title": "Case Study: Mr. George Lawson – Fractured Hip Following a Fall",
+    "clinical_history": "Mr. George Lawson is an 81-year-old retired postal worker who lives independently. He was admitted to the emergency department following a mechanical fall at home. Mr. Lawson tripped over a rug in his hallway and landed directly on his left side. He immediately experienced severe left hip pain and was unable to bear weight. In the emergency room, physical examination revealed shortening and external rotation of the left lower limb. There was marked tenderness over the left hip and decreased range of motion due to pain. Radiographs confirmed a displaced intertrochanteric fracture of the left femur.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "left hip/groin – primary fracture site",
+            "score": "8-9"
+        },
+        {
+            "context": "P2",
+            "affected_area": "left thigh – referred muscular pain due to surrounding tissue trauma",
+            "score": "5-6"
+        }
+    ],
+    "aggrevating_factors": "Attempted movement of the left lower limb (particularly abduction and rotation), weight-bearing, transfers from bed to chair, and any attempts at sitting up put significant stress on the involved area.",
+    "picture": "[Diagram of pelvis and left femur with marked fracture at intertrochanteric region. Patient in hospital bed with leg in external rotation.]",
+    "easing_factors": "Immobilization, positioning with pillows to support the limb, regular administration of opioids and acetaminophen, application of ice, and minimal movement. Slight relief with limb elevation.",
+    "past_history": "History of hypertension and two minor falls in the past year but previously ambulant with a cane. No previous hip fractures.",
+    "medical_history": "Hypertension, hyperlipidemia, well-controlled type 2 diabetes. No known osteoporosis diagnosis, but was never screened. No history of malignancy.",
+    "medications": "Lisinopril 10mg daily, Atorvastatin 20mg nightly, Metformin 500mg twice daily, Acetaminophen 1g q6h prn, Morphine 5mg IV q4h prn post-injury.",
+    "personal_history": "Lives alone in a one-story apartment. Widowed 7 years ago. Two adult children visit weekly. Independent with activities of daily living prior to injury; enjoyed gardening and daily walks with a neighbor. Limited social activity beyond family.",
+    "imaging": "AP and lateral X-ray of the pelvis and left femur showed a displaced intertrochanteric fracture of the left femur, no acetabular involvement.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

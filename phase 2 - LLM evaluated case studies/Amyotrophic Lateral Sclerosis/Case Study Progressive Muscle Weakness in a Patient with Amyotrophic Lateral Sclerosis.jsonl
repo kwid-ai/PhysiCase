@@ -1,0 +1,70 @@
+{
+    "id": "ebd62f63-74be-4750-8583-ba63ab5d743b",
+    "condition": "Amyotrophic Lateral Sclerosis",
+    "title": "Case Study: Progressive Muscle Weakness in a Patient with Amyotrophic Lateral Sclerosis",
+    "clinical_history": "A 55-year-old male patient, a former software engineer, presented with a 6-month history of progressive muscle weakness and wasting in his right arm. He initially noticed difficulty lifting his arm and performing daily activities such as dressing and brushing his teeth. Over time, his symptoms have worsened, and he now experiences weakness in his left arm and both legs. He reports difficulty walking and requires assistance with transfers. He also experiences dysphagia and occasional dysarthria.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right arm muscle weakness and wasting",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Left arm and bilateral leg weakness",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged physical activity, especially with his arms, and fatigue",
+    "picture": "A 24-hour picture showing progressive muscle weakness and wasting, especially in the upper limbs",
+    "easing_factors": "Rest and relaxation",
+    "past_history": "None significant",
+    "medical_history": "Recently diagnosed with Amyotrophic Lateral Sclerosis (ALS) 6 months ago",
+    "medications": "Riluzole 50mg twice daily, pain management with acetaminophen as needed",
+    "personal_history": "Married with two children, lives alone with his wife as his children are in college. He is experiencing depression and anxiety due to his condition.",
+    "imaging": "EMG and nerve conduction studies confirming the diagnosis of ALS",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.6666666666666666,
+            "reason": "The score is 0.67 because the LLM output uses incorrect key casing for several fields ('nprs' instead of 'NPRS', 'picture' instead of 'Picture'), which does not fully align with the required JSON format. However, the content for all required fields is present, which is why the score is not lower.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and appropriate response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9977022632222555,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to ALS, accurately describing progressive muscle weakness, bulbar symptoms, and appropriate diagnostic and therapeutic details. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

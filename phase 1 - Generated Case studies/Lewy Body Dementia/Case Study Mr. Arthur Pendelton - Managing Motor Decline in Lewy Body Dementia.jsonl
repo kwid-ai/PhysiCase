@@ -1,0 +1,32 @@
+{
+    "id": "9dc571c2-4ca1-4a7c-9659-3113ee5a1747",
+    "condition": "Lewy Body Dementia",
+    "title": "Case Study: Mr. Arthur Pendelton - Managing Motor Decline in Lewy Body Dementia",
+    "clinical_history": "Mr. Arthur Pendelton is a 72-year-old retired architect referred to physical therapy following his third fall in six months. His wife, Eleanor, accompanies him and provides most of the history due to Arthur's fluctuating cognitive state. The initial diagnosis of Lewy Body Dementia (LBD) was confirmed 18 months ago by a neurologist. Symptoms began insidiously approximately three years prior, with what Eleanor describes as 'episodes of vagueness' and vivid, distressing dreams where Arthur would physically act them out. Over the past year, he has developed significant motor symptoms characteristic of parkinsonism, including a resting tremor in his right hand, pronounced bradykinesia (slowness of movement), and a stooped, shuffling gait. The primary reason for this referral is his increasing fall risk and difficulty with functional mobility, such as rising from a chair and navigating his home. During the assessment, Arthur appears alert for a period but then becomes drowsy and less communicative, demonstrating the classic cognitive fluctuations of LBD. He also reports seeing 'small animals in the corner of the room' that he knows are not real.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Generalized axial and limb muscle stiffness and deep aching, primarily in the back, shoulders, and legs (hamstrings, calves). Described as a 'constant, heavy ache'.",
+            "score": "4-6"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Sharp, localized pain in the left hip and gluteal region, secondary to his most recent fall 2 weeks ago.",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": "Prolonged sitting or lying down significantly increases generalized stiffness (P1). Transitional movements like sit-to-stand or turning in bed are difficult and exacerbate P1. Walking, especially for more than 10-15 minutes, increases fatigue and the ache in his legs. Any twisting motion or direct pressure aggravates the left hip pain (P2). Periods of increased confusion or stress appear to worsen his physical rigidity and tremor.",
+    "picture": "[Conceptual image showing diffuse muscle highlighting over posterior trunk and lower limbs for P1, and a focal highlight on the left greater trochanteric area for P2]",
+    "easing_factors": "Gentle, rhythmic activities like slow rocking in his recliner can temporarily ease the stiffness (P1). The effects of his Carbidopa/Levodopa medication provide a window of improved mobility, typically for 2-3 hours post-dose. Warm baths help reduce overall muscle aching. Rest with the left hip supported by a pillow provides some relief for P2.",
+    "past_history": "History of well-controlled hypertension for 20 years. Right rotator cuff repair 15 years ago with a good outcome. Notably, Eleanor recalls that Arthur lost his sense of smell about 10 years ago, which they attributed to aging at the time. He has a documented history of REM Sleep Behavior Disorder (RBD) preceding the motor and cognitive diagnoses by several years.",
+    "medical_history": "Lewy Body Dementia (diagnosed 18 months ago), Hypertension, REM Sleep Behavior Disorder, and Anxiety. He is extremely sensitive to medications; an atypical antipsychotic prescribed for hallucinations a year ago resulted in a severe catatonic-like state and was immediately discontinued.",
+    "medications": "Carbidopa/Levodopa 25/100mg (1 tablet, 3 times daily), Rivastigmine Patch (9.5mg/24hr) for cognitive symptoms, Lisinopril 10mg (once daily), Lorazepam 0.5mg (prn for severe anxiety, used sparingly).",
+    "personal_history": "Arthur is a retired architect who was intellectually and physically active, enjoying golf and woodworking prior to his illness. He lives with his wife, Eleanor, who is his primary caregiver and is experiencing significant caregiver fatigue. They live in a two-story home, but have moved their bedroom to the ground floor to avoid stairs. He has two adult children who live out of state but visit monthly. The loss of his independence and inability to pursue his hobbies has led to periods of depression and apathy.",
+    "imaging": "Brain MRI performed 2 years ago showed mild generalized cortical atrophy, but was otherwise unremarkable and ruled out significant vascular pathology. A DaTscan (Dopamine Transporter Scan) performed subsequently showed reduced dopamine transporter uptake in the putamen, consistent with a synucleinopathy like LBD or Parkinson's Disease.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

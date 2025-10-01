@@ -1,0 +1,70 @@
+{
+    "id": "89236f92-4ae0-4fba-85cd-2f1f524ccba1",
+    "condition": "Addison",
+    "title": "A 45-year-old Female with Addison's Disease Presenting with Muscle Weakness and Fatigue",
+    "clinical_history": "A 45-year-old female, Sarah, presented with complaints of progressive muscle weakness, fatigue, and hyperpigmentation of the skin. She reported that over the past year, she has experienced increasing difficulty performing daily activities such as carrying groceries, walking up stairs, and getting out of bed. She also reported a 10-pound weight loss over the past 6 months, despite an increase in appetite. Sarah's symptoms started with mild fatigue and muscle aches in her lower extremities, which gradually worsened over time.",
+    "nprs": [
+        {
+            "context": "Primary Complaint",
+            "affected_area": "Generalized muscle weakness, particularly in the lower extremities",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary Complaint",
+            "affected_area": "Fatigue and hyperpigmentation",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, or physical activity, which exacerbates muscle weakness and fatigue",
+    "picture": "A 24-hour picture showing a patient with generalized fatigue and muscle weakness, particularly in the lower extremities",
+    "easing_factors": "Rest, particularly lying down, which provides some relief from muscle weakness and fatigue",
+    "past_history": "No significant past medical history, but she reported a family history of autoimmune disorders",
+    "medical_history": "Recently diagnosed with Addison's disease, and she has been experiencing symptoms of adrenal insufficiency",
+    "medications": "Hydrocortisone and fludrocortisone, which she has been taking for the past 3 months",
+    "personal_history": "Married with two children, and she works part-time as an administrative assistant. She reported increased stress levels over the past year due to her husband's job loss and her own health concerns",
+    "imaging": "No imaging studies have been conducted to date, but laboratory tests revealed low cortisol and aldosterone levels, consistent with Addison's disease",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the content of the output follows the prompt instructions well, but the JSON field names and capitalization do not exactly match the required format. This prevents a perfect score, but the alignment is still high because all required information is present and relevant.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9377540668798146,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and relevant laboratory findings. The content is highly relevant to Addison's disease, accurately describing classic symptoms such as muscle weakness, fatigue, hyperpigmentation, and weight loss. The response is clear and comprehensive, with minor omissions such as the absence of a more detailed description of electrolyte disturbances or crisis management, which are important for clinical accuracy and patient safety.",
+            "success": true
+        }
+    ]
+}

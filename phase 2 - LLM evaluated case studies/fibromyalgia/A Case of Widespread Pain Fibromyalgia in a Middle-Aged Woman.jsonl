@@ -1,0 +1,70 @@
+{
+    "id": "5a9e5d21-1687-4aca-8390-9d88261e99e9",
+    "condition": "fibromyalgia",
+    "title": "A Case of Widespread Pain: Fibromyalgia in a Middle-Aged Woman",
+    "clinical_history": "Sarah is a 45-year-old marketing manager who presents with a 3-year history of widespread musculoskeletal pain. She reports that the pain started gradually, with no specific incident or trauma, and has been persistent and debilitating. She describes the pain as aching, stiffness, and soreness in multiple areas of her body, which has affected her daily activities and sleep patterns.",
+    "nprs": [
+        {
+            "context": "Primary Complaint",
+            "affected_area": "Multiple areas including neck, shoulders, back, hips, and legs",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary Complaint",
+            "affected_area": "Localized pain in lower back and hips",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged physical activity, stress, and lack of sleep",
+    "picture": "A 24-hour pain pattern showing increased pain in the morning and evening",
+    "easing_factors": "Gentle exercise, warm baths, and relaxation techniques",
+    "past_history": "History of irritable bowel syndrome and migraines",
+    "medical_history": "Hypertension, controlled with medication",
+    "medications": "Pregabalin 150mg/day, acetaminophen 1000mg prn",
+    "personal_history": "Married with two children, works full-time, and reports high levels of stress",
+    "imaging": "None, as her condition is primarily diagnosed clinically",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8181818181818182,
+            "reason": "The score is 0.82 because the output uses 'nprs' and 'picture' instead of the required 'NPRS' and 'Picture' keys, which are minor format deviations. However, all required content is present and well-elaborated, so the score is not lower.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. The response is balanced and objective.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to fibromyalgia, accurately describing its typical presentation and associated comorbidities. The response is clear, comprehensive, and clinically accurate, with no factual errors or omissions that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

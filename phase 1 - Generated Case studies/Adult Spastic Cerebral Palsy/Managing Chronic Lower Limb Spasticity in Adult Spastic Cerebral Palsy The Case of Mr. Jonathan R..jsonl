@@ -1,0 +1,32 @@
+{
+    "id": "7f8949f4-9377-4968-8190-d659b4d70dbe",
+    "condition": "Adult Spastic Cerebral Palsy",
+    "title": "Managing Chronic Lower Limb Spasticity in Adult Spastic Cerebral Palsy: The Case of Mr. Jonathan R.",
+    "clinical_history": "Mr. Jonathan R. is a 42-year-old office administrator who presents with persistent difficulties in walking, muscle stiffness, and intermittent pain predominantly in the lower limbs. Diagnosed with spastic diplegic cerebral palsy at birth, Jonathan completed mainstream education with accommodations and has been able to maintain gainful employment with the use of a single-point cane. Over the past six months, he reports progressive worsening of lower limb tightness and spasms, particularly in the hamstrings and adductors, making transitions from sitting to standing increasingly painful and fatiguing. He also notes stiff and painful gait by day's end. His primary complaint is deep, aching pain in both hamstrings (P1), and a secondary complaint of intermittent knee pain (P2) on prolonged walking. On physical exam: marked spasticity in bilateral hamstrings, gastrocnemius, adductor longus; diminished active knee extension; minor fixed flexion deformity at both knees; moderate pes planus. Assistive devices include customized orthotics and a walking cane. No recent falls. He reports increased reliance on his wife for ADLs in the evening due to fatigue and pain.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "bilateral hamstrings and adductor group (deep, tight, aching pain)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "bilateral knees (intermittent, sharp pain after >30 min walking/standing)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged sitting (>30 minutes), walking more than 20-30 minutes, changes in temperature (cold increases spasticity), stress, and attempts to perform squatting or lower limb stretches independently.",
+    "picture": "Throughout the workday, Jonathan experiences mild to moderate tightness in his lower limbs, which escalates after more than 20 minutes of ambulation or standing. Mornings are characterized by pronounced stiffness but minimal pain; as the day progresses, muscle tightness and pain intensify, peaking in the evening. By late night, fatigue and dull pain majorly restrict activity; sleep is occasionally interrupted by nocturnal muscle spasms (1-2 times/week).",
+    "easing_factors": "Gentle passive stretching, use of warm compresses, occasional physical therapy sessions, scheduled rest breaks throughout the day, and use of Baclofen before bedtime.",
+    "past_history": "History of bilateral Achilles tendon lengthening at age 12 and serial casting in childhood. Minor scoliotic curve, though not requiring bracing. Ambulated independently until late twenties, after which adopted cane usage for community ambulation.",
+    "medical_history": "Hypertension well-controlled with amlodipine. No history of seizures. Overweight (BMI 28). No current ulcers or skin breakdown.",
+    "medications": "Baclofen 10mg orally at night, PRN ibuprofen for pain, amlodipine 5mg daily.",
+    "personal_history": "Married, lives with spouse and teenage daughter in a single-story home. Works part-time in office administration. Enjoys reading and is active in a local support group for adults with cerebral palsy. Admits frustration at declining physical independence despite maintaining an optimistic outlook.",
+    "imaging": "AP/lateral radiographs of pelvis and knees show mild degenerative changes in knees; no acute findings. No recent MRI.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

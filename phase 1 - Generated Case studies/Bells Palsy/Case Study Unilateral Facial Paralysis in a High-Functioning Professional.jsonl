@@ -1,0 +1,27 @@
+{
+    "id": "a40eab32-3be1-4e99-8289-eb76615df9bd",
+    "condition": "Bells Palsy",
+    "title": "Case Study: Unilateral Facial Paralysis in a High-Functioning Professional",
+    "clinical_history": "Mr. David Chen is a 48-year-old corporate lawyer who presents to the clinic with a chief complaint of sudden onset left-sided facial weakness. Three days prior to this initial physiotherapy assessment, Mr. Chen woke up and, while brushing his teeth, noticed water dribbling uncontrollably from the left side of his mouth. His wife noted that his face 'looked like it had fallen on one side.' He also reports a bothersome, dull ache behind his left ear that began the evening before the facial paralysis was noted. Alarmed by the symptoms, he presented to the hospital's Emergency Department to rule out a cerebrovascular accident (CVA). A neurological examination and a CT scan of the head were performed, which were both unremarkable, leading to a diagnosis of Bell's Palsy. Functionally, Mr. Chen is experiencing significant difficulty. He is unable to fully close his left eye, leading to excessive tearing and a feeling of dryness and irritation. He has difficulty with eating, as food tends to get trapped between his gums and his left cheek. His speech has become slightly slurred (dysarthria), making his client-facing role challenging and causing him considerable distress. He also notes that sounds seem uncomfortably loud in his left ear (hyperacusis) and that his sense of taste feels altered.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Dull, aching pain in the retro-auricular region (behind the left ear) and along the mastoid process.",
+            "score": "3-5"
+        }
+    ],
+    "aggrevating_factors": "Attempting to perform facial expressions (smiling, raising eyebrows) causes a sensation of tightness and strain. Chewing can be frustrating and leads to food pocketing. Prolonged speaking exacerbates facial muscle fatigue. Exposure to wind or bright light increases irritation in the left eye.",
+    "picture": "[Image displaying the left side of a man's face with marked asymmetry: inability to wrinkle the forehead on the left, incomplete closure of the left eye (lagophthalmos), flattened left nasolabial fold, and drooping of the left corner of the mouth during an attempted smile.]",
+    "easing_factors": "Using lubricating eye drops ('artificial tears') and wearing sunglasses relieves ocular discomfort. Applying a warm compress to the left side of his face provides temporary relief from the aching sensation. Manually closing the eyelid with his finger and patching the eye at night helps with sleep. Resting the face and minimizing conversation reduces fatigue.",
+    "past_history": "Mr. Chen reports recovering from an upper respiratory tract infection (URTI), which he described as a 'nasty head cold,' approximately ten days before the onset of his facial symptoms. He has no prior history of facial palsy or significant neurological events.",
+    "medical_history": "Hypertension, diagnosed 5 years ago, well-managed. Type 2 Diabetes Mellitus, diagnosed 2 years ago, controlled with diet and oral medication. Otherwise, he reports being in good health.",
+    "medications": "Lisinopril 10mg daily (for hypertension), Metformin 500mg twice daily (for diabetes). He was started on a 10-day course of Prednisone (a corticosteroid) and a 7-day course of Valacyclovir (an antiviral) by the ED physician.",
+    "personal_history": "Mr. Chen works in a high-stress legal environment that demands frequent public speaking and intensive client interaction. He is married with two children in high school. He notes that work-related stress has been particularly high over the past few months due to a major corporate merger case. He is right-hand dominant. He is understandably anxious about the functional and cosmetic implications of his condition, particularly its potential impact on his career.",
+    "imaging": "A non-contrast CT scan of the head was performed in the Emergency Department 3 days ago. The official report was 'unremarkable,' with no evidence of acute intracranial hemorrhage or territorial infarction.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    }
+}

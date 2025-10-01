@@ -1,0 +1,65 @@
+{
+    "id": "6716cf39-99dc-44a5-a78f-b6ad284c60e2",
+    "condition": "Knee Pain",
+    "title": "Case Study: Michael, a Collegiate Runner with Anterior Knee Pain",
+    "clinical_history": "Michael is a 20-year-old male collegiate track and field athlete specializing in middle-distance running. He presents with a six-week history of insidious onset right anterior knee pain. The pain began after he increased his training volume and intensity, specifically adding hill repeats, in preparation for the upcoming indoor season. Initially, the pain was a mild, dull ache that he felt only after long runs, but it has progressively worsened. He now describes the pain (P1) as a constant ache 'behind the kneecap' that becomes sharp and grinding with specific movements. He reports a sensation of stiffness after periods of prolonged sitting, such as during his university lectures, and notes difficulty with stairs in his dormitory, particularly when descending. There is no history of a specific traumatic event, overt swelling, or sensations of the knee giving way. His sleep is generally undisturbed unless he sleeps with his knee significantly bent.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Diffuse anterior knee, retropatellar (behind the kneecap). The primary affected structures are the patellofemoral joint and associated articular cartilage. Muscular contributors include the Quadriceps femoris group (vastus medialis, vastus lateralis, vastus intermedius, rectus femoris), with potential imbalances or tracking issues.",
+            "score": "2-3/10 at rest, 6-7/10 during aggravating activities."
+        }
+    ],
+    "aggrevating_factors": "Running (especially downhill or on canted surfaces), descending stairs, deep squatting, prolonged sitting with the knee flexed ('movie-goer's sign'), and resisted knee extension exercises.",
+    "picture": "[Anatomical image of the knee, highlighting the retropatellar area and the undersurface of the patella to indicate the primary pain source.]",
+    "easing_factors": "Complete rest, ice application following activity, straightening the leg after prolonged sitting, and occasional use of over-the-counter anti-inflammatories.",
+    "past_history": "History of a Grade I left ankle sprain approximately one year ago. This resolved with self-management but may have contributed to subtle, chronic compensatory changes in his running mechanics. No prior history of significant knee injury or surgery.",
+    "medical_history": "Unremarkable. He is otherwise fit and healthy with no known chronic illnesses.",
+    "medications": "Ibuprofen (Advil) 200-400mg taken as needed (prn) for pain, typically 3-4 times per week following training sessions.",
+    "personal_history": "Michael is a full-time university student on an athletic scholarship, which places considerable pressure on him to perform and remain healthy. He lives in a campus dormitory on the third floor, requiring frequent use of stairs. He reports managing high levels of stress related to balancing his demanding academic schedule with his athletic commitments. He denies smoking and reports occasional social alcohol use.",
+    "imaging": "None performed to date. The team's athletic trainer made a presumptive clinical diagnosis of Patellofemoral Pain Syndrome (PFPS) and recommended a formal physical therapy evaluation.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the output is highly aligned with the prompt, providing all required case study details in a thorough and professional manner. The only minor unalignment is the use of lowercase field names ('nprs' and 'picture') instead of the exact uppercase format ('NPRS' and 'Picture') specified in the output_format. This prevents a perfect score, but the content and structure are otherwise excellent!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, addresses all aspects of the input task, and contains no irrelevant statements. Excellent job staying focused and thorough!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to anterior knee pain and accurately describes a case of Patellofemoral Pain Syndrome, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would compromise patient safety.",
+            "success": true
+        }
+    ]
+}

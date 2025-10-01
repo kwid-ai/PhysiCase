@@ -1,0 +1,27 @@
+{
+    "id": "76ed26a4-9336-4b72-a8b6-0758ae33663e",
+    "condition": "Heel Pain",
+    "title": "A 45-year-old Male with Heel Pain",
+    "clinical_history": "A 45-year-old male, Mr. Thompson, presented with a complaint of heel pain that started 6 weeks ago. He is a sales representative and spends most of his day walking and standing. The pain is localized to the posterior aspect of his heel and is worse in the morning. He reports that the pain has been gradually increasing over the past 6 weeks and is now affecting his daily activities.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "heel pain, specifically the posterior aspect",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "prolonged standing, walking, and running. The pain is also worse after periods of rest, such as in the morning.",
+    "picture": "A 24-hour picture of Mr. Thompson's pain shows that it is constant, with an increase in pain after periods of activity and a slight decrease after rest.",
+    "easing_factors": "The pain is slightly relieved by stretching and icing the affected area.",
+    "past_history": "Mr. Thompson has a history of plantar fasciitis in his left foot, which was treated with physical therapy 5 years ago. He also has a history of Achilles tendonitis in his right ankle, which was treated with orthotics and physical therapy 3 years ago.",
+    "medical_history": "Mr. Thompson has hypertension and hyperlipidemia, for which he takes medication. He is also overweight, with a BMI of 28.",
+    "medications": "Mr. Thompson takes ibuprofen as needed for pain relief.",
+    "personal_history": "Mr. Thompson is married with two children and works as a sales representative. He enjoys playing golf and hiking in his free time.",
+    "imaging": "An X-ray of his heel shows a small heel spur, but no other significant abnormalities.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

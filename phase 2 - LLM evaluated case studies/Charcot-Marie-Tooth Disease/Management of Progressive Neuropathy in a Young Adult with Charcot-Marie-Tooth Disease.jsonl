@@ -1,0 +1,70 @@
+{
+    "id": "1f37f09a-1116-4bc7-a984-405bb06b54c3",
+    "condition": "Charcot-Marie-Tooth Disease",
+    "title": "Management of Progressive Neuropathy in a Young Adult with Charcot-Marie-Tooth Disease",
+    "clinical_history": "Mr. Jonathan Miller, a 28-year-old software developer, presents to our clinic with a chief complaint of worsening balance and increased frequency of falls over the past six months. He reports 'tripping over his own feet' on flat surfaces, which has become a significant concern both at home and during his commute. He was formally diagnosed with Charcot-Marie-Tooth Disease (CMT), Type 1A, five years ago following nerve conduction studies, which were initiated after he noted progressive difficulty with sports and activities requiring agility during his university years. The patient describes a long-standing history of 'clumsy' feet, high arches, and toes that 'curl up.' Over the last year, he has also noticed a decline in his hand dexterity, making tasks like typing, buttoning shirts, and using utensils more challenging and fatiguing. His primary goals for physical therapy are to improve his balance to reduce fall risk and to find strategies to maintain his hand function for work and activities of daily living.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral feet and extending to the mid-shin; described as a deep, aching, and sometimes burning neuropathic discomfort. Constant but fluctuates in intensity.",
+            "score": "3-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Intermittent low back and bilateral hip ache, primarily over the gluteal region. Associated with his compensatory gait pattern.",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged walking (>15 minutes), especially on uneven ground or slopes, significantly increases fatigue and risk of stumbling. Standing for more than 20 minutes increases P1 and P2. Cold weather exacerbates the burning sensation in his feet (P1). Fine motor tasks like prolonged typing increase hand fatigue and cramping.",
+    "picture": "[A diagram showing muscle atrophy in the lower legs (classic 'inverted champagne bottle' or 'stork leg' appearance) and intrinsic muscles of the hands. Highlighting the fibularis (peroneal) and tibialis anterior muscles. Also showing pes cavus deformity and hammertoes of the feet.]",
+    "easing_factors": "Regular rest periods with feet elevated. Wearing his prescribed Ankle-Foot Orthoses (AFOs) provides stability and reduces walking effort, though he finds them cumbersome. Gentle stretching of the calf muscles and plantar fascia. Warm foot soaks can temporarily ease the aching (P1).",
+    "past_history": "History of recurrent bilateral ankle sprains during adolescence, prior to his formal CMT diagnosis. He has previously used off-the-shelf shoe inserts with minimal benefit before being prescribed custom AFOs two years ago, which he uses inconsistently.",
+    "medical_history": "Charcot-Marie-Tooth Disease, Type 1A, diagnosed at age 23 via genetic testing and nerve conduction studies. Otherwise, he is in good general health with no other known comorbidities. His father has a milder, undiagnosed form of the condition with similar high arches and foot weakness.",
+    "medications": "Gabapentin 300mg at night for neuropathic pain and to aid sleep. Takes Ibuprofen on an as-needed basis for the secondary hip/back pain (P2).",
+    "personal_history": "Jonathan lives alone in a second-floor apartment without an elevator, which is becoming increasingly difficult. He works from home three days a week. He used to be an avid hiker and social volleyball player but has ceased these activities due to his functional decline. He expresses feelings of frustration and social isolation related to his progressive limitations and is concerned about his future independence.",
+    "imaging": "Nerve Conduction Study (NCS) from 5 years ago showed uniformly slow conduction velocities, consistent with a demyelinating peripheral neuropathy. Foot X-rays from 2 years ago confirmed significant bilateral pes cavus deformity and hammertoe changes.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Fantastic job! The output follows all prompt instructions with no unalignments. Keep up the excellent work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and relevant imaging. The content is highly relevant to Charcot-Marie-Tooth Disease, accurately describing typical symptoms, progression, and management considerations. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ]
+}

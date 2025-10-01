@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By77u0HENB6Vl2p7STiIFvG40u5NV",
+    "condition": "Epilepsy",
+    "title": "Jake's Challenge with Activity-induced Epilepsy",
+    "clinical_history": "Jake, a 34-year-old construction worker, was brought to the emergency room following a seizure while working on site. Witnesses describe him suddenly stopping work, losing awareness, and experiencing convulsions for around two minutes. Jake recalls feeling a sense of déjà vu and a metallic taste in his mouth beforehand, something he has noted over the past month. His wife mentions he has been unusually tired by the end of the day and mentions several instances of him having brief, unresponsive 'daydreams' lasting seconds. Over the past year, Jake reports instances of muscle stiffness and twitches (myoclonus), often in the morning, at least twice a week. Jake is currently experiencing (P1) muscle soreness and stiffness postictally.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "generalized body muscle soreness post-seizure",
+            "score": "6"
+        }
+    ],
+    "aggrevating_factors": "physical exertion, dehydration, and lack of sleep",
+    "picture": "[insert diagram indicating locations of muscle soreness]",
+    "easing_factors": "rest, hydration, and medication adjustments",
+    "past_history": "Jake was diagnosed with febrile seizures as a child, which resolved by the age of 7, with no significant neurological events until recently.",
+    "medical_history": "no known recent hospitalizations, generally healthy with no chronic conditions previously diagnosed.",
+    "medications": "no current medications. Discussing anti-seizure medications post-diagnosis",
+    "personal_history": "lives with his wife and two children. Works long hours on rotation as a foreman, with occasional overtime shifts. Enjoys running, though he admits to sometimes neglecting rest.",
+    "imaging": "EEG has been performed, showing generalized spike-wave discharges. MRI of the brain is pending to rule out any structural abnormalities.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 413,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1052,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1465
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

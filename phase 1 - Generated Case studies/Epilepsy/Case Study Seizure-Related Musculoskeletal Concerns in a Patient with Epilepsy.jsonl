@@ -1,0 +1,32 @@
+{
+    "id": "48fbfc11-ec22-43ea-bc14-9d5d1dee8c6a",
+    "condition": "Epilepsy",
+    "title": "Case Study: Seizure-Related Musculoskeletal Concerns in a Patient with Epilepsy",
+    "clinical_history": "David Greene is a 32-year-old graphic designer diagnosed with temporal lobe epilepsy at age 18. He experiences complex partial seizures—on average, once or twice a month. Last week, David had a tonic-clonic seizure while standing in his kitchen. During the episode, he fell heavily onto his right side, striking his shoulder and upper arm. Since the event, he reports significant pain and stiffness in the right shoulder and upper arm, with some bruising and swelling noted at the deltoid and upper trapezius regions. David describes a constant dull ache coupled with sharp, shooting pain when attempting to abduct or flex the shoulder above 60 degrees. No prior history of musculoskeletal injuries to this area. He is experiencing disrupted sleep due to pain and difficulty performing overhead activities including dressing and reaching for objects. Neurological symptoms post-seizure have completely resolved; no persistent altered sensation or weakness.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right shoulder and upper arm (deltoid, upper trapezius, possibly proximal humerus)",
+            "score": "5-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Secondary muscular discomfort around right neck and scapular region (likely due to compensatory movements)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Raising the right arm above shoulder height, lying on affected side, reaching forward or overhead, sudden movements, carrying moderate weights.",
+    "picture": "[Image recommendation: Diagram highlighting right deltoid and upper trapezius regions]",
+    "easing_factors": "Supporting the arm with a pillow, keeping the arm adducted and close to the body, use of ice packs for swelling, paracetamol for pain, avoiding overhead movements.",
+    "past_history": "No previous shoulder injuries. Occasional minor injuries secondary to previous seizures (mainly bruises, abrasions to limbs), no surgical history.",
+    "medical_history": "Temporal lobe epilepsy, well-controlled with medication. Mild hypertension, diagnosed six months earlier, managed with diet.",
+    "medications": "Lamotrigine 200 mg twice daily for epilepsy; Paracetamol 500 mg as needed for pain; Lisinopril 10 mg once daily for hypertension.",
+    "personal_history": "Non-smoker, consumes alcohol socially (2-3 units/week), lives alone, regular exercise (yoga, cycling) until recent injury. No recreational drug use. Supportive workplace. Family history of epilepsy (maternal uncle). Moderate psychosocial support; mild anxiety related to unpredictability of seizures.",
+    "imaging": "Plain radiograph of the right shoulder (no fracture), soft tissue swelling noted; ultrasound recommended if symptoms persist >2 weeks to assess for rotator cuff injury.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "5a9e5d21-1687-4aca-8390-9d88261e99e9",
+    "condition": "fibromyalgia",
+    "title": "A Case of Widespread Pain: Fibromyalgia in a Middle-Aged Woman",
+    "clinical_history": "Sarah is a 45-year-old marketing manager who presents with a 3-year history of widespread musculoskeletal pain. She reports that the pain started gradually, with no specific incident or trauma, and has been persistent and debilitating. She describes the pain as aching, stiffness, and soreness in multiple areas of her body, which has affected her daily activities and sleep patterns.",
+    "nprs": [
+        {
+            "context": "Primary Complaint",
+            "affected_area": "Multiple areas including neck, shoulders, back, hips, and legs",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary Complaint",
+            "affected_area": "Localized pain in lower back and hips",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged physical activity, stress, and lack of sleep",
+    "picture": "A 24-hour pain pattern showing increased pain in the morning and evening",
+    "easing_factors": "Gentle exercise, warm baths, and relaxation techniques",
+    "past_history": "History of irritable bowel syndrome and migraines",
+    "medical_history": "Hypertension, controlled with medication",
+    "medications": "Pregabalin 150mg/day, acetaminophen 1000mg prn",
+    "personal_history": "Married with two children, works full-time, and reports high levels of stress",
+    "imaging": "None, as her condition is primarily diagnosed clinically",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

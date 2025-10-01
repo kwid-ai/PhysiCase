@@ -1,0 +1,27 @@
+{
+    "id": "745560dd-fbce-4888-9d56-809322ba9e8a",
+    "condition": "sarcopenia",
+    "title": "Case Study: Sarcopenia in an Elderly Individual",
+    "clinical_history": "Mrs. Thompson is an 82-year-old retired librarian who has been experiencing progressive weakness and loss of muscle mass over the past few years. She reports difficulty performing daily activities such as getting up from a chair, climbing stairs, and carrying groceries. She has also noticed a significant decrease in her overall physical function and mobility.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "generalized muscle weakness and soreness, particularly in the lower extremities",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "prolonged periods of inactivity, difficulty with balance and coordination, and performing daily activities that require strength and endurance",
+    "picture": "a 24-hour picture showing Mrs. Thompson's typical daily activities, including her morning routine, meal preparation, and mobility exercises",
+    "easing_factors": "rest, physical therapy, and assistive devices such as canes and walkers",
+    "past_history": "history of osteoporosis, hypertension, and hyperlipidemia; has had several falls in the past year",
+    "medical_history": "has been taking calcium and vitamin D supplements for osteoporosis; has a family history of muscle wasting diseases",
+    "medications": "calcium and vitamin D supplements, antihypertensive medication, and statins",
+    "personal_history": "widow, lives alone, and has limited social support; has a history of smoking and sedentary lifestyle",
+    "imaging": "dual-energy X-ray absorptiometry (DXA) scan showing significant muscle mass loss and decreased bone density",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

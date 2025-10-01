@@ -1,0 +1,32 @@
+{
+    "id": "e3d72f40-aac6-479a-83df-e394c16b4347",
+    "condition": "Thumb arthritis",
+    "title": "Thumbs Down: A Case of Basal Joint (CMC) Arthritis in a Retired Seamstress",
+    "clinical_history": "Margaret is a 67-year-old retired seamstress who presents with progressive right thumb base pain over the past 8 months. She first noticed discomfort when turning keys and opening jars, which she initially attributed to 'overuse.' The pain gradually worsened, now elicited during daily activities such as gripping scissors, pinching buttons, and holding a cup. She reports intermittent swelling at the thumb base and occasional grinding sensations. Functional tasks, like buttoning shirts or opening door knobs, have become increasingly difficult. Morning stiffness lasts 10–15 minutes but resolves with hand movement. On examination, there is visible swelling at the first carpometacarpal joint, tenderness along the thumb base, reduced pinch strength, and a positive grind test. She denies any recent trauma.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right first carpometacarpal (CMC) joint/base of thumb",
+            "score": "5–7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "thenar eminence aching after prolonged use",
+            "score": "2–3"
+        }
+    ],
+    "aggrevating_factors": "Pinch grip (holding keys, writing), forceful grip (opening jars), repetitive thumb movements, prolonged sewing, cold weather",
+    "picture": "[Insert image of the hand with CMC joint highlighted]",
+    "easing_factors": "Rest, warm compress, paracetamol, wearing a soft thumb splint, gentle hand exercises",
+    "past_history": "No prior significant hand injuries. Occasional mild bilateral hand stiffness for several years, attributed to aging.",
+    "medical_history": "Hypertension (well controlled with medication), hypothyroidism, no history of autoimmune disease.",
+    "medications": "Daily amlodipine for blood pressure, levothyroxine for hypothyroidism; paracetamol as needed for pain (~2–3 times weekly).",
+    "personal_history": "Lives alone, widowed for 10 years. Independent with ADLs but avoids some household chores due to hand pain. Non-smoker, enjoys knitting and gardening but has recently limited these activities.",
+    "imaging": "Hand X-rays reveal joint space narrowing and osteophyte formation at the right thumb CMC joint, consistent with moderate osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

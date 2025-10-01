@@ -1,0 +1,70 @@
+{
+    "id": "7f7a311b-606b-4877-adb4-2eef3cbaa904",
+    "condition": "Knee Pain",
+    "title": "A Case of Chronic Knee Pain in a Middle-Aged Athlete",
+    "clinical_history": "Meet Sarah, a 45-year-old recreational runner and tennis player who has been experiencing knee pain for the past 6 months. The pain started gradually, with no specific incident or trauma, and has been worsening over time. She reports that the pain is mainly located in the anterior and medial aspects of her knee, which worsens with activities such as running, squatting, and climbing stairs. She also experiences stiffness and swelling in the knee, particularly after prolonged periods of inactivity or at the end of the day.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Anterior knee pain, medial knee pain",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Lateral knee pain",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Running, squatting, climbing stairs, jumping, and landing from jumps. Prolonged sitting or standing also exacerbates the pain.",
+    "picture": "A 24-hour pain profile showing increased pain during and after activities, with some relief with rest and ice.",
+    "easing_factors": "Rest, ice, and over-the-counter pain medications such as ibuprofen provide temporary relief.",
+    "past_history": "Sarah has a history of Osgood-Schlatter disease as an adolescent and has had occasional knee pain with intense physical activity in the past. She has not had any previous knee injuries or surgeries.",
+    "medical_history": "Generally healthy, with well-controlled hypertension and hyperlipidemia.",
+    "medications": "Ibuprofen as needed for pain and inflammation",
+    "personal_history": "Married with two children, works as a marketing manager, and has a busy schedule with work and family commitments. She has had to reduce her physical activity level over the past year due to increasing knee pain.",
+    "imaging": "X-rays of the knee show mild medial compartment narrowing and patellofemoral joint space narrowing. MRI shows no significant ligamentous or meniscal tears.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8181818181818182,
+            "reason": "The score is 0.82 because the output uses lowercase keys ('nprs' and 'picture') instead of the required capitalized keys ('NPRS' and 'Picture'). However, all required content is present and well-structured, which is why the score is not lower.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, follows the requested structure, and addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to chronic knee pain in a middle-aged athlete, with clear and comprehensive information that supports clinical accuracy and patient safety. No factual errors or omissions are present.",
+            "success": true
+        }
+    ]
+}

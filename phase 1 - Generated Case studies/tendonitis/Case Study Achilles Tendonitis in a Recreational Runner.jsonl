@@ -1,0 +1,32 @@
+{
+    "id": "7357f9b3-d567-4ae6-b118-4a2cb76f878a",
+    "condition": "tendonitis",
+    "title": "Case Study: Achilles Tendonitis in a Recreational Runner",
+    "clinical_history": "A 35-year-old male recreational runner presents with a 3-week history of pain and stiffness in the posterior aspect of his right ankle. He reports a gradual onset of symptoms, which have worsened over time, particularly with running and jumping activities. The patient has been running 3 times a week for the past year, but recently increased his mileage and intensity. He experiences pain and stiffness in the morning, which improves with activity, but worsens with prolonged running.",
+    "nprs": [
+        {
+            "context": "Primary Complaint",
+            "affected_area": "Achilles tendon region",
+            "score": "6-8"
+        },
+        {
+            "context": "Secondary Complaint",
+            "affected_area": "Ankle stiffness",
+            "score": "4-5"
+        }
+    ],
+    "aggrevating_factors": "Running, jumping, hiking, and calf raises",
+    "picture": "A 24-hour picture of the patient's symptoms shows that the pain is worse in the morning (7-8/10) and improves to 4-5/10 after 10-15 minutes of activity. However, with prolonged running or activity, the pain returns to 6-8/10.",
+    "easing_factors": "Rest, ice, and stretching",
+    "past_history": "Previous ankle sprain 2 years ago, which was managed conservatively. No previous history of tendonitis or similar conditions.",
+    "medical_history": "Generally healthy, with no significant medical conditions. No history of steroid use or fluoroquinolone antibiotics.",
+    "medications": "Ibuprofen 400mg prn for pain and inflammation",
+    "personal_history": "Married with two children. Works as an accountant in a small firm. Enjoys running and hiking in his free time.",
+    "imaging": "Ultrasound imaging of the Achilles tendon shows tendinosis and mild swelling, but no rupture.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

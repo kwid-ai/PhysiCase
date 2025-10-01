@@ -1,0 +1,58 @@
+{
+    "id": "chatcmpl-By78npIyVRQKgq1NNdbOdOOiMU5kI",
+    "condition": "Knee Pain",
+    "title": "Mr. Johnson's Battle with Chronic Knee Pain",
+    "clinical_history": "Mr. Johnson is a 62-year-old retired civil engineer who has been experiencing worsening knee pain over the past 18 months. He reports that he initially felt a dull ache in his right knee, particularly after longer walks or standing for extended periods. Over time, the pain has intensified and become more constant, now presenting as sharp twinges that follow periods of inactivity, such as sitting for longer than an hour. He experiences stiffness in the knee upon awakening in the morning, which gradually improves through the day. Mr. Johnson also notes swelling around the knee joint, which can sometimes last for a few days after flare-ups, especially after activities that strain the joint.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "anterior and medial aspects of the right knee",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": null,
+    "picture": "[insert image of a person indicating anterior and medial right knee pain]",
+    "easing_factors": "ice application, resting in a reclined position, light stretching exercises",
+    "past_history": "suffered from a torn meniscus in the right knee about 5 years ago, which required arthroscopic surgery.",
+    "medical_history": "Hypertension, controlled with medication. No other significant health issues.",
+    "medications": "Ibuprofen 400mg as needed, Lisinopril for hypertension",
+    "personal_history": "lives alone, enjoys gardening and has recently taken up painting. Used to be very active, participating in community marathons until the knee pain became a limiting factor.",
+    "imaging": "recent X-ray showed moderate osteoarthritic changes in the right knee joint.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 400,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1451
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    }
+}

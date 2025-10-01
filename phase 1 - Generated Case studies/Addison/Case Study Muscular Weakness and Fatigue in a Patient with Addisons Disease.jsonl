@@ -1,0 +1,32 @@
+{
+    "id": "58bc416f-d568-4c44-8520-d58523328c40",
+    "condition": "Addison",
+    "title": "Case Study: Muscular Weakness and Fatigue in a Patient with Addison's Disease",
+    "clinical_history": "Mr. Arthur Jones is a 48-year-old accountant who presents with persistent generalized muscle weakness, profound fatigue, and unintentional weight loss over the last three months. He reports progressing difficulty rising from chairs, climbing stairs, and performing overhead activities at work. The weakness is most pronounced in his proximal lower limb muscles. He also complains of intermittent myalgia (muscle pain), notably in the thighs and shoulders. He describes bronzed pigmentation of his skin, loss of appetite, frequent nausea, and episodes of orthostatic dizziness. There is no obvious joint swelling or history of trauma. He works long hours, often skipping meals, and has been under significant personal and professional stress. He was diagnosed with Addison's disease by his endocrinologist two months ago after presenting with an Addisonian crisis (hypotensive episode, hyponatremia, and hyperkalemia) requiring brief hospitalization. He is currently on steroid replacement therapy and attends regular follow-ups with his general practitioner and endocrinologist.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral proximal thigh and shoulder girdle muscles (primarily quadriceps, gluteals, and deltoids)",
+            "score": "2-4"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Generalized myalgia, especially after exertion",
+            "score": "1-3"
+        }
+    ],
+    "aggrevating_factors": "Physical exertion (e.g. walking long distances, climbing stairs, standing from sitting), stress, skipping steroid dose, dehydration, and prolonged fasting.",
+    "picture": "Throughout the day, Mr. Jones struggles with morning fatigue, which gradually worsens into muscle ache by midday after performing light physical activity, such as commuting or short walks. He notes maximal fatigue and discomfort in late afternoon. Evenings are spent resting. Muscle cramps increase if he misses medication or does not hydrate adequately. He often naps after work to cope with exhaustion.",
+    "easing_factors": "Adequate hydration, rest intervals, stress management, strict adherence to prescribed glucocorticoid (and mineralocorticoid, if applicable) replacement, and balanced meals. Gentle stretching and low-resistance muscle strengthening prescribed by his physical therapist are beneficial.",
+    "past_history": "No known musculoskeletal injuries. No autoimmune diseases reported previously, but family history notable for hypothyroidism in his mother. No major surgeries.",
+    "medical_history": "Diagnosed with Addison's disease following a crisis two months ago. Previously healthy except for mild hypertension (now resolved after starting steroid treatment).",
+    "medications": "Hydrocortisone 20 mg AM/10 mg PM, Fludrocortisone 0.1 mg daily, as per endocrinologist; occasional acetaminophen for muscle ache; no other regular medications.",
+    "personal_history": "Non-smoker, drinks alcohol socially on weekends. Sedentary desk job, limited physical activity before illness due to long work hours. Lives with spouse and two teenage children. Reports high work stress and limited social/leisure activities in recent months.",
+    "imaging": "No recent musculoskeletal imaging; labs confirm Addison's diagnosis (low cortisol, high ACTH, electrolyte imbalances). No evidence of myopathy on clinical neuro exam.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

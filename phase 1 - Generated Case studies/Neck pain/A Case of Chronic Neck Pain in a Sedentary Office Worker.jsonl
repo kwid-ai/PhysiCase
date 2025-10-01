@@ -1,0 +1,32 @@
+{
+    "id": "d64e2289-af5e-4435-a6c5-7ba22fbe80c9",
+    "condition": "Neck pain",
+    "title": "A Case of Chronic Neck Pain in a Sedentary Office Worker",
+    "clinical_history": "Meet Emma, a 42-year-old marketing specialist who has been experiencing chronic neck pain for the past 6 months. She works as a sedentary office worker, spending most of her day sitting in front of a computer. The pain started gradually, and Emma reports that it has been worsening over time. She describes the pain as a dull ache on the right side of her neck, which sometimes radiates to her shoulder and arm. Emma has difficulty sleeping due to the pain and stiffness in her neck.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right cervical spine and upper trapezius muscle",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Right shoulder and arm",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Prolonged sitting, computer work, reading, and driving. Turning her head to the right and looking up also exacerbate the pain.",
+    "picture": "A 24-hour pain profile showing increased pain and stiffness in the morning and evening, with some relief during the day when she is more active.",
+    "easing_factors": "Applying heat or cold packs, taking regular breaks to stretch and move around, and practicing gentle neck stretches.",
+    "past_history": "Emma has a history of episodic neck pain, which she attributes to poor posture and stress. She has seen a chiropractor in the past, but the pain always returns.",
+    "medical_history": "Generally healthy, but has high cholesterol and is slightly overweight.",
+    "medications": "Occasionally takes ibuprofen for pain relief",
+    "personal_history": "Married with two children, Emma is a busy working mom who often finds herself prioritizing work and family responsibilities over her own self-care.",
+    "imaging": "X-rays of the cervical spine show mild degenerative changes and loss of lordosis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

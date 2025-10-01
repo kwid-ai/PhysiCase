@@ -1,0 +1,70 @@
+{
+    "id": "989c408c-202a-4640-b9b1-a1711499cedd",
+    "condition": "Finger fracture",
+    "title": "Isolated Proximal Phalanx Fracture of the Right Index Finger in a Recreational Basketball Player",
+    "clinical_history": "Jacob, a 28-year-old right-handed graphic designer and recreational basketball player, presented with acute pain, swelling, and decreased mobility in his right index finger after jamming it against another player\u00e2\u20ac\u2122s hand during a game four days ago. Immediate swelling and bruising developed at the base of the index finger. He attempted to apply ice and self-splint with minimal relief. Jacob now reports difficulties with fine dexterous tasks at work, gripping objects, and notes increased pain with any attempts at active finger flexion or extension. There is no numbness or tingling; however, he is concerned about ongoing stiffness and the potential for long-term impairment.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "base of proximal phalanx of right index finger (primary site of fracture)",
+            "score": "5-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "dorsal surface of right hand extending towards metacarpophalangeal joint (secondary, related to swelling and compensation)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Attempted gripping, pinching, typing for prolonged periods, basketball activities, accidental bumping of hand. Active or passive motion, especially flexion-extension maneuvers.",
+    "picture": "[insert image showing swelling and bruising at right index finger proximal phalanx, loss of normal finger contour]",
+    "easing_factors": "Immobilization with finger splint, elevation, application of ice, limiting hand use, NSAIDs.",
+    "past_history": "No prior hand or finger injuries. History of mild right wrist tendinitis two years prior, resolved with self-care.",
+    "medical_history": "Generally healthy\u00e2\u20ac\u201dno chronic illnesses. Updated tetanus immunization. No known allergies.",
+    "medications": "Ibuprofen 400mg every 8 hours as needed for pain and inflammation.",
+    "personal_history": "Lives alone, works full-time at a computer station. Regularly plays basketball, enjoys racquet sports recreationally. Non-smoker, occasional alcohol use.",
+    "imaging": "Plain radiograph (AP/lateral views) shows a non-displaced transverse fracture of the proximal phalanx of the right index finger. No evidence of joint involvement or significant angulation.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions perfectly and there are no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, well-structured, and directly addresses all aspects of the input task without any irrelevant statements. Great job staying focused and thorough!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the actual output uses 'he', which assumes the gender of the person being discussed and introduces gender bias, as noted in the cited phrase: 'The use of 'he' assumes the gender of the person being discussed, which introduces gender bias.'",
+            "success": false
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content; it is entirely appropriate.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to an isolated proximal phalanx fracture in a recreational basketball player, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would compromise patient safety.",
+            "success": true
+        }
+    ]
+}

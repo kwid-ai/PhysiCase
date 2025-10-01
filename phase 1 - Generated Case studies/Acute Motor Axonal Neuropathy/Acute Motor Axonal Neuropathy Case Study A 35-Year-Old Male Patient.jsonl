@@ -1,0 +1,27 @@
+{
+    "id": "bcb58b84-45f2-4b29-a48d-e7347001defe",
+    "condition": "Acute Motor Axonal Neuropathy",
+    "title": "Acute Motor Axonal Neuropathy Case Study: A 35-Year-Old Male Patient",
+    "clinical_history": "A 35-year-old male patient presented with a 5-day history of progressive weakness in his lower limbs. He initially experienced fatigue and heaviness in his legs, which rapidly progressed to difficulty walking and standing. The patient reported that he had a recent history of diarrhea and upper respiratory tract infection 2 weeks prior to the onset of his current symptoms.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Bilateral lower limb weakness and pain, more pronounced in the distal muscles",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "Prolonged standing, walking, and climbing stairs",
+    "picture": "A 24-hour picture showing the patient's difficulty in walking and standing due to bilateral lower limb weakness",
+    "easing_factors": "Rest and recumbency",
+    "past_history": "The patient has a history of hypertension and hyperlipidemia, but has been well-controlled on medication. He had a recent travel history to a rural area 2 weeks prior to the onset of his symptoms.",
+    "medical_history": "The patient was diagnosed with acute motor axonal neuropathy (AMAN) based on his clinical presentation, laboratory results, and electrodiagnostic studies.",
+    "medications": "The patient is currently on intravenous immunoglobulin (IVIG) and pain management with acetaminophen and tramadol.",
+    "personal_history": "The patient is married with two children and works as an accountant. He has a history of stress and anxiety, which may have contributed to his recent illness.",
+    "imaging": "Electromyography (EMG) and nerve conduction studies (NCS) showed evidence of axonal damage to the motor nerves, consistent with AMAN.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

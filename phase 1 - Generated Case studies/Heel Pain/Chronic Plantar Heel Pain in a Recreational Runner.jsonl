@@ -1,0 +1,32 @@
+{
+    "id": "fbe2f9e5-94b3-4993-ad5d-a30b79c5c866",
+    "condition": "Heel Pain",
+    "title": "Chronic Plantar Heel Pain in a Recreational Runner",
+    "clinical_history": "Mr. James Taylor is a 42-year-old accountant who presents with a 6-month history of insidious onset right heel pain. He reports that the pain is sharp and most pronounced with his first steps in the morning or after periods of prolonged sitting. The pain eases somewhat with continued walking but returns after long periods of standing, walking, or running. In recent weeks, the pain has gradually worsened, forcing him to reduce his usual three weekly 5km runs. He notes increased discomfort at his desk job after walking to and from the parking lot and climbing stairs. There is no history of recent trauma to the ankle or foot. James has no systemic symptoms such as fever or night sweats.",
+    "nprs": [
+        {
+            "context": "Primary pain complaint, plantar aspect of right heel on weight-bearing",
+            "affected_area": "Plantar fascia (medial calcaneal tubercle, right foot)",
+            "score": "4-7"
+        },
+        {
+            "context": "Secondary pain, occasional aching into arch",
+            "affected_area": "Medial longitudinal arch muscles (flexor digitorum brevis, abductor hallucis)",
+            "score": "1-3"
+        }
+    ],
+    "aggrevating_factors": "First steps in the morning, walking after prolonged rest, prolonged standing, running (especially on hard surfaces), climbing stairs",
+    "picture": "Pain is most severe on initial weight-bearing in the morning, improves with gentle activity through the day, worsens after extended activity or at the end of the workday; minimal pain at rest or at night except after significant aggravation.",
+    "easing_factors": "Gentle stretching of the calf and plantar fascia, using supportive footwear with cushioned insoles, avoiding barefoot walking, application of ice after activity, short rest breaks throughout the day",
+    "past_history": "History of mild right ankle sprain two years ago, fully recovered with self-managed rest.",
+    "medical_history": "Mild hypertension, well controlled with lifestyle modification. No diabetes or rheumatologic conditions.",
+    "medications": "Occasional ibuprofen 400 mg as needed for pain.",
+    "personal_history": "Non-smoker, moderate alcohol, BMI 27. Sedentary occupation with mostly sitting during work hours. Runs recreationally to maintain fitness; increased weekly mileage in the past year. No family history of autoimmune or musculoskeletal disorders.",
+    "imaging": "None to date. Diagnosis made clinically. Imaging to be considered if no response to conservative management after 6-8 weeks or if atypical features develop.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

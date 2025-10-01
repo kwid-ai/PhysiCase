@@ -1,0 +1,32 @@
+{
+    "id": "2b93e4df-32db-4edb-82c0-28d9434bb1c4",
+    "condition": "Tennis Elbow",
+    "title": "Case Study: Mark – Persistent Lateral Elbow Pain in an Amateur Tennis Player",
+    "clinical_history": "Mark is a 42-year-old office worker and keen amateur tennis player who presents with a 4-week history of progressive pain over the outer aspect of his right elbow. He reports that the pain started gradually during a period when he increased his tennis matches from twice weekly to four times weekly in preparation for a local tournament. He specifically notes pain with gripping his tennis racquet, particularly during backhand strokes, and also experiences discomfort when lifting objects such as a kettle or briefcase. Pain is exacerbated after practice sessions and tends to linger for hours afterward. There is occasional mild swelling over the lateral elbow, but no pins and needles or numbness. He denies previous injuries to the area, though he did experience a similar but self-resolving episode two years ago, which settled with rest. Mark has tried over-the-counter ibuprofen with some relief but continues to play tennis. He is otherwise well and has no significant medical conditions.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Lateral epicondyle of right humerus (origin of wrist extensors)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Forearm extensor muscle bulk (secondary aching after activity)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Gripping racquet, especially during backhand shots; lifting objects with palm down (pronation); typing for long periods; resisted wrist or finger extension.",
+    "picture": "[Image would show a person pointing to outer side of the right elbow, possibly holding a tennis racquet]",
+    "easing_factors": "Rest from racquet sports; use of ice packs after play; nonsteroidal anti-inflammatory drugs (NSAIDs like ibuprofen) provide temporary relief.",
+    "past_history": "Previous minor episode of similar elbow pain two years ago after increased tennis, resolved with rest. No fractures or significant trauma to the elbow.",
+    "medical_history": "Generally healthy; no chronic illnesses. No history of inflammatory arthritis or neurological symptoms.",
+    "medications": "Ibuprofen 400 mg as needed, approximately once daily after matches.",
+    "personal_history": "Right hand dominant, works as a project manager and spends extended hours typing. Married with two teenage children, enjoys active lifestyle including weekend tennis, jogging, and golf.",
+    "imaging": "No imaging performed to date. Clinical assessment consistent with lateral epicondylitis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    }
+}

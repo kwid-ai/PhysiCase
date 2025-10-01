@@ -1,0 +1,32 @@
+{
+    "id": "9fca5d59-32b7-474e-b030-f008a3ae4679",
+    "condition": "Hip Pain",
+    "title": "Hip Pain Case Study: A 45-Year-Old Male with Chronic Hip Pain",
+    "clinical_history": "A 45-year-old male, who works as a construction worker, presents with a 6-month history of right hip pain. He reports that the pain started gradually, with no specific incident or trauma. He describes the pain as a dull ache in the groin area that radiates to the anteromedial thigh. The patient reports that the pain is worse in the morning and improves throughout the day with activity. However, over the past few months, the pain has become more constant and is now affecting his sleep.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right groin and anteromedial thigh",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right lateral hip",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "prolonged standing (more than 30 minutes), walking (tolerance is about 1-2 hours), climbing stairs, and pivoting on the affected leg",
+    "picture": "A 45-year-old male with pain in the right groin and anteromedial thigh",
+    "easing_factors": "rest, heat application, and NSAIDs",
+    "past_history": "The patient had a meniscal tear in his right knee 5 years ago, which was managed conservatively. He has also experienced occasional lower back pain over the years.",
+    "medical_history": "The patient is generally healthy, but has been diagnosed with hypertension and hyperlipidemia. He is taking medication for these conditions.",
+    "medications": "Acetaminophen and ibuprofen as needed for pain",
+    "personal_history": "The patient is married with two children. He is a heavy smoker (1 pack per day) and has a sedentary lifestyle outside of work.",
+    "imaging": "X-rays of the right hip show mild joint space narrowing and osteophytes. MRI of the right hip is pending.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

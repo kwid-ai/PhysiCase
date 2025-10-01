@@ -1,0 +1,32 @@
+{
+    "id": "e8ceac41-1af7-4612-b9d9-242b70a7da92",
+    "condition": "TMJ Jaw and Ear Pain",
+    "title": "Case Study: Temporomandibular Joint (TMJ) Disorder with Jaw and Ear Pain",
+    "clinical_history": "A 35-year-old marketing executive, Sarah, presented with a 6-week history of jaw and ear pain. She reported that the pain started after a period of intense stress at work and a change in her diet to more hard and chewy foods. The pain is localized to her right jaw and ear, and she describes it as a dull ache that worsens throughout the day. She also experiences clicking and popping sounds in her jaw when she opens and closes her mouth.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right jaw and ear",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "secondary complaint of headache",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "chewing, talking, yawning, eating hard or chewy foods, stress",
+    "picture": "24-hour pain pattern: pain is typically worse in the morning and evening, with some relief during meals",
+    "easing_factors": "applying heat or cold packs to the affected area, massage, relaxation techniques",
+    "past_history": "history of bruxism and teeth grinding at night",
+    "medical_history": "generally healthy, but has a history of migraines",
+    "medications": "ibuprofen as needed for pain relief",
+    "personal_history": "married with two young children, works full-time, and has a high-stress job",
+    "imaging": "X-rays of the TMJ showed joint space narrowing and degenerative changes",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    }
+}

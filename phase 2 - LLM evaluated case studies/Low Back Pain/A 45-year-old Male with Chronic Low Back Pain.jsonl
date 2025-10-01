@@ -1,0 +1,70 @@
+{
+    "id": "2c8323ff-5686-4664-a168-c6d414704406",
+    "condition": "Low Back Pain",
+    "title": "A 45-year-old Male with Chronic Low Back Pain",
+    "clinical_history": "A 45-year-old male, John, presents with a 6-month history of low back pain. He reports that the pain started gradually, with no specific incident or trauma. Initially, the pain was mild and intermittent but has progressively worsened over time. He describes the pain as a dull ache in his lower back that radiates to his right buttock and occasionally to his right thigh. The pain is worse in the morning and improves slightly throughout the day. He has difficulty performing daily activities such as bending, lifting, and prolonged sitting.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lower back",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right buttock and thigh",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "prolonged sitting, bending, lifting heavy objects, and twisting movements",
+    "picture": "A 24-hour pain profile shows that the pain is constant, with a gradual increase in intensity throughout the day, peaking in the evening.",
+    "easing_factors": "applying heat, changing positions frequently, and taking regular breaks to stretch",
+    "past_history": "history of occasional back pain as a young adult, which resolved with conservative management",
+    "medical_history": "generally healthy, with a history of hypertension, managed with medication",
+    "medications": "acetaminophen as needed for pain management",
+    "personal_history": "married with two children, works as an office manager, and has a relatively sedentary lifestyle",
+    "imaging": "lumbar spine X-rays showing mild degenerative changes at L4-L5 and L5-S1 levels",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8181818181818182,
+            "reason": "The score is 0.82 because the output uses 'nprs' and 'picture' instead of the required 'NPRS' and 'Picture' keys, which are minor format deviations. However, all required content is present and well-elaborated, so the score is not lower.",
+            "success": false
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9817574485083463,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to chronic low back pain, is clear, comprehensive, and clinically accurate, with no factual errors or omissions that could impact patient safety.",
+            "success": true
+        }
+    ]
+}
