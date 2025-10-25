@@ -1,0 +1,71 @@
+{
+    "id": "003ab52d-0e80-4b5f-9324-d37a9fce10bf",
+    "condition": "Rotator Cuff Injury",
+    "title": "Rotator Cuff Injury in an Overhead Athlete: The Case of Mark",
+    "clinical_history": "Mark is a 38-year-old recreational tennis player and sales executive who presents with a 3-week history of progressive right shoulder pain. The onset was insidious, initially noticed during an overhead smash in a competitive match. He describes the pain as deep and poorly localized over the lateral aspect of the shoulder, exacerbated by serving, lifting objects overhead, and reaching behind his back. There is night pain, particularly when lying on the right shoulder, resulting in disrupted sleep. He reports weakness in the arm, especially during abduction and external rotation. He denies any significant trauma, numbness, or tingling. He has reduced ability to carry briefcases and perform work-related presentations that require overhead pointing.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right lateral deltoid region (primary: supraspinatus and infraspinatus tendons)",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "upper arm (secondary ache along anterior deltoid with certain movements)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Overhead activities (serving, throwing, lifting objects above shoulder height), reaching behind the back, sleeping on the affected side, and repetitive arm elevation.",
+    "picture": "[image of the right shoulder, localizing symptoms to the lateral deltoid region, with markings indicating involvement of supraspinatus and infraspinatus tendons]",
+    "easing_factors": "Rest, application of ice packs, avoiding overhead activities, and use of a supportive brace. Non-dominant arm use for daily activities.",
+    "past_history": "Prior episode of mild right shoulder discomfort 2 years ago, resolved with brief rest. No history of shoulder dislocations or surgeries.",
+    "medical_history": "Unremarkable. No history of diabetes, rheumatologic, or systemic disease.",
+    "medications": "Occasional ibuprofen 400mg as needed for pain, typically in the evenings.",
+    "personal_history": "Non-smoker. Social alcohol use. Works long hours at a desk job, with high levels of professional stress but finds tennis to be his main stress reliever. Married with two young children.",
+    "imaging": "Plain radiographs: unremarkable. Ultrasound: partial-thickness tear of the supraspinatus tendon with mild subacromial bursitis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.8571428571428571,
+            "reason": "The score is 0.86 because the output uses 'nprs' and 'picture' instead of the required 'NPRS' and 'Picture' keys, which are minor format deviations. However, all required content is present and well-elaborated, so the score remains high.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to a rotator cuff injury in an overhead athlete, with accurate clinical features such as pain location, weakness, night pain, and functional limitations. The response is clear, comprehensive, and clinically accurate, with no factual errors or omissions that would impact patient safety.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/003ab52d-0e80-4b5f-9324-d37a9fce10bf.png"
+}

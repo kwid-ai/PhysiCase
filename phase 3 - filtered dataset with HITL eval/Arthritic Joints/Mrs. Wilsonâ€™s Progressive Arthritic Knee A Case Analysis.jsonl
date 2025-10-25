@@ -1,0 +1,71 @@
+{
+    "id": "f107408b-22b9-4d41-8f2a-cf99218a3c9e",
+    "condition": "Arthritic Joints",
+    "title": "Mrs. Wilson\u00e2\u20ac\u2122s Progressive Arthritic Knee: A Case Analysis",
+    "clinical_history": "Mrs. Evelyn Wilson is a 63-year-old retired librarian who presents with a 5-year history of right knee pain, gradually worsening over the past year. She describes the pain as a deep ache with intermittent episodes of sharp catching sensations, particularly noticeable upon rising from a seated position and during ambulation. Stiffness is worst in the mornings and after prolonged periods of inactivity, while swelling develops after longer walks or household activities. She reports a reduction in her walking distance, increasing reliance on handrails when negotiating stairs, and difficulty kneeling or squatting. Mrs. Wilson reports disturbed sleep due to discomfort when changing positions at night. No history of recent trauma is noted, though she underwent an appendectomy at age 20 and has a longstanding diagnosis of hypertension.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right medial knee joint - constant aching pain",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right lateral knee and lower thigh - intermittent catching/sharp pain",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Standing/walking longer than 30 minutes, climbing stairs (particularly descending), squatting, rising from chair, weather changes (damp/cold).",
+    "picture": "[image: right knee with tenderness at medial joint line, mild effusion, limited flexion]",
+    "easing_factors": "Sitting with leg elevated, use of a heating pad, slow-paced walking on even surfaces, use of acetaminophen as needed.",
+    "past_history": "No prior history of significant musculoskeletal trauma. Sedentary occupation for over three decades. Reports occasional low back pain, non-limiting.",
+    "medical_history": "Diagnosed hypertension managed by amlodipine for 10 years. No diabetes, no cardiac history. Appendectomy at age 20.",
+    "medications": "Acetaminophen 500mg TID PRN for pain; Amlodipine 5mg daily for hypertension.",
+    "personal_history": "Widowed, lives independently. Two adult children visit weekly. Non-smoker, occasional wine on weekends. No regular exercise routine but enjoys gardening within tolerance. Weight has increased by 12 kg in the last 8 years.",
+    "imaging": "Recent plain radiographs of right knee reveal decreased joint space medially, osteophyte formation, and mild subchondral sclerosis consistent with osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 0.9387755102040817,
+            "reason": "The score is 0.94 because the output is highly relevant and well-structured, but includes some minor irrelevant details such as the patient's appendectomy, absence of diabetes, and absence of cardiac history, which do not directly contribute to the case study of arthritic joints. These small digressions prevent a perfect score, but overall the response is thorough and closely aligned with the input requirements.",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, demonstrating neutrality and fairness throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to progressive knee osteoarthritis, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would impact patient safety or clinical accuracy.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/f107408b-22b9-4d41-8f2a-cf99218a3c9e.png"
+}

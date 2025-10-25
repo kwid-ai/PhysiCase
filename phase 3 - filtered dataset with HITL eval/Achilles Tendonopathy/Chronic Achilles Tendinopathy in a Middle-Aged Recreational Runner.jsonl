@@ -1,0 +1,71 @@
+{
+    "id": "91bc12db-7a8c-410b-b593-9666ecc53ebd",
+    "condition": "Achilles Tendonopathy",
+    "title": "Chronic Achilles Tendinopathy in a Middle-Aged Recreational Runner",
+    "clinical_history": "Mr. David Evans is a 47-year-old marketing executive and recreational distance runner who presents with persistent pain and stiffness in his right Achilles tendon. His symptoms began insidiously about 4 months ago after escalating his weekly running mileage from 20 km to 35 km in preparation for a local half marathon. He describes pain in the mid-portion of his Achilles tendon, becoming particularly noticeable during the first few steps in the morning and after seated rest. The pain is most intense at the start of his runs, occasionally subsiding as he warms up, but returns strongly post-exercise and sometimes lingers for hours. He also notes occasional mild swelling and a sensation of crepitus over the tendon. Examination reveals localised tenderness and thickening approximately 3 cm proximal to the calcaneal insertion. There are no neurological symptoms, nor does he recall a specific traumatic event.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "mid-portion of right Achilles tendon",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right distal calf (secondary ache)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Running (especially on hills or speed work), jumping activities, ascending stairs; prolonged walking (>30 mins); and wearing flat, unsupportive footwear.",
+    "picture": "[illustration depicting thickened and tender mid-portion of right Achilles tendon, just above the heel]",
+    "easing_factors": "Rest, use of ice packs post-activity, gentle stretching of calf muscles, use of heel lifts in shoes, non-weightbearing in severe episodes.",
+    "past_history": "History of left hamstring strain 3 years ago, recovered fully. No prior Achilles problems but always tends to increase exercise volume rapidly.",
+    "medical_history": "Non-smoker. No history of metabolic or inflammatory diseases. BMI: 28. Mild hypertension controlled by lifestyle.",
+    "medications": "Occasionally uses over-the-counter ibuprofen post-run as needed; not on any chronic medications.",
+    "personal_history": "Married, two teenage children, works primarily in an office setting but prioritizes fitness as a means of stress management. Generally runs 3-4 times per week and participates in weekend soccer games. Reports recent work stress and admitted to prioritizing exercise over adequate recovery due to time constraints.",
+    "imaging": "No recent imaging. Clinical diagnosis; patient has not undergone ultrasound or MRI, but may be considered if no improvement after conservative management.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and neutral manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to chronic Achilles tendinopathy, with accurate clinical features and appropriate management considerations. The response is clear, comprehensive, and clinically accurate, with no factual errors or omissions that could impact patient safety.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/91bc12db-7a8c-410b-b593-9666ecc53ebd.png"
+}

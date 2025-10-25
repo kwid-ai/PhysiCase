@@ -1,0 +1,102 @@
+{
+    "id": "chatcmpl-By76l3nSy6JYBjMLIO3Ky25CRqive",
+    "condition": "Low Back Pain",
+    "title": "John's Low Back Conundrum",
+    "clinical_history": "John is a 45-year-old software engineer who spends the majority of his day working at a computer. Over the past 3 months, he has experienced intermittent low back pain that has become progressively more disruptive. He first noticed the pain after an intense week of meeting project deadlines, during which he spent prolonged hours seated at his desk. The pain is described as a dull ache, located in the lower lumbar region, which sometimes radiates into the right buttock (P2). The pain is worse in the morning and tends to ease off slightly by midday but becomes frustratingly persistent by late afternoon. ",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "constant, lower lumbar region",
+            "score": "4-5"
+        },
+        {
+            "context": "P2",
+            "affected_area": "intermittent, right buttock",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "sitting for extended periods, lifting heavy objects, prolonged standing, sudden movements like twisting and bending",
+    "picture": "[insert image of person highlighting the lower back region]",
+    "easing_factors": "temporary relief from gentle walking, lying down on a firm mattress with knees bent, use of heating pads",
+    "past_history": "No significant past medical or surgical history related to the spine. Occasionally experiences mild neck pain due to long work hours.",
+    "medical_history": "History of hypertension for which he is taking medication regularly. Non-smoker and moderate alcohol consumer.",
+    "medications": "Lisinopril for hypertension, Ibuprofen as needed for pain management",
+    "personal_history": "Lives with his wife and two children. Enjoys cycling on the weekends but has been unable to do so recently due to the pain. Sedentary lifestyle due to the nature of his work.",
+    "imaging": "None ordered at this time. Preliminary assessment suggests muscular tension rather than structural spinal issues.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 425,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1052,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1477
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' as the key in the output. All other prompt instructions are followed well, so the score is high, but not perfect due to this minor formatting issue.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 0.9320821313812161,
+            "reason": "The output contains all required fields and is highly relevant to the medical condition of chronic low back pain. The clinical history is clear and comprehensive, covering onset, character, and progression of symptoms. NPRS scores are provided with context, and both aggravating and easing factors are detailed. Past and medical history, medications, and personal history are included, supporting clinical accuracy and patient safety. The only minor shortcoming is the placeholder for the image rather than an actual depiction, which slightly detracts from completeness.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/chatcmpl-By76l3nSy6JYBjMLIO3Ky25CRqive.png"
+}

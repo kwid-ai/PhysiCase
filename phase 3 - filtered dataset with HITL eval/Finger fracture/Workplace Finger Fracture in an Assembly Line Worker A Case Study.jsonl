@@ -1,0 +1,71 @@
+{
+    "id": "187f0b46-b733-47a7-9cad-3be9a578a52b",
+    "condition": "Finger fracture",
+    "title": "Workplace Finger Fracture in an Assembly Line Worker: A Case Study",
+    "clinical_history": "Mr. Ravi Sharma, a 43-year-old right-handed factory assembly line worker, presents with acute pain and swelling of his left ring finger. The injury occurred 3 days ago when his finger was caught between two conveyor components at his workplace. He reports immediate sharp pain, significant swelling, and difficulty moving the affected digit. Since the incident, Mr. Sharma notes persistent tenderness and trouble gripping objects with his left hand, which is now interfering with both work tasks and daily activities such as buttoning his shirt. There is mild bruising along the dorsal aspect of the proximal phalanx, and he reports that touching or bumping the finger exacerbates the pain. No other injuries or systemic symptoms are reported.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "left ring finger proximal phalanx (fracture site)",
+            "score": "7-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "surrounding soft tissue swelling and adjacent digits",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Gripping, attempting to make a fist, typing, accidental pressure on the finger, and cold exposure",
+    "picture": "Image depicting swelling, bruising, and partial malalignment of the left ring finger proximal phalanx",
+    "easing_factors": "Keeping the finger elevated, applying ice intermittently, resting the hand, and using over-the-counter pain medication",
+    "past_history": "No previous fractures or major hand injuries. Occasional mild joint pain from repetitive use, but nothing requiring medical attention.",
+    "medical_history": "Non-contributory. No known comorbidities such as diabetes or osteoporosis. Up-to-date on tetanus immunization.",
+    "medications": "Paracetamol 500 mg every 6 hours as needed for pain",
+    "personal_history": "Non-smoker, social alcohol use, lives with wife and two school-aged children. He is the primary earner for the household and is anxious about time off work due to financial concerns.",
+    "imaging": "AP and lateral radiographs of the left hand confirm a non-displaced transverse fracture of the proximal phalanx of the left ring finger.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is a minor formatting issue: the key 'picture' is in lowercase instead of the required 'Picture'. All other prompt instructions are followed accurately, which is why the score is still high.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, well-structured, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to a workplace finger fracture, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would impact patient safety or clinical accuracy.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/187f0b46-b733-47a7-9cad-3be9a578a52b.png"
+}

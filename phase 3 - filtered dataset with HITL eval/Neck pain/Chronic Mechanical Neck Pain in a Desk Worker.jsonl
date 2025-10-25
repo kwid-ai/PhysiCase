@@ -1,0 +1,71 @@
+{
+    "id": "7cee818e-97c6-4fb0-b559-a1d2e9cc9bc7",
+    "condition": "Neck pain",
+    "title": "Chronic Mechanical Neck Pain in a Desk Worker",
+    "clinical_history": "Mr. Jonathan Lee is a 43-year-old accountant who presents with a 5-month history of insidious onset neck pain. He reports a persistent dull ache in the central and right posterior neck, radiating occasionally to the right upper trapezius and interscapular region. The symptoms started gradually, coinciding with increased work-related desk hours during tax season (12+ hours daily, high computer use). No specific traumatic incident is recalled. He experiences morning stiffness lasting 15-20 minutes and notes his pain worsens toward the end of the workday. There is no associated numbness or tingling in the arms, no headache, vertigo, or visual symptoms. He feels his neck is 'tight' and sometimes 'clicks' on movement. He recently began avoiding recreational tennis due to discomfort on quick head turns.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right posterior cervical (levator scapulae, upper trapezius, cervical paraspinals, facet joints)",
+            "score": "4-6"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Right interscapular area (rhomboids, mid-trapezius)",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Prolonged computer or desk work (>30 minutes without breaks), sustained neck flexion or poor posture, end-of-day fatigue, rapid head turns, overhead reaching, carrying heavy shoulder bags.",
+    "picture": "Morning: mild stiffness and ache, improving with shower and movement. Midday: minimal pain if frequent breaks and postural changes observed. Late afternoon/evening: pain and stiffness intensify, sometimes requiring over-the-counter medication. Night: difficulty finding comfortable sleeping position; intermittent nocturnal waking on painful days.",
+    "easing_factors": "Frequent posture changes, short walks, applying heat pack, gentle neck stretches, using ergonomically adjusted workstation, short rest breaks, self-massage.",
+    "past_history": "No previous significant neck injuries. Reports similar but less severe symptoms two years ago, resolved with physiotherapy and ergonomic adjustments.",
+    "medical_history": "Well-controlled hypertension (diagnosed 4 years ago), no history of inflammatory arthritis or major medical or surgical conditions.",
+    "medications": "Occasionally uses Ibuprofen (200-400mg) in the evening as needed. Takes amlodipine 5mg daily for blood pressure.",
+    "personal_history": "Non-smoker, occasional alcohol use. Married with two children. Sedentary lifestyle, low physical activity. Generally healthy diet. Reports increased job stress during busy periods.",
+    "imaging": "No imaging to date. No red flag symptoms to warrant immediate imaging investigation.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, directly addressing all aspects of the input task with no irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, demonstrating neutrality and fairness throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, pain scores with anatomical context, aggravating and easing factors, relevant past and medical history, medication use, personal history, and imaging status. The content is highly relevant to chronic mechanical neck pain in a desk worker, with clear, comprehensive, and clinically accurate information. There are no factual inaccuracies or omissions that would compromise patient safety.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/7cee818e-97c6-4fb0-b559-a1d2e9cc9bc7.png"
+}

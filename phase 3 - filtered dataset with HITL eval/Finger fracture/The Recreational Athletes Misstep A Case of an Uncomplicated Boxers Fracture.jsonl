@@ -1,0 +1,71 @@
+{
+    "id": "58fe3d03-5d26-4865-8622-5269434aa70a",
+    "condition": "Finger fracture",
+    "title": "The Recreational Athlete's Misstep: A Case of an Uncomplicated Boxer's Fracture",
+    "clinical_history": "Mr. David Chen, a 42-year-old financial analyst, presents to your outpatient clinic with a referral for physical therapy. A fortnight ago, while playing in a recreational flag football league, he tripped and fell awkwardly onto his outstretched right hand, with his fist clenched. He reported an immediate, sharp pain and visible swelling over the ulnar border of his hand. He presented to an urgent care center the same day where radiographs were taken. He was diagnosed with a fracture of the 5th metacarpal, placed in an ulnar gutter splint, and instructed to remain non-weight-bearing through the hand. He now presents for therapy to address pain, swelling, and progressive loss of motion, expressing concern about his ability to return to work tasks which involve significant typing and writing.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right 5th Metacarpal and Metacarpophalangeal (MCP) Joint. Described as a constant, deep ache with intermittent sharp pain on movement.",
+            "score": "3-4/10 at rest, 6-7/10 with accidental bumps or attempted gripping."
+        },
+        {
+            "context": "P2",
+            "affected_area": "General stiffness and ache in the 4th and 5th digits (ring and little fingers) and ulnar side of the wrist.",
+            "score": "2-3/10"
+        }
+    ],
+    "aggrevating_factors": "Attempting to make a fist, gripping objects (e.g., coffee mug, steering wheel), writing or typing for more than a few minutes, pushing up from a chair, any direct pressure or percussion over the fracture site.",
+    "picture": "Pain (P1) is localized over the dorsal aspect of the right hand, specifically at the head and neck of the 5th metacarpal bone (the 'knuckle' of the little finger). Swelling is evident in this area. Stiffness and secondary ache (P2) is felt throughout the 4th and 5th fingers and the ulnar aspect of the wrist.",
+    "easing_factors": "Rest, elevation of the hand above the heart, wearing the protective splint, and intermittent use of cold packs.",
+    "past_history": "Generally unremarkable. He sustained a Grade I inversion sprain to his left ankle approximately 5 years ago which resolved fully with rest and a home exercise program.",
+    "medical_history": "Patient is in good health. No known chronic illnesses or significant medical conditions. Reports a seasonal allergy for which he takes over-the-counter medication.",
+    "medications": "Ibuprofen 400mg, one tablet every 6-8 hours as needed for pain. Loratadine 10mg daily for seasonal allergies.",
+    "personal_history": "Mr. Chen is right-hand dominant. He works full-time as a financial analyst, a desk job that requires extensive computer use. He is married with one child. He is an active individual who enjoys flag football and cycling. He is motivated to regain full function to return to his job without limitation and resume his sporting activities.",
+    "imaging": "Plain film radiographs (X-rays) of the right hand performed 14 days prior confirmed an uncomplicated, closed, non-displaced fracture of the neck of the fifth metacarpal.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, well-structured, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to an uncomplicated boxer's fracture, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would impact patient safety or clinical accuracy.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/58fe3d03-5d26-4865-8622-5269434aa70a.png"
+}

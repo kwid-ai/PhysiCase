@@ -1,0 +1,71 @@
+{
+    "id": "e4f65280-cfec-4132-bce9-17284fda5dee",
+    "condition": "Osteoporosis",
+    "title": "Case Study: Osteoporotic Vertebral Compression Fracture in an Elderly Female",
+    "clinical_history": "Mrs. Judith Evans is a 72-year-old retired librarian who presented with a three-week history of worsening lower thoracic and lumbar back pain, following an episode of bending forward to lift a light box of books. She reports a dull, persistent ache across her lower back, with occasional sharp pain when changing positions. She denies any history of trauma or significant falls. Upon further questioning, Judith mentions that she has lost approximately 2 cm in height over the past year and occasionally notices that her posture is becoming stooped. There is no history of fever, weight loss, or neurological symptoms. Judith struggles to stand for long periods or walk more than 10-15 minutes due to pain, but is most uncomfortable when rising from a seated position or attempting light housework. She lives alone and relies on her daughter for more strenuous chores. Judith\u00e2\u20ac\u2122s physical examination reveals local tenderness over the lower thoracic and upper lumbar vertebrae, with visible kyphosis. No neurological deficits are elicited.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lower thoracic and lumbar spine; paraspinal muscles",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "secondary aching in the upper gluteal region and buttocks after prolonged standing",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Standing for longer than 10 minutes, bending forward at the waist, lifting light objects, rising from sitting, prolonged walking or carrying groceries.",
+    "picture": "[Suggest image depicting localized tenderness over the T12-L2 vertebrae with mild thoracic kyphosis]",
+    "easing_factors": "Resting in a reclined position, applying a heating pad to the lower back, using a firm back support cushion when sitting, paracetamol.",
+    "past_history": "Diagnosed with early menopause at age 48; previous history of colles\u00e2\u20ac\u2122 fracture of wrist at age 66. No significant trauma.",
+    "medical_history": "Mild hypertension, well-controlled with medication; no diabetes or cardiac disease.",
+    "medications": "Calcium and vitamin D supplements (started 6 months ago); Lisinopril 10 mg daily for hypertension; Paracetamol 500 mg two to three times per day for pain.",
+    "personal_history": "Widow; has two adult children. Never smoked; drinks wine socially. Low dietary calcium intake historically. Occasional walker but otherwise sedentary since retirement.",
+    "imaging": "Lateral spinal x-ray: reveals anterior wedge compression fracture at L1 with surrounding osteopenia; no retropulsion or spinal canal compromise.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, addresses all aspects of the input task, and contains no irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout. Well done on maintaining objectivity.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to osteoporotic vertebral compression fracture, with accurate clinical presentation, risk factors, and imaging results. The response is clear, comprehensive, and clinically accurate, prioritizing patient safety and reflecting best practices.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/e4f65280-cfec-4132-bce9-17284fda5dee.png"
+}

@@ -1,0 +1,71 @@
+{
+    "id": "b34bdf0d-28e9-4019-8910-47e939b5091d",
+    "condition": "Runner Achilles Tendon",
+    "title": "Achilles Tendinopathy in a Competitive Recreational Runner",
+    "clinical_history": "David is a 38-year-old male, consistently running 40-50 km per week for the past 10 years. Over the last month, he has noted gradually worsening pain and stiffness at the back of his right ankle, most pronounced on rising in the morning and after intervals or hill sprints. He recalls no specific injury but does mention recently increasing his weekly mileage and incorporating more speed work. The pain is centered over the mid-portion of the Achilles tendon, with mild swelling and tenderness noted. He reports difficulty with pushing off during runs and discomfort when descending stairs. There is no history of systemic symptoms, trauma, or past similar issues in this area.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Right mid-portion Achilles tendon (primary complaint)",
+            "score": "4-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Right gastrocnemius/soleus complex tightness (secondary)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Running (especially speed and hill work), prolonged walking, first steps in the morning, and descending stairs.",
+    "picture": "[Image: Lateral view of right ankle highlighting the Achilles tendon]",
+    "easing_factors": "Rest, ice, gentle calf stretching, and avoiding provocative activities. Symptom relief is noted with heel lifts in shoes.",
+    "past_history": "History of left iliotibial band syndrome 5 years ago, resolved with conservative management. No prior Achilles or calf injuries.",
+    "medical_history": "No chronic medical conditions. No history of diabetes or inflammatory arthritis.",
+    "medications": "Occasional ibuprofen 400mg post-run for pain management, 1-2 times per week.",
+    "personal_history": "Software engineer, married, 2 young children. Non-smoker, moderate alcohol intake on weekends. Training for an upcoming half-marathon. Reports higher work-related stress in the past month, correlating with changes in running routine and symptoms.",
+    "imaging": "No imaging performed to date; clinical diagnosis based on presentation and physical examination.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions perfectly with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores with context, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to Achilles tendinopathy, with accurate clinical features and appropriate safety considerations. The response is clear, comprehensive, and clinically accurate, with no missing or incorrect details.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/b34bdf0d-28e9-4019-8910-47e939b5091d.png"
+}

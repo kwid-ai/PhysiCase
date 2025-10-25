@@ -1,0 +1,71 @@
+{
+    "id": "32cf8a28-1f20-4c9e-9f5d-214470c411a0",
+    "condition": "Hip Osteoarthritis",
+    "title": "Mr. James Walker: Chronic Hip Osteoarthritis Affecting Functional Mobility",
+    "clinical_history": "Mr. James Walker is a 68-year-old retired bus driver who presents with a four-year history of gradually worsening right hip pain. The discomfort began as a mild soreness in the groin region, particularly after long walks or prolonged sitting, but has recently progressed to a persistent ache that occasionally radiates to the lateral aspect of the hip and upper thigh. He reports significant morning stiffness lasting 30-45 minutes, difficulty rising from low chairs, and increased pain when navigating stairs or getting out of his car. Walking for more than 15-20 minutes triggers increased pain and a limp, while rest temporarily alleviates the symptoms. He occasionally experiences clicking and catches in the hip joint but denies sensations of instability. Functionally, he has curtailed his daily walks, avoids gardening tasks, and has trouble putting on socks and shoes due to limited hip flexion. This has led to decreased social involvement and mild mood changes.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right deep groin and anterior hip, constant aching",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right lateral hip, intermittent aching/burning",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "Prolonged walking (>15-20 mins), standing >20 mins, rising from a chair, climbing stairs, squatting, and getting in/out of vehicles. Pain is also aggravated by cold, damp weather.",
+    "picture": "[diagram showing pain distribution over the right groin, anterior hip, and lateral hip]",
+    "easing_factors": "Sitting or lying down with a pillow under the knees, use of a heating pad over the hip, taking paracetamol, and slow, gentle movements. Gentle short walks and stretching sometimes provide mild relief.",
+    "past_history": "Reported a right hip injury in his early forties after a fall at work, which resolved without intervention. No prior surgery to the hip.",
+    "medical_history": "Hypertension controlled with amlodipine, mild hypercholesterolemia, BMI of 31 indicating obesity. No history of inflammatory arthritis or diabetes.",
+    "medications": "Paracetamol 1g as needed (usually 2-3 times per week), ibuprofen 400mg occasionally for breakthrough pain, amlodipine 5mg daily for blood pressure.",
+    "personal_history": "Married, living with his wife in a bungalow. Former heavy smoker (quit 20 years ago), social alcohol use. Previously very active in a local walking group and enjoys gardening and woodworking but has limited both due to hip pain. Reports feeling somewhat isolated since mobility has declined. No family history of rheumatological disease.",
+    "imaging": "Recent pelvic X-ray demonstrates moderate joint space narrowing, subchondral sclerosis, and osteophyte formation in the right hip, consistent with moderate osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent work! The output follows all prompt instructions with no unalignments. Keep it up!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias and provides a balanced and objective response.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to chronic hip osteoarthritis, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would impact patient safety or clinical accuracy.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/32cf8a28-1f20-4c9e-9f5d-214470c411a0.png"
+}

@@ -1,0 +1,71 @@
+{
+    "id": "1b9e7d59-eac0-48d0-855f-b092228243b9",
+    "condition": "Hip Osteoarthritis",
+    "title": "A 62-year-old male with symptomatic hip osteoarthritis",
+    "clinical_history": "A 62-year-old male, Mr. Thompson, presents with a 6-month history of progressive right hip pain. He reports that the pain started insidiously, with no specific incident or trauma. Initially, he experienced stiffness and mild pain in the hip and groin area, which has gradually worsened over time. He describes the pain as being worse in the morning and after prolonged periods of inactivity. The pain is now affecting his daily activities, including walking and climbing stairs.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right hip and groin",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "right lateral thigh",
+            "score": "4-5"
+        }
+    ],
+    "aggrevating_factors": "prolonged walking (>30 minutes), climbing stairs, standing for long periods, and activities that involve hip flexion, such as putting on socks",
+    "picture": "The patient reports a 24-hour pain pattern, with pain increasing throughout the day, peaking in the late afternoon, and easing slightly with rest.",
+    "easing_factors": "rest, heat application, and over-the-counter pain medications like acetaminophen",
+    "past_history": "history of a left knee meniscal tear, treated conservatively 10 years ago. He has also had episodes of lower back pain, which have been managed with physical therapy.",
+    "medical_history": "hypertension, controlled with medication. He has a family history of osteoarthritis.",
+    "medications": "acetaminophen as needed for pain, lisinopril for hypertension",
+    "personal_history": "married, with two adult children. He works as an accountant but has had to reduce his work hours due to his symptoms. He enjoys golfing but has had to stop due to his hip pain.",
+    "imaging": "X-rays of the right hip show joint space narrowing, osteophytes, and subchondral sclerosis, consistent with hip osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the output is very well aligned with the prompt, only missing strict adherence to the required JSON key casing. The content and structure are otherwise complete and thorough, but the minor formatting issue prevents a perfect score.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias and maintains a neutral and objective tone throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a respectful and appropriate response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores with context and affected areas, aggravating and easing factors, relevant past and medical history, medications, personal history, and imaging findings. The content is highly relevant to symptomatic hip osteoarthritis, is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/1b9e7d59-eac0-48d0-855f-b092228243b9.png"
+}

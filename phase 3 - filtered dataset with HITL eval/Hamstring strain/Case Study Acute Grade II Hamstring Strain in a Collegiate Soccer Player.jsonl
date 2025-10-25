@@ -1,0 +1,71 @@
+{
+    "id": "8893c1b8-25f8-457b-965d-0f013db2b097",
+    "condition": "Hamstring strain",
+    "title": "Case Study: Acute Grade II Hamstring Strain in a Collegiate Soccer Player",
+    "clinical_history": "Michael is a 20-year-old male collegiate soccer player (midfielder) who presents with acute onset of left posterior thigh pain. The injury occurred 2 days ago during a competitive match. He was accelerating into a full sprint to chase a loose ball when he felt a sudden, sharp 'popping' sensation in the back of his left thigh. The pain was immediate and severe, causing him to pull up and fall to the ground. He was unable to continue playing and was assisted off the field by the athletic trainer. He reports immediate difficulty with weight-bearing and a significant limp. Over the next 24 hours, he noted progressive swelling and the development of ecchymosis (bruising) extending down the back of his thigh towards the knee. His primary complaint (P1) is a sharp, localized pain in the mid-belly of his left hamstring, with a secondary ache (P2) in his left gluteal region from altered gait mechanics.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Sharp, localized pain in the posterior mid-thigh (belly of the biceps femoris)",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Dull ache in the left gluteal region",
+            "score": "2-3"
+        }
+    ],
+    "aggrevating_factors": "Walking for more than 5-10 minutes, ascending/descending stairs, attempting to jog or run, active knee flexion against resistance, passive knee extension (straightening the leg), forward bending (touching toes), prolonged sitting (especially in a low chair), and pressing the gas/clutch pedal while driving.",
+    "picture": "[insert image of a person highlighting the posterior thigh, specifically the biceps femoris, semitendinosus, and semimembranosus muscles, with bruising indicated]",
+    "easing_factors": "Rest with the leg elevated, application of ice pack (20 minutes every 2 hours), gentle compression with a thigh sleeve, and using crutches to offload the leg.",
+    "past_history": "History of a minor Grade I left hamstring strain approximately 18 months ago, during the previous season. He received brief treatment from the team's athletic trainer but admits he did not complete the full strengthening protocol as the season ended and the pain resolved with rest.",
+    "medical_history": "Generally fit and well. No other musculoskeletal injuries. No known allergies. All immunizations are up to date.",
+    "medications": "Taking Ibuprofen 400mg, 3 times per day for the past 2 days.",
+    "personal_history": "Full-time student on a soccer scholarship, studying Kinesiology. Lives in a dormitory on campus. He is highly motivated to return to play as soon as possible due to an upcoming championship tournament. He denies smoking but reports occasional social alcohol use with teammates.",
+    "imaging": "None to date. Clinical diagnosis is a Grade II hamstring strain. An MRI would be considered if there is suspicion of a full-thickness tear (Grade III) or avulsion fracture, or if progress stalls.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the key, which is a minor formatting issue. All other prompt instructions are followed well, so the score is high.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content; it is entirely appropriate.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging considerations. The content is highly relevant to an acute Grade II hamstring strain, with clear, comprehensive, and clinically accurate information. Patient safety and clinical accuracy are maintained throughout, with no factual errors or omissions.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/8893c1b8-25f8-457b-965d-0f013db2b097.png"
+}

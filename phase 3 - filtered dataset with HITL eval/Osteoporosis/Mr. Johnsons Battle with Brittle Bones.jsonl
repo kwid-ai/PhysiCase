@@ -1,0 +1,102 @@
+{
+    "id": "chatcmpl-By76p5JiGiGVe3LXJEFexTgU7aaHC",
+    "condition": "Osteoporosis",
+    "title": "Mr. Johnson's Battle with Brittle Bones",
+    "clinical_history": "Mr. Richard Johnson, 72, is a retired carpenter who arrived at the clinic following a low-impact fall in his garden. He reports widespread bone pain, especially in the lumbar spine and hips, making daily activities challenging. A recent DXA scan confirmed he has osteoporosis. He recalls having lost 1.5 inches in height over the past few years and has a history of backaches that he attributed to 'old age' and his prior occupation. There is also a newly present kyphosis, giving him a slightly hunched back, more noticeable in the past year.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lumbar spine chronic pain",
+            "score": "5-7"
+        },
+        {
+            "context": "P2",
+            "affected_area": "hip aching pain",
+            "score": "4-6"
+        }
+    ],
+    "aggrevating_factors": "Engaging in gardening activities, lifting objects (even light ones can trigger a sharp increase in pain), prolonged standing and certain twisting motions.",
+    "picture": "[insert image highlighting the spine and hip areas]",
+    "easing_factors": "Sitting down or lying flat on his back, use of assistive devices like a walker helps reduce pain during movement.",
+    "past_history": "No major illnesses or conditions reported in the past. Worked as a carpenter for 40 years. Played recreational squash until the age of 55.",
+    "medical_history": "Hypertension controlled with medication, occasional heartburn. Family history reveals his mother also dealt with osteoporosis.",
+    "medications": "Currently on alendronate (Fosamax) once weekly for osteoporosis, calcium and vitamin D supplements daily, amlodipine for blood pressure.",
+    "personal_history": "Widower, living alone. His two children live out of town. Enjoys reading, bird-watching and tending to his garden in his spare time.",
+    "imaging": "Recently conducted DXA scan showed significant reduction in bone mineral density, aligning with a T-score of -2.6 in the lumbar spine.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 453,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1051,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0
+            },
+            "total_tokens": 1504
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9090909090909091,
+            "reason": "The score is 0.91 because the output is very thorough and follows all content instructions, but it does not strictly adhere to the required JSON field names and capitalization ('nprs' instead of 'NPRS', 'picture' instead of 'Picture'). This minor formatting issue prevents a perfect score, but overall, the alignment is strong.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content; it is entirely appropriate.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to osteoporosis, accurately describing symptoms, risk factors, and management. The response is clear, comprehensive, and clinically accurate, with no significant omissions or errors that could impact patient safety.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/chatcmpl-By76p5JiGiGVe3LXJEFexTgU7aaHC.png"
+}

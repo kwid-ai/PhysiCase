@@ -1,0 +1,71 @@
+{
+    "id": "2bb3ee1c-aedb-4695-8e15-3278cb2cdf8a",
+    "condition": "Heel Pain",
+    "title": "A Case Study in Plantar Heel Pain: The Recreational Runner's Dilemma",
+    "clinical_history": "Mr. Graham Bennett, a 48-year-old software engineer, presents to the clinic with a chief complaint of insidious onset right heel pain, which began approximately 6 weeks ago. He reports no specific trauma or incident that initiated the symptoms. The pain is localized to the plantar-medial aspect of his right heel and is most pronounced with the first few steps in the morning, describing it as a sharp, 'stone bruise' sensation. After about 10-15 minutes of walking, the pain subsides to a dull ache. Mr. Bennett recently started a new fitness regimen_ a 'couch to 5k' running program_ to improve his health and has been running 3-4 times per week on pavement. He notices the pain is significantly exacerbated during and after his runs. His work is primarily sedentary, but he experiences a marked increase in pain when rising from his desk after prolonged periods of sitting. He has attempted to manage the symptoms with over-the-counter pain relievers and by purchasing new, 'more cushioned' running shoes, with minimal relief.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "Plantar Fascia (plantar medial calcaneal tubercle)",
+            "score": "3-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "Gastrocnemius & Soleus Complex (calf tightness/aching)",
+            "score": "2-4"
+        }
+    ],
+    "aggrevating_factors": "First steps out of bed in the morning. Rising after prolonged sitting (e.g., office work, driving). Walking barefoot on hard surfaces. Running, particularly at the beginning and end of a session. Prolonged standing (>30 minutes).",
+    "picture": "[Clinical diagram indicating the origin of the Plantar Fascia at the medial calcaneal tubercle, with secondary radiation along the fascia and into the Achilles/calf region]",
+    "easing_factors": "Short periods of rest (pain returns on resuming activity). Gentle calf and foot stretching (provides temporary relief). Wearing supportive sneakers with good arch support. Application of ice to the heel after activity.",
+    "past_history": "No prior history of significant foot or ankle pathology. Reports a minor left ankle sprain approximately 10 years ago, which resolved fully with no residual deficits.",
+    "medical_history": "Generally in good health. Diagnosed with mild hypercholesterolemia 2 years ago, which is managed with diet and exercise. No history of inflammatory arthritis, diabetes, or neurological conditions.",
+    "medications": "Ibuprofen 400mg, as needed (prn) for pain, taking it 3-4 times per week.",
+    "personal_history": "Mr. Bennett is a married father of two high-school-aged children. He works long hours at a desk, often sitting for 2-3 hours at a time. His recent motivation to run stems from a desire to lose approximately 20 pounds and improve cardiovascular health. His typical work footwear consists of leather dress shoes with minimal support, and he often walks barefoot around his home.",
+    "imaging": "None to date. Diagnosis is based on clinical presentation and examination.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "vertexai_gemini-2.5-pro"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' (lowercase) instead of 'NPRS' (uppercase) in the output. All other prompt instructions are followed well, which keeps the score high.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to plantar heel pain, with clear, comprehensive, and clinically accurate information. The response demonstrates attention to patient safety and clinical accuracy, with no factual errors or omissions.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/2bb3ee1c-aedb-4695-8e15-3278cb2cdf8a.png"
+}

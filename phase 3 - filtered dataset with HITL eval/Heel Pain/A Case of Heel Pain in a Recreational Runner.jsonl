@@ -1,0 +1,66 @@
+{
+    "id": "3f320f14-d270-420d-89c1-aa9ae7ec45b8",
+    "condition": "Heel Pain",
+    "title": "A Case of Heel Pain in a Recreational Runner",
+    "clinical_history": "A 38-year-old male, who is an avid recreational runner, presented with a complaint of heel pain that started 6 weeks ago. The pain is localized to the inferior aspect of his heel and has been getting worse over time. He reports that the pain is most noticeable during the first few steps in the morning and after prolonged periods of rest. He also experiences pain during and after running, which has forced him to reduce his running frequency and distance.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "heel pain, specifically on the inferior aspect",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "prolonged standing, walking, and running; worse in the morning and after rest",
+    "picture": "The patient reports a 24-hour picture of pain that is typically worse in the morning (7/10) and improves slightly throughout the day, but increases again after prolonged activity (6/10).",
+    "easing_factors": "rest, ice, and stretching; reports some relief with orthotics",
+    "past_history": "history of plantar fasciitis 2 years ago, which resolved with physical therapy and orthotics",
+    "medical_history": "generally healthy, but has gained 10 pounds over the last year",
+    "medications": "ibuprofen as needed for pain",
+    "personal_history": "married with two young children, works as an accountant in a small firm",
+    "imaging": "X-rays of the heel showed a small heel spur, but no other abnormalities",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the output contains all the required information and follows the structure closely, but the field names do not exactly match the specified output format (e.g., 'nprs' instead of 'NPRS', 'picture' instead of 'Picture'). This minor misalignment prevents a perfect score, but the content and structure are otherwise well-aligned with the prompt.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, comprehensive, and directly addresses all aspects of the input task without any irrelevant statements. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the output format, including detailed clinical history, pain scores, aggravating and easing factors, past and medical history, medications, personal history, and imaging findings. The content is highly relevant to the likely diagnosis of plantar fasciitis, with accurate and clear descriptions of symptoms, pain patterns, and relevant history. The response is comprehensive, clinically accurate, and prioritizes patient safety by mentioning appropriate management strategies and relevant imaging. No significant details are missing.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/3f320f14-d270-420d-89c1-aa9ae7ec45b8.png"
+}

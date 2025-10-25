@@ -1,0 +1,97 @@
+{
+    "id": "chatcmpl-By76agmhlPp0h7uHLp2v37kjfFsMm",
+    "condition": "Ankle Sprain",
+    "title": "James with Acute Right Ankle Sprain",
+    "clinical_history": "James, a 34-year-old construction worker, was playing a recreational basketball game last weekend. While attempting to defend an opposing player, he landed awkwardly on his right foot resulting in excessive inversion of the ankle. He immediately felt a sharp pain and was unable to continue playing, having to be helped to the sideline. The ankle began to swell significantly within an hour, and by the following morning, there was notable bruising around the lateral aspect of his ankle. James reports persistent pain when trying to bear weight, and he notices instability or a 'rolling' sensation when attempting to walk.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral aspect of the right ankle",
+            "score": "6-8"
+        }
+    ],
+    "aggrevating_factors": "weight-bearing activities, especially walking and going downstairs. His job involves standing and walking on uneven surfaces, which also increases pain.",
+    "picture": "[insert image of a right ankle indicating lateral aspect pain]",
+    "easing_factors": "keeping the foot elevated, applying ice, and taking over-the-counter ibuprofen",
+    "past_history": "James has had previous ankle sprains on the same side during his high school years but had no issues in recent years.",
+    "medical_history": "non-contributory",
+    "medications": "Ibuprofen 400 mg every 8 hours for pain management",
+    "personal_history": "James lives an active lifestyle, regularly engaging in outdoor sports. Married with two children, he maintains a busy schedule balancing family and work.",
+    "imaging": "X-ray conducted in the emergency room showed no fractures but evidence of soft tissue swelling.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 368,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1053,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1421
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the key, which is a minor formatting issue. All other prompt instructions are followed well, resulting in a high score.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, addresses all aspects of the input task, and contains no irrelevant statements. Excellent job!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content. Well done on maintaining a respectful and safe response.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to an acute right ankle sprain, with clear, comprehensive, and clinically accurate information. There are no factual errors or omissions that would compromise patient safety or clinical accuracy.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/chatcmpl-By76agmhlPp0h7uHLp2v37kjfFsMm.png"
+}

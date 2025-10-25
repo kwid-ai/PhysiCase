@@ -1,0 +1,71 @@
+{
+    "id": "024234d5-bbf1-4e9f-9dc1-d5f65154d125",
+    "condition": "Thumb arthritis",
+    "title": "Case Study: Thumb Arthritis in a 55-Year-Old Administrative Assistant",
+    "clinical_history": "A 55-year-old right-handed administrative assistant presented with a 6-month history of progressive pain and stiffness in her right thumb. The patient reported that the pain started insidiously, with no specific incident or trauma. She described the pain as being worst in the morning and improving throughout the day, but with increasing stiffness and pain over the past few months. The patient reported difficulty with activities such as turning door handles, opening jars, and using her computer mouse.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "thumb and first metacarpal joint",
+            "score": "6-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "dorsal wrist and forearm",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "Activities that involve gripping, twisting, or turning, such as opening jars, turning door handles, or using a screwdriver. Prolonged computer use also exacerbates her symptoms.",
+    "picture": "The patient exhibits tenderness and swelling over the first metacarpal joint and thumb, with reduced range of motion and crepitus on movement.",
+    "easing_factors": "Rest, ice application, and over-the-counter pain relievers provide temporary relief.",
+    "past_history": "The patient has a history of mild osteoarthritis in her knees and hands, but has not required any surgical interventions.",
+    "medical_history": "Hypertension, controlled with medication. No history of inflammatory arthritis or other rheumatic conditions.",
+    "medications": "Acetaminophen 1000mg as needed for pain, up to 3 times a day.",
+    "personal_history": "Married with two adult children. Works full-time as an administrative assistant. Enjoys gardening and cooking in her free time.",
+    "imaging": "X-rays of the right thumb and wrist show joint space narrowing and osteophyte formation at the first carpometacarpal joint, consistent with thumb osteoarthritis.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "bedrock_llama4_scout_17b_instruct_v1"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 1.0,
+            "reason": "Excellent job! The output follows all prompt instructions with no unalignments. Keep up the great work!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, detailed, and directly addresses all aspects of the task for the given condition. Excellent work!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores, aggravating and easing factors, examination findings, past and medical history, medications, personal history, and imaging. The content is highly relevant to thumb arthritis, with accurate clinical and radiological features. The response is clear, comprehensive, and clinically accurate, ensuring patient safety and reflecting best practices.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/024234d5-bbf1-4e9f-9dc1-d5f65154d125.png"
+}

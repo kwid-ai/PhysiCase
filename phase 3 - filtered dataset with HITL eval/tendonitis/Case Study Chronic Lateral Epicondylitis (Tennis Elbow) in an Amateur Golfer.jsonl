@@ -1,0 +1,66 @@
+{
+    "id": "3dc40c58-1731-4a40-b673-ee24894d004d",
+    "condition": "tendonitis",
+    "title": "Case Study: Chronic Lateral Epicondylitis (Tennis Elbow) in an Amateur Golfer",
+    "clinical_history": "Mr. Thomas Jenkins is a 42-year-old right-handed investment banker and recreational golfer presenting with a 6-week history of progressive pain and tenderness localized over the lateral aspect of his right elbow. The onset was insidious, noticed initially after a weekend tournament where he played 27 holes on consecutive days. Since then, he reports persistent aching and occasional sharp pain, particularly with gripping his golf club, shaking hands, or lifting objects such as a coffee mug. He denies any preceding trauma, swelling, or numbness. Mr. Jenkins continues to play golf weekly, trying to 'play through the pain', but notes increasing difficulty and decreased performance due to discomfort.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "lateral right elbow (common extensor tendon at lateral epicondyle)",
+            "score": "5-7"
+        }
+    ],
+    "aggrevating_factors": "Gripping or lifting activities (e.g., golf swing, carrying a heavy briefcase, turning a doorknob), resisted wrist extension, and direct palpation over the lateral epicondyle.",
+    "picture": "[Image: Person pointing to the lateral aspect of the right elbow]",
+    "easing_factors": "Rest from aggravating activities, application of ice, over-the-counter NSAIDs (ibuprofen), and use of a counterforce brace.",
+    "past_history": "No previous history of elbow or upper limb injuries. Generally healthy with no prior musculoskeletal issues.",
+    "medical_history": "Mild seasonal allergic rhinitis. Non-contributory.",
+    "medications": "Ibuprofen 400 mg as needed for elbow pain (no more than 2 times daily).",
+    "personal_history": "Non-smoker, occasional alcohol use (1-2 drinks/week), exercises regularly (golf, light gym work). Lives with spouse and two teenage children. High work stress due to professional responsibilities but finds golf relaxing.",
+    "imaging": "No imaging performed to date. Clinical diagnosis based on history and examination.",
+    "metadata": {
+        "usage": null,
+        "content_filter_result": null,
+        "finish_reason": null,
+        "model": "openai_gpt-41"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the content fully addresses all prompt requirements, but the field names 'nprs' and 'picture' do not match the exact capitalization specified in the required JSON structure. This minor formatting issue prevents a perfect score, but overall alignment is strong!",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 0.9487179487179487,
+            "reason": "The score is 0.95 because the output is highly relevant and follows the requested structure, but it includes details specific to chronic lateral epicondylitis (tennis elbow) rather than general tendonitis, and some statements focus on diagnosis rather than the case study elements requested. These minor deviations prevent a perfect score, but overall the response is thorough and well-aligned with the task.",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields, including detailed clinical history, NPRS with context and affected area, aggravating and easing factors, past and medical history, medications, personal history, and imaging. The content is highly relevant to chronic lateral epicondylitis, with accurate clinical presentation, risk factors, and management details. The response is clear, comprehensive, and clinically accurate, with no factual errors or omissions that would impact patient safety.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/3dc40c58-1731-4a40-b673-ee24894d004d.png"
+}

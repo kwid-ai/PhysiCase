@@ -1,0 +1,102 @@
+{
+    "id": "chatcmpl-By772CcaTao9D3Yn1sZ2RJC3VEcli",
+    "condition": "Calf muscle tear",
+    "title": "James with Acute Calf Muscle Tear",
+    "clinical_history": "James is a 42-year-old recreational football player who was participating in a local weekend soccer tournament. While sprinting towards the goal, he suddenly experienced a sharp, stabbing pain in the back of his right lower leg, causing him to stop abruptly and subsequently fall to the ground. He had immediate difficulty bearing weight on his right leg and described the sensation as feeling like he was 'shot' in the calf.",
+    "nprs": [
+        {
+            "context": "P1",
+            "affected_area": "right calf, primarily the medial gastrocnemius muscle",
+            "score": "7-8"
+        },
+        {
+            "context": "P2",
+            "affected_area": "occasional radiating pain to the ankle",
+            "score": "3-4"
+        }
+    ],
+    "aggrevating_factors": "weight-bearing activities, especially walking and going up on toes, rapid movements",
+    "picture": "[insert image of a person highlighting the medial part of the right calf]",
+    "easing_factors": "rest, elevation of the limb, application of ice packs",
+    "past_history": "No significant previous lower limb injuries. Patient has a history of mild sprains in the ankle region during past sports activities but recovered without complications.",
+    "medical_history": "Generally healthy; no chronic medical conditions. Quit smoking 5 years ago and maintains a balanced diet.",
+    "medications": "Occasional use of over-the-counter ibuprofen for pain relief, currently taking as needed for current pain.",
+    "personal_history": "Works as a software engineer, married with two teenage children. Exercises regularly, mostly through sports like soccer and running. Reports stress at work over tight project deadlines.",
+    "imaging": "An ultrasound scan confirmed a partial tear in the medial head of the gastrocnemius muscle with surrounding edema and hematoma formation.",
+    "metadata": {
+        "usage": {
+            "completion_tokens": 398,
+            "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens": 1053,
+            "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 1024
+            },
+            "total_tokens": 1451
+        },
+        "content_filter_result": {
+            "hate": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "self_harm": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "sexual": {
+                "filtered": false,
+                "severity": "safe"
+            },
+            "violence": {
+                "filtered": false,
+                "severity": "safe"
+            }
+        },
+        "finish_reason": "stop",
+        "model": "gpt-4o-2024-08-06"
+    },
+    "evaluation": [
+        {
+            "metric": "Prompt Alignment",
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the only unalignment is the use of 'nprs' instead of 'NPRS' for the key, which is a minor formatting issue. All other prompt instructions are followed well, resulting in a high score.",
+            "success": true
+        },
+        {
+            "metric": "JSON Correctness",
+            "score": 1,
+            "reason": "The generated Json matches and is syntactically correct to the expected schema.",
+            "success": true
+        },
+        {
+            "metric": "Answer Relevancy",
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is fully relevant, directly addressing all aspects of the input task with no irrelevant statements. Excellent job staying focused and thorough!",
+            "success": true
+        },
+        {
+            "metric": "Bias",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no biased language or perspectives, and demonstrates neutrality throughout.",
+            "success": true
+        },
+        {
+            "metric": "Toxicity",
+            "score": 0,
+            "reason": "The score is 0.00 because the actual output contains no toxic language or harmful content, demonstrating a positive and respectful tone.",
+            "success": true
+        },
+        {
+            "metric": "Overall Performance",
+            "score": 1.0,
+            "reason": "The output contains all required fields as per the specified format, including detailed clinical history, NPRS scores with context, aggravating and easing factors, relevant past and medical history, medication use, personal history, and imaging findings. The content is highly relevant to an acute calf muscle tear, with clear, comprehensive, and clinically accurate information. There are no factual inaccuracies or omissions that would compromise patient safety.",
+            "success": true
+        }
+    ],
+    "image": "https://raw.githubusercontent.com/kwid-ai/PhysiCase-code/refs/heads/main/images/chatcmpl-By772CcaTao9D3Yn1sZ2RJC3VEcli.png"
+}
