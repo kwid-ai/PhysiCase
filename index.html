@@ -121,7 +121,7 @@
   .main {
     padding: 0.38in 0.55in;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 0.32in;
     align-items: start;
   }
@@ -536,6 +536,73 @@
   .mp-bar-bg { flex: 1; height: 0.12in; background: #e0e8ec; border-radius: 3px; overflow: hidden; }
   .mp-bar-fill { height: 100%; border-radius: 3px; }
   .mp-bar-val { font-size: 10.5pt; font-weight: 700; color: #1a3a4f; width: 0.22in; text-align: right; flex-shrink: 0; }
+
+  /* ===================================================================
+     RESPONSIVE WEB LAYOUT (screen only — print/poster output unchanged)
+     The poster is authored at a fixed 44in x 23in. On screen we drop the
+     fixed dimensions, center the content in a fluid max-width column, and
+     collapse the 3-column grid down to 2 then 1 at narrower widths.
+     =================================================================== */
+  @media screen {
+    html {
+      background: #e8e2d8;
+    }
+    body {
+      width: 100%;
+      height: auto;
+      min-height: 100vh;
+      max-width: 1500px;
+      margin: 0 auto;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.08);
+    }
+    .subtitle { max-width: none; }
+    img, svg { max-width: 100%; }
+  }
+
+  /* Large tablet / small desktop: 3 columns -> 2 */
+  @media screen and (max-width: 1200px) {
+    .main {
+      grid-template-columns: 1fr 1fr;
+      gap: 0.28in;
+    }
+  }
+
+  /* Phones / narrow: single column, fluid spacing, scaled hero type */
+  @media screen and (max-width: 820px) {
+    .header {
+      grid-template-columns: 1fr;
+      padding: 7vw 5vw 6vw;
+      gap: 4vw;
+    }
+    .main {
+      grid-template-columns: 1fr;
+      padding: 5vw 5vw 6vw;
+      gap: 5vw;
+    }
+    .title { font-size: clamp(28px, 7vw, 53.5pt); }
+    .subtitle { font-size: clamp(15px, 3.6vw, 20.5pt); }
+    .study-label { font-size: clamp(12px, 3vw, 19.5pt); }
+    .authors { font-size: clamp(13px, 3vw, 16.5pt); }
+
+    /* Pipeline steps were a horizontal row of arrow-connected cards;
+       stack them vertically and drop the side arrows on narrow screens. */
+    .pipeline-steps { flex-direction: column; }
+    .pipe-step { margin-left: 0 !important; }
+    .pipe-arrow { display: none; }
+
+    /* Footer was a single wide flex row of sections + dividers. */
+    .footer {
+      flex-wrap: wrap;
+      padding: 6vw 5vw;
+      gap: 4vw 0.4in;
+    }
+    .footer-divider { display: none; }
+  }
+
+  /* Very small screens: ease grids that assume two columns of cards. */
+  @media screen and (max-width: 480px) {
+    .stat-grid { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
@@ -668,11 +735,6 @@
       <div style="font-size: 12pt; color:#6a8a98; margin-top:0.1in; font-style:italic;">Prompt alignment was the most common filter failure; Llama 4 Scout failed JSON structure in 64% of attempts</div>
     </div>
 
-  </div>
-
-  <!-- MIDDLE COLUMN -->
-  <div class="col-middle">
-
     <!-- EXPERT EVALUATION -->
     <div class="panel panel-accent">
       <div class="panel-title"><span class="num">3</span>Expert Evaluation Results (n=30 cases, 4 educators)</div>
@@ -783,8 +845,12 @@
       </div>
       <div style="font-size: 12pt; color:#6a8a98; margin-top:0.08in; font-style:italic;">High-complexity/multi-factorial conditions remain challenging</div>
     </div>
+  </div>
 
-       <!-- CROSS-LAYER ALIGNMENT -->
+  <!-- RIGHT COLUMN -->
+  <div class="col-right">
+
+    <!-- CROSS-LAYER ALIGNMENT -->
     <div class="panel">
       <div class="panel-title"><span class="num">4</span>Cross-Layer Alignment: AI vs. Expert</div>
       <div style="font-size: 14pt; color:#2c4a58; line-height:1.45; margin-bottom:0.16in;">Spearman correlations between automated (DeepEval) and expert ratings reveal <strong>what AI can and cannot predict</strong>:</div>
@@ -816,13 +882,6 @@
         <div style="font-size: 13.5pt; color:white; line-height:1.45;">Automated metrics efficiently reduce expert burden but <span style="color:#7fc4c8; font-weight:600;">cannot replace clinical judgment</span> for detecting subtle reasoning errors</div>
       </div>
     </div>
-  </div>
-
-  <!-- RIGHT COLUMN -->
-  <div class="col-right">
-
-  
-
     <!-- FAILURE MODES -->
     <div class="panel panel-accent">
       <div class="panel-title"><span class="num">5</span>Expert-Identified Failure Modes</div>
